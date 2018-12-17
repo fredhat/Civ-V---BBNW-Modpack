@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bd97a17f-6902-436c-9330-e6723ab8ff71" version="8">
+  <Properties>
+    <Name>Promotions - Crossovers</Name>
+    <Teaser>Allows promotions to crossover between UnitCombatTypes upon upgrading.</Teaser>
+    <Description>Makes it so that upon upgrading, if a unit changes UnitCombatType, its promotions crossover to equivalent promotions available to its new UnitCombatType.</Description>
+    <Authors>William Howard</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="DE8EDD60E51294672CAAE130731F747F" import="0">Lua/PromotionsCrossovers.lua</File>
+    <File md5="5865FC0DDFE275FFBB79962392B1753C" import="0">XML/PromotionsCrossovers.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/PromotionsCrossovers.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/PromotionsCrossovers.lua">
+      <Name>PromotionsCrossovers</Name>
+      <Description>PromotionsCrossovers</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

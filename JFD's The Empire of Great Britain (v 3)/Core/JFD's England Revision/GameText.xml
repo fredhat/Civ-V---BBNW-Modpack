@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/4/2014 8:45:16 AM -->
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						Elizabethan Age
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_JFD_ENGLAND_SHORT">
+			<Text>Elizabethan Age</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_ENGLAND">
+			<Text>Naval and embarked units receive +2 [ICON_MOVES] Movement. Military naval units earn promotions 50% faster during a [ICON_GOLDEN_AGE] Golden Age. Great Admirals may be expended to start a [ICON_GOLDEN_AGE] Golden Age. Earn Great Admirals 50% faster.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_PROMOTION_JFD_ELIZABETH_GOLDEN_AGE" />
+		<Delete Tag="TXT_KEY_PROMOTION_JFD_ELIZABETH_GOLDEN_AGE_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ELIZABETH_GOLDEN_AGE">
+			<Text>Elizabethan Golden Age</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ELIZABETH_GOLDEN_AGE_HELP">
+			<Text>Earns 50% more experience from combat.</Text>
+		</Row>
+		<!--Unique Names-->
+		<Row Tag="TXT_KEY_JFD_RICHARD_FITZALAN">
+			<Text>Richard FitzAlan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SIR_JOHN_ARUNDELL">
+			<Text>Sir John Arundell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RICHARD_BRADLEY">
+			<Text>Richard Bradley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RICHARD_BROOKE">
+			<Text>Richard Brooke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SIR_GEORGE_CAREW">
+			<Text>Sir George Carew</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SIR_ARTHUR_CHAMPERNOWNE">
+			<Text>Sir Arthur Champernowne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WILLIAM_GONSON">
+			<Text>William Gonson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RICHARD_HARLISTON">
+			<Text>Richard Harliston</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SIR_RICHARD_HAWKINS">
+			<Text>Sir Richard Hawkins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SIR_JOHN_HAWKINS">
+			<Text>Sir John Hawkins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SIR_WALTER_HUNGERFORD">
+			<Text>Sir Walter Hungerford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SIR_RICHARD_LEVESON">
+			<Text>Sir Richard Leveson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_EDWARD_CLINTON">
+			<Text>Edward Clinton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SIR_ROBERT_MANSELL">
+			<Text>Sir Robert Mansell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SIR_JOHN_PENINGTON">
+			<Text>Sir John Penington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_THOMAS_HOWARD">
+			<Text>Thomas Howard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SIR_HUMPHREY_GILBERT">
+			<Text>Sir Humphrey Gilbert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SIR_FRANCIS_DRAKE">
+			<Text>Sir Francis Drake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SIR_WALTER_RALEIGH">
+			<Text>Sir Walter Raleigh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SIR_MARTIN_FROBISHER">
+			<Text>Sir Martin Frobisher</Text>
+		</Row>
+		<!-- PLAYHOUSE -->
+		<Row Tag="TXT_KEY_BUILDING_JFD_PLAYHOUSE">
+			<Text>Playhouse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_PLAYHOUSE_TEXT">
+			<Text>Playhouse is a common Elizabethan term for a theatre, especially those built in London such as The Globe and The Rose.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PLAYHOUSE_HELP">
+			<Text>Contains a slot for a Great Work of Writing. This slot is prefilled in the first four Playhouses built. Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]City must have a Colosseum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PLAYHOUSE_STRATEGY">
+			<Text>The Playhouse is the unique building for Elizabethan England, replacing the Zoo. The Playhouse increases the civilization's [ICON_HAPPINESS_1] Happiness. Contains a slot for a Great Work of Writing which is prefilled in the first four Playhouses built. The Playhouse has no maintenance cost. Can only be built if this city contains a Colosseum.</Text>
+		</Row>
+		<!--Great Works-->
+		<Row Tag="TXT_KEY_UNIT_JFD_ELIZABETHAN_WRITER">
+			<Text>Great Playwright</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_WILLIAM_SHAKESPEARE_DESC">
+			<Text>William Shakespeare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_ELIZABETHAN_1">
+			<Text>Julius Caesar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_JFD_ELIZABETHAN_1">
+			<Text>Men at some time are masters of their fates:[NEWLINE]The fault, dear Brutus, is not in our stars,[NEWLINE]But in ourselves, that we are underlings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CHRISTOPHER_MARLOWE_DESC">
+			<Text>Christopher Marlowe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_ELIZABETHAN_2">
+			<Text>The Tragical History of Doctor Faustus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_JFD_ELIZABETHAN_2">
+			<Text>Hell hath no limits, nor is circumscrib'd[NEWLINE]In one self place; but where we are is hell,[NEWLINE]And where hell is, there must we ever be.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_BEN_JOHNSON_DESC">
+			<Text>Ben Johnson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_ELIZABETHAN_3">
+			<Text>Song, To Celia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_JFD_ELIZABETHAN_3">
+			<Text>Drink to me only with thine eyes,[NEWLINE]And I will pledge with mine;[NEWLINE]Or leave a kiss but in the cup[NEWLINE]And I'll not look for wine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_JOHN_FLETCHER_DESC">
+			<Text>John Fletcher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_ELIZABETHAN_4">
+			<Text>The Faithful Shepherdess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_JFD_ELIZABETHAN_4">
+			<Text>But thou art gone, and these gone with thee,[NEWLINE]And all are dead but thy dear memory;[NEWLINE]That shall outlive thee, and shall ever spring,[NEWLINE]Whilst there are pipes, or jolly shepherds sing.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

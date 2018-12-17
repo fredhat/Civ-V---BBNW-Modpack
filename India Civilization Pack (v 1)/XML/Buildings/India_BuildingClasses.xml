@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_CROUCHING_TIGER_HIDDEN_COURTHOUSE</Type>
+			<DefaultBuilding>BUILDING_CROUCHING_TIGER_HIDDEN_COURTHOUSE</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_CULTUREFAITH_BONUS</Type>
+			<DefaultBuilding>BUILDING_CULTUREFAITH_BONUS</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_CULTUREFAITH_BONUS_GA</Type>
+			<DefaultBuilding>BUILDING_CULTUREFAITH_BONUS_GA</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_INDIA_FAITH_BONUS</Type>
+			<DefaultBuilding>BUILDING_INDIA_FAITH_BONUS</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_INDIA_FOOD_BONUS</Type>
+			<DefaultBuilding>BUILDING_INDIA_FOOD_BONUS</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_CHOLA_DUMMY_ADMIRAL</Type>
+			<DefaultBuilding>BUILDING_CHOLA_DUMMY_ADMIRAL</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_CHOLA_DUMMY_GOLD</Type>
+			<DefaultBuilding>BUILDING_CHOLA_DUMMY_GOLD</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MUGHAL_TOURISM_BONUS</Type>
+			<DefaultBuilding>BUILDING_MUGHAL_TOURISM_BONUS</DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+</GameData>

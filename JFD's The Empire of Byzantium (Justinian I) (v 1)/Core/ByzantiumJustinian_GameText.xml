@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--BYZANTIUM (JUSTINIAN)-->
+		<Row Tag="TXT_KEY_CIV_JFD_BYZANTIUM_JUSTINIAN_ADJECTIVE">
+			<Text>Byzantine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_BYZANTIUM_JUSTINIAN_DESC">
+			<Text>Byzantine Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_BYZANTIUM_JUSTINIAN_SHORT_DESC">
+			<Text>Byzantium</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_1">
+			<Text>Constantinople</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_2">
+			<Text>Thessalonica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_3">
+			<Text>Hadrianopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_4">
+			<Text>Nicaea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_5">
+			<Text>Antioch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_6">
+			<Text>Nicomedia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_7">
+			<Text>Ancyra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_8">
+			<Text>Trapezus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_9">
+			<Text>Iconium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_10">
+			<Text>Laodicea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_11">
+			<Text>Dorylaeum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_12">
+			<Text>Amorium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_13">
+			<Text>Philippopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_14">
+			<Text>Dyrrachium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_15">
+			<Text>Edessa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_16">
+			<Text>Heraclea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_17">
+			<Text>Theodosiopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_18">
+			<Text>Odessos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_19">
+			<Text>Mesembria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_20">
+			<Text>Serdica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_21">
+			<Text>Philippi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_22">
+			<Text>Ioannina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_23">
+			<Text>Cephalonia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_24">
+			<Text>Heracleum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_25">
+			<Text>Seleucia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_26">
+			<Text>Sebastea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_27">
+			<Text>Attalia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_28">
+			<Text>Myra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_29">
+			<Text>Naissus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BYZANTIUM_JUSTINIAN_30">
+			<Text>Chersonesus</Text>
+		</Row>
+		<!--JUSTINIAN-->
+		<Row Tag="TXT_KEY_LEADER_JFD_JUSTINIAN">
+			<Text>Justinian I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JUSTINIAN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JUSTINIAN_TEXT_1">
+			<Text>Justinian the First, known as Flavius Petrus Sabbatius Iustinianus in Latin, was emperor of the Byzantine Empire from 527 until his death in 565. His four decades of rule marked the greatest expansion of the Byzantine Empire since its split with the Roman Empire and a sweeping revival in the Christian religion.[NEWLINE][NEWLINE]Born in a small village in modern Macedonia, Justinian had little connection to power in Constantinople as a youth. It was the rise of his uncle, Justin, a Byzantine general who succeeded the Emperor Anastasius, which drew young Justinian from the Macedonian pastures into cosmopolitan Constantinople. Justinian served his uncle as a close advisor for a decade before the passing of Emperor Justin transferred the diadem to Justinian.[NEWLINE][NEWLINE]With Justinian's rise to power, two other important faces rose to prominence. Belisarius, a close friend of Justinian, became the leader of Justinian's armies and proved himself as a brilliant tactician. The second face belonged to his beautiful and savvy wife, Theodora, who took on the role that Justinian himself once filled, that of the emperor's closest advisor.[NEWLINE][NEWLINE]One of Justinian's first actions as Emperor was to order a collection of all Roman law, the Corpus Juris Civilis. But not long after the first issuing of the Corpus, an uprising among two rival chariot racing factions, the Blues and the Greens, engulfed Constantinople in a wave of violence and conflagration. Enterprising powers within the city allied against Justinian, using the chaos to declare a new Emperor, Hypatius, a nephew of Anastasius. Justinian, unsure of the strength of usurpers, decided to flee the city, but his brave wife refused. Instead, Belisarius was ordered to take two divisions and quell the uprising, which he did with ruthless ability, trapping rioters in the Hippodrome and killing nearly 30,000 before the riot was finally put down.[NEWLINE][NEWLINE]The damage done to the city after the riots was substantial. Among the smoldering ruins lay the Hagia Sophia, Constantinople's greatest cathedral, burnt to the ground. Justinian thus began a monumental campaign to expand and restore the building. With its completion five years later, the reconstructed Hagia Sophia was christened as the world's largest cathedral, a title it would hold for a millennium. Under Justinian`s order, twenty-five cathedrals were built in Constantinople alone, with many more built outside the capital city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JUSTINIAN_HEADING_2">
+			<Text>Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JUSTINIAN_TEXT_2">
+			<Text>The Empire thrived under Justinian. Thanks in no small part to the able command of Belisarius, Emperor Justinian's reach spread from Constantinople to Southern Spain, with North Africa and Italy all falling under the Byzantine grasp. Justinian's reign marked a high point for the Byzantine Empire, as shortly after his death, much of the land conquered in his name was lost. War with powerful Germanic tribes and neighboring Persia would cost the empire much of its hard-fought gains.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JUSTINIAN_NAME">
+			<Text>Justinian I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JUSTINIAN_SUBTITLE">
+			<Text>Leader of Byzantium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JUSTINIAN_TITLES_1">
+			<Text>Emperor of Byzantium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JUSTINIAN_LIVED">
+			<Text>482 - 565 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_JFD_BYZANTIUM_JUSTINIAN_TEXT">
+			<Text>Blessings upon Christ's favoured son, Saint Justinian, Emperor of Byzantium and champion of Rome. Rome had been lost for some two centuries until your ambitious renovatio imperii. Her laws, once the beacon of the civilized world, had too fallen into disrepair. But your great feats of battle would mark Rome's closest restoration, and the great Corpus Juris Civilis would form the basis of Europe's laws for centuries to come. Yours is truly a legacy worthy of the Caesars that came before you.[NEWLINE][NEWLINE]Great emperor, the glory of Rome once more awaits your divine government. Can you restore her fractured lands? Can you bring law to the corners of her empire? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!--RENOVATIO IMPERII-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_BYZANTIUM_JUSTINIAN_SHORT">
+			<Text>Renovatio Imperii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_BYZANTIUM_JUSTINIAN">
+			<Text>Cities passively construct religious buildings, military buidlings, and Courthouses. Earn [ICON_GREAT_PEOPLE] Great General points from constructing religious buildings, military buidlings, and Courthouses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_JUSTINIAN_RENOVATION_SHORT">
+			<Text>{1_Building} constructed in {2_City}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_JUSTINIAN_RENOVATION_DESCRIPTION">
+			<Text>The renewal of the Empire has completed the construction of a {1_Building} in {2_City}.</Text>
+		</Row>
+		<!--HIPPODROME-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HIPPODROME">
+			<Text>Hippodrome</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HIPPODROME_HELP">
+			<Text>+15 XP for all military land units built in this city. Military land units built in this city generate a [ICON_GOLD] Gold boost equal to their starting experience when built.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_HORSE] Horse.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HIPPODROME_STRATEGY">
+			<Text>The Hippodrome is the unique building for Justinian's Byzantium, replacing the Circus. The Hippodrome increases the civilization's [ICON_HAPPINESS_1] Happiness as well as this city's [ICON_CULTURE] Culture output. The Hippodrome provides experience for military land units built in this city and causes military land units built in this city to generate a [ICON_GOLD] Gold boost equal to their starting experience when built. Although it does not require an improved source of [ICON_RES_HORSE] Horses or [ICON_RES_IVORY] Ivory nearby to be built, the Hippodrome requires 1 [ICON_RES_HORSE] Horse to be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HIPPODROME_TEXT">
+			<Text>The Hippodrome of Constantinople (literally "Horse Path" in Greek) was constructed in 203 AD by the Emperor Sepitmus Severus. The building was a massive venue for chariot races. While the art of charioteering saw great advances in the Hippodrome - the first four-horse races were held here - much of the venue's renown would stem from its involvement in one of the most terrible massacres in Byzantine history. During the Nika Revolts, a brutal uprising between rival racing factions, nearly 30,000 rioters were slain by Byzantine troops within the Hippodrome.</Text>
+		</Row>
+		<!--CATAPHRACT-->
+		<Replace Tag="TXT_KEY_JFD_CATAPHRACT_HELP">
+			<Text>Powerful Medieval Era mounted unit that that is less penalized when attacking cities and is able to receive defensive terrain bonuses. Only Justinian's Byzantium may build it.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_CATAPHRACT_STRATEGY">
+			<Text>The Cataphract is the unique unit for Justinian's Byzantium, replacing the Knight. Stronger but slower than the Knight, the Cataphract receives a smaller -25% Attack Penalty against cities and is able to receive defensive terrain bonuses.</Text>
+		</Replace>
+	</Language_en_US>
+</GameData>

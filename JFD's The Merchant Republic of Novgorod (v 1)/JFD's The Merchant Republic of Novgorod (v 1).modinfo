@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="db998dec-e08d-4734-8a94-2659916b6729" version="1">
+  <Properties>
+    <Name>JFD's The Merchant Republic of Novgorod</Name>
+    <Teaser>Adds the Merchant Republic of Novgorod civilization led by Aleksandr Nevsky to the game.</Teaser>
+    <Description>Adds the Merchant Republic of Novgorod civilization to the game.</Description>
+    <Authors>JFD, Janboruta</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="2CBEDAF42077F5ED8701B16C2FFC6BE2" import="1">Art/Diplomacy/Nevsky_Diplo.dds</File>
+    <File md5="3B14C928B2DEC2AD1F68D235AA67C35A" import="1">Art/Diplomacy/Nevsky_Scene.xml</File>
+    <File md5="44E6819378047E82C6274977F7081E24" import="1">Art/Graphics/Boyar/Knight_Russia.dds</File>
+    <File md5="CD27DBE749815A0DA73892EB28B8888D" import="1">Art/Graphics/Boyar/Knight_Russia.fxsxml</File>
+    <File md5="C9EAA9426334031DA3D261579322117C" import="1">Art/Graphics/Boyar/Knight_Russia.gr2</File>
+    <File md5="EABCC413C1D530C15135D9B303DD2977" import="1">Art/Graphics/Boyar/Knight_Russia_gloss.dds</File>
+    <File md5="2A0C614E9861F1280D646E75806C220D" import="1">Art/Graphics/Boyar/Knight_Russia_Horse.dds</File>
+    <File md5="2701C8CA79DFFF2390E9AED329E450C4" import="1">Art/Graphics/Boyar/Knight_Russia_Horse_gloss.dds</File>
+    <File md5="90A57CE254286FB9604D9FE4744C0CED" import="1">Art/Graphics/Boyar/sv_Boyar.dds</File>
+    <File md5="560A7CCE5597061A1EB12E92A9B5F2AD" import="1">Art/Icon Atlas/JFD_BoyarUnitFlag_32.dds</File>
+    <File md5="5A024B007DA4FD96F40A71FDDDBA2016" import="1">Art/Icon Atlas/JFD_NovgorodAlphaAtlas_128.dds</File>
+    <File md5="E27595B8C7CCE2BFFECF1CB98CAF8796" import="1">Art/Icon Atlas/JFD_NovgorodAlphaAtlas_16.dds</File>
+    <File md5="61F2C4EB1CE2D15D1279E9EBA46970E4" import="1">Art/Icon Atlas/JFD_NovgorodAlphaAtlas_24.dds</File>
+    <File md5="3DACC7E28384D869DDE53FCB43F96386" import="1">Art/Icon Atlas/JFD_NovgorodAlphaAtlas_32.dds</File>
+    <File md5="873EA90C6B151A8D762EC2807B8C247E" import="1">Art/Icon Atlas/JFD_NovgorodAlphaAtlas_45.dds</File>
+    <File md5="D25C4A525A0913735B1DD8E36BDC380C" import="1">Art/Icon Atlas/JFD_NovgorodAlphaAtlas_48.dds</File>
+    <File md5="B58A6D053B3C487CFC17B9F2606EF2B7" import="1">Art/Icon Atlas/JFD_NovgorodAlphaAtlas_64.dds</File>
+    <File md5="D49E66DD8F8286EDFFE3CD29E333DF47" import="1">Art/Icon Atlas/JFD_NovgorodAlphaAtlas_80.dds</File>
+    <File md5="932E0748C4B0B90A85CAB5B2A57D1BBA" import="1">Art/Icon Atlas/JFD_NovgorodAtlas_128.dds</File>
+    <File md5="02F1B1A9045BF47DBED626534C8415AB" import="1">Art/Icon Atlas/JFD_NovgorodAtlas_256.dds</File>
+    <File md5="3D5F95E0B79D461735D1A8EE8DAAA524" import="1">Art/Icon Atlas/JFD_NovgorodAtlas_32.dds</File>
+    <File md5="374434D3A1217500F4BD96F39E009ADF" import="1">Art/Icon Atlas/JFD_NovgorodAtlas_45.dds</File>
+    <File md5="22CFB380828F159E50B9E62124A293A3" import="1">Art/Icon Atlas/JFD_NovgorodAtlas_64.dds</File>
+    <File md5="D5833E931B134A75D9FB702FB3320DE2" import="1">Art/Icon Atlas/JFD_NovgorodAtlas_80.dds</File>
+    <File md5="7F71F9335B8DCB33D93BB15E261E8398" import="1">Art/Map/DOM_Nevsky.dds</File>
+    <File md5="1B268C8C3D337FA6ADDF8217E0B92FB6" import="1">Art/Map/NovgordMap512.dds</File>
+    <File md5="81FFCF9687212502F4A4CE0C07151984" import="1">Audio/Nevsky_Peace.mp3</File>
+    <File md5="E6C3DE3CAAD03CFCA3EFE2C4376FFE06" import="1">Audio/Nevsky_War.mp3</File>
+    <File md5="498E2C394D0F80B45852A5BEE87212AD" import="0">Core/JFD_Novgorod_ArtDefines.sql</File>
+    <File md5="F72A6D76AED392714ECB9DAB1F445170" import="0">Core/JFD_Novgorod_GameDefines.sql</File>
+    <File md5="6A9634216F307A096035E56D5529664A" import="0">Core/JFD_Novgorod_GameDefines_Diplomacy.sql</File>
+    <File md5="6E970356ED73AB6F1A06ED8607503A3C" import="0">Core/JFD_Novgorod_GameText.xml</File>
+    <File md5="12F171147F1B234F7E4922C557E44B01" import="0">Core/JFD_Novgorod_GameText_Diplomacy.xml</File>
+    <File md5="071D202F031A797C9C5FCFDA2FB63242" import="0">Lua/JFD_Novgorod_Functions.lua</File>
+    <File md5="071D202F031A797C9C5FCFDA2FB63242" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/JFD_Novgorod_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/JFD_Novgorod_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/JFD_Novgorod_GameDefines_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/JFD_Novgorod_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/JFD_Novgorod_GameText_Diplomacy.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Novgorod_Functions.lua">
+      <Name>JFD_Novgorod_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

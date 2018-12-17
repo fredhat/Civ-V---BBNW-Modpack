@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- RUSSIA -->
+		<Row Tag="TXT_KEY_JFD_PETRINE_RUSSIA_DESC">
+			<Text>Russian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PETRINE_RUSSIA_SHORT_DESC">
+			<Text>Russia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PETRINE_RUSSIA_ADJ">
+			<Text>Russian</Text>
+		</Row>
+		<!--City List-->
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_STPETERSBURG">
+			<Text>St. Petersburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_MOSCOW">
+			<Text>Moscow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_KIEV">
+			<Text>Kiev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_NOVGOROD">
+			<Text>Novgorod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_VLADIMIR">
+			<Text>Vladimir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_ROSTOV">
+			<Text>Rostov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_SMOLENSK">
+			<Text>Smolensk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_YAROSLAVL">
+			<Text>Yaroslavl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_TAGANROG">
+			<Text>Taganrog</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_KRONSTADT">
+			<Text>Kronstadt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_AZOV">
+			<Text>Azov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_POLTAVA">
+			<Text>Poltava</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_VORONEZH">
+			<Text>Voronezh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_ARKHANGELSK">
+			<Text>Arkhangelsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_NOTEBURG">
+			<Text>Nöteburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_TVER">
+			<Text>Tver</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_KAZAN">
+			<Text>Kazan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_TULA">
+			<Text>Tula</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_MUROM">
+			<Text>Murom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_OHOTSK">
+			<Text>Ohotsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_IRKUSTK">
+			<Text>Irkustk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_KRASNOYARSK">
+			<Text>Krasnoyarsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_YAKUTSK">
+			<Text>Yakutsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_OBDORSK">
+			<Text>Obdorsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_KOSTROMA">
+			<Text>Kostroma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_TOMSK">
+			<Text>Tomsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_NARVA">
+			<Text>Narva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_REVEL">
+			<Text>Revel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_ASTRAKHAN">
+			<Text>Astrakhan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_VOLOGDA">
+			<Text>Vologda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_DERBENT">
+			<Text>Derbent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_SARATOV">
+			<Text>Saratov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_UFA">
+			<Text>Ufa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_SAMARA">
+			<Text>Samara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PETER_TAMBOV">
+			<Text>Tambov</Text>
+		</Row>
+		<!-- PETER I -->
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER">
+			<Text>Peter I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PETER_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PETER_TEXT_1">
+			<Text>Peter was born the fourth son of the Tsar Alexey I. After the death of his father and older brother, at the age of 10 he became co-tsar with his sickly half-brother, Ivan, under the regency of their sister Sophia Alexeevna. Apparently Peter was quite the terror in his teens. He had utter contempt for religious and political ceremony, combined with almost limitless energy and a capacity for alcohol. At 17 he had the regent (his elder sister) arrested on charges of conspiring against him and had her locked in a convent, where she would stay for the rest of her life. He took total control of the empire, his brother Ivan no more than a figurehead.[NEWLINE][NEWLINE]In addition to drinking, carousing, and political intrigue, young Peter was also fascinated by military affairs. In 1695, he ordered the army to move against the Turks. Astonishingly, he didn't command his forces in the field, instead choosing to act as an lowly artilleryman. The Russian forces emerged victorious and within a year had captured the vital port of Azov.[NEWLINE][NEWLINE]Several years later, Peter set off on a tour of Europe. He spent 16 months traveling incognito through Germany, Holland, England and Austria, at one time working as a shipwright in England and Holland. Peter learned a lot during his trip, and he later hired many western craftsmen, engineers, soldiers, sailors, architects and artists to help modernize Russia. Once home, Peter adopted many European customs, including a mandate that beards were to be shaved off at court, which was a great controversy that nearly caused a revolt with the Boyars.[NEWLINE][NEWLINE]Despite his love of European culture, Peter remained a drunken, overbearing bully, whose practical jokes stopped just short of outright torture. (Or perhaps went a little over the line.) Foreign observers noted with horror that at a state dinner Peter had one of his cronies hold another tight, pinning his arms and forcing his mouth open. The victim was known to hate salads and especially vinegar; Peter jammed salad into his mouth and down his throat and then poured vinegar up his nose until it bled.[NEWLINE][NEWLINE]Peter liked to force his guests - including foreign diplomats - to drink until they passed out, then wake them up an hour later and force them to drink more. He once woke a group of extremely inebriated men up in the middle of the night, gave them axes and demanded that they help him cut down trees to make a path to the seashore.[NEWLINE][NEWLINE]In 1700 Russia went to war against Sweden. But, Gustavus Aldolphus, the Swedish King, proved more cunning to him, striking Peter's army before it was prepared, capturing much of the Russian artillery in the process. In response Peter demanded that all of the bells in Moscow (including church bells) be melted down to make cannons. He also confiscated church treasure to fuel the war effort. The war dragged on, but in 1709 the Swedish forces were decisively defeated, and Russia gained parts of Finland, Estonia, and Latvia.[NEWLINE][NEWLINE]Peter's home life did not go particularly well. In 1698 his wife was implicated in a plot to overthrow him; he divorced her and sent her off to yet another convent. In 1712 he married his mistress, Martha Skavronsky, a former Lithuanian servant and previously the mistress of a bevey of other Russian nobles. She gave him four children. In 1718 the tsar's oldest son Alexey was imprisoned for suspected treason and died under torture.[NEWLINE][NEWLINE]Upon his death Peter was buried in Saint Petersburg, the vital port and Russian capital, which he established in 1703, in the Peter and Paul Cathedral. Presumably under the heaviest rock they could find.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PETER_NAME">
+			<Text>Peter I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PETER_SUBTITLE">
+			<Text>Leader of Russia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PETER_TITLES_1">
+			<Text>Emperor of All Russia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PETER_LIVED">
+			<Text>1672 - 1725 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_JFD_PETER_TEXT">
+			<Text>Exciting days await Russia, for upon her throne lies your imperial gaze, wise and excellent Peter the Great. Ascending to the Tsarist Kingdom at the age of ten, you beheld a vision of an empire that was both great and powerful, and which would transform the archaic and obsolete Motherland into a nation of enlightenment. Declaring yourself emperor in 1721, you embarked upon sweeping reformations inspired by the meritocratic and rationalist ideals of the West. Your designs to empower the navy, and to extend Russia's borders toward Scandinavia, would see you clash with the Swedish King Charles XII in the Great Northern War. But from it you would eventually arise victorious, and with it you would seize the opportunity to lay the foundation of your most lasting legacy: the city of Saint Petersburg.[NEWLINE][NEWLINE]Noble emperor, your life has been one devoted to the elevation of Russia to legendary heights of power and culture, and once more you are called to meet that duty. Can you expand your frontiers to the farthest reaches of this earth? Can you embolden the Russian people with a wealth of culture and excellence? Can you build a civilisation that can stand the test of time?</Text>
+		</Row>
+		<!-- Diplomacy -->
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_FIRSTGREETING_1">
+			<Text>Welcome, welcome! I am the most excellent Peter the Great, Emperor of all Russia, and sovereign prince of lands here and there. I'm sure you have much to share with me, and I am simply thrilled to hear it all.</Text>
+		</Row>
+    	<Row Tag="TXT_KEY_LEADER_JFD_PETER_FIRSTGREETING_2">
+			<Text>Ah-hah! A stranger arrives in my court. Welcome! I am Peter, Emperor of Russia, and tamer of this ferocious land. I admire the cleanliness of your teeth. Mind if I take a closer look?</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DEFEATED_1">
+			<Text>What a sorry day this is for Russia; to witness my defeat! I weep that I could not bring to myself the reforms that I have brought unto my people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DEFEATED_2">
+			<Text>I bow to you, my worthy adversary. Only a man blessed by God could have done battle with Russia and come away victorious.</Text>
+		</Row>
+		<!-- Human repeats an action too much, gets the following responses -->
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_REPEAT_TOO_MUCH_1">
+			<Text>What is it this time? Don't you have someone else to bother?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_REPEAT_TRADE_TOO_MUCH_1">
+			<Text>Why are you wasting my time? You haven't even changed your offer, you idiot.</Text>
+		</Row>
+		<!-- Greetings -->
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_GREETING_HOSTILE_HELLO_1">
+			<Text>The unpleasant one shows his face.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_GREETING_POLITE_HELLO_1">
+			<Text>What can I, by the Grace of God, Peter of Russia, do for you this day? Hm?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>The mercy of Peter the Great is legendary. Not today, though, because I'm looking forward to your being crushed into the pages of history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_GREETING_HUMAN_AT_WAR_1">
+			<Text>I wish you God speed in your war, my friend. Now what can I do for you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Your military advances have caused quite a stir in my court. I have told my advisors that it is harmless fun; but I am not so sure for how long I can trust my own words.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PETER_GREETING_HOSTILE_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>Your purchase of nearby land is getting on my nerves. I won't tolerate it forever, you know?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_GREETING_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>So this is how it's going to be? You're going to buy lands that I consider to be mine, and you're going to continue to make me positively livid as a consequence. How unexcellent of you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_GREETING_HOSTILE_AGGRESSIVE_EXPANSION_1">
+			<Text>The spread of your cities and people is like a plague infecting the land. I look forward to the day I don't have to see it any more.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_GREETING_AGGRESSIVE_EXPANSION_1">
+			<Text>While I have this opportunity, I should mention that your expansion has worried several of my officials. I hope that this does not cause any problems in the future. What would you like to discuss?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_GREETING_FRIENDLY_STRONG_MILITARY_1">
+			<Text>I have heard much of your disciplined military. Are there are open positions for me, do you think?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_GREETING_FRIENDLY_STRONG_ECONOMY_1">
+			<Text>Your economy is famous for its prosperity. I wish that you would share with me your secrets.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_GREETING_HOSTILE_HUMAN_FEW_CITIES_1">
+			<Text>The lowly prince that walks into my court with the height of a king. Turn your tail, for you may not address this emperor until you are my equal. So basically never.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_GREETING_HOSTILE_HUMAN_SMALL_ARMY_1">
+			<Text>Your army is quite small. How do you expect to defend yourself when I march on your capital? Oh! I didn't say that...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>You clearly have no interest in peace, you unrefined warmonger. So much war is bad for your skin, you know, and it shows.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_TOO_SOON_FOR_DOF_1">
+			<Text>It would be much too undignified to declare such a thing with you at this time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DENOUNCE_1">
+			<Text>There's little use for you being around. Others should be told of this truth, and encouraged to act accordingly.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DENOUNCE_2">
+			<Text>Never have I known a most unrefined and unexcellent brute as yourself. The world must be told of your misdeeds.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>Know that Russia will never forget this indecency, you damnable idiot.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_RESPONSE_TO_BEING_DENOUNCED_2">
+			<Text>I am aghast. You're denouncing me?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_HUMAN_DOFED_FRIEND_1">
+			<Text>I'm pleased that you've declared friendship with {1_CivName}. Isn't it just excellent when we all get along?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_HUMAN_DOFED_ENEMY_1">
+			<Text>{1_CivName} deserves no courtesy from you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>You are a fool for denouncing {1_CivName}? I have had excellent dealings with them; I believe you have made a careless decision. I think you might need to be patched.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>{1_CivName} deserves every bit of hate they can get. I am glad you feel the same.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_HUMAN_DOF_SO_AI_DOF_1">
+			<Text>I noticed that you have declared your friendship with {1_CivName}. Well, if you think they're to be trusted, then you have Russia's support.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_HUMAN_DOF_SO_AI_DENOUNCE_1">
+			<Text>Wonderful, you and {1_CivName} will make a most unexcellent partnership.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_HUMAN_DENOUNCE_SO_AI_DENOUNCE_1">
+			<Text>I, too, believe that {1_CivName} is a joke of an empire. Perhaps the combination of our denouncements will make them weep.</Text>
+		</Row>
+		<!-- General Diplo Text -->
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_COOP_WAR_REQUEST_1">
+			<Text>{1_PlayerName:textkey} has caused much misery to my people and should be dealt with. Don't you agree?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_COOP_WAR_REQUEST_2">
+			<Text>{1_PlayerName:textkey} is a menace to this world. They also have some nice titles. I pledge that we take some for ourselves.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_COOP_WAR_TIME_1">
+			<Text>If you're quite finished with your lunch, it is time for war against {1_PlayerName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DEC_FRIENDSHIP_1">
+			<Text>I propose that we tell the world of our friendship. Let them envy this bond with mighty Russia!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DEC_FRIENDSHIP_2">
+			<Text>I think we could benefit from a friendship, don't you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>It's come to my attention that you have a large number of Units near my borders. I request that you move them elsewhere to avoid causing undue distress to my citizens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_PLOT_BUYING_WARNING_1">
+			<Text>I'm growing very concerned about the rate at which you think you can buy lands that belong to me. Stop it, will you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>So this is how it's going to be? You're going to buy lands that I consider to be mine, and you're going to continue to make me positively livid as a consequence. How unexcellent of you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_EXPANSION_SERIOUS_WARNING_1">
+			<Text>You believe that you can out-expand me? Hah! Let us embark upon a battle to cover this earth with our legacies then.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_EXPANSION_WARNING">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_RETURNED_CIVILIAN_1">
+			<Text>Ah, excellent! I was wondering where they'd gotten to; I'd sent them out for tea hours ago! You have my thanks.</Text>
+		</Row>
+		<!--Insults-->	
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_INSULT_JFD_PETER_1">
+			<Text>I'm not a fan of you or your empire. I think it's quite backwards. I just thought I'd let you know; so maybe you'd get the sense to abdicate or something.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_INSULT_JFD_PETER_2">
+			<Text>Ah, it's always nice to see my favorite city-state again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_INSULT_JFD_PETER_3">
+			<Text>I'm really getting tired of seeing your face. My hope is that one day you'll just go away or something.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_INSULT_JFD_PETER_4">
+			<Text>Ah, it's you. My apologies. Sometimes I get you mixed up with the barbarians I have to swat from time to time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_INSULT_MILITARY_1">
+			<Text>You barely have an army at all! Better not let someone like me know. Oh! Too late, hehe.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_INSULT_MILITARY_2">
+			<Text>With an army so weak it's a surprise your empire hasn't succumb to a barbarian invasion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_INSULT_BULLY_1">
+			<Text>It shows just how pathetic you are that you must pick on the innocent; depriving me of the opportunity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_INSULT_UNHAPPINESS_1">
+			<Text>I can hear your people wailing in sorrow all the way over in my empire. If you don't do something soon they might just pack up and find a real civilization to live in.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_INSULT_UNHAPPINESS_2">
+			<Text>Your people are so unhappy. You must be quite the horrible person. Tell them from me that they are more than welcome to join a real civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_INSULT_CITIES_1">
+			<Text>Your empire is so tiny I can barely see it on a map! It's really quite pitiful, you know.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_INSULT_POPULATION_1">
+			<Text>Travelers have told us that your empire's economy is in pretty sad shape. If you beg a little I might give you a hand. Okay, actually I won't.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_INSULT_CULTURE_1">
+			<Text>Your empire is the most uncultured thing that I have ever seen. Perhaps I should take over? I would certainly do a better job than you.</Text>
+		</Row>
+		<!--Public Declarations-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DECLARATION_PROTECT_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} announces to the world that it is now protecting {1_MinorCivName:textkey}. Attacking the City-State will greatly damage relations and may lead to war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DECLARATION_ABANDON_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} has taken back its guarantee of protecting {1_MinorCivName:textkey}.</Text>
+		</Row>
+		<!-- Human is asking the AI for something -->
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DONT_SETTLE_NO_1">
+			<Text>Absolutely not. I am by God the sovereign of these lands and I will uphold this as a devotion unto His will.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DONT_SETTLE_YES_1">
+			<Text>Fine, fine. Be unexcellent then.</Text>
+		</Row>
+		<!--Deal Offers and related-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_LUXURY_TRADE_1">
+			<Text>This trade would be quite excellent, don't you agree?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_OPEN_BORDERS_EXCHANGE_1">
+			<Text>I want to learn so very much of your ways. Please, let us not impede progress by these petty borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_RESPONSE_REQUEST_1">
+			<Text>In order for the Russian people to become more like you, I would very much like this agreement to go through.</Text>
+		</Row>
+		<!--AI Attacked by Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_ATTACKED_1">
+			<Text>Apparently, your military advisor is an idiot, for he did not advise you that attacking the gargantuan Russian Empire was a death sentence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_ATTACKED_2">
+			<Text>You have asked for the wrath of hell, and by God I shall deliver.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_ATTACKED_HOSTILE_1">
+			<Text>You have asked for the wrath of hell, and by God I shall deliver.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_ATTACKED_EXCITED_1">
+			<Text>You have asked for the wrath of hell, and by God I shall deliver.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_ATTACKED_SAD_1">
+			<Text>Apparently, your military advisor is an idiot, for he did not advise you that attacking the gargantuan Russian Empire was a death sentence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_ATTACKED_BETRAYED_1">
+			<Text>Apparently, your military advisor is an idiot, for he did not advise you that attacking the gargantuan Russian Empire was a death sentence.</Text>
+		</Row>
+		<!--AI Declaring War on Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DOW_GENERIC_1">
+			<Text>I had thought I'd already conquered you, but my advisors told me otherwise. So, you see, I must remedy that. It's nothing personal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DOW_GENERIC_2">
+			<Text>I, Peter the Great, by the grace of God, declare you the future vassal of my empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DOW_LAND_1">
+			<Text>Your empire might now make for a nice governorate, don't you think?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DOW_LAND_2">
+			<Text>I had thought I'd already conquered you, but my advisors told me otherwise. So, you see, I must remedy that. It's nothing personal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DOW_WORLD_CONQUEST_1">
+			<Text>Russia has become such an epitome of culture and excellence. It is my duty to God to bring that to the savages of this earth, you see.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DOW_WORLD_CONQUEST_2">
+			<Text>I'll remind my historians to be kind of you whence you have been defeated, and your empire is but another part of my excellent design.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DOW_OPPORTUNITY_1">
+			<Text>I was awaiting this opportunity. I cannot be ascribed fault for your weakness as a leader.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DOW_DESPERATE_1">
+			<Text>I refuse to forfeit my imperial crown. Your conquest will prove my right to be emperor of all Russia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_DOW_BETRAYAL_1">
+			<Text>This is not a personal matter, my friend. Please forgive me, but my people and my empire must come first.</Text>
+		</Row>
+		<!--AI Responses to a human peace offer-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_TOO_SOON_NO_PEACE_1">
+			<Text>It's much too soon for peace. I have a nobility to impress and a people to dignify.</Text>
+		</Row>
+		<!--AI Responses to a discussion mode topics-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_BAD_1">
+			<Text>What a shame you couldn't be reasoned with. Now I have to plan on crushing you; oh well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_BAD_2">
+			<Text>This is terribly uncivil of you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PETER_GOOD_1">
+			<Text>Excellent. I'm glad you saw better sense than to upset me.</Text>
+		</Row>
+		<!-- PETRINE REFORMATION -->
+		<Row Tag="TXT_KEY_TRAIT_JFD_PETRINE_RUSSIA_SHORT">
+			<Text>Petrine Reformation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_PETRINE_RUSSIA">
+			<Text>Research technologies already discovered by another Civilization 25% faster. This bonus increases if you have a Declaration of Friendship with that Civilization. Each new city increases Social Policy [ICON_CULTURE] Culture costs by 50% less.</Text>
+		</Row>
+		<!-- TWO-DECKER -->
+		<Row Tag="TXT_KEY_UNIT_JFD_TWO_DECKER">
+			<Text>Two-Decker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_TWO_DECKER_TEXT">
+			<Text>A two-decker is a sail warship which carried her guns on two fully armed decks. Usually additional guns were carried on the upper works (forecastle and quarterdeck), but this was not a continuous battery, so were not counted. Two-deckers ranged all the way from the small 40-gun Fifth rate up to 80- or even 90-gun ships, with the third-rate or "seventy-four" being the archetype.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_TWO_DECKER">
+			<Text>Cheap Ranaissance Era naval ranged unit that starts with additional experience for every Declaration of Friendship that you have and specializes in defeating land units. Does not require a source of [ICON_RES_IRON] Iron to be built. Only Peter's Russia may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_TWO_DECKER_STRATEGY">
+			<Text>The Two-Decker is a unique unit for Peter's Russia, replacing the Frigate. Weaker but cheaper than the Frigate, the Two-Decker receives a +25% Combat Bonus against land units and starts with an additional 10 XP for every Declaration of Friendship that you have. Unlike the Frigate, the Two-Decker does not require a source of [ICON_RES_IRON] Iron to be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_TWO_DECKER">
+			<Text>Two Decker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_TWO_DECKER_HELP">
+			<Text>+25% Combat Bonus against land units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SECOND_HAND_INFO">
+			<Text>Second Hand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SECOND_HAND_INFO_HELP">
+			<Text>Starts with an additional 10 XP for every Declaration of Friendship that you have.</Text>
+		</Row>
+		<!-- KREPOST -->
+		<Row Tag="TXT_KEY_BUILDING_JFD_KREPOST_HELP">
+			<Text>+2 [ICON_HAPPINESS_1] Happiness when garrisoned. +15 XP for all military units built in this city. Reduces [ICON_CULTURE] Culture and [ICON_GOLD] Gold costs for acquiring new tiles by 25% (50% when garrisoned). Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_KREPOST_STRATEGY">
+			<Text>The Krepost is the unique building for Peter's Russia, replacing the Barracks. The Krepost increases this city's [ICON_STRENGTH] Defense Strength by 5 and increases the civilization's [ICON_HAPPINESS_1] Happiness when garrisoned. The Krepost increases this city's [ICON_CULTURE] Cultural border growth and reduces the cost of purchasing tiles with [ICON_GOLD] Gold, especially when garrisoned. The Krepost has no maintenance cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PETRINE_EXPANSION_HELP">
+			<Text>+2 [ICON_HAPPINESS_1] Happiness. Reduces [ICON_CULTURE] Culture and [ICON_GOLD] Gold costs for acquiring new tiles by 25%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PETRINE_EXPANSION">
+			<Text>Petrine Expansion</Text>
+		</Row>
+		<!-- RUSSIA -->
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_YEKATERINBURG">
+			<Text>Yekaterinburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_STAVROPOL">
+			<Text>Stavropol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_KHERSON">
+			<Text>Kherson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_YEKATERINOSLAV">
+			<Text>Yekaterinoslav</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_SEVASTOPOL">
+			<Text>Sevastopol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_SIMFEROPOL">
+			<Text>Simferopol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_ORENBURG">
+			<Text>Orenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_URALSK">
+			<Text>Uralsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_MINSK">
+			<Text>Minsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_ODESSA">
+			<Text>Odessa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_KAZAN">
+			<Text>Kazan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_YEKATERINODAR">
+			<Text>Yekaterinodar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_CHELYABINSK">
+			<Text>Chelyabinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_KURGAN">
+			<Text>Kurgan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_TYUMEN">
+			<Text>Tyumen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_OMSK">
+			<Text>Omsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_SEMIPALATINSK">
+			<Text>Semipalatinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_TOMSK">
+			<Text>Tomsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_KRASNOYARSK">
+			<Text>Krasnoyarsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_PETROPAVLOVKIY_OSTROG">
+			<Text>Petropavlovkiy-Ostrog</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_TOBOLSK">
+			<Text>Tobolsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_SHLISSELBURG">
+			<Text>Shlisselburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_VILNO">
+			<Text>Vilno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_RIGA">
+			<Text>Rigo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHERINE_CONSTANTINOPLE">
+			<Text>Constantinople</Text>
+		</Row>
+		<!-- STRATEGIC RICHES -->
+		<Row Tag="TXT_KEY_TRAIT_JFD_STRATEGIC_RICHES">
+			<Text>Each worked Strategic Resource provides +1 [ICON_PRODUCTION] Production. [ICON_RES_HORSE] Horse, [ICON_RES_IRON] Iron and [ICON_RES_URANIUM] Uranium Resources provide double the quantity.</Text>
+		</Row>
+		<!-- BANYA -->
+		<Row Tag="TXT_KEY_BUILDING_JFD_BANYA">
+			<Text>Banya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_BANYA_TEXT">
+			<Text>Banya or banja can refer to a number of types of steam baths popular in Eastern Europe. In Russia, it refers to a particular local type of sauna. A mention of the banya is found in the Radzivill Chronicle in the story of Princess Olga's revenge for the murder of her husband, Prince Igor, by the Slavic tribe of Drevlians in 945 AD. The leader of the Drevlians had hopes of marrying the widow Olga and sent messengers to discuss the idea. "When the Drevlians arrived, Olga commanded that a bath should be made ready for them and said, 'Wash yourselves and come to me.' The bath-house was heated and the unsuspecting Drevlians entered and began to wash themselves. Olga's men closed the bath-house behind them and Olga gave orders to set it on fire from the doors, so that the Drevlians were all burned to death."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_BANYA_HELP">
+			<Text>+25% [ICON_GREAT_PEOPLE] Great People generation in this city. Military land units built in this city heal at double the rate. Reduces [ICON_GOLD] Gold costs for purchasing tiles in this city by 25%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_BANYA_STRATEGY">
+			<Text>The Banya is the unique building for for Catherine's Russia, replacing the Garden. The Banya increases the civilization's [ICON_HAPPINESS_1] Happiness as well as the speed at which Great People are generated in this city. The Banya reduces the cost of purchasing tiles with [ICON_GOLD] Gold and allows military land units built in this city to heal at double the rate. The Banya does not require this city to be next to a River or Lake to be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BANYA">
+			<Text>Banya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BANYA_HELP">
+			<Text>Heals at double the rate.</Text>
+		</Row>
+		<!-- COSSACK -->
+		<Row Tag="TXT_KEY_UNIT_JFD_COSSACK_HELP">
+			<Text>Fast Industrial Era mounted unit that ignores enemy zones of control and specializes in defeating wounded units. Only Catherine's Russia may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_COSSACK_STRATEGY">
+			<Text>The Cossack is the unique unit for Catherine's Russia, replacing the Cavalry. Faster than the Cavalry, the Cossack receives a +33% Attack Bonus against wounded units and ignores enemy zones of control.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_COSSACK">
+			<Text>Ignores Zones of Control</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_COSSACK_HELP">
+			<Text>Ignores enemy zones of control.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

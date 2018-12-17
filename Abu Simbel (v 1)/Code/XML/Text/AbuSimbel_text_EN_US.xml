@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_ABUSIMBEL">
+			<Text>Abu Simbel</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_ABUSIMBEL_HELP">
+			<Text>Contains two slots for Great Works of Art. Each Great Work housed in this city provides +1 [ICON_PRODUCTION] Production; or +2 [ICON_PRODUCTION] Production if housed in Abu Simbel.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_ABUSIMBEL_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"My name is Ozymandias, king of kings: Look on my works, ye Mighty, and despair!" [NEWLINE]- Percy Bysshe Shelley[NEWLINE][TAB]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_ABUSIMBEL_PEDIA">
+			<Text>The Abu Simbel temples are two massive rock temples in Abu Simbel in Nubia, southern Egypt. They are situated on the western bank of Lake Nasser, about 230 km southwest of Aswan. The complex is part of the UNESCO World Heritage Site known as the "Nubian Monuments," which run from Abu Simbel downriver to Philae.[NEWLINE][NEWLINE]The twin temples were originally carved out of the mountainside during the reign of Pharaoh Ramesses II in the 13th century BCE, as a lasting monument to himself and his queen Nefertari, to commemorate his alleged victory at the Battle of Kadesh. However, the complex was relocated in its entirety in 1968, on an artificial hill made from a domed structure, high above the Aswan High Dam reservoir.[NEWLINE][NEWLINE]The relocation of the temples was necessary to avoid their being submerged during the creation of Lake Nasser, the massive artificial water reservoir formed after the building of the Aswan High Dam on the Nile River.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ABU_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Works Slots are all filled with Artifacts from the same Civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_ABU">
+			<Text>Museum of {2_CivAdjective} Artifacts</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

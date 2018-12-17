@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="10732c4a-9be6-4d41-8ca0-9ffea0dcb19c" version="1">
+  <Properties>
+    <Name>Archaeology Aesthetic Adjustments</Name>
+    <Teaser>Recolors Hidden Archeology Sites so they are easier to distinquish.</Teaser>
+    <Description>A simple graphics mod that changes the way archeology sites appear across the world.</Description>
+    <Authors>Calypso</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="05FBCBEEFAA0D490CC6C843F10C20570" import="1">Art/hidden_antiquity_site.fxsxml</File>
+    <File md5="051A718FFE56E83C7699A09C0031C328" import="1">Art/hidden_antiquity_site.gr2</File>
+    <File md5="7D83629E625CA665CB58D71103F50B71" import="1">Art/hidden_antiquity_site_decal_diff.dds</File>
+    <File md5="92FC3DEF86EC13EFADE50546CDB6DE45" import="1">Art/hidden_antiquity_site_diff.dds</File>
+    <File md5="7FF88EAFDD077EFC9C064D9C25B98940" import="1">Art/hidden_archaeological_dig.fxsxml</File>
+    <File md5="D13A8D9E02E5D88BB7D16B143FD24177" import="1">Art/hidden_archaeological_dig.gr2</File>
+    <File md5="14922EEB6D6FA3FF3B94D0A6C20194F5" import="1">Art/hidden_archaeological_dig_decal_diff.dds</File>
+    <File md5="7CA328A3A7B1436C9068A8DB11A17C67" import="0">SQL/CIV5_ArtDefines_Hidden_Artifacts_Mod.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/CIV5_ArtDefines_Hidden_Artifacts_Mod.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

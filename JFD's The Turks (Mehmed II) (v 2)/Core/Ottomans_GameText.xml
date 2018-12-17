@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/30/2015 10:03:44 AM -->
+<GameData>
+	<Language_en_US>
+		<!--HAMMAM-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HAMMAM">
+			<Text>Hammam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HAMMAM_HELP">
+			<Text>+25% [ICON_GREAT_PEOPLE] Great People generation in this city. 10% of [ICON_FOOD] Food is carried over after the birth of a new [ICON_CITIZEN] Citizen.[NEWLINE][NEWLINE]City must be next to a River or Lake.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HAMMAM_STRATEGY">
+			<Text>The Hammam is the Ottoman unique building, replacing the Garden. The Hammam increases the civilization's [ICON_HAPPINESS_1] Happiness as well as the speed at which Great People are generated in this city. Additionally, the Hammam reduces the amount of [ICON_FOOD] Food this city needs to increase in size, speeding up its growth. Can only be built if this city is next to a River or Lake.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HAMMAM_TEXT">
+			<Text>Cleanliness was extremely important in Ottoman culture. Before modern plumbing, the Ottomans constructed communal steam baths ("hammams") throughout their major cities. In early times many of these were attached to mosques - ritual cleanliness played an important part in the Ottoman religious beliefs - in later periods they evolved into separate buildings and eventually, into enormous complexes of buildings.</Text>
+		</Row>
+		<!--SIPAHI-->
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_SIPAHI">
+			<Text>Powerful Renaissance Era mounted unit that is less penalized when attacking cities and specializes in defeating mounted units. Starts with additional Sight and may pillage improvements at no additional movement point cost. Only the Ottomans may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OTTOMAN_JFD_SIPAHI_STRATEGY">
+			<Text>The Sipahi is the Ottoman unique unit, replacing the Lancer. Faster than the Lancer, the Sipahi receives a smaller -25% Attack Penalty against cities as well as a +33% Combat Bonus against mounted units. The Sipahi starts with additional Sight and may pillage improvements at no additional [ICON_MOVES] Movement point cost.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

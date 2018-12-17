@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!--ARTIFACTS-->
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_1">
+			<Text>Leda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_1">
+			<Text>Egg of Leda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_2">
+			<Text>Pelops</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_2">
+			<Text>Shoulder of Pelops</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_3">
+			<Text>Orestes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_3">
+			<Text>Bone of Orestes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_4">
+			<Text>Orpheus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_4">
+			<Text>Head of Orpheus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_5">
+			<Text>Theseus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_5">
+			<Text>Bone of Theseus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_6">
+			<Text>Zoroaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_6">
+			<Text>Bone of Zoroaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_7">
+			<Text>Joseph Smith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_7">
+			<Text>Underwear of Joseph Smith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_8">
+			<Text>Buddha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_8">
+			<Text>Tooth of Buddha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_9">
+			<Text>Francis Xavier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_9">
+			<Text>Humerus of Francis Xavier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_10">
+			<Text>Yajnavalkya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_10">
+			<Text>Hair of Yajnavalkya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_11">
+			<Text>Stephen of Hungary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_11">
+			<Text>Forearm of Stephen of Hungary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_12">
+			<Text>Sergius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_12">
+			<Text>Monza Ampullae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_13">
+			<Text>Cessianus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_13">
+			<Text>Cessianus' Remains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_14">
+			<Text>Simon Peter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_14">
+			<Text>Chains of Simon Peter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_15">
+			<Text>Nino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_15">
+			<Text>Grapevine Cross</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_16">
+			<Text>Jesus of Nazareth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_16">
+			<Text>Sandal of Jesus Christ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_17">
+			<Text>John the Baptist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_17">
+			<Text>Hand of John the Baptist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_18">
+			<Text>Thomas Aquinas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_18">
+			<Text>Head of Thomas Aquinas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_19">
+			<Text>Mark the Evangelist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_19">
+			<Text>Beard of Mark the Evangelist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_20">
+			<Text>Andrew the Apostle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_20">
+			<Text>Bone of Andrew the Apostle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_21">
+			<Text>Catherine of Siena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_21">
+			<Text>Head of Catherine of Siena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_22">
+			<Text>Mary of the Divine Heart</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_22">
+			<Text>Body of Mary of the Divine Heart</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_23">
+			<Text>Ali ibn Abi Talib</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_23">
+			<Text>Sword of Ali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_24">
+			<Text>Quanah Parker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_24">
+			<Text>Quanah Parker's Cloak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_25">
+			<Text>David</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_25">
+			<Text>Sword of David</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_26">
+			<Text>Abraham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_26">
+			<Text>Pot of Abraham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_27">
+			<Text>Joseph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_27">
+			<Text>Turban of Joseph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_28">
+			<Text>Albus Dumbledore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_28">
+			<Text>Elder Wand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_29">
+			<Text>Sabbatai Zevi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_29">
+			<Text>Turbin of Sabbatai Zevi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_30">
+			<Text>Marcus Garvey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_30">
+			<Text>Marcus Garvey's Moustache</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_31">
+			<Text>Clement of Alexandria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_31">
+			<Text>Crown of Thorns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_32">
+			<Text>Veleda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_32">
+			<Text>Pubic Hair of Veleda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_33">
+			<Text>Disciple of Christ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_33">
+			<Text>Sudarium of Oviedo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_34">
+			<Text>Utuabzu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_34">
+			<Text>Relief of Utuabzu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_35">
+			<Text>Rishabha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_35">
+			<Text>Statuette of Rishabha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_36">
+			<Text>Elvaron Syndarus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_36">
+			<Text>Holy Chalice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_37">
+			<Text>Moses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_37">
+			<Text>Ark of the Covenant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_38">
+			<Text>Mazdak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_38">
+			<Text>Songbird of Mazdak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_39">
+			<Text>Tages</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_39">
+			<Text>Crown of Tages</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_40">
+			<Text>Sundiata Keita</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_40">
+			<Text>Purse of Sundiata Keita</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_41">
+			<Text>John Calvin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_41">
+			<Text>Quill of John Calvin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_42">
+			<Text>Martin Luther</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_42">
+			<Text>Thesis of Martin Luther</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_43">
+			<Text>Mary Baker Eddy</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_43">
+			<Text>Cane of Mary Baker Eddy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_44">
+			<Text>Himiko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_44">
+			<Text>Sceptre of Himiko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_45">
+			<Text>Grigori Rasputin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_45">
+			<Text>Beard of Satan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_46">
+			<Text>Ashinazuchi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_46">
+			<Text>Kusanagi-no-Tsurugi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_47">
+			<Text>Ninigi-no-Mikoto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_47">
+			<Text>Yata no Kagami</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_48">
+			<Text>L. Ron Hubbard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_48">
+			<Text>Bowl of L. Ron Hubbard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_49">
+			<Text>Tizoc</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_49">
+			<Text>Stone of Tizoc</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_50">
+			<Text>Confucius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_50">
+			<Text>Bone of Confucius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_51">
+			<Text>Marie Laveau</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_51">
+			<Text>Doll of Marie Laveau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_52">
+			<Text>Teresa of Avila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_52">
+			<Text>Hand of Teresa of Avila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_53">
+			<Text>Mary Magdalene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_53">
+			<Text>Arm of Mary Magdalene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_54">
+			<Text>Januarius of Naples</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_54">
+			<Text>Blood of Januarius of Naples</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_55">
+			<Text>Disciple of Christ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_55">
+			<Text>The Holy Prepuce</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_56">
+			<Text>Guru Nanak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_56">
+			<Text>Milk Bowl of Guru Nanak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_57">
+			<Text>Guru Granth Sahib</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_57">
+			<Text>Manuscript of Guru Granth Sahib</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_58">
+			<Text>Guru Gobhind Singh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_58">
+			<Text>Armor Piece of Guru Gobhind Singh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_59">
+			<Text>Helena Blavatsky</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_59">
+			<Text>Cloth of Helena Blavatsky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_60">
+			<Text>Guru Tegh Bahadur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_60">
+			<Text>Shoe of Guru Tegh Bahadur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_61">
+			<Text>Aleister Crowley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_61">
+			<Text>Discharge Papers of Aleister Crowley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_62">
+			<Text>Shauron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_62">
+			<Text>Ring of Power</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_63">
+			<Text>Kicking Bear</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_63">
+			<Text>Ghost Shirt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_64">
+			<Text>Quanah Parker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_64">
+			<Text>Peyote Fan of Quanah Parker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_65">
+			<Text>Sitting Bull</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_65">
+			<Text>Peace Pipe of Sitting Bull</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_66">
+			<Text>K'iq'ab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_66">
+			<Text>Título de Totonicapán</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_67">
+			<Text>Iamblichus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_67">
+			<Text>Iamblichus' Toenail</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_68">
+			<Text>Little Bull</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_68">
+			<Text>White Buffalo Hide</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_69">
+			<Text>Baal Shem Tov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_69">
+			<Text>Nose of Baal Shem Tov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_70">
+			<Text>Moth Priest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_70">
+			<Text>Elder Scroll</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_71">
+			<Text>Essa-queta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_71">
+			<Text>Izze-Kloth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_72">
+			<Text>Longinus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_72">
+			<Text>Holy Lance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_73">
+			<Text>Elijah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_73">
+			<Text>Writings of Elijah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_74">
+			<Text>Isaiah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_74">
+			<Text>Scroll of Isaiah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_75">
+			<Text>Disciple of Moses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_75">
+			<Text>Remains of the Magi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_76">
+			<Text>Mahavira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_76">
+			<Text>Idol of Mahavira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_77">
+			<Text>Ananda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_77">
+			<Text>Works of Ananda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_78">
+			<Text>Zhuang Zhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_78">
+			<Text>Fingernail of Zhuang Zhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_79">
+			<Text>Mencius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_79">
+			<Text>Umbilical Cord of Mencius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_80">
+			<Text>Mo Di</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_80">
+			<Text>Hair of Mo Di</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_81">
+			<Text>Akiva ben Joseph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_81">
+			<Text>Scroll of Akiva ben Joseph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_82">
+			<Text>Mani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_82">
+			<Text>Portrait of Mani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_83">
+			<Text>Augustine of Hippo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_83">
+			<Text>Writings of Augustine of Hippo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_84">
+			<Text>Saint Patrick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_84">
+			<Text>Staff of Saint Patrick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_85">
+			<Text>Adi Shankara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_85">
+			<Text>Works of Adi Shankara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_86">
+			<Text>Bahá'u'lláh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_86">
+			<Text>Bahá'u'lláh's Passport</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_87">
+			<Text>Diviciacus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_87">
+			<Text>Sickle of Diviciacus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_88">
+			<Text>Tenskwatawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_88">
+			<Text>Headdress of Tenskwatawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_89">
+			<Text>Christian Rosenkreuz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_89">
+			<Text>Pen of Christian Rosenkreuz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_90">
+			<Text>Hermes Trismegistus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_90">
+			<Text>Archelectrum of Hermes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_91">
+			<Text>Maimonides</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_91">
+			<Text>Turbin of Maimonides</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_92">
+			<Text>Tsongkhapa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_92">
+			<Text>Bronze Statue of Tsongkhapa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_93">
+			<Text>Isaac Luria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_93">
+			<Text>Shoes of Isaac Luria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_94">
+			<Text>Ramakrishna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_94">
+			<Text>Cloth of Ramakrishna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_95">
+			<Text>Abraham Abulafia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_95">
+			<Text>Eyebrow of Abraham Abulafia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_96">
+			<Text>Athosus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_96">
+			<Text>Writings of Athosus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_97">
+			<Text>Abu Bakr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_97">
+			<Text>Sword of Abu Bakr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_98">
+			<Text>Kobo-Daishi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_98">
+			<Text>Calligraphy of Kobo-Daishi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_99">
+			<Text>Nostradamus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_99">
+			<Text>Letters of Nostradamus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_100">
+			<Text>Lao Tzu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_GREAT_WORK_JFD_RELIC_100">
+			<Text>Fan of Lao Tzu</Text>
+		</Row>
+		<!--BELIEFS-->
+		<!--Pantheon-->
+		<Row Tag="TXT_KEY_BELIEF_F0S_GODDESS_HUNT_SHORT">
+			<Text>Goddess of the Hunt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GODDESS_HUNT">
+			<Text>Each worked Camp provides +1 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_FERTILITY_RITES_SHORT">
+			<Text>Goddess of the Harvest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_FERTILITY_RITES">
+			<Text>Each worked source of [ICON_RES_WHEAT] Wheat provides +1 [ICON_FOOD] Food. +10% [ICON_FOOD] Growth in each city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GOD_CRAFTSMEN_SHORT">
+			<Text>God of Craftsmen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GOD_CRAFTSMEN">
+			<Text>Each worked source of [ICON_RES_IRON] Iron provides +1 [ICON_PRODUCTION] Production. +1 [ICON_PRODUCTION] Production in each city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GOD_SEA_SHORT">
+			<Text>God of the Sea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GOD_SEA">
+			<Text>Each worked Fishing Boat provides +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_OPEN_SKY_SHORT">
+			<Text>God of the Open Sky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_OPEN_SKY">
+			<Text>Each worked source of [ICON_RES_COW] Cattle and [ICON_RES_SHEEP] Sheep provides +1 [ICON_CULTURE] Culture. 25% Faster [ICON_CULTURE] Cultural border growth in each city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_MESSENGER_GODS_SHORT">
+			<Text>God of Luck</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_MESSENGER_GODS">
+			<Text>Each worked source of [ICON_RES_CRAB] Crab, [ICON_RES_FISH] Fish and [ICON_RES_WHALE] Whales provides +3 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_ONE_WITH_NATURE_SHORT">
+			<Text>One with Nature</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_ONE_WITH_NATURE">
+			<Text>Each worked Natural Wonder provides +5 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_FORMAL_LITURGY_SHORT">
+			<Text>Religious Icons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_FORMAL_LITURGY">
+			<Text>Each worked source of [ICON_RES_COPPER] Copper, [ICON_RES_GOLD] Gold and [ICON_RES_SILVER] Silver provides +1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_STONE_CIRCLES_SHORT">
+			<Text>Stone Circles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_STONE_CIRCLES">
+			<Text>Each worked Quarry provides +1 [ICON_PRODUCTION] Production and +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GOD_WAR_SHORT">
+			<Text>God of War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GOD_WAR">
+			<Text>Earn [ICON_PEACE] Faith from defeating enemy units within 6 tiles of a friendly city. Receive one free Warrior.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_GODWAR">
+			<Text>God of War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_GODWAR_HELP">
+			<Text>Earns 50% more experience from combat. Costs 50% less [ICON_GOLD] Gold to upgrade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SACRED_WATERS_SHORT">
+			<Text>Sacred Waters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SACRED_WATERS">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness in each city next to a River. Military land units built in these cities heal an additional 5 HP per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_SACRED_WATERS">
+			<Text>Sacred Waters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_SACRED_WATERS_HELP">
+			<Text>Heals an additional 5 HP per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GODDESS_LOVE_SHORT">
+			<Text>Ceremonial Robes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GODDESS_LOVE">
+			<Text>Each worked source of [ICON_RES_COTTON] Cotton, [ICON_RES_DYE] Dyes, [ICON_RES_JFD_SAFFRON] Saffron and [ICON_RES_SILK] Silk provides +1 [ICON_GOLD] Gold and +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIGIOUS_SETTLEMENTS_SHORT">
+			<Text>Rain Dancing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIGIOUS_SETTLEMENTS">
+			<Text>Each worked Lake and Oasis tile provides +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GOD_FESTIVALS_SHORT">
+			<Text>Goddess of Festivals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GOD_FESTIVALS">
+			<Text>Each worked source of [ICON_RES_PERFUME] Perfume, [ICON_RES_TOBACCO] Tobacco and [ICON_RES_WINE] Wine provides +2 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_ORAL_TRADITION_SHORT">
+			<Text>Oral Tradition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_ORAL_TRADITION">
+			<Text>Each worked Plantation provides +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_ANCESTOR_WORSHIP_SHORT">
+			<Text>Ancestor Worship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_ANCESTOR_WORSHIP">
+			<Text>Each Shrine provides +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_DESERT_FOLKLORE_SHORT">
+			<Text>Desert Folklore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_DESERT_FOLKLORE">
+			<Text>Each worked non-Flood Plains Desert tile provides +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SACRED_PATH_SHORT">
+			<Text>Sacred Path</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SACRED_PATH">
+			<Text>Each worked Jungle tile provides +1 [ICON_CULTURE] Culture. Each worked source of [ICON_RES_JFD_FEATHERS] Feathers and [ICON_RES_JFD_LOTUS] Lotus provides +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GODDESS_STRATEGY_SHORT">
+			<Text>Relics of Creation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GODDESS_STRATEGY">
+			<Text>Each worked Atoll tile and source of [ICON_RES_CORAL] Coral, [ICON_RES_PEARLS] Pearls and [ICON_RES_JFD_SHELLFISH] Shellfish provides +1 [ICON_PRODUCTION] Production and +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_FAITH_HEALERS_SHORT">
+			<Text>Purification Rituals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_FAITH_HEALERS">
+			<Text>Each worked source of [ICON_RES_INCENSE] Incense, [ICON_RES_SALT] Salt and [ICON_RES_SUGAR] Sugar provides +1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_MONUMENT_GODS_SHORT">
+			<Text>Monument of the Gods</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_MONUMENT_GODS">
+			<Text>+15% [ICON_PRODUCTION] Production when constructing pre-Renaissance Wonders in each city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_DANCE_AURORA_SHORT">
+			<Text>Dance of the Aurora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_DANCE_AURORA">
+			<Text>Each worked non-Forest Tundra and Snow tile provides +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_TEARS_OF_GODS_SHORT">
+			<Text>Tears of the Gods</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_TEARS_OF_GODS">
+			<Text>Each worked source of [ICON_RES_AMBER] Amber, [ICON_RES_GEMS] Gems and [ICON_RES_LAPIS] Lapis Lazuli provides +2 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_EARTH_MOTHER_SHORT">
+			<Text>God of the Hearth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_EARTH_MOTHER">
+			<Text>Each worked source of [ICON_RES_COFFEE] Coffee, [ICON_RES_OLIVE] Olives, [ICON_RES_TEA] Tea and [ICON_RES_TRUFFLES] Truffles provides +1 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GOD_KING_SHORT">
+			<Text>God King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GOD_KING">
+			<Text>The Palace provides +1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, +1 [ICON_RESEARCH] Science, +1 [ICON_CULTURE] Culture, +1 [ICON_PEACE] Faith and +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SUN_GOD_SHORT">
+			<Text>Sun God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SUN_GOD">
+			<Text>Each worked source of [ICON_RES_BANANA] Bananas, [ICON_RES_CITRUS] Citrus, [ICON_RES_COCOA] Cocoa and [ICON_RES_JFD_VANILLA] Vanilla provides +1 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RITUAL_SACRIFICES_SHORT">
+			<Text>Ritual Sacrifices</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RITUAL_SACRIFICES">
+			<Text>Each worked source of [ICON_RES_IVORY] Ivory, [ICON_RES_JADE] Jade and [ICON_RES_JFD_OBSIDIAN] Obsidian provides +2 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SACRED_GROVES_SHORT">
+			<Text>Sacred Groves</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SACRED_GROVES">
+			<Text>Each worked Forest tile provides +1 [ICON_CULTURE] Culture. Each worked source of [ICON_RES_JFD_CEDAR] Cedar and [ICON_RES_JFD_OAK] Oak provides +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SACRED_MEDICINES_SHORT">
+			<Text>Sacred Medicines</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SACRED_MEDICINES">
+			<Text>Each worked source of [ICON_RES_JFD_GINGER] Ginger, [ICON_RES_JFD_OPIUM] Opium and [ICON_RES_SPICES] Spices provides +1 [ICON_FOOD] Food and +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SPIRIT_ANIMALS_SHORT">
+			<Text>Spirit Animals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SPIRIT_ANIMALS">
+			<Text>Each worked source of [ICON_RES_BISON] Bison, [ICON_RES_DEER] Deer, [ICON_RES_FUR] Furs and [ICON_RES_HORSE] Horses provides +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<!--Founder-->
+		<Row Tag="TXT_KEY_BELIEF_F0S_PEACE_LOVING_SHORT">
+			<Text>Religious Settlements</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_PEACE_LOVING">
+			<Text>Newly founded cities start with this religion. Receive one free Settler.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_INTERFAITH_DIALOGUE_SHORT">
+			<Text>Interfaith Dialogue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_INTERFAITH_DIALOGUE">
+			<Text>+1 [ICON_RESEARCH] Science for every 4 followers of this religion in foreign cities. Receive [ICON_RESEARCH] Science whenever this religion spreads to a city following another religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_CEREMONIAL_BURIAL_SHORT">
+			<Text>Ceremonial Burial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_CEREMONIAL_BURIAL">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness for each city following this religion. Starts a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_CHURCH_PROPERTY_SHORT">
+			<Text>Religious Migration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_CHURCH_PROPERTY">
+			<Text>Newly founded cities start with an additional [ICON_CITIZEN] Citizen for each foreign city following this religion. Receive 3 [ICON_CITIZEN] Citizens in the Holy City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_TITHE_SHORT">
+			<Text>Tithe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_TITHE">
+			<Text>+1 [ICON_GOLD] Gold for every 4 followers of this religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_INITIATION_RITES_SHORT">
+			<Text>Initiation Rites</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_INITIATION_RITES">
+			<Text>+2 [ICON_GOLD] Gold for each foreign city following this religion. Receive 200 [ICON_GOLD] Gold whenever a city first converts to this religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_PAPAL_PRIMACY_SHORT">
+			<Text>Charitable Missions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_PAPAL_PRIMACY">
+			<Text>Resting point for [ICON_INFLUENCE] Influence with City-States following this religion is increased by 15. Earn 25% more [ICON_INFLUENCE] Influence from gifting [ICON_GOLD] Gold to City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_PILGRIMAGE_SHORT">
+			<Text>Pilgrimage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_PILGRIMAGE">
+			<Text>Missionary units do not lose [ICON_PEACE] Religious Strength in enemy territory. Receive two free Missionaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_WORLD_CHURCH_SHORT">
+			<Text>World Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_WORLD_CHURCH">
+			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith for every 4 followers of this religion in foreign cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SPIRITUAL_TRADERS_SHORT">
+			<Text>Spiritual Traders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SPIRITUAL_TRADERS">
+			<Text>Trade routes with other Civilizations generate an additional 2 [ICON_PEACE] Faith per turn. Receive one additional trade route.</Text>
+		</Row>
+		<!--Follower-->
+		<Row Tag="TXT_KEY_BELIEF_F0S_FEED_WORLD_SHORT">
+			<Text>Feed the World</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_FEED_WORLD">
+			<Text>+1 [ICON_FOOD] Food from Shrines. +2 [ICON_FOOD] Food from Temples.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SWORD_PLOWSHARES_SHORT">
+			<Text>Rational Inquiry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SWORD_PLOWSHARES">
+			<Text>+1% [ICON_RESEARCH] Science in each city for each follower of this religion in that city (up to +15%).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GURUSHIP_SHORT">
+			<Text>Guruship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_GURUSHIP">
+			<Text>Each worked specialist provides +1 of its respective yield.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_HOLY_WARRIORS_SHORT">
+			<Text>Holy Warriors</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_HOLY_WARRIORS">
+			<Text>+1 [ICON_PEACE] Faith from military buildings. +15 XP for all military units built in each city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_CATHEDRALS_SHORT">
+			<Text>Cathedrals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_CATHEDRALS">
+			<Text>Use [ICON_PEACE] Faith to purchase Cathedrals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_MOSQUES_SHORT">
+			<Text>Mosques</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_MOSQUES">
+			<Text>Use [ICON_PEACE] Faith to purchase Mosques.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_PAGODAS_SHORT">
+			<Text>Pagodas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_PAGODAS">
+			<Text>Use [ICON_PEACE] Faith to purchase Pagodas.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_MONASTERIES_SHORT">
+			<Text>Church Tax</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_MONASTERIES">
+			<Text>+1% [ICON_GOLD] Gold in each city for each follower of this religion in that city (up to +15%).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_PEACE_GARDENS_SHORT">
+			<Text>Peace Gardens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_PEACE_GARDENS">
+			<Text>Each Garden provides +2 [ICON_HAPPINESS_1] Happiness and +2 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_CHORAL_MUSIC_SHORT">
+			<Text>Choral Music</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_CHORAL_MUSIC">
+			<Text>Each Opera House provides +2 [ICON_HAPPINESS_1] Happiness. Each Opera House provides +3 [ICON_GREAT_PEOPLE] Great Musician points in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIGIOUS_ART_SHORT">
+			<Text>Religious Art</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIGIOUS_ART">
+			<Text>Each Temple provides +2 [ICON_CULTURE] Culture. Each Temple provides +3 [ICON_GREAT_PEOPLE] Great Artist points in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_LITURGICAL_DRAMA_SHORT">
+			<Text>Liturgical Drama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_LITURGICAL_DRAMA">
+			<Text>Each Amphitheater provides +2 [ICON_PEACE] Faith. Each Amphitheater provides +3 [ICON_GREAT_PEOPLE] Great Writer points in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_ASCETISM_SHORT">
+			<Text>Altars</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_ASCETISM">
+			<Text>Use [ICON_PEACE] Faith to purchase Altars.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIGIOUS_CENTER_SHORT">
+			<Text>Churches</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIGIOUS_CENTER">
+			<Text>Use [ICON_PEACE] Faith to purchase Churches.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIGIOUS_COMMUNITY_SHORT">
+			<Text>Religious Community</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIGIOUS_COMMUNITY">
+			<Text>+1% [ICON_PRODUCTION] Production in each city for each follower of this religion in that city (up to +15%).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_DIVINE_INSPIRATION_SHORT">
+			<Text>Divine Inspiration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_DIVINE_INSPIRATION">
+			<Text>Each Wonder provides +2 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SIGNS_HEAVEN_SHORT">
+			<Text>Signs from Heaven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SIGNS_HEAVEN">
+			<Text>Each worked Mountain tile provides +2 [ICON_FOOD] Food and +2 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SPIRITUAL_EXCHANGE_SHORT">
+			<Text>Spiritual Exchange</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SPIRITUAL_EXCHANGE">
+			<Text>+3 [ICON_RESEARCH] Science and +3 [ICON_PEACE] Faith in each city with a [ICON_CONNECTED] City Connection.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SYNAGOGUES_SHORT">
+			<Text>Synagogues</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SYNAGOGUES">
+			<Text>Use [ICON_PEACE] Faith to purchase Synagogues.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_WORK_ETHIC_SHORT">
+			<Text>Work Ethic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_WORK_ETHIC">
+			<Text>Each worked Holy Site provides +2 [ICON_PRODUCTION] Production. Each worked Mission provides +1 [ICON_PRODUCTION] Production</Text>
+		</Row>
+		<!--Enhancer-->
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIGIOUS_TEXTS_SHORT">
+			<Text>Religious Texts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIGIOUS_TEXTS">
+			<Text>This religion spreads 25% faster. This bonus is doubled after discovering Printing Press.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIQUARY_SHORT">
+			<Text>Sainthood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIQUARY">
+			<Text>Receive 100 [ICON_PEACE] Faith whenever a Great Person is expended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_JUST_WAR_SHORT">
+			<Text>Just War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_JUST_WAR">
+			<Text>Military units receive a +25% Combat Bonus near enemy cities following this religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_DEFENDER_FAITH_SHORT">
+			<Text>Defender of the Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_DEFENDER_FAITH">
+			<Text>Military units receive a +25% Combat Bonus near friendly cities following this religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_ITINERANT_PREACHERS_SHORT">
+			<Text>Itinerant Preachers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_ITINERANT_PREACHERS">
+			<Text>This religion spreads to cities 50% further away.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_MESSIAH_SHORT">
+			<Text>Messiah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_MESSIAH">
+			<Text>Great Prophets are 25% stronger and are earned with 25% less [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_MISSIONARY_ZEAL_SHORT">
+			<Text>Deus Vult</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_MISSIONARY_ZEAL">
+			<Text>Two free Inquisitor units, melee units, mounted units and siege units appear outside the Holy City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_HOLY_ORDER_SHORT">
+			<Text>City of God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_HOLY_ORDER">
+			<Text>The Holy City spread this religion twice as fast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIGIOUS_UNITY_SHORT">
+			<Text>Religious Unity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIGIOUS_UNITY">
+			<Text>This religion spreads twice as fast to friendly City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_UNDERGROUND_SECT_NEW_SHORT">
+			<Text>Underground Sect</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_UNDERGROUND_SECT_NEW">
+			<Text>Your [ICON_SPY] Spies exert religious pressure on the cities that they occupy. Receive one additional [ICON_SPY] Spy.</Text>
+		</Row>
+		<!--Reformation-->
+		<Row Tag="TXT_KEY_BELIEF_F0S_CHARITABLE_MISSIONS_SHORT">
+			<Text>Divine Celebration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_CHARITABLE_MISSIONS">
+			<Text>Great Prophets may be expended to start a [ICON_GOLDEN_AGE] Golden Age. Starts a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_F0S_START_GOLDENAGE_DISABLED_HELP">
+			<Text>[NEWLINE][COLOR_WARNING_TEXT]This unit cannot start a [ICON_GOLDEN_AGE] Golden Age if it has spread religion.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_EVANGELISM_SHORT">
+			<Text>Swords to Plowshares</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_EVANGELISM">
+			<Text>+2 [ICON_FOOD] Food and +10% [ICON_FOOD] Growth in each city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_HEATHEN_CONVERSION_SHORT">
+			<Text>Heathen Conversion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_HEATHEN_CONVERSION">
+			<Text>Missionary units passively convert adjacent Barbarian units to this civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_JESUIT_EDUCATION_SHORT">
+			<Text>Jesuit Education</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_JESUIT_EDUCATION">
+			<Text>Allows the purchasing of science buildings with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIGIOUS_FERVOR_SHORT">
+			<Text>Religious Fervor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_RELIGIOUS_FERVOR">
+			<Text>Allows the purchasing of military land units with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SACRED_SITES_SHORT">
+			<Text>Sacred Sites</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_SACRED_SITES">
+			<Text>Each building purchased with [ICON_PEACE] Faith provides +2 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_TO_GLORY_OF_GOD_SHORT">
+			<Text>To the Glory of God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_TO_GLORY_OF_GOD">
+			<Text>Allows the purchasing of any type of Great Person with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_UNDERGROUND_SECT_SHORT">
+			<Text>Papal Primacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_UNDERGROUND_SECT">
+			<Text>Allied City-States following this religion provide an additional Delegate in the World Congress.</Text>
+		</Row>
+		<Update>
+			<Set Text="[NEWLINE][ICON_BULLET]{1_NumVotes} from Religion, Buildings and World Wonders"/>
+			<Where Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WONDER_VOTES" />
+		</Update>
+		<Row Tag="TXT_KEY_BELIEF_F0S_UNITY_OF_PROPHETS_SHORT">
+			<Text>Unity of the Prophets</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_UNITY_OF_PROPHETS">
+			<Text>Inquisitor units and Great Prophets are less effective at reducing this religion's presence. Missionary units erode other religions' pressences by spreading this religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_HOLY_RELICS_SHORT">
+			<Text>Holy Relics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_F0S_HOLY_RELICS">
+			<Text>Great Prophets may be expended to create unique Artifacts. Receive a free Reliquary in the [ICON_CAPITAL] Holy City. Receive a free Artifact in the Holy City.</Text>
+		</Row>
+		<!--BUILDINGS-->
+		<!--Altar-->
+		<Row Tag="TXT_KEY_BUILDING_F0S_ALTAR">
+			<Text>Altar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_ALTAR_HELP">
+			<Text>Melee and gunpowder units built in thic city earn [ICON_PEACE] Faith from defeating enemy land units.[NEWLINE][NEWLINE]Can only be purchased with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_ALTAR_STRATEGY">
+			<Text>The Altar increases the civilization's [ICON_HAPPINESS_1] Happiness as well as the [ICON_CULTURE] Culture and [ICON_PEACE] Faith output of this city. Melee and gunpowder units built in this city start with a promotion that allows them to earn [ICON_PEACE] Faith from defeating enemy land units. Can only be acquired in cities following a religion with the Altars belief. Can only be purchased with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_ALTAR_TEXT">
+			<Text>Ritual sacrifice is a custom much interwoven in many traditional religions. It is the offering of food, objects, or the lives of animals or humans to a higher purpose; in particular to divine beings. Human sacrifice, the kind implied here, was widespread throughout the ancient world - particularly in Pre-Columbian America. The Aztec Empire is notorious for its human sacrifices, held on an unusually large scale in offering to the sun.</Text>
+		</Row>
+		<!--Sacrificial Warrior-->
+		<Row Tag="TXT_KEY_PROMOTION_F0S_ALTAR">
+			<Text>Sacrificial Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_ALTAR_HELP">
+			<Text>Earns [ICON_PEACE] Faith from defeating enemy land units.</Text>
+		</Row>
+		<!--Church-->
+		<Row Tag="TXT_KEY_BUILDING_F0S_CHURCH">
+			<Text>Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_CHURCH_HELP">
+			<Text>Increases religious pressure emanating from this city by 50%.[NEWLINE][NEWLINE]Can only be purchased with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_CHURCH_STRATEGY">
+			<Text>The Church increases the civilization's [ICON_HAPPINESS_1] Happiness as well as the [ICON_CULTURE] Culture and [ICON_PEACE] Faith output of this city. The Church increases the religious pressure emenating from this city. Can only be acquired in cities following a religion with the Churches belief. Can only be purchased with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_CHURCH_TEXT">
+			<Text>A church building, often simply called a church, is a building used for religious activities, particularly worship services. The term in its architectural sense is most often used by Christians to refer to their religious buildings but can be used by other religions. In traditional Christian architecture, the church is often arranged in the shape of a Christian cross. When viewed from plan view the longest part of a cross is represented by the aisle and the junction of the cross is located at the altar area.</Text>
+		</Row>
+		<!--Monastery-->
+		<Row Tag="TXT_KEY_BUILDING_F0S_MONASTERY_HELP_PIETY">
+			<Text>Can only be purchased with [ICON_PEACE] Faith.[NEWLINE][NEWLINE]Requires the Monastic Education Social Policy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_MONASTERY_STRATEGY_PIETY">
+			<Text>The Monastery provides one Scientist specialist and increases the [ICON_CULTURE] Culture and [ICON_PEACE] Faith output of this city. Can only be acquired in cities after adopting the Monastic Education Social Policy. Can only be purchased with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<!--Synagogue-->
+		<Row Tag="TXT_KEY_BUILDING_F0S_SYNAGOGUE">
+			<Text>Synagogue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_SYNAGOGUE_HELP">
+			<Text>Can only be purchased with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_SYNAGOGUE_STRATEGY">
+			<Text>The Synagogue increases the civilization's [ICON_HAPPINESS_1] Happiness as well as the [ICON_CULTURE] Culture and [ICON_PEACE] Faith output of this city. Can only be acquired in cities following a religion with the Synagogues belief. Can only be purchased with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_SYNAGOGUE_TEXT">
+			<Text>A synagogue, also spelled synagog, is a Jewish house of prayer. Synagogues have a large hall for prayer (the main sanctuary), and may also have smaller rooms for study and sometimes a social hall and offices. Some have a separate room for Torah study, called the beth midrash.</Text>
+		</Row>
+		<!--Reliquary-->
+		<Row Tag="TXT_KEY_BUILDING_F0S_RELIQUARY">
+			<Text>Reliquary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_RELIQUARY_HELP">
+			<Text>Contains four slots for Great Works of Art which, when filled, provide +2 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIQUARY_F0S_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Artifacts from the city's civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIQUARY_F0S_THEMING_BONUS">
+			<Text>Reliquary of {2_CivAdjective} Holy Relics</Text>
+		</Row>
+		<!--POLICIES-->
+		<!--Piety-->
+		<Update>
+			<Set Text="[COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] enhances [ICON_PEACE] Faith generation.[NEWLINE][NEWLINE]Adopting Piety provides +1 [ICON_PEACE] Faith in the [ICON_CAPITAL] Capital and provides +50% [ICON_PRODUCTION] Production when constructing religious buildings in each city. Unlocks building the Great Mosque of Djenne.[NEWLINE][NEWLINE]Adopting all policies in the Piety tree causes a free Great Prophet to appear outside the [ICON_CAPITAL] Capital and causes each worked Holy Site to provide +4 [ICON_CULTURE] Culture and each worked Mission to provide +2 [ICON_CULTURE] Culture."/>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP" />
+		</Update>
+		<!--Organised Religion-->
+		<Row Tag="TXT_KEY_POLICY_F0S_ORGANIZED_RELIGION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Organized Religion[ENDCOLOR][NEWLINE]Each Shrine provides +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<!--Monastic Education-->
+		<Row Tag="TXT_KEY_POLICY_F0S_MONASTICISM">
+			<Text>Monastic Education</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_F0S_MONASTICISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Monastic Education[ENDCOLOR][NEWLINE]Allows purchasing Monasteries with [ICON_PEACE] Faith. Each worked Holy Site provides +4 [ICON_RESEARCH] Science. Each worked Mission provides +2 [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_F0S_MONASTICISM_TEXT">
+			<Text>A monastery is a building or complex of buildings housing monks or nuns - people who have renounced worldly things (wealth, possessions, sex) - and dedicated their lives to prayer and meditation. Generally monasteries are single-sex organizations, or if men and women are present, they're separated by imposing walls. Historically monasteries have been places of higher learning, especially during the Middle Ages where members of religious orders were often the only people outside of the ruling elite who knew how to read and write.</Text>
+		</Row>
+		<!--MISSIONS-->
+		<Row Tag="TXT_KEY_IMPROVEMENT_F0S_MISSION">
+			<Text>Mission</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_F0S_MISSION_TEXT">
+			<Text>A mission is an organized effort to spread a religious belief. Missions often involve sending individuals and groups, called missionaries, across boundaries, most commonly geographical boundaries, for the purpose of proselytism. This involves evangelism (preaching a set of beliefs for the purpose of conversion), and humanitarian work, especially among the poor and disadvantaged. There are a few different kinds of mission trips: short-term, long-term, relational and ones meant simply for helping people in need. Some might choose to dedicate their whole lives to missions as well. Missionaries have the authority to preach their faith, and provide humanitarian work to improve economic development, literacy, education, health care, and orphanages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_F0S_MISSION">
+			<Text>Construct a [LINK=IMPROVEMENT_MISSION]Mission[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_F0S_MISSION_HELP">
+			<Text>Unit will be expended.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

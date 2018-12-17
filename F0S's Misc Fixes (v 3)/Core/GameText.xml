@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						New Vanilla Building Text
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_BUILDING_F0S_HOSPITAL_HELP">
+			<Text>City must have an Aqueduct.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_MUSEUM_HELP">
+			<Text>Contains two slots for Great Works of Art. A free Archeologist appears outside this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_OPERA_HOUSE_HELP">
+			<Text>Contains a slot for a Great Work of Music.[NEWLINE][NEWLINE]City must have an Amphitheater.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_AMPHITHEATER_HELP">
+			<Text>Contains a slot for a Great Work of Writing.[NEWLINE][NEWLINE]City must have a Monument.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_MARKET_HELP">
+			<Text>Trade routes other players make to this city will generate an additional 1 [ICON_GOLD] Gold for the city owner and the trade route owner.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_MOSQUE_HELP">
+			<Text>Can only be purchased with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_PAGODA_HELP">
+			<Text>Can only be purchased with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_CATHEDRAL_HELP">
+			<Text>Contains a slot for a Great Work of Art.[NEWLINE][NEWLINE]Can only be purchased with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_TEMPLE_HELP">
+			<Text>City must have a Shrine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_CEILIDH_HALL_HELP">
+			<Text>Contains a slot for a Great Work of Music. Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]City must have an Amphitheater.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_STELE_HELP">
+			<Text>Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						New Mod Building Text
+		------------------------------------------------------------------>
+		<!--Roman Buildings-->
+		<Row Tag="TXT_KEY_BUILDING_F0S_ROMAN_BARRACKS">
+			<Text>Roman Barracks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_ROMAN_ARMORY">
+			<Text>Roman Armory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_ROMAN_MILITARY_ACADEMY">
+			<Text>Roman Military Academy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_ROMAN_BARRACKS_HELP">
+			<Text>+20 XP for all military units built in this city. Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_ROMAN_ARMORY_HELP">
+			<Text>+20 XP for all military units built in this city. Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]City must have a Barracks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_ROMAN_MILITARY_ACADEMY_HELP">
+			<Text>+20 XP for all military units built in this city. Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]City must have an Armory.</Text>
+		</Row>
+		<!--Agora-->
+		<Row Tag="TXT_KEY_BUILDING_F0S_AGORA">
+			<Text>Agora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_AGORA_HELP">
+			<Text>Provides additional yields for each friendly and allied City-State. Contains a slot for a Great Work of Writing. Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]City must have a Monument.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_AGORA_STRATEGY">
+			<Text>The Agora is the Greek unique building, replacing the Amphitheater. The Agora increases the [ICON_CULTURE] Culture output of this city for each friendly Cultured City-State, the [ICON_FOOD] Food output of this city for each friendly Maritime City-State and the [ICON_PEACE] Faith output of this city for each friendly Religious City-State. The Agora increases the civilization's [ICON_HAPPINESS_1] Happiness for each friendly Mercantile City-State. The Agora provides additional experience for military units built in this city for each friendly Militaristic City-State. These yields are doubled for each allied City-State of the appropriate type. The Agora has no maintenance cost. Can only be built if this city contains a Monument.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_AGORA_TEXT">
+			<Text>The Agora was a central spot in ancient Greek city-states. The literal meaning of the word is "gathering place" or "assembly". The agora was the center of athletic, artistic, spiritual and political life of the city. The Ancient Agora of Athens was the best-known example.</Text>
+		</Row>
+		<!--Agora Bonus-->
+		<Row Tag="TXT_KEY_BUILDING_F0S_AGORA_BONUS">
+			<Text>Agora Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_AGORA_BONUS_HELP">
+			<Text>Provides various Agora related bonus yields.</Text>
+		</Row>
+		<!--Artemis Food Bonus-->
+		<Row Tag="TXT_KEY_BUILDING_F0S_ARTEMIS_FOOD_BONUS">
+			<Text>Artemis Food Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_ARTEMIS_FOOD_BONUS_HELP">
+			<Text>15% of [ICON_FOOD] Food is carried over after the birth of a new [ICON_CITIZEN] Citizen.</Text>
+		</Row>
+		<!--Celt Faith Dummy-->
+		<Row Tag="TXT_KEY_BUILDING_F0S_CELT_FAITH">
+			<Text>Celtic Faith Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_CELT_FAITH_HELP">
+			<Text>+1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<!--Mongolian Gold Dummy-->
+		<Row Tag="TXT_KEY_BUILDING_F0S_MONGOLIAN_GOLD">
+			<Text>Mongolian Gold Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_MONGOLIAN_GOLD_HELP">
+			<Text>+25% [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						New Vanilla Promotion Text
+		------------------------------------------------------------------>
+		<!--Promotion Description-->
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+			<Text>Heals 25 HP from Defeating Enemies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_ANTI_HELICOPTER">
+			<Text>Combat Bonus vs Hover (150)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_NAVAL_BONUS">
+			<Text>Combat Bonus vs Naval (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_ANTI_SUBMARINE_I">
+			<Text>Combat Bonus vs Submarine (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_ANTI_SUBMARINE_II">
+			<Text>Combat Bonus vs Submarine (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_ANTI_TANK">
+			<Text>Combat Bonus vs Armor (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_CITY_SIEGE">
+			<Text>Attack Bonus vs Cities (200)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_CITY_ASSAULT">
+			<Text>Attack Bonus vs Cities (300)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_MUST_SET_UP">
+			<Text>Must Set Up to Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_ANTI_MOUNTED_I">
+			<Text>Combat Bonus vs Mounted (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_ANTI_MOUNTED_II">
+			<Text>Combat Bonus vs Mounted (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_FREE_PILLAGE_MOVES">
+			<Text>No Movement Point Cost to Pillage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_ANTI_AIR">
+			<Text>Combat Bonus vs Hover/Air (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_ANTI_AIR_II">
+			<Text>Combat Bonus vs Hover/Bomber (150)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_OCEAN_IMPASSABLE">
+			<Text>Cannot Enter Ocean</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_CITY_PENALTY">
+			<Text>Attack Penalty vs Cities (-33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_STEAM_POWERED">
+			<Text>Double Movement Rate in Coast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_FIRE_SUPPORT">
+			<Text>Attack Bonus vs Cities (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_EXTRA_SIGHT_I">
+			<Text>Extra Sight I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_EXTRA_SIGHT_II">
+			<Text>Extra Sight II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_EXTRA_SIGHT_III">
+			<Text>Extra Sight III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_EXTRA_SIGHT_IV">
+			<Text>Extra Sight IV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_IGNORE_TERRAIN_COST">
+			<Text>Ignores Terrain Costs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_GOLDEN_AGE_POINTS">
+			<Text>Celebrated Warriors</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_HEAVY_PAYLOAD">
+			<Text>Attack Bonus vs Cities (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_GREAT_GENERAL">
+			<Text>Leadership</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_SECOND_ATTACK">
+			<Text>One Additional Attack per Turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_ANTI_FIGHTER">
+			<Text>Combat Bonus vs Fighter (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_RIVAL_TERRITORY">
+			<Text>May Enter Enemy Territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_HEAL_IF_DESTROY_ENEMY">
+			<Text>Heals 50 HP from Defeating Enemies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_ATTACK_BONUS">
+			<Text>Attack Bonus (25)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_DEFENSE_PENALTY">
+			<Text>Defense Penalty (-33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_FASTER_HEAL">
+			<Text>Faster Healing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_STRONGER_DAMAGED">
+			<Text>Attack Bonus vs Damaged (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_SMALL_CITY_PENALTY">
+			<Text>Attack Penalty vs Cities (-25)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_HELI_AMBUSH_I">
+			<Text>Hover Ambush I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_HELI_AMBUSH_II">
+			<Text>Hover Ambush II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_FOLIAGE">
+			<Text>Cannot Enter Forest/Jungle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_SEE_SUB">
+			<Text>Can See Submarines</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_OPEN_TERRAIN">
+			<Text>Combat Bonus in Open Terrain (30)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_FLANK_ATTACK_BONUS">
+			<Text>Superior Flank Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_EVASION_I">
+			<Text>Evasion I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_EVASION_II">
+			<Text>Evasion II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_NO_DEFENSIVE_BONUSES">
+			<Text>No Defensive Terrain Bonuses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_INTERCEPTION_I">
+			<Text>Interception Chance (20)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_INTERCEPTION_II">
+			<Text>Interception Chance (40)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_INTERCEPTION_III">
+			<Text>Interception Chance (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_INTERCEPTION_IV">
+			<Text>Interception Chance (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_INVISIBLE">
+			<Text>Invisible</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_ENTER_ICE">
+			<Text>Can Enter Ice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_MAY_PARADROP">
+			<Text>May Paradrop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_NAVAL_MOVEMENT">
+			<Text>Naval Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_MOUNTED_PENALTY">
+			<Text>Combat Penalty vs Mounted (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_NAVAL_PENALTY">
+			<Text>Combat Penalty vs Naval (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_RANGED_SUPPORT">
+			<Text>Ranged Support Fire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_SKYRANGER">
+			<Text>Skyranger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_NO_CAPTURE">
+			<Text>Cannot Capture Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_EVANGELIST">
+			<Text>Unwelcome Evangelist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_DESCRIPTION_RANGED_PENALTY">
+			<Text>Ranged Attack Penalty (50)</Text>
+		</Row>
+		<!--Promotion Help-->
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+			<Text>This unit heals 25 HP whenever it defeats an enemy unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_ANTI_FIGHTER">
+			<Text>+33% Combat Bonus against fighter air units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_ANTI_HELICOPTER">
+			<Text>+150% Combat Bonus against hover units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_NAVAL_BONUS">
+			<Text>+50% Combat Bonus against naval units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_ANTI_SUBMARINE_I">
+			<Text>+33% Combat Bonus against submarine units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_ANTI_SUBMARINE_II">
+			<Text>+100% Combat Bonus against submarine units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_FLAT_MOVEMENT_COST">
+			<Text>Ignores all [ICON_MOVES] Movement penalties.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_ANTI_TANK">
+			<Text>+100% Combat Bonus against armor units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_SILENT_HUNTER">
+			<Text>+75% Attack Bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_CARGO_I">
+			<Text>Can carry up to 1 unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_CARGO_II">
+			<Text>Can carry up to 2 units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_CARGO_III">
+			<Text>Can carry up to 3 units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_CARGO_IV">
+			<Text>Can carry up to 4 units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_CITY_SIEGE">
+			<Text>+200% Attack Bonus against cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_CITY_ASSAULT">
+			<Text>+300% Attack Bonus against cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_NO_DEFENSIVE_BONUSES">
+			<Text>Receives no defense bonuses from terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_MUST_SET_UP">
+			<Text>Must set up prior to attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_SIGHT_PENALTY">
+			<Text>-1 Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_ONLY_DEFENSIVE">
+			<Text>May not melee attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_ANTI_MOUNTED_I">
+			<Text>+50% Combat Bonus against mounted units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_ANTI_MOUNTED_II">
+			<Text>+100% Combat Bonus against mounted units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_FREE_PILLAGE_MOVES">
+			<Text>May pillage improvements at no additional [ICON_MOVES] Movement point cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_FOREIGN_LANDS">
+			<Text>+20% Combat Bonus outside of friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_ANTI_AIR">
+			<Text>+100% Combat Bonus against hover and air units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_ANTI_AIR_II">
+			<Text>+150% Combat Bonus against hover and bomber air units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_INTERCEPTION_I">
+			<Text>20% Interception Chance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_INTERCEPTION_II">
+			<Text>40% Interception Chance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_INTERCEPTION_III">
+			<Text>50% Interception Chance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_INTERCEPTION_IV">
+			<Text>100% Interception Chance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_WITHDRAW_BEFORE_MELEE">
+			<Text>This unit may withdraw when faced with a melee attack. Decreased chance of withdrawal when faced with a melee attack from a fast enemy unit or cornered.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_OCEAN_IMPASSABLE">
+			<Text>Cannot enter Ocean tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_CITY_PENALTY">
+			<Text>-33% Attack Penalty against cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_CAN_MOVE_AFTER_ATTACKING">
+			<Text>Can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_FEARED_ELEPHANT">
+			<Text>Inflicts adjacent enemy units with a -10% Combat Penalty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_PRIZE_SHIPS">
+			<Text>May capture defeated enemy naval units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_STEAM_POWERED">
+			<Text>Double [ICON_MOVES] Movement rate in Coast tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_FIRE_SUPPORT">
+			<Text>+33% Attack Bonus against cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_EXTRA_SIGHT_I">
+			<Text>+1 Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_EXTRA_SIGHT_II">
+			<Text>+2 Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_EXTRA_SIGHT_III">
+			<Text>+3 Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_EXTRA_SIGHT_IV">
+			<Text>+4 Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_IGNORE_TERRAIN_COST">
+			<Text>Ignores terrain costs in rough terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_GOLDEN_AGE_POINTS">
+			<Text>This unit earns points toward a [ICON_GOLDEN_AGE] Golden Age whenever it defeats an enemy unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_HEAVY_PAYLOAD">
+			<Text>+50% Attack Bonus against cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_GREAT_GENERAL">
+			<Text>Nearby friendly military land units receive a +15% Combat Bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_HAKA_WAR_DANCE">
+			<Text>Inflicts adjacent enemy units with a -10% Combat Penalty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_FLANK_ATTACK_BONUS">
+			<Text>+50% Flank Attack Bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_SECOND_ATTACK">
+			<Text>May make one additional attack per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_RIVAL_TERRITORY">
+			<Text>May enter enemy territory without Open Borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_HEAVY_CHARGE">
+			<Text>This unit forces defending units to retreat if it infilcts more damage than it receives. If a defending unit cannot retreat it takes additional damage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_DEFEND_NEAR_CAPITAL">
+			<Text>Receives up to a +30% Defense Bonus based on its distance from the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_HEAL_IF_DESTROY_ENEMY">
+			<Text>This unit heals 50 HP whenever it defeats a non-Barbarian enemy unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_ATTACK_BONUS">
+			<Text>+25% Attack Bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_ROUGH_TERRAIN_ENDS_TURN">
+			<Text>This unit loses all [ICON_MOVES] Movement points upon entering rough terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_SPAWN_GENERALS_I">
+			<Text>Contributes 50% more points toward the generation of Great Generals through combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_SPAWN_GENERALS_II">
+			<Text>Contributes twice as many points toward the generation of Great Generals through combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_DEFENSE_PENALTY">
+			<Text>-33% Defense Penalty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_FASTER_HEAL">
+			<Text>Heals at double the rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_STRONGER_DAMAGED">
+			<Text>+33% Attack Bonus against damaged units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_SMALL_CITY_PENALTY">
+			<Text>-25% Attack Penalty against cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_HELI_AMBUSH_I">
+			<Text>+33% Combat Bonus against armor units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_HELI_AMBUSH_II">
+			<Text>+33% Combat Bonus against armor units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_FOLIAGE">
+			<Text>Cannot enter Forest or Jungle tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_SEE_SUB">
+			<Text>Can see Submarine units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_OPEN_TERRAIN">
+			<Text>+30% Combat Bonus in open terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_EVASION_I">
+			<Text>Takes 50% less damage from interception.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_EVASION_II">
+			<Text>Takes no damage from interception.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_INVISIBLE">
+			<Text>This unit is invisible until it attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_ENTER_ICE">
+			<Text>Can enter Ice tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_MAY_PARADROP">
+			<Text>This unit may paradrop from inside friendly territory up to 9 tiles away. It cannot attack after paradropping.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_NAVAL_MOVEMENT">
+			<Text>+2 [ICON_MOVES] Movement in water tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_MOUNTED_PENALTY">
+			<Text>-33% Combat Penalty against mounted units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_NAVAL_PENALTY">
+			<Text>-50% Combat Penalty against naval units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_RANGED_SUPPORT">
+			<Text>Adjacent friendly military land units receive a Defense Bonus based on this unit's [ICON_STRENGTH] Combat Strength while this unit is Fortified.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_SKYRANGER">
+			<Text>This unit may paradrop from inside friendly territory up to 40 tiles away. It cannot attack after paradropping.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_NO_CAPTURE">
+			<Text>Cannot capture enemy cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_EVANGELIST">
+			<Text>This unit may enter enemy territory without Open Borders, but loses 25% of its [ICON_PEACE] Religious Strength if it ends the turn in enemy territory. This unit is disbanded upon reaching 0 [ICON_PEACE] Religious Strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_HELP_RANGED_PENALTY">
+			<Text>-50% Ranged Attack Penalty.</Text>
+		</Row>
+		<!--Promotion Pedia-->
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+			<Text>Heals 25 HP from Defeating Enemies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_ANTI_HELICOPTER">
+			<Text>Combat Bonus vs Hover (150)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_NAVAL_BONUS">
+			<Text>Combat Bonus vs Naval (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_ANTI_SUBMARINE_I">
+			<Text>Combat Bonus vs Submarine (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_ANTI_SUBMARINE_II">
+			<Text>Combat Bonus vs Submarine (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_ANTI_TANK">
+			<Text>Combat Bonus vs Armor (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_CITY_SIEGE">
+			<Text>Attack Bonus vs Cities (200)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_CITY_ASSAULT">
+			<Text>Attack Bonus vs Cities (300)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_MUST_SET_UP">
+			<Text>Must Set Up to Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_ANTI_MOUNTED_I">
+			<Text>Combat Bonus vs Mounted (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_ANTI_MOUNTED_II">
+			<Text>Combat Bonus vs Mounted (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_FREE_PILLAGE_MOVES">
+			<Text>No Movement Point Cost to Pillage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_ANTI_AIR">
+			<Text>Combat Bonus vs Hover/Air (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_ANTI_AIR_II">
+			<Text>Combat Bonus vs Hover/Bomber (150)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_OCEAN_IMPASSABLE">
+			<Text>Cannot Enter Ocean</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_CITY_PENALTY">
+			<Text>Attack Penalty vs Cities (-33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_STEAM_POWERED">
+			<Text>Double Movement Rate in Coast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_FIRE_SUPPORT">
+			<Text>Attack Bonus vs Cities (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_EXTRA_SIGHT_I">
+			<Text>Extra Sight I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_EXTRA_SIGHT_II">
+			<Text>Extra Sight II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_EXTRA_SIGHT_III">
+			<Text>Extra Sight III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_EXTRA_SIGHT_IV">
+			<Text>Extra Sight IV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_IGNORE_TERRAIN_COST">
+			<Text>Ignores Terrain Costs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_GOLDEN_AGE_POINTS">
+			<Text>Celebrated Warriors</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_HEAVY_PAYLOAD">
+			<Text>Attack Bonus vs Cities (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_GREAT_GENERAL">
+			<Text>Leadership</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_SECOND_ATTACK">
+			<Text>One Additional Attack per Turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_ANTI_FIGHTER">
+			<Text>Combat Bonus vs Fighter (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_RIVAL_TERRITORY">
+			<Text>May Enter Enemy Territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_HEAL_IF_DESTROY_ENEMY">
+			<Text>Heals 50 HP from Defeating Enemies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_ATTACK_BONUS">
+			<Text>Attack Bonus (25)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_DEFENSE_PENALTY">
+			<Text>Defense Penalty (-33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_FASTER_HEAL">
+			<Text>Faster Healing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_STRONGER_DAMAGED">
+			<Text>Attack Bonus vs Damaged (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_SMALL_CITY_PENALTY">
+			<Text>Attack Penalty vs Cities (-25)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_HELI_AMBUSH_I">
+			<Text>Hover Ambush I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_HELI_AMBUSH_II">
+			<Text>Hover Ambush II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_FOLIAGE">
+			<Text>Cannot Enter Forest/Jungle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_SEE_SUB">
+			<Text>Can See Submarines</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_OPEN_TERRAIN">
+			<Text>Combat Bonus in Open Terrain (30)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_FLANK_ATTACK_BONUS">
+			<Text>Superior Flank Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_EVASION_I">
+			<Text>Evasion I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_EVASION_II">
+			<Text>Evasion II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_NO_DEFENSIVE_BONUSES">
+			<Text>No Defensive Terrain Bonuses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_INTERCEPTION_I">
+			<Text>Interception Chance (20)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_INTERCEPTION_II">
+			<Text>Interception Chance (40)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_INTERCEPTION_III">
+			<Text>Interception Chance (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_INTERCEPTION_IV">
+			<Text>Interception Chance (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_INVISIBLE">
+			<Text>Invisible</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_ENTER_ICE">
+			<Text>Can Enter Ice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_MAY_PARADROP">
+			<Text>May Paradrop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_NAVAL_MOVEMENT">
+			<Text>Naval Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_MOUNTED_PENALTY">
+			<Text>Combat Penalty vs Mounted (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_NAVAL_PENALTY">
+			<Text>Combat Penalty vs Naval (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_RANGED_SUPPORT">
+			<Text>Ranged Support Fire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_SKYRANGER">
+			<Text>Skyranger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_NO_CAPTURE">
+			<Text>Cannot Capture Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_EVANGELIST">
+			<Text>Unwelcome Evangelist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_PROMOTION_PEDIA_ENTRY_RANGED_PENALTY">
+			<Text>Ranged Attack Penalty (50)</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						New Mod Promotion Text
+		------------------------------------------------------------------>
+		<!--Promotion Description-->
+		<Row Tag="TXT_KEY_PROMOTION_F0S_AIR_LOGISTICS">
+			<Text>Aerial Logistics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_HELI_REPAIR">
+			<Text>Hover Repair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_CITY_SIEGE_WEAK">
+			<Text>Attack Bonus vs Cities (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_ANTI_TANK_WEAK">
+			<Text>Combat Bonus vs Armor (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_SHELLING_1">
+			<Text>Shelling I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_SHELLING_2">
+			<Text>Shelling II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_SHELLING_3">
+			<Text>Shelling III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_HELI_MOBILITY_3">
+			<Text>Hover Mobility III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_HELI_TARGETING_1">
+			<Text>Hover Targeting I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_HELI_TARGETING_2">
+			<Text>Hover Targeting II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_BATTERY_INFO">
+			<Text>Battery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_BATTERY">
+			<Text>Battery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_STRENGTH_FROM_FAITH">
+			<Text>Druidic Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_STRENGTH_FROM_FAITH_INFO">
+			<Text>Druidic Warrior</Text>
+		</Row>
+		<!--Promotion Help-->
+		<Row Tag="TXT_KEY_PROMOTION_F0S_HELI_REPAIR_HELP">
+			<Text>Will heal every turn, even if it performs an action.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_CITY_SIEGE_WEAK_HELP">
+			<Text>+100% Attack Bonus against cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_ANTI_TANK_WEAK_HELP">
+			<Text>+50% Combat Bonus against armor units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_SHELLING_1_HELP">
+			<Text>+15% Combat Bonus against land units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_SHELLING_2_HELP">
+			<Text>+15% Combat Bonus against land units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_SHELLING_3_HELP">
+			<Text>+15% Combat Bonus against land units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_HELI_TARGETING_1_HELP">
+			<Text>+33% Combat Bonus against naval units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_HELI_TARGETING_2_HELP">
+			<Text>+33% Combat Bonus against naval units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_BATTERY_INFO_HELP">
+			<Text>Receives +1 [ICON_RANGE_STRENGTH] Range while garrisoned in a City or stationed on a Fort or Citadel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_BATTERY_HELP">
+			<Text>+1 [ICON_RANGE_STRENGTH] Range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_STRENGTH_FROM_FAITH_HELP">
+			<Text>+25% Combat Bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_STRENGTH_FROM_FAITH_INFO_HELP">
+			<Text>Receives a +25% Combat Bonus near cities following your religion.</Text>
+		</Row>
+		<!--Promotion Pedia-->
+		<Row Tag="TXT_KEY_PROMOTION_F0S_AIR_LOGISTICS_PEDIA">
+			<Text>Aerial Logistics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_HELI_REPAIR_PEDIA">
+			<Text>Hover Repair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_CITY_SIEGE_WEAK_PEDIA">
+			<Text>Attack Bonus vs Cities (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_ANTI_TANK_WEAK_PEDIA">
+			<Text>Combat Bonus vs Armor (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_SHELLING_1_PEDIA">
+			<Text>Shelling I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_SHELLING_2_PEDIA">
+			<Text>Shelling II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_SHELLING_3_PEDIA">
+			<Text>Shelling III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_HELI_MOBILITY_3_PEDIA">
+			<Text>Hover Mobility III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_HELI_TARGETING_1_PEDIA">
+			<Text>Hover Targeting I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_HELI_TARGETING_2_PEDIA">
+			<Text>Hover Targeting II</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						New Vanilla Unit Text
+		------------------------------------------------------------------>
+		<!--Barbarian Hand-Axe-->
+		<Row Tag="TXT_KEY_UNIT_F0S_BARBARIAN_AXMAN_HELP">
+			<Text>Powerful Ancient Era ranged unit that can attack enemy units up to one tile away with a short range ranged attack. Only the Barbarians may build it.</Text>
+		</Row>
+		<!--Barbarian Galley-->
+		<Row Tag="TXT_KEY_UNIT_F0S_GALLEY_HELP">
+			<Text>Weak Ancient Era naval melee unit. Cannot enter Ocean tiles. Only the Barbarians may build it.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						New Mod Policy Text
+		------------------------------------------------------------------>
+		<!--Greece Dummy Policy-->
+		<Row Tag="TXT_KEY_POLICY_F0S_GREECE_SHORT">
+			<Text>Hellenic League</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_F0S_VENICE_SHORT">
+			<Text>Serenissima</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						New Vanilla Improvement Text
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_BUILD_F0S_TERRACE_FARM_HELP">
+			<Text>The Terrace Farm provides [ICON_FOOD] Food as well as additional [ICON_FOOD] Food for each adjacent Mountain and after discovering Civil Service or Fertilizer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_F0S_TERRACE_FARM_REC">
+			<Text>The Terrace Farm provides [ICON_FOOD] Food as well as additional [ICON_FOOD] Food for each adjacent Mountain and after discovering Civil Service or Fertilizer.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="afe4cfd0-971a-438c-be16-25b76edc819e" version="11">
+  <Properties>
+    <Name>Policy - Free Warrior</Name>
+    <Teaser>Adds a free Warrior to the Honor Social Policy tree opener.</Teaser>
+    <Description>Provides a free Warrior upon adopting the Honor Social Policy tree. Tweaks the base game Honor Social Policy tree.</Description>
+    <Authors>William Howard</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.2kgames.com/showthread.php?107264-MOD-Policy-Free-Warrior</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="480D0B621E7E122B92FD4B00FD91AAA7" import="0">Core/GameText.xml</File>
+	<File md5="1C3509D0D682ECF1C2312379A16C9BAB" import="0">Core/Policies.sql</File>
+	<File md5="5AC2E3D26EABE95433153390ED32B87B" import="0">Core/Promotions.sql</File>
+    <File md5="6ACECF56034916A91A93C62B89E42FED" import="0">Lua/PolicyFreeWarrior.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+	  <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Policies.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Promotions.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/PolicyFreeWarrior.lua">
+      <Name>PolicyFreeWarrior</Name>
+      <Description>PolicyFreeWarrior</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

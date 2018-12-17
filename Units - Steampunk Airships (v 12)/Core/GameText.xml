@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						Airship
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_MOD_UNIT_AIRSHIP">
+			<Text>Airship</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_UNIT_AIRSHIP_TEXT">
+			<Text>The airship is a strange yet majestic contraption. With the advent of steam power, the original engineers and inventors of the airship were free to put nearly anything in the air, going against the constraints of the science which had been the guiding laws of their professions heretofore. Necessarily, the product reflected something familiar from past history: a seafaring vessel. It had a deck, armaments on either side, and a balloon in place of a sail. Early airship crews adopted naval conventions of rank and hierarchy. Soon, though, the reality of sustained flight took on its own character. Ship designs became more and more experimental. Airship pilots and crew developed their own culture, at once genteel and whimsical.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_UNIT_AIRSHIP_STRATEGY">
+			<Text>The Airship is the first available hover unit, replacing the Lancer. The Airship receives a +33% Combat Bonus against siege units and ignores terrain costs in rough terrain. The Airship can enter Coast tiles without having to embark and receives a weak ranged attack when attacking from the Coast. The Airship cannot capture cities and requires a source of [ICON_RES_COAL] Coal to be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_UNIT_AIRSHIP_HELP">
+			<Text>First Industrial Era hover unit that specializes in defeating siege units. Ignores terrain costs and can enter Coast tiles without embarking. Receives a weak ranged attack when attacking from the Coast. Cannot capture cities. Requires a source of [ICON_RES_COAL] Coal to be built.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Sky Fortress
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_MOD_UNIT_SKY_FORTRESS">
+			<Text>Sky Fortress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_UNIT_SKY_FORTRESS_TEXT">
+			<Text>The majestic sky fortress is quite a sight to behold. Significantly larger than the airship, it is outfitted with heavy weaponry, but kept aloft despite its size through advanced applications of oil-powered combustion engines. Much like the airship, the sky fortress boasts a variety of accommodations: war rooms used by generals above the battlefield, cargo holds for its various armaments, and even parlors for recreation. The Sky Fortress is a centerpiece of modern era airship fleets, a mobile command center that rains death from above onto land units below and can blow enemy airships out of the sky.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_UNIT_SKY_FORTRESS_STRATEGY">
+			<Text>The Sky Fortress is the second available hover unit, replacing the Airship. The Sky Fortress receives a +33% Combat Bonus against siege units and ignores terrain costs in rough terrain. The Sky Fortress can enter Coast tiles without having to embark and receives a weak ranged attack when attacking from the Coast. Unlike the Airship, the Sky Fortress can enter Mountain tiles, but takes 50 damage if if it ends the turn on a Mountain tile. The Sky Fortress cannot capture cities and requires a source of [ICON_RES_OIL] Oil to be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_UNIT_SKY_FORTRESS_HELP">
+			<Text>Modern Era hover unit that specializes in defeating seige units. Ignores terrain costs and can enter Mountain and Coast tiles without embarking. Receives a weak ranged attack when attacking from the Coast. Cannot capture cities. Requires a source of [ICON_RES_OIL] Coal to be built.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Helicopter Gunship
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_MOD_UNIT_HELICOPTER_GUNSHIP_STRATEGY">
+			<Text>The Helicopter Gunship is the last available hover unit. The Helicopter Gunship receives a +50% Combat Bonus against armor units and ignores terrain costs in rough terrain. The Helicopter Gunship provides adjacent friendly melee, ranged and gunpowder units with a +25% Defense Bonus. The Helicopter Gunship can enter Coast tiles without having to embark and receives a weak ranged attack when attacking from the Coast. The Helicopter Gunship can enter Mountain tiles, but takes 50 damage if if it ends the turn on a Mountain tile. The Helicopter Gunship cannot capture cities and requires a source of [ICON_RES_ALUMINUM] Aluminum to be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_UNIT_HELICOPTER_GUNSHIP_HELP">
+			<Text>Last Atomic Era hover unit that specializes in defeating armor units. Provides adjacent friendly melee, ranged and gunpowder units with a defense bonus. Ignores terrain costs and can enter Mountain and Coast tiles without embarking. Receives a weak ranged attack when attacking from the Coast. Cannot capture cities. Requires a source of [ICON_RES_ALUMINUM] Aluminum to be built.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Promotions
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_SIEGE">
+			<Text>Combat Bonus vs Siege (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_SIEGE_HELP">
+			<Text>+33% Combat Bonus against siege units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INFERNAL_MOVEMENT_I">
+			<Text>Hover I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INFERNAL_MOVEMENT_I_HELP">
+			<Text>Ignores terrain costs. Can enter Coast tiles without embarking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INFERNAL_MOVEMENT_II">
+			<Text>Hover II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INFERNAL_MOVEMENT_II_HELP">
+			<Text>Ignores terrain costs. Can enter Coast tiles without embarking. Can enter Mountain tiles, but takes 50 damage if if it ends the turn on a Mountain tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEEPWATER_EMBARKATION">
+			<Text>Ocean Embarkation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEEPWATER_EMBARKATION_HELP">
+			<Text>Can embark and enter Ocean tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION">
+			<Text>Ocean Embarkation with Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION_HELP">
+			<Text>Can embark and enter Ocean tiles. Receives a +100% Defense Bonus while embarked.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CLOSE_AIR_SUPPORT">
+			<Text>Close Air Support</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CLOSE_AIR_SUPPORT_HELP">
+			<Text>Adjacent friendly melee, ranged and gunpowder units receive a +25% Defense Bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CLOSE_AIR_SUPPORT_DEFENSE">
+			<Text>Covering Fire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CLOSE_AIR_SUPPORT_DEFENSE_HELP">
+			<Text>+25% Defense Bonus.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--EGYPT-->
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_1">
+			<Text>Pi-Ramesses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_2">
+			<Text>Pithom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_3">
+			<Text>Abu Simbel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_4">
+			<Text>Thebes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_5">
+			<Text>Memphis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_6">
+			<Text>Heliopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_7">
+			<Text>Kadesh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_8">
+			<Text>Megiddo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_9">
+			<Text>Riblah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_10">
+			<Text>Karnak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_11">
+			<Text>Jerusalem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_12">
+			<Text>Damascus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_13">
+			<Text>Tunip</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_14">
+			<Text>Aswan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_15">
+			<Text>Jericho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_16">
+			<Text>Upi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_17">
+			<Text>Bubastis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_18">
+			<Text>Khmun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_19">
+			<Text>Sais</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_20">
+			<Text>Avaris</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_21">
+			<Text>Byblos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_22">
+			<Text>Sebennytus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_23">
+			<Text>Lisht</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_24">
+			<Text>Tyre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_25">
+			<Text>Gaza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_26">
+			<Text>Hesbon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_27">
+			<Text>Noph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_28">
+			<Text>Napata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_EGYPT_RAMESSES_29">
+			<Text>Abydos</Text>
+		</Row>
+		<!--WORKS OF OZYMANDIUS-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_EGYPT_RAMESSES_SHORT">
+			<Text>Works of Ozymandius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_EGYPT_RAMESSES">
+			<Text>Upon conquering an enemy city for the first time, hurry [ICON_PRODUCTION] Production in each of your cities. +33% [ICON_PRODUCTION] Production when building ranged and siege units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_EGYPT_RAMESSES_DESC">
+			<Text>JFD: Ramesses Construction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_EGYPT_RAMESSES_HELP">
+			<Text>+33% [ICON_PRODUCTION] Production when buidling ranged and siege units.</Text>
+		</Row>
+		<!--WAR CHARIOT-->
+		<Row Tag="TXT_KEY_UNIT_JFD_WAR_CHARIOT_HELP">
+			<Text>Powerful Ancient Era mounted ranged unit that does not require a source of [ICON_RES_HORSE] Horses to be built. Only Ramses' Egypt may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_WAR_CHARIOT_STRATEGY">
+			<Text>The War Chariot is the unique unit for Ramses' Egypt, replacing the Chariot Archer. Stronger and faster than the Chariot Archer, the War Chariot does not require a source of [ICON_RES_HORSE] Horses to be built.</Text>
+		</Row>
+		<!--NILOMETER-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_NILOMETER">
+			<Text>Nilometer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_NILOMETER_HELP">
+			<Text>Each worked Flood Plains tile provides +1 [ICON_GOLD] Gold. Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]City must be next to a River.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_NILOMETER_STRATEGY">
+			<Text>The Nilometer is the unique building for Ramses' Egypt, replacing the Watermill. The Nilometer is available at Calendar and increases the [ICON_FOOD] Food, [ICON_PRODUCTION] Production and [ICON_GOLD] Gold output of this city. The Nilometer has no maintenance cost. Can only be built if this city is next to a River.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

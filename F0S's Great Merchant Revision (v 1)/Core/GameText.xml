@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						Merchant Trade Dummy
+		------------------------------------------------------------------>
+		<Replace Tag="TXT_KEY_IMPROVEMENT_CUSTOMS_HOUSE">
+			<Text>Estate</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_CUSTOMS_HOUSE_TEXT">
+			<Text>An Estate is a type of rural residence, often big, expensive and lavishly decorated. As a seat of the local noble, an estate was a measure of his, or hers, personal wealth and social standing. An estate would often also encompass large swathes of arable land, meadows and pastures. Produce and livestock from those lands was the primary source of income for the estate. The richest magnates often employed private armies to secure their possessions against outside raids - or even against royal forces, if a noble was at odds with the king.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILD_CUSTOMS_HOUSE">
+			<Text>Construct an Estate</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY">
+			<Text>A Great Merchant may be expended inside a city to construct a Customs House building, which provides an additional trade route as well as a free Caravan, or outside a city to construct an Estate improvement, which provides a significant amount of [ICON_GOLD] Gold when worked. Alternatively, a Great Merchant may be expended within a City-State's borders to perform a Trade Mission, significantly increasing your [ICON_INFLUENCE] Influence with that City-State and generating a large amount of [ICON_GOLD] Gold.</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_BUILDING_F0S_MERCHANT_TRADE_DUMMY">
+			<Text>Customs House</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_MERCHANT_TRADE_DUMMY_HELP">
+			<Text>Provides an additional trade route. A free Caravan appears outside this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_DUMMY_TRADE">
+			<Text>Construct a Customs House</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_DUMMY_TRADE_HELP">
+			<Text>Expend this unit to construct a Customs House building in this city, which provides an additional trade route as well as a free Caravan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_DUMMY_TRADE_DISABLED_HELP">
+			<Text>[NEWLINE][COLOR_WARNING_TEXT]This unit must be stationed in a friendly city that does not already contain a Customs House to use this ability.[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

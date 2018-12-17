@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d7dd7dff-1db3-4a16-9f55-5d92c6d3fed6" version="2">
+  <Properties>
+    <Name>Hypereon's Second French Empire - Napoleon III</Name>
+    <Teaser>Adds the Second French Empire with Napoleon III as its leader!</Teaser>
+    <Description>Destined to be emperor since young age, Louis-Napoleon Bonaparte was elected as France's first president in 1848, after the tempests of the Spring of Nations had dethroned the Bourbons once and for all. Through cunning diplomatic maneuvring, he took the throne of emperor in 1852, thus reigning the Second French Empire as Napoleon III. After a period of harsh censorship and repression, his reforms and public work projects brought industrial revolution into France, modernized its banking system, consolidated its railroads, brought end to famines and reconstructed its greatest cities with a glory never seen before - earning his regime the title 'Liberal Empire'. Napoleon III's reassertion of the French power would eventually fail, first in Mexico, then in Europe, as the growing power of unifying Germany caused the downfall of the empire and its emperor; France's first democratic president - and its last autocratic monarch.</Description>
+    <Authors>Hypereon</Authors>
+    <SpecialThanks>Janboruta, JFD, sukritact, bernie14</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="F457CEF1A87DBF763A21D6085EEB28F2" import="1">Art/IconAtlases/Hypereon_SecondFranceAlphaAtlas_128.dds</File>
+    <File md5="7865C3679491BEB5841EA917A813AE19" import="1">Art/IconAtlases/Hypereon_SecondFranceAlphaAtlas_16.dds</File>
+    <File md5="943EAF64983FD4264EA6C2E268CFBA7F" import="1">Art/IconAtlases/Hypereon_SecondFranceAlphaAtlas_24.dds</File>
+    <File md5="E0903149D70043A98D0D132E79275C02" import="1">Art/IconAtlases/Hypereon_SecondFranceAlphaAtlas_256.dds</File>
+    <File md5="8FAC85BDCF7E5F94138E3C602AC1993B" import="1">Art/IconAtlases/Hypereon_SecondFranceAlphaAtlas_32.dds</File>
+    <File md5="945CD4973BC36B73C77CDA6AD906D43E" import="1">Art/IconAtlases/Hypereon_SecondFranceAlphaAtlas_48.dds</File>
+    <File md5="803AE762E7DC4C3D6112CC07BA463600" import="1">Art/IconAtlases/Hypereon_SecondFranceAlphaAtlas_64.dds</File>
+    <File md5="9E7C7CB62E8930A6BB026A390FB87876" import="1">Art/IconAtlases/Hypereon_SecondFranceAlphaAtlas_80.dds</File>
+    <File md5="51A4D738C63D2B058A28ED8DE4D378F6" import="1">Art/IconAtlases/Hypereon_SecondFranceAtlas_128.dds</File>
+    <File md5="8B86DFC7BCA79AD399B6E7DC7A4AEA02" import="1">Art/IconAtlases/Hypereon_SecondFranceAtlas_256.dds</File>
+    <File md5="2FD2F6C83838CA92EEB5F1CAE2D008E3" import="1">Art/IconAtlases/Hypereon_SecondFranceAtlas_32.dds</File>
+    <File md5="15A238C7B1D1AC893DB75855F50B74D7" import="1">Art/IconAtlases/Hypereon_SecondFranceAtlas_45.dds</File>
+    <File md5="A72349DC2AEE6A60B9D648AE73A58819" import="1">Art/IconAtlases/Hypereon_SecondFranceAtlas_64.dds</File>
+    <File md5="339409F83EAD64515EF72DA867A3B897" import="1">Art/IconAtlases/Hypereon_SecondFranceAtlas_80.dds</File>
+    <File md5="915C4E100DF2883E01F65B66A6AB6574" import="1">Art/Leader/NapoleonIII_Scene.xml</File>
+    <File md5="A5C1C4964D16017DCE0AB0F77C726F50" import="1">Art/Leader/MapNapoleonIII512.dds</File>
+    <File md5="6B5CE07C6999CBEB81CF9013867B0D33" import="1">Art/Leader/NapoleonIII_Diplo.dds</File>
+    <File md5="274EEFBD1F0C9C26C766108E6ED55063" import="1">Art/Leader/NapoleonIII_DOM.dds</File>
+    <File md5="547484949CFAB383AC779D2DFCD741AE" import="1">Art/Units/NapoleonIII_ZouaveUnitFlag_32.dds</File>
+    <File md5="EE603C038ED02942183200BB39B49E54" import="1">Art/Units/sv_Zouave_128.dds</File>
+    <File md5="691FA43F3477E77B56D6EC0BAE5FE110" import="1">Art/Units/sv_Zouave_256.dds</File>
+    <File md5="E42929403FF1B284CA97CDF6E68E7CF0" import="1">Art/Units/zouave.blend</File>
+    <File md5="4AD8B317B500B0FB0D3546D1DAF6B2B2" import="1">Art/Units/zouave.dds</File>
+    <File md5="3AA3F639E2C5FEDC1D5329DDB26D1152" import="1">Art/Units/zouave.fbx</File>
+    <File md5="5A268BC4D902CA0C561A6487EE3A9B33" import="1">Art/Units/zouave.fxsxml</File>
+    <File md5="4278C8BA83F80D4FB73B6565CB380694" import="1">Art/Units/zouave.gr2</File>
+    <File md5="D9FB32CF2A2C01BBAD84A13CE6D1E7E4" import="1">Art/Units/zouave2.blend</File>
+    <File md5="FC2BF06E0F59CBB5189E5CDFE007EAD4" import="1">Art/Units/zouave2.dds</File>
+    <File md5="30BFA462AC16D21BEE45F083C118E61A" import="1">Art/Units/zouave2.fbx</File>
+    <File md5="7EED445A203C922F29A7DFF861A849AE" import="1">Art/Units/zouave2.fxsxml</File>
+    <File md5="3C7D5CBD7578B88547E2EA02CB859777" import="1">Art/Units/zouave2.gr2</File>
+    <File md5="E896F3F91774DF206B1A1A0CEF0B629D" import="1">Art/Units/zouave2_sref.dds</File>
+    <File md5="837755F92DB1B8C3B42391CF06532629" import="1">Art/Units/zouave3.dds</File>
+    <File md5="FCDB29D2C958CE676057F97B90F31FC2" import="1">Art/Units/zouave3.fxsxml</File>
+    <File md5="CF5BD97F0C66B05B6572060F420ED97D" import="1">Art/Units/zouave3.gr2</File>
+    <File md5="72D22606961EF081FA0052C0D2650E0F" import="1">Art/Units/zouave_sref.dds</File>
+    <File md5="ABFF2D909CE9E45AAED4F9B10DFB9B4A" import="1">Audio/AudioWonderHaussmann.mp3</File>
+    <File md5="EC766BDE78B3924C00CBA04593BC0405" import="1">Audio/HypereonOffenbach.mp3</File>
+    <File md5="B4377EBC4CEDD3418656ADCF0917179D" import="1">Audio/HypereonSaintSaens.mp3</File>
+    <File md5="6D2128685C5384C299EB25190F0406C4" import="1">Audio/LouisNapoleon_Ambience.mp3</File>
+    <File md5="E749BF87D63B03CD02D4EB40AEAFCA7E" import="1">Audio/LouisNapoleon_Peace.mp3</File>
+    <File md5="C6EEE48204EBEE2A0EF5532F94D43BF6" import="1">Audio/LouisNapoleon_War.mp3</File>
+    <File md5="680D017CD7D3B3F4FBA03999C5B99857" import="0">Code/Hypereon_SecondFrance_GameDefines.sql</File>
+    <File md5="E4204BD8E5B818FB49AF16957B70E489" import="0">Code/Hypereon_SecondFrance_GameText.xml</File>
+    <File md5="298E94D0A4C908247FA2C0C76DC963BD" import="0">Code/Hypereon_SecondFrance_ArtDefines.sql</File>
+    <File md5="1A893A3046FFA0EB49AE91ED3F01FE07" import="0">Code/Hypereon_SecondFrance_Diplomacy.sql</File>
+    <File md5="85109A719676237EC762581DCDC1F8FA" import="0">Code/Hypereon_SecondFrance_GameText_Diplomacy.xml</File>
+    <File md5="09BECCA712786D87FF3429C9B9F37665" import="0">Lua/Hypereon_SecondFrenchFunctions.lua</File>
+    <File md5="2297E5454ADB350F79D37075856FF6D6" import="1">Lua/UniqueDiplomacyUtils.lua</File>
+    <File md5="2297E5454ADB350F79D37075856FF6D6" import="1">Lua/Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Leader/NapoleonIII_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Hypereon_SecondFrance_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Code/Hypereon_SecondFrance_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Code/Hypereon_SecondFrance_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Hypereon_SecondFrance_GameText_Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Hypereon_SecondFrance_Diplomacy.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Hypereon_SecondFrenchFunctions.lua">
+      <Name>SecondFrenchFunctions</Name>
+      <Description>SecondFrenchFunctions</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c6ea60cf-6bcd-4b67-b82e-8d879022e175" version="5">
+  <Properties>
+    <Name>JFD's The Kingdom of Norway</Name>
+    <Teaser>Adds the Kingdom of Norway civilization led by Haakon Haakonsson to the game.</Teaser>
+    <Description>Adds the Kingdom of Norway civilization to the game. Requires Denmark.</Description>
+    <Authors>JFD, Janboruta</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=474393</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="B3030D39-C0D8-4bc7-91B1-7AD1CAF585AB" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="096A0CCD4F8D33507CDB26CB27E516A2" import="0">Art/ArtDefines.sql</File>
+    <File md5="E158E51A4FC69AA2DDA5A504596D9247" import="1">Art/Graphics/sv_Birkebeiner.dds</File>
+    <File md5="BB545A420D5FC205DAE87BCCD78C622F" import="1">Art/Icon Atlas/JFD_NorwayAlphaAtlas_128.dds</File>
+    <File md5="DEB557374E0ADFF9D5E4D48AB785D988" import="1">Art/Icon Atlas/JFD_NorwayAlphaAtlas_16.dds</File>
+    <File md5="3D2A2555E9A78ED770ECD37873FA98BE" import="1">Art/Icon Atlas/JFD_NorwayAlphaAtlas_24.dds</File>
+    <File md5="2463C97CBFE21E9901E0B79B8A388268" import="1">Art/Icon Atlas/JFD_NorwayAlphaAtlas_32.dds</File>
+    <File md5="249BA151D140F79F9ECC21530507A76E" import="1">Art/Icon Atlas/JFD_NorwayAlphaAtlas_45.dds</File>
+    <File md5="9E81CB62B4EA9BC4B8D697B327E2706F" import="1">Art/Icon Atlas/JFD_NorwayAlphaAtlas_48.dds</File>
+    <File md5="70EC06CBC7CE390F059F73E4AEA8222E" import="1">Art/Icon Atlas/JFD_NorwayAlphaAtlas_64.dds</File>
+    <File md5="C8DFEECB98AC81563625DB33EC93024E" import="1">Art/Icon Atlas/JFD_NorwayAlphaAtlas_80.dds</File>
+    <File md5="10833864E6E0970FB6225EA43BB563C2" import="1">Art/Icon Atlas/Unit_Birkebeiner_Flag_32.dds</File>
+    <File md5="7FD67378DF731506F12944EB4788FB20" import="1">Art/Icon Atlas/JFD_NorwayAtlas_128.dds</File>
+    <File md5="1AEC499D51A8B500C893F6986EBBB6A0" import="1">Art/Icon Atlas/JFD_NorwayAtlas_256.dds</File>
+    <File md5="35427CBE85CB8DB7063CBC33DF835BDB" import="1">Art/Icon Atlas/JFD_NorwayAtlas_32.dds</File>
+    <File md5="5726D1DF27277600CCE446DEE19B87BE" import="1">Art/Icon Atlas/JFD_NorwayAtlas_45.dds</File>
+    <File md5="89010C9CEAF9544C2DC9A0F8D4555E3B" import="1">Art/Icon Atlas/JFD_NorwayAtlas_64.dds</File>
+    <File md5="D6814D6E7D6447C9BD5CFC00B58EC264" import="1">Art/Icon Atlas/JFD_NorwayAtlas_80.dds</File>
+    <File md5="42599C3E18FB256348F3C1100B40F451" import="1">Art/Leaderscene/Haakon_Diplo.dds</File>
+    <File md5="EB8B29D36C1ECB2F16C34E9C3717F277" import="1">Art/Leaderscene/Haakon_Scene.xml</File>
+    <File md5="1753D86AA0F99C7BE0F58AAB4AAF74A5" import="1">Art/Map/Haakon_DOM.dds</File>
+    <File md5="8684F1C2B8F526ABE9B9B5A5DB496A39" import="1">Art/Map/NorwayMap512.dds</File>
+    <File md5="E46E2B7839E7AA0E9626B72582E2040B" import="0">Audio/Audio.sql</File>
+    <File md5="373746520BD7CF086A41166AB3E51113" import="1">Audio/Haakon_Peace.mp3</File>
+    <File md5="65A62C44D856F8A672914750E40A2B7C" import="1">Audio/Haakon_War.mp3</File>
+    <File md5="FA9052AFEE3F40844D88DA2B466FD5C8" import="0">Core/Buildings.sql</File>
+    <File md5="7AFEE83CB652ED783130B9419ED71243" import="0">Core/Civilization.sql</File>
+    <File md5="5388E36040A49DD14BEA3D028E59683B" import="0">Core/Diplomacy.sql</File>
+    <File md5="5388E36040A49DD14BEA3D028E59683B" import="0">Core/Diplomacy.xml</File>
+    <File md5="E379C3DAF2BF127EA3B207DD1F1E2E22" import="0">Core/GameText.xml</File>
+    <File md5="A1520FF6ABC4CBCCBC396BBCF9305DF7" import="0">Core/Leaderhead.sql</File>
+    <File md5="4569130312890CB13B2F16054A125011" import="0">Core/PlayerColours.sql</File>
+    <File md5="0DDCC3DD1DA2363E128A7C8545F64F32" import="0">Core/Promotions.sql</File>
+    <File md5="BB4DD5EAAA0E7A6EC552BFC615B56C96" import="0">Core/Traits.sql</File>
+    <File md5="D76B39C8A81CFA4C27550BD210CEBAF0" import="0">Core/Units.sql</File>
+    <File md5="6BA87CDEFC253523F1A643A05F90C008" import="0">Lua/JFD_NorwayFunctions.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/Utilities/PlotIterators.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Audio/Audio.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilization.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_NorwayFunctions.lua">
+      <Name>JFD_NorwayFunctions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

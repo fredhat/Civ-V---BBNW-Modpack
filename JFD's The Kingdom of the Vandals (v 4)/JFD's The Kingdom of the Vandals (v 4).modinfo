@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="975ffe33-ab4f-4668-8058-92dd836fe746" version="4">
+  <Properties>
+    <Name>JFD's The Kingdom of the Vandals</Name>
+    <Teaser>Adds the Vandals civilization led by Genseric to the game.</Teaser>
+    <Description>Adds the Vandals civilization to the game.</Description>
+    <Authors>JFDaly</Authors>
+    <SpecialThanks>janboruta, F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=474393</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="995A65304B293B118AD335890EC3DDFB" import="0">Art/ArtDefines.sql</File>
+    <File md5="2EA5DF1398467DA1337BD871FFBBD87D" import="1">Art/Diplomacy/Genseric_Diplo.dds</File>
+    <File md5="C3589BE11A7C2380F91ABCDA8CEDD83E" import="1">Art/Diplomacy/Genseric_Scene.xml</File>
+    <File md5="552E266922EC7A41515FE68FD2499AD0" import="1">Art/Graphics/GermanHvyAxe.dds</File>
+    <File md5="52859C6428B7CD08B3BE3A50F6254207" import="1">Art/Graphics/GermanHvyAxe.fbx</File>
+    <File md5="589D567050CE7554A525042E0CEDEB62" import="1">Art/Graphics/GermanHvyAxe.fxsxml</File>
+    <File md5="34FF914452D7E2673E5EAA1DB603F691" import="1">Art/Graphics/GermanHvyAxe.gr2</File>
+    <File md5="5E6A90E04FE8326229C3261BB0A490A3" import="1">Art/Graphics/GermanHvyAxe_sref.dds</File>
+    <File md5="131D0E9C5539F9420CCCDD82AFDE2BE3" import="1">Art/Graphics/sv_Axeman.dds</File>
+    <File md5="B89C92E39C095F580B2F8D15228EFC2B" import="1">Art/Icon Atlas/Unit_Axeman_Flag_32.dds</File>
+    <File md5="BCC85F4FB4D079894AB087257D16A52C" import="1">Art/Icon Atlas/JFD_VandalsAlphaAtlas_128.dds</File>
+    <File md5="A5382E305E86D9021AC9F8F0AF3A72B5" import="1">Art/Icon Atlas/JFD_VandalsAlphaAtlas_16.dds</File>
+    <File md5="12156AF50F3AC775AD1E29F14F7FA263" import="1">Art/Icon Atlas/JFD_VandalsAlphaAtlas_24.dds</File>
+    <File md5="CBC6198EDF9D49AEF084CDF003F8ADDE" import="1">Art/Icon Atlas/JFD_VandalsAlphaAtlas_32.dds</File>
+    <File md5="96B160F9C3EA42066E68A57B2564F03A" import="1">Art/Icon Atlas/JFD_VandalsAlphaAtlas_45.dds</File>
+    <File md5="033F9B088A5C6EE85D29D3538713CAEA" import="1">Art/Icon Atlas/JFD_VandalsAlphaAtlas_48.dds</File>
+    <File md5="DE2025DB53D270DBC1ADF559C0A8FACE" import="1">Art/Icon Atlas/JFD_VandalsAlphaAtlas_64.dds</File>
+    <File md5="61121A8CC90FF671C5BCAC1EBD965E98" import="1">Art/Icon Atlas/JFD_VandalsAlphaAtlas_80.dds</File>
+    <File md5="1E09AD36CFF1C8E0CB1B15D6D5437A45" import="1">Art/Icon Atlas/JFD_VandalsAtlas_128.dds</File>
+    <File md5="E4411F63CC50CAC8457EF2EFB5D63E53" import="1">Art/Icon Atlas/JFD_VandalsAtlas_256.dds</File>
+    <File md5="786803D21974497C0D685613097164A2" import="1">Art/Icon Atlas/JFD_VandalsAtlas_32.dds</File>
+    <File md5="011770EBC730FF7A33F3ABE571518554" import="1">Art/Icon Atlas/JFD_VandalsAtlas_45.dds</File>
+    <File md5="5A2C3EBBD8374799C6BDB8E8A8EBA164" import="1">Art/Icon Atlas/JFD_VandalsAtlas_64.dds</File>
+    <File md5="4BAC148697CD43284FD323C54FB6E6CD" import="1">Art/Icon Atlas/JFD_VandalsAtlas_80.dds</File>
+    <File md5="13C9B9009772EA7396F210D9736B91C4" import="1">Art/Map/Genseric_DOM.dds</File>
+    <File md5="61122916A6679D2CE0A12C8B6B4B2992" import="1">Art/Map/VandalsMap512.dds</File>
+    <File md5="675F2C4551374406396FF523DA17DA41" import="0">Audio/Audio.sql</File>
+    <File md5="3F357755C94843453F6DA5482D9B2F58" import="1">Audio/Genseric_Peace.mp3</File>
+    <File md5="5421E0395E3B90169F9C6327093BB308" import="1">Audio/Genseric_War.mp3</File>
+    <File md5="86A4DB0631AA6558FAAC51C6E3D4E0E2" import="0">Core/Civilization.sql</File>
+    <File md5="10AACDA91EC4E10C9D78AF31F593E93F" import="0">Core/Diplomacy.sql</File>
+    <File md5="D8306FB7557EC1A6E0EBA28E6873909A" import="0">Core/GameText.xml</File>
+    <File md5="BC053999F679EFDD700D4099A2A13059" import="0">Core/Leaderhead.sql</File>
+    <File md5="FAFFA740C01C78774C22B591C0ECF6B7" import="0">Core/PlayerColours.sql</File>
+    <File md5="0F171AD082BB4E415F6A3841A6625D6A" import="0">Core/Traits.sql</File>
+    <File md5="C523934CEB16E3753841627CC82913E5" import="0">Core/Units.sql</File>
+    <File md5="C8DBE52688616E5BDB68ED66D8D79842" import="0">Lua/JFD_Ottoman_Functions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilization.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+      <UpdateDatabase>Audio/Audio.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Ottoman_Functions.lua">
+      <Name>JFD Ottoman Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

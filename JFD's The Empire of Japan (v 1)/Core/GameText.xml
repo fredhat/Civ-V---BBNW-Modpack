@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/4/2014 8:45:16 AM -->
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						Tojo
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO">
+			<Text>Tojo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_TOJO_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_TOJO_TEXT_1">
+			<Text>Hideki Tojo was a general of the Imperial Japanese Army (IJA), the leader of the Imperial Rule Assistance Association, and the 40th Prime Minister of Japan during most of World War II, from October 17, 1941 to July 22, 1944. As Prime Minister, he was directly responsible for the attack on Pearl Harbor, which initiated war between Japan and the United States, although planning for it had begun before he entered office. After the end of the war, Tojo was arrested, sentenced to death for Japanese war crimes by the International Military Tribunal for the Far East, and was hanged on December 23, 1948.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_TOJO_LIVED">
+			<Text>1884 - 1948 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_TOJO_NAME">
+			<Text>Tojo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_TOJO_SUBTITLE">
+			<Text>Prime Minister of the Empire of Japan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_TOJO_TITLES_1">
+			<Text>Prime Minister of the Empire of Japan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_TOJO_DAWN">
+			<Text>Hideki Tojo, by the grace of His Imperial Majesty, Prime Minister to Japan and Her imperial possessions, you stand at the charge of the burgeoning war machine of the Japanese Empire. At the turn of the 20th century, the Empire of Japan had rapidly become an industrial and military behemoth, and she sought power and prestige like that beheld by the powers of the West. Under your directive, Japan would wage war upon her classical enemies in China and South-East Asia, seeking the hegemony of the Pacific coast. But this would culminate into a confrontation against the United States of America, which would lead to the Empire's most terrible loss, and your most terrible shame.[NEWLINE][NEWLINE]Dutiful Tojo, the forces of Japan once again stand in obediance to the Chrysanthemum Throne. Though Japan's foes are many, her powers are great, and her desire for glory and honour supreme. Can you take charge and lead her Imperial forces once more? Can you, in service to the honour of your Emperor, raise Japan to the heights of power far beyond that beheld in the West? Can you build a civilisation that will stand the test of time?</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Diplomacy
+		------------------------------------------------------------------>
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_FIRSTGREETING_1">
+			<Text>I am Hideki Tojo, Prime Minister of the Empire of Japan, and you are entering a sacred territory. You would do well to honour the distance between our two nations.</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_DEFEATED_1">
+			<Text>This brings to me great shame, and to the Empire great humilitation.</Text>
+		</Row>
+		<!-- Human repeats an action too much, gets the following responses -->
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_REPEAT_TOO_MUCH_1">
+			<Text>I would not like to speak with you any further.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_REPEAT_TRADE_TOO_MUCH_1">
+			<Text>This deal will not be made.</Text>
+		</Row>
+		<!-- Greetings -->
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_GREETING_HOSTILE_HELLO_1">
+			<Text>If we must speak, then let us do so quickly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_GREETING_POLITE_HELLO_1">
+			<Text>Greetings to you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>I have carefully noted your poor performance in the face of war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_GREETING_HUMAN_AT_WAR_1">
+			<Text>I would wish you luck in your current conflict, but if one day we are fated to be enemies, then I should regret for having done as much</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_GREETING_FRIENDLY_STRONG_MILITARY_1">
+			<Text>You have a powerful military. One day, I to share in your standards.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_GREETING_FRIENDLY_STRONG_ECONOMY_1">
+			<Text>Your economy is very powerful. I would be remiss to not make use of it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_GREETING_HOSTILE_HUMAN_FEW_CITIES_1">
+			<Text>I would greet you as an equal, if it were true. But your empire is in no shape to be presumed as much.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_GREETING_HOSTILE_HUMAN_SMALL_ARMY_1">
+			<Text>It is disheartening that you possess such a small army that no possible honour could be attained from defeating it. Oh well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>Your war crimes are legendary. One day, I should like to bring you to justice, for it is clear you have not that honour yourself.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_TOO_SOON_FOR_DOF_1">
+			<Text>No. This would bring much disquiet to my emperor and I would not accept such a thing without his grace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_DENOUNCE_1">
+			<Text>There is no greater dishonour found in all the earth than that which sits in your heart. The Empire of Japan shall have nothing to do with it.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>You have caused great shame and dishonour upon that which you dare call your sovereign empire. The Empire of Japan shall not forgive this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_HUMAN_DOFED_FRIEND_1">
+			<Text>I am pleased that you have made your feelings known toward {1_CivName}. The Empire of Japan is already on good terms with them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_HUMAN_DOFED_ENEMY_1">
+			<Text>{1_CivName} is a dishonourable land and I would caution you to tread carefully in your dealings with them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>Your recent denunciation of {1_CivName} has given me much to reconsider of our relationship, for clearly you are without honour.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>It is good that you have the honour to denounce {1_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_HUMAN_DOF_SO_AI_DOF_1">
+			<Text>Being on such good terms, I couldn't help but notice that you'd become friends with {1_CivName}. I have done the same. Perhaps this makeshift alliance will lead to great things in the future?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_HUMAN_DOF_SO_AI_DENOUNCE_1">
+			<Text>You have made a dishonourable relationship with {1_CivName} known and this shall come at a cost to your relationship with the Empire of Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_HUMAN_DENOUNCE_SO_AI_DENOUNCE_1">
+			<Text>I share your convictions that {1_CivName} only causes problems for the civilized empires of the world. Perhaps the combination of our denouncements will teach them a lesson.</Text>
+		</Row>
+		<!-- General Diplo Text -->
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_COOP_WAR_REQUEST_1">
+			<Text>War is coming to {1_PlayerName:textkey}, and I would ask whether we are fated to be friends or enemies in this coming war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_COOP_WAR_TIME_1">
+			<Text>War comes for {1_PlayerName:textkey}. Do not shame yourself by dishonouring our agreement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_DEC_FRIENDSHIP_1">
+			<Text>A declaration of friendship shall do us well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>I will not fear you. Come at this empire with your armies, and I shall respond in kind.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_PLOT_BUYING_WARNING_1">
+			<Text>Your purchase of land in my vicinity has caused some alarm. I caution you so that this issue does not become more serious.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>The aggressive manner in which you buy up territory near us is an insult. I had hoped you would be a better neighbor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_EXPANSION_WARNING">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_RETURNED_CIVILIAN_1">
+			<Text>I thank you on behalf of the Empire of Japan.</Text>
+		</Row>
+		<!--Public Declarations-->
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_DECLARATION_PROTECT_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} announces to the world that it is now protecting {1_MinorCivName:textkey}. Attacking the City-State will greatly damage relations and may lead to war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_DECLARATION_ABANDON_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} has taken back its guarantee of protecting {1_MinorCivName:textkey}.</Text>
+		</Row>
+		<!-- Human is asking the AI for something -->
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_DONT_SETTLE_NO_1">
+			<Text>I bow to only the commands of my sovereign emperor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_DONT_SETTLE_YES_1">
+			<Text>I shall accept this warning.</Text>
+		</Row>
+		<!--Deal Offers and related-->
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_LUXURY_TRADE_1">
+			<Text>The Empire of Japan would like to make a deal with you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_OPEN_BORDERS_EXCHANGE_1">
+			<Text>On behalf of His Majesty, I open the borders of the ancient lands of Japan to you. If you would do the same.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_RESPONSE_REQUEST_1">
+			<Text>I appeal to your sense of honour in this time of great need.</Text>
+		</Row>
+		<!--AI Attacked by Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_ATTACKED_HOSTILE_1">
+			<Text>We are prepared.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_ATTACKED_EXCITED_1">
+			<Text>We are prepared.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_ATTACKED_SAD_1">
+			<Text>You shame yourself deeply.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_ATTACKED_BETRAYED_1">
+			<Text>You shame yourself deeply.</Text>
+		</Row>
+		<!--AI Declaring War on Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_DOW_GENERIC_1">
+			<Text>Our proximity has fated us to be enemies. It is time for war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_DOW_LAND_1">
+			<Text>Our proximity has fated us to be enemies. It is time for war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_DOW_WORLD_CONQUEST_1">
+			<Text>I appeal to the arms of the Japanese navy to seek what we have been forced to seek, and that is war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_DOW_OPPORTUNITY_1">
+			<Text>While I have this opportunity, I should point out that I am declaring war upon you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_DOW_DESPERATE_1">
+			<Text>It is not out of foolishness that I wage this war, but out of honour, and love for my country and for my Emperor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_DOW_BETRAYAL_1">
+			<Text>Our proximity has fated us to be enemies. It is time for war.</Text>
+		</Row>
+		<!--AI Responses to a human peace offer-->
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_TOO_SOON_NO_PEACE_1">
+			<Text>We Japanese never bow to this shame of surrender.</Text>
+		</Row>
+		<!--AI Responses to a discussion mode topics-->
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_BAD_1">
+			<Text>This will come at a cost to your relationship with the Empire of Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_TOJO_GOOD_1">
+			<Text>This is good news to me.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Nippon Kaigun
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_JFD_JAPAN_TOJO">
+			<Text>Earn [ICON_RESEARCH] Science from defeating enemy naval units and from acquiring Coast and Ocean tiles. Garrisoned military naval units increase [ICON_CULTURE] Cultural border growth in coastal cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_JAPAN_TOJO_SHORT">
+			<Text>Nippon Kaigun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_TOJO_PUPPET_DUMMY">
+			<Text>JFD: Tojo Puppet Building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_TOJO_PUPPET_DUMMY_HELP">
+			<Text>Increases [ICON_CULTURE] Cultural border growth.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Yamato
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_JFD_YAMATO">
+			<Text>Yamato</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_YAMATO">
+			<Text>Powerful Modern Era naval ranged unit that specializes in attacking cities. The Yamato can carry up to two fighter air units. Only Tojo's Japan may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_YAMATO_STRATEGY">
+			<Text>The Yamato is a unique unit for Tojo's Japan, replacing the Battleship. Slower than the Battleship, the Yamato receives a +100% Attack Bonus against cities and can carry up to two fighter air units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_YAMATO_TEXT">
+			<Text>The Yamato-class battleships were battleships of the Imperial Japanese Navy (IJN) constructed and operated during World War II. Displacing 72,000 long tons (73,000 t) at full load, the vessels were the heaviest and most powerfully armed battleships ever constructed. The class carried the largest naval artillery ever fitted to a warship, nine 460-millimetre (18.1 in) naval guns, each capable of firing 1,360 kg (3,000 lb) shells over 42 km (26 mi). Two battleships of the class (Yamato and Musashi) were completed, while a third (Shinano) was converted to an aircraft carrier during construction.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_YAMATO">
+			<Text>Attack Bonus vs Cities (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_YAMATO_HELP">
+			<Text>+100% Attack Bonus against cities.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Zero
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_ZERO">
+			<Text>Powerful Atomic Era fighter air unit that that operates in a larger area and specializes in defeating hover and air units. Does not require a source of [ICON_RES_OIL] Oil to be built. Only Tojo's Japan may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_ZERO_STRATEGY">
+			<Text>The Zero is a unique unit for Tojo's Japan, replacing the Fighter. Stronger and cheaper than the Fighter, the Zero receives a +33% Combat Bonus against fighter air units as well as a +150% Combat Bonus against hover and bomber air units. Additionally, the Zero starts with the Range promotion, giving it a larger operational range. Unlike the Fighter, the Zero does not require a source of [ICON_RES_OIL] Oil to be built.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Samurai
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_SAMURAI">
+			<Text>Powerful Medieval Era melee unit that earns [ICON_CULTURE] Culture whenever it defeats an enemy unit and specializes in generating Great Generals through combat. Can build Fishing Boats while embarked. Only Nobunaga's Japan may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_SAMURAI_STRATEGY">
+			<Text>The Samurai is the unique unit for Nobunaga's Japan, replacing the Longswordsman. Significantly stronger than the Longswordsman, the Samurai earns [ICON_CULTURE] Culture whenever it defeats an enemy unit and contributes twice as many points toward the generation of Great Generals through combat. Unlike the Longswordsman, the Samurai upgrades into the Rifleman and can build Fishing Boat tile improvements without being expended while embarked.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SAMURAI">
+			<Text>Way of the Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SAMURAI_HELP">
+			<Text>This unit earns [ICON_CULTURE] Culture whenever it defeats an enemy unit.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Dojo
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_BUILDING_HELP_JFD_DOJO">
+			<Text>+15 XP for all military units built in this city. Provides additional XP for land units built in this city equal to 25% of its [ICON_CULTURE] Culture output. This bonus is doubled if this city has a Temple.[NEWLINE][NEWLINE]City must have a Barracks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DOJO">
+			<Text>Dojo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_DOJO_TEXT">
+			<Text>A dojo is a Japanese term which literally means "place of the way". Initially, dojos were adjunct to temples. The term can refer to a formal training place for any of the Japanese do arts but typically it is considered the formal gathering place for students of any Japanese martial arts style to conduct training, examinations and other related encounters.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DOJO_STRATEGY">
+			<Text>The Dojo is the unique building for Nobunaga's Japan, replacing the Armory. The Dojo is available at Metal Casting and provides experience for military units built in this city. The Dojo provides additional experience for land units built in this city based on its [ICON_CULTURE] Culture output, especially if this city contains a Temple. Can only be built if this city contains a Barracks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DOJO">
+			<Text>Place of the Way</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DOJO_HELP">
+			<Text>Started with additional XP.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

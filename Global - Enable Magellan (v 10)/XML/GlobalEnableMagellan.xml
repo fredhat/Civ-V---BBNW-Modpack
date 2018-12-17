@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Defines>
+		<Update>
+			<Where Name="CIRCUMNAVIGATE_FREE_MOVES"/>
+			<Set Value="1"/>
+		</Update>
+	</Defines>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_MAGELLAN_NOTIFICATIONS">
+			<Text>Circumnavigation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAGELLAN_HEAD">
+			<Text>The world is round!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAGELLAN_TEXT_YOU">
+			<Text>Your maps have proven that the world is round. Your naval units receive +1 [ICON_MOVEMENT] Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAGELLAN_TEXT_KNOWN">
+			<Text>{1_LeaderName} of {2_CivName} has proven that the world is round.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAGELLAN_TEXT_UNKNOWN">
+			<Text>An unknown civilization has proven that the world is round.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

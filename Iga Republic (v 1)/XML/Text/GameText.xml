@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!--Kishomon-->
+		<Row Tag="TXT_KEY_TRAIT_KISHOMON_SHORT">
+			<Text>Kishomon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_KISHOMON">
+			<Text>Receive a free [ICON_SPY] Spy upon entering the Medieval Era. Your [ICON_SPY] Spies steal technologies 50% faster. Military land units are invisible until they attack in Forest and Jungle tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CONCEALED">
+			<Text>Concealed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CONCEALED_HELP">
+			<Text>This unit is invisible until it attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KISHOMON">
+			<Text>Intonjutsu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KISHOMON_HELP">
+			<Text>This unit is invisible until it attacks in Forest and Jungle tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_IGA_SPY_DUMMY">
+			<Text>Iga Spy Dummy Building</Text>
+		</Row>
+		<!--Ninja-->
+		<Row Tag="TXT_KEY_UNIT_IGA_NINJA">
+			<Text>Ninja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNIT_IGA_NINJA_TEXT">
+			<Text>A ninja or shinobi was a covert agent or mercenary in feudal Japan. The functions of the ninja included espionage, sabotage, infiltration, assassination and guerrilla warfare. Their covert methods of waging irregular warfare were deemed dishonorable and beneath the samurai, who observed strict rules about honor and combat. The shinobi proper, a specially trained group of spies and mercenaries, appeared in the 15th century during the Sengoku period, but antecedents may have existed as early as the 12th century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IGA_NINJA_STRATEGY">
+			<Text>The Ninja is the Iga unique unit, replacing the scout. The Ninja starts with additional Sight and may withdraw when faced with a melee attack. Unlike the scout, the Ninja may attack enemy units up to one tile away with a short range ranged attack and may enter enemy territory without Open Borders. Upon reaching level 5, the Ninja may found a city on a foreign continent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_IGA_NINJA">
+			<Text>Ancient Era recon unit that starts with additional Sight and can attack enemy units up to one tile away with a short range ranged attack. May withdraw when faced with a melee attack and may enter enemy territory without Open Borders. May found a city on a foreign continent upon reaching level 5. Only the Iga may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NINJA">
+			<Text>Hensojutsu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NINJA_HELP">
+			<Text>May enter enemy territory without Open Borders.</Text>
+		</Row>
+		<!--Kakurezato-->
+		<Row Tag="TXT_KEY_IMPROVEMENT_KAKUREZATO">
+			<Text>Kakurezato</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_KAKUREZATO_TEXT">
+			<Text>A Hidden Village, or Kakurezato, was a remote settlement in Japan during the Senkogu Jidai. Difficult to access or attack, tradition holds that the Kakurezato were the hiding places of the Ninja. It is said that one could visit a Hidden Village by accident, enjoy the warm weather, and receive wonderful hospitality and souvenirs. After leaving, however, the visitors would find themelves unable ever to find their way back to the village.[NEWLINE][NEWLINE]The Kakurezato provides +1 [ICON_PRODUCTION] Production and +1 [ICON_CULTURE] Culture as well as an additional +1 [ICON_CULTURE] Culture for each era passed since its construction. It can only be built on a Forest or Jungle tile and cannot be built adjacent to another Kakurezato. Friendly military land units that start the turn on a Kakurezato receive +2 [ICON_MOVES] Movement and a +50% Attack Bonus and can move after attacking for the next three turns. Only the Iga may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_KAKUREZATO_HELP">
+			<Text>The Kakurezato provides +1 [ICON_PRODUCTION] Production and +1 [ICON_CULTURE] Culture as well as an additional +1 [ICON_CULTURE] Culture for each era passed since its construction. It can only be built on a Forest or Jungle tile and cannot be built adjacent to another Kakurezato. Friendly military land units that start the turn on a Kakurezato receive +2 [ICON_MOVES] Movement and a +50% Attack Bonus and can move after attacking for the next three turns. Only the Iga may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_KAKUREZATO">
+			<Text>Construct a Kakurezato</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_KAKUREZATO_HELP">
+			<Text>The Kakurezato provides [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture as well as additional [ICON_CULTURE] Culture for each era passed since its construction. Friendly military land units that start the turn on a Kakurezato temporarily receive +2 [ICON_MOVES] Movement and a +50% Attack Bonus and can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_KAKUREZATO_REC">
+			<Text>The Kakurezato provides [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture as well as additional [ICON_CULTURE] Culture for each era passed since its construction. Friendly military land units that start the turn on a Kakurezato temporarily receive +2 [ICON_MOVES] Movement and a +50% Attack Bonus and can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KAKUREZATO_BOOST">
+			<Text>Boryaku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KAKUREZATO_BOOST_HELP">
+			<Text>Receives +2 [ICON_MOVES] Movement and a +50% Attack Bonus. Can move after attacking.</Text>
+		</Row>
+		<!--Leader-->
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA">
+			<Text>Momochi Tamba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_PEDIA">
+			<Text>Momochi Tamba is a name commonly associated with one of the three Iga ninja leaders of the Warring States period. He is best known for defying Nobunaga during the rebellions in Iga. Edo period folklore tends to state that he taught Goemon and Kirigakure Saizo.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_FACT_1">
+			<Text>Momochi Tamba is an extremely mysterious figure. He is also occasionally known by the unverified name "Momochi Sandayu".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_HEADING_2">
+			<Text>Authenticity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_HEADING_3">
+			<Text>First Oda Invasion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_HEADING_4">
+			<Text>Second Oda Invasion and Disappearance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_LIVED">
+			<Text>16th Century AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_NAME">
+			<Text>Momochi Tamba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_SUBTITLE">
+			<Text>Soke of the Iga-ryu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_TEXT_1">
+			<Text>Momochi Tamba was Momochi Seiemon's son and the presiding lord to a small clan. Historically, his true name has not been verified. Momochi Sandayu is a fictional invention of the Edo period and is a distortion of a term for "clan elder" (daifu). The name may have also been given to his grandson rather than the Momochi leader in question. Tanba or Tamba is either argued to be his government rank or a division of the Iga ninja to distinguish himself from the other elite ninja families, the Fujibayashi and the Hattori. Iranki dubs him Tango over Tanba/Tamba. His given name may have been Yasumitsu or Masanishi.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_TEXT_2">
+			<Text>Ninja history in general tends to be recorded oral legends, so it's difficult to verify the authenticity of his early history. According to the tales, Tamba was known as a shinobi amongst shinobi. He was silent and emotionless: a true shadow without form. He reputedly never showed his face to others. Tales are divided on whether Tamba was an impossibly skilled elite or a cowardly lower classed ninja. One legend states that Tamba was never one person but rather three elite ninja who would flawlessly impersonate one another when deemed necessary. Most legends tend to favor his remarkable intelligence and state that he was a spy famed and valued for his reliability.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_TEXT_3">
+			<Text>Oda Nobukatsu invaded Iga in 1578 to expand his influence. He was initially successful until he was intercepted by the Iga rebels or ninja a year later. The defenders held the geographical advantage against Nobukatsu and gradually reclaimed their lost territory. According to the Iranki, Sandayū was among the defenders. He led two or three hundred defenders to arms, setting up various artillery barricades along a high mountain path. Oda retainer Tsuke Saburōzaemon accompanied Nobukatsu into their barricade with an army of 1,500. He and his men lost their lives, and Nobukatsu barely fled with his life. Nobunaga was outraged by his son's humiliation and wrote in a letter, "...I am tempted to break family ties with him".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_TEXT_4">
+			<Text>In 1581 Nobunaga personally led an army of 40,000 with six generals to eradicate Iga residents. Historians argue that Nobunaga may have led the assault primarily to avenge his stained family honor rather than the personal grudge often stated in legends. Tamba was noted to be present around the end of the conflict and led 1,600 or so tired Iga residents (either common men and women or rebel ninja) within Kashiwara Castle. He reputedly held a strong defense against the castle siege. From here on, he disappears from historical accounts of the conflict.[NEWLINE][NEWLINE]Historically, the rebels were overwhelmed by the massive Oda army. No man, woman, or child was spared from the massacre that followed their defeat. Edo period folklore tends to favor the romantic image of Tamba's defiant death at an earlier date at Iga Ueno Castle rather than depict him as a victim to the slaughter. Alternatively he was fabled to have survived the conflict and died at an old age due to natural causes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_TITLES_1">
+			<Text>Soke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_TITLES_2">
+			<Text>Tamba no Kami</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MOMOCHI_TITLES_3">
+			<Text>Council of Twelve (Member)</Text>
+		</Row>
+		<!--Civilization-->
+		<Row Tag="TXT_KEY_CIV_IGA_DESC">
+			<Text>Iga Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IGA_FACTOID_HEADING">
+			<Text>Iga Factoid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IGA_FACTOID_TEXT">
+			<Text>The Iga-ryu school of ninjutsu is one of two claiming to be the birthplace of the ninja. The other is the Koga-ryu, based in the city of Koka in modern-day Shiga prefecture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IGA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IGA_HEADING_2">
+			<Text>Geography</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IGA_HEADING_3">
+			<Text>Era of the Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IGA_TEXT_1">
+			<Text>Since the Nara period, the Iga district had supplied lumber to jisha (temple-shrines). But in the Kamakura period, jisha declined in influence while shugo (governors) and jito (manor administrators) grew dominant. The power of these functionaries then waned in Iga while that of bushi (warriors) rose instead. Iga was divided into local jizamurai regions locked in guerrilla war for which Iga warriors developed specialized skills and tactics. The Koga-ryu school began in a similar way.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IGA_TEXT_2">
+			<Text>Iga Province (Iga no kuni) was a province of Japan located in what is today part of western Mie Prefecture. Its abbreviated name was Ishu. Iga bordered on Ise, Omi, Yamato, and Yamashiro Provinces. Its roughly coincides with the modern municipalities of Iga and Nabari.[NEWLINE][NEWLINE]Iga is classified as one of the provinces of the Tokaido. Under the Engishiki classification system, Iga was ranked as an "inferior country" (gekoku) and a "near country" (kingoku). Surrounded by mountains, historically, Iga Province was rather inaccessible due to extremely poor road conditions. However, the area is now relatively easy to access from nearby Nara and Kyoto, as well as the larger cities of Osaka and Nagoya.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IGA_TEXT_3">
+			<Text>During the early Muromachi period, the people of Iga became independent of their feudal overlords and established a kind of republic - Iga Sokoku Ikki in Japanese. Iga-mono (Iga men) first appear in historical records in 1487 when the Shogun Ashikaga Yoshihisa attacked Rokkaku Takayori, the daimyo of southern Ōmi Province from the Rokkaku clan. Both Iga and Koga ninja fought on the side of Rokkaku, helping to successfully repel the shogun's attack. In 1579, warlord Oda Nobunaga's son Oda Nobukatsu launched an unsuccessful attack against the Iga Republic. In 1581, Oda Nobunaga himself attacked Iga from six directions with a force of 40 to 60 thousand men, about a ten to one advantage, and slaughtered many Iga ninja and their families. The Iga held only two castles when Nobunaga declared a ceasefire and allowed some of the ninja to escape.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IGA_TITLE">
+			<Text>Iga Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_IGA_SHORT_DESC">
+			<Text>Iga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_IGA_ADJECTIVE">
+			<Text>Iga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_IGA_TEXT">
+			<Text>The spirit of En no Gyoja walks with you, Momochi Tamba of the Iga shinobi. You are one of the founders of Iga-ryu ninjutsu, the way of the clandestine spies and assassins of feudal Japan. Deemed disreputable by the honor-bound classes of the samurai, the shinobi often operated as mercenaries for hire in the service of the feuding nobles of the age. During the Muromachi period, Iga province became independent of the daimyo and established a kind of peasant's republic - the Iga Sokoku Ikki.[NEWLINE][NEWLINE]Master Momochi, your republic finds new life in a new world. Can you prepare a new generation of shinobi to stand together against the warring factions of this land? Can you preserve your tradition and way of life? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_0">
+			<Text>Ueno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_1">
+			<Text>Kashiwara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_2">
+			<Text>Maruyama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_3">
+			<Text>Hijiyama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_4">
+			<Text>Nabari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_5">
+			<Text>Kashiwano</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_6">
+			<Text>Tsuge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_7">
+			<Text>Tamataki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_8">
+			<Text>Okajima</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_9">
+			<Text>Chigachi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_10">
+			<Text>Takejima</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_11">
+			<Text>Mibuno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_12">
+			<Text>Fukuchi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_13">
+			<Text>Asai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_14">
+			<Text>Todoroki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_15">
+			<Text>Tayai-Yonokami</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_16">
+			<Text>Momochi-jo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_17">
+			<Text>Sugiyama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_18">
+			<Text>Akame</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_19">
+			<Text>Oyamada</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_20">
+			<Text>Ao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_21">
+			<Text>Nunobiki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_22">
+			<Text>Shimagahara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_23">
+			<Text>Tomono</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_24">
+			<Text>Kozu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_25">
+			<Text>Hinachi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_26">
+			<Text>Kambe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_27">
+			<Text>Marubashira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_28">
+			<Text>Awa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IGA_29">
+			<Text>Komohara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IGA_0">
+			<Text>En no Gyoja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IGA_1">
+			<Text>Otowa no Kido</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IGA_2">
+			<Text>Fukukita Shogen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IGA_3">
+			<Text>Takino Juro Yoshimasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IGA_4">
+			<Text>Morita Joun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IGA_5">
+			<Text>Suzume</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IGA_6">
+			<Text>Ayane</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IGA_7">
+			<Text>Kasumi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IGA_8">
+			<Text>Kuu</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IGA_9">
+			<Text>Mai</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!--Diplomacy-->
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_FIRSTGREETING_1">
+			<Text>Halt. The eyes of a thousand Iga-mono watch you, including mine. I am Momochi Tamba.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_FIRSTGREETING_2">
+			<Text>Do not be alarmed. You may not have seen my approach, but I assure you I am here. My name is Momochi Tamba, of Iga.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_FIRSTGREETING_3">
+			<Text>If you come seeking services of intrigue, you have been well-informed. This is the hidden land of Iga.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_DEFEATED_1">
+			<Text>I yield. The Ninja are now under your command; use them well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_DEFEATED_2">
+			<Text>The battles have been well fought, and you have emerged victorious. Name your next target, and I shall see that they are eliminated.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_GREETING_POLITE_HELLO_1">
+			<Text>Rare that one of our guests manages to find their way back, but I'm glad you are here. How may we assist?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_GREETING_NEUTRAL_HELLO_1">
+			<Text>You have returned. Are you perhaps in need of our services?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_GREETING_HOSTILE_HELLO_1">
+			<Text>I suggest that you remain on guard while you are here.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>You have assembled quite the fighting force. I wonder, can they defeat a foe that they cannot even see?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Iga-mono lurk in the hills and forests of the land you have just claimed. It is far from being "yours".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_REQUEST">
+			<Text>I would like to offer you chance to court favor with the Iga-ryu. All we require are the following goods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_LUXURY_TRADE">
+			<Text>I would like for you to consider the following trade agreement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_OPEN_BORDERS_EXCHANGE">
+			<Text>We have had access to your territory for some time, but as our relations are cordial I would like to make the matter formal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_ATTACKED_BETRAYED">
+			<Text>We have been attacked by clients before; we shall be again. Prepare yourself.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_ATTACKED_EXCITED">
+			<Text>You have chosen poorly. We shall strike swiftly and soundlessly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_ATTACKED_HOSTILE">
+			<Text>Another foolish invader. Come, meet our men in the forests and hills.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_DECLAREWAR_1">
+			<Text>This is no personal affront. It is simply the way of things.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_TRADE_NEEDMORE_ANGRY">
+			<Text>Be careful. Some would take such a suggestion as an insult.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_TRADE_NEEDMORE_HAPPY">
+			<Text>I'm afraid we must ask for a fairer exchange.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOMOCHI_TAMBA_TRADE_NEEDMORE_NEUTRAL">
+			<Text>There is no way that the council will agree.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

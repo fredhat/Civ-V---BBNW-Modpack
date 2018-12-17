@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/20/2013 3:43:32 AM -->
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						The Vandals
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_CIV_JFD_THE_VANDALS_ADJECTIVE">
+			<Text>Vandal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_THE_VANDALS_DESC">
+			<Text>Vandal Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_THE_VANDALS_SHORT_DESC">
+			<Text>The Vandals</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_THE_VANDALS_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_THE_VANDALS_TEXT_1">
+			<Text>The Vandals were an East Germanic tribe, their original homeland in Scandinavia. The Vandals crossed the Baltic into Poland at some point in the 2nd Century BC. By 406 AD, the Vandals had reached the Rhine. Attempting to cross it, they met fierce resistance from the Franks, who had settled the Romanized regions of northern Gaul. The Vandals decisively defeated the Frankish army, and then proceeded to plunder their way southward. After sacking Frankish and Roman cities, they reached and crossed the Pyrenees in 409 AD and marched into Iberia.[NEWLINE][NEWLINE]Under pressure from the Visigoths there, Genseric led the Vandals across the straits into North Africa in 429. There Genseric established a Vandal kingdom in 435 when a treaty with Rome gave them control of the province of Numidia. Genseric broke the treaty in 439 and seized Carthage, along with its extensive shipyards and fleet. Over the next decade, along with unrelenting piracy and raids against the Romans and Byzantines, the Vandals overran Sardinia, Sicily, Corsica and the Balearic Islands.[NEWLINE][NEWLINE]With the death of Attila, the Roman emperor felt free to end the Vandal incursions and sought to return the lost lands to Rome through his daughter's marriage to Genseric's son. However, through a convoluted series of events and distrust, the effort ended in 455 AD with the landing of a Vandal army in Italy and its capture of Rome.[NEWLINE][NEWLINE]The sack of Rome proved the highpoint of Vandal power. The death of Genseric in 477, religious tensions, revolts in former Roman provinces, and lack of trade brought a slow decline. In a final costly war, the Byzantine Belisarius crushed the Vandal armies, killed the Vandal general Tzazo and captured most of the Vandal cities. In 534 AD Gelimer, the last Vandal king, surrendered Carthage to the Roman conquerors, ending the Vandal reign forever.</Text>
+		</Row>
+		<!-- City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CAPUT_VARGA">
+			<Text>Caput Varga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HIPPO_REGIUS">
+			<Text>Hippo Regius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LEPTUS_MAGNA">
+			<Text>Leptus Magna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CARTENNA">
+			<Text>Cartenna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BULLA_REGIA">
+			<Text>Bula Regia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LILYBAEUM">
+			<Text>Lilybaeum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CATANE">
+			<Text>Catane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CIRTA">
+			<Text>Cirta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CARALIS">
+			<Text>Caralis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ALERIA">
+			<Text>Aleria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PANORMUS">
+			<Text>Panormus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SALDE">
+			<Text>Salde</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TACAPE">
+			<Text>Tacape</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CAPUT_VADA">
+			<Text>Caput Vada</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TRICAMERON">
+			<Text>Tricameron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HADRUMETUM">
+			<Text>Hadrumetum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TRIPOLIS">
+			<Text>Tripolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_THAGASTE">
+			<Text>Thagaste</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_THE_VANDALS_9">
+			<Text>Genseric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_THE_VANDALS_8">
+			<Text>Gelimer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_THE_VANDALS_7">
+			<Text>Hilderic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_THE_VANDALS_6">
+			<Text>Thrasamund</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_THE_VANDALS_5">
+			<Text>Gunthamund</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_THE_VANDALS_4">
+			<Text>Huneric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_THE_VANDALS_3">
+			<Text>Gunderic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_THE_VANDALS_2">
+			<Text>Lajos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_THE_VANDALS_1">
+			<Text>Godigisel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_THE_VANDALS_0">
+			<Text>Wisimar</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Genseric
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_LEADER_JFD_GENSERIC">
+			<Text>Genseric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_JFD_GENSERIC_TEXT">
+			<Text>Hail thee, Lord Genseric, King of the Vandals and Alans, subjugator of Rome and conqueror of Carthage. For fifty years you led your people as their greatest King, and you forged from them a fearsome Kingdom on the edge of Northern Africa, the likes of which would come to dominate the Mediterranean and which would cause the empire of Rome to shudder in fear. Following an exodus from your homeland, you rose the banner of your tribe and crossed into Africa, where you begun to carve your way through the Roman territories, annexing Mauretania and Numidia in 435 AD, and then the mighty Carthage in 439. With a formidable naval might, the Vandal Kingdom quickly seized the throne of the Mediterranean, and in 455 joined the other barbarian Kingdoms in their great feast upon the carcass of Rome.[NEWLINE][NEWLINE]O terrible Lord, great and bloated Kingdoms lie on the horizon, and your people gaze to you for leadership. Can you fulfill their lust for power and wealth? Can you raise a mighty fleet to wrest control of the seas? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_VANDALS_SHORT">
+			<Text>Mediterranean Pirates</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_VANDALS">
+			<Text>Melee naval units start with the Prize Ships promotion, allowing them to capture defeated enemy naval units. Naval units cost 67% less [ICON_GOLD] Gold maintenance. Military units cost 33% less [ICON_GOLD] Gold to upgrade.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Diplomacy
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_LEADER_JFD_GENSERIC_DEFEATED_1">
+			<Text>I have inflicted enough scars upon your people that they will never count this as a victory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_GENSERIC_DEFEATED_2">
+			<Text>I am not remorseful over this loss. Knowing that there is a greater people than mine is enough for me. May your strength never falter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_GENSERIC_EXPANSION_SERIOUS_WARNING_1">
+			<Text>I grow weary at the breadth of your Kingdom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_GENSERIC_FIRSTGREETING_1">
+			<Text>I am King Genseric of the Vandals and Alans, of Rome and Carthage, and soon of whatever pathetic capital you name to be your own.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_GENSERIC_FIRSTGREETING_2">
+			<Text>My advisors have told me that I must be polite when speaking with other world leaders. So I bring their tongues as a gift to you. How is that for polite?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_GENSERIC_GREETING_HOSTILE_HELLO_1">
+			<Text>Hmph. Come to beg?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_GENSERIC_GREETING_NEUTRAL_HELLO_1">
+			<Text>What?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_GENSERIC_GREETING_POLITE_HELLO_1">
+			<Text>Hail, friend. What do you need?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_GENSERIC_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>You think that your armies intimidate me? Let us war like men and I shall show you that this is false!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_GENSERIC_LUXURY_TRADE_1">
+			<Text>Do not refuse me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_GENSERIC_OPEN_BORDERS_EXCHANGE_1">
+			<Text>We must open our borders to one another. But if not, it's make no difference to me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_GENSERIC_RESPONSE_REQUEST_1">
+			<Text>I have a request. Your life, for this.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Axeman
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_AXEMAN">
+			<Text>Powerful Ancient Era melee unit that specializes in defeating wounded units and does not require a source of [ICON_RES_IRON] Iron to be built. Only the Vandals may build it.</Text>
+		</Row >
+		<Row Tag="TXT_KEY_UNIT_JFD_AXEMAN">
+			<Text>Axeman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_AXEMAN_STRATEGY">
+			<Text>The Axeman is a Vandal unique unit, replacing the Swordsman. Available earlier and cheaper than the Swordsman, the Axeman starts with the Charge promotion. Unlike the Swordsman, the Axeman does not require a source of [ICON_RES_IRON] Iron to be built.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Trihemiolia
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_JFD_TRIHEMIOLIA">
+			<Text>Trihemiolia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_TRIHEMIOLIA_STRATEGY">
+			<Text>The Trihemiolia is a Vandal unique unit, replacing the Trireme. Stronger but more expensive than the Trireme, the Trihemiolia starts with the first two Coastal Raider promotions. The Trihemiolia cannot capture cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_TRIHEMIOLIA">
+			<Text>Powerful Ancient Era naval melee unit that specializes in attacking coastal cities. Cannot capture cities. Only the Vandals may build it.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Ulum al-din
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_JFD_OTTOMANS">
+			<Text>Each worked specialist provides +1 [ICON_PEACE] Faith as well as an additional +1 [ICON_PEACE] Faith for each religion with followers in its city. Upon completing Rationalism or Aesthetics, specialist [ICON_PEACE] Faith contributes toward [ICON_RESEARCH] Science or [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_OTTOMANS_SHORT">
+			<Text>Ulum al-din</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_OTTOMANS_FAITH">
+			<Text>JFD: Ottoman Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_OTTOMANS_CULTURE">
+			<Text>JFD: Ottoman Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_OTTOMANS_SCIENCE">
+			<Text>JFD: Ottoman Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_OTTOMANS_FAITH_HELP">
+			<Text>Each worked specialist provides +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_OTTOMANS_CULTURE_HELP">
+			<Text>Each worked specialist provides +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_OTTOMANS_SCIENCE_HELP">
+			<Text>Each worked specialist provides +1 [ICON_RESEARCH] Science.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

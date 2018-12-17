@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="19A3CDFC-11FD-7B64-8768-22E823D4418B" version="1">
+  <Properties>
+    <Name>F0S's Netherlands Revision</Name>
+    <Teaser>Revises the base game Netherlands civilization.</Teaser>
+    <Description>Allows Polders to be built on coast and lake tiles. Tweaks the Dutch unique ability. Requires Brave New World and Gods & Kings.</Description>
+    <Authors>F0S</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>1</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="82CBC75481C0BF94CBAB25E0C9AB4401" import="0">Core/Builds.sql</File>
+	<File md5="D7CC0A7A8F99A1C4A3A85213C844E643" import="0">Core/Civilizations.sql</File>
+	<File md5="76893BD12CDB878AC59A2323E1C18FE5" import="0">Core/GameText.xml</File>
+	<File md5="4E6D35DD4349F08B9BADAA6F4DC01DCA" import="0">Core/Improvements.sql</File>
+	<File md5="B670E2DAB530651C3DCBEA5910082B6F" import="0">Core/Traits.sql</File>
+	<File md5="695F99315AEFAC5C51E40C523F0D0A47" import="0">Core/Units.sql</File>
+    <File md5="24F7E2A65B79902ED646BC6590754702" import="0">Lua/F0S_NetherlandsFunctions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Builds.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+	  <UpdateDatabase>Core/Improvements.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/F0S_NetherlandsFunctions.lua">
+      <Name>Netherlands Functions</Name>
+      <Description>
+	  </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNITCOMBAT_AA">
+			<Text>Anti-Aircraft Units</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_MOUNTED_RANGED">
+			<Text>Mounted Ranged Units</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AA_INTERCEPT_1">
+			<Text>AA Interception I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AA_INTERCEPT_1_HELP">
+			<Text>+25% Interception Chance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AA_INTERCEPT_2">
+			<Text>AA Interception II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AA_INTERCEPT_2_HELP">
+			<Text>+25% Interception Chance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AA_FLAK_1">
+			<Text>Flak I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AA_FLAK_1_HELP">
+			<Text>+50% Combat Bonus against hover and air units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AA_FLAK_2">
+			<Text>Flak II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AA_FLAK_2_HELP">
+			<Text>+50% Combat Bonus against hover and air units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AA_RAPID_FIRE">
+			<Text>Rapid Fire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AA_RAPID_FIRE_HELP">
+			<Text>May intercept air units one additional time per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_F0S_ANTI_AIRCRAFT_HELP">
+			<Text>First Modern Era anti-aircraft unit that specializes in defeating hover and air units. Has a 50% chance of intercepting air units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_F0S_ANTI_AIRCRAFT_STRATEGY">
+			<Text>The Anti-Aircraft Gun is the first available anti-aircraft unit. The Anti-Aircraft Gun receives a +100% Combat Bonus against hover and air units. The Anti-Aircraft Gun has a 50% chance of intercepting and damaging one incoming enemy air unit per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_F0S_MOBILE_SAM_HELP">
+			<Text>Atomic Era anti-aircraft unit that specializes in defeating hover and air units. Has a 50% chance of intercepting air units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_F0S_MOBILE_SAM_STRATEGY">
+			<Text>The Mobile SAM is the last available anti-aircraft unit, replacing the Anti-Aircraft Gun. The Mobile SAM receives a +100% Combat Bonus against hover and air units. The Mobile SAM has a 50% chance of intercepting and damaging one incoming enemy air unit per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_F0S_CHARIOT_ARCHER_HELP">
+			<Text>First Ancient Era mounted ranged unit that does not receive defensive terrain bonuses and loses all movement points upon entering rough terrain. Requires a source of [ICON_RES_HORSE] Horses to be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_F0S_CHARIOT_ARCHER_STRATEGY">
+			<Text>The Chariot Archer is the first available mounted ranged unit. The Chariot Archer does not receive defensive terrain bonuses and loses all [ICON_MOVES] Movement points upon entering rough terrain. The Chariot Archer requires a source of [ICON_RES_HORSE] Horses to be built.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

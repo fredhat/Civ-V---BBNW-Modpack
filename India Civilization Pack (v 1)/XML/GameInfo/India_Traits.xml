@@ -1,0 +1,24 @@
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_ARCHITECTURAL_MAJESTY</Type>
+			<Description>TXT_KEY_TRAIT_ARCHITECTURAL_MAJESTY</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ARCHITECTURAL_MAJESTY_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_ADNYAPATRA</Type>
+			<Description>TXT_KEY_TRAIT_ADNYAPATRA</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ADNYAPATRA_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_SAMAYAN_TRADE_GUILDS</Type>
+			<Description>TXT_KEY_TRAIT_SAMAYAN_TRADE_GUILDS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_SAMAYAN_TRADE_GUILDS_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_CHAKRAVARTIN</Type>
+			<Description>TXT_KEY_TRAIT_CHAKRAVARTIN</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CHAKRAVARTIN_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+</GameData>

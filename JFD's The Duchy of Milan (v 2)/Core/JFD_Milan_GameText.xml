@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--MILAN-->
+		<Row Tag="TXT_KEY_CIV_JFD_MILAN_ADJECTIVE">
+			<Text>Milanese</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_MILAN_DESC">
+			<Text>Duchy of Milan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_MILAN_SHORT_DESC">
+			<Text>Milan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_MILAN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_MILAN_TEXT_1">
+			<Text>The Duchy of Milan was a constituent state of the Holy Roman Empire in northern Italy. It was created in 1395, when it included twenty-six towns and the wide rural area of the middle Padan Plain east of the hills of Montferrat. During much of its existence, it was wedged between Savoy to the west, Venice to the east, the Swiss Confederacy to the north, and separated from the Mediterranean by Genoa to the south. The Duchy eventually fell to Habsburg Austria with the Treaty of Baden (1714), concluding the War of the Spanish Succession. The Duchy remained an Austrian possession until 1796, when a French army under Napoleon Bonaparte conquered it, and it ceased to exist a year later as a result of the Treaty of Campo Formio, when Austria ceded it to the new Cisalpine Republic.</Text>
+		</Row>
+		<!--City List-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_01">
+			<Text>Milan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_02">
+			<Text>Brescia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_03">
+			<Text>Piacenza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_04">
+			<Text>Bergamo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_05">
+			<Text>Lodi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_06">
+			<Text>Cremona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_07">
+			<Text>Como</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_08">
+			<Text>Lecco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_09">
+			<Text>Pavia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_10">
+			<Text>Varese</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_11">
+			<Text>Sondrio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_12">
+			<Text>Monza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_13">
+			<Text>Brianza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_14">
+			<Text>Asolo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_15">
+			<Text>Sirmione</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_16">
+			<Text>Legnano</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_17">
+			<Text>Teglio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_18">
+			<Text>Cantello</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_19">
+			<Text>Casteggio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_20">
+			<Text>Lagusello</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_21">
+			<Text>Sartirana Lomellina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MILAN_22">
+			<Text>Villimpenta</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_MILAN_9">
+			<Text>Gian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_MILAN_8">
+			<Text>Ennio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_MILAN_7">
+			<Text>Teobaldo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_MILAN_6">
+			<Text>Giovanni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_MILAN_5">
+			<Text>Gaspare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_MILAN_4">
+			<Text>Joanna</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_MILAN_3">
+			<Text>Elena</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_MILAN_2">
+			<Text>Maria</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_MILAN_1">
+			<Text>Valentina</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_MILAN_0">
+			<Text>Frederico</Text>
+		</Row>
+		<!--GIAN GALEAZZO-->
+		<Row Tag="TXT_KEY_LEADER_JFD_VISCONTI">
+			<Text>Gian Galeazzo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VISCONTI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VISCONTI_TEXT_1">
+			<Text>Gian Galeazzo Visconti, son of Galeazzo II Visconti and Bianca of Savoy, was the first Duke of Milan (1395) and ruled the late-medieval city just before the dawn of the Renaissance. He was the great founding patron of the Certosa di Pavia, completing the Visconti Castle at Pavia begun by his father and furthering work on the Duomo of Milan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VISCONTI_NAME">
+			<Text>Gian Galeazzo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VISCONTI_SUBTITLE">
+			<Text>Leader of Milan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VISCONTI_TITLES_1">
+			<Text>Duke of Milan, Count of Pavia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VISCONTI_LIVED">
+			<Text>1351 - 1402 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_MILAN_TEXT">
+			<Text>Prestigious lord of the noble House of Visconti, the loyal denizens of the great and ancient Milan speak your praises. You ruled the city of Milan at the dawning of the Renaissance, and elevated its status from a mere Lordship to an esteemed Duchy. A great patron of arts and home to immeasurable wealth, Milan would exist as one of the cultural centres of Italy for some 200 years, and its legacy for countless more.[NEWLINE][NEWLINE]Noble Lord, the great city of Milan beckons your leadership to bring upon her a great wealth of coin and culture. Can you fill her ancient vaults with gold and art beyond comparison? Can you build a civilization that can stand the test of time?</Text>
+		</Row>
+		<!--HOUSE OF VISCONTI-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_MILAN_SHORT">
+			<Text>House of Visconti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_MILAN">
+			<Text>Units and buildings cost 5% less [ICON_GOLD] Gold to purchase for each friendly and allied City-State (up to 50%). While at war with a major Civilization, [ICON_INFLUENCE] Influence with City-States degrades at half the normal rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MILAN_GMP">
+			<Text>JFD: Milan Great Merchant Points</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MILAN_GMP_HELP">
+			<Text>Provides [ICON_GREAT_PEOPLE] Great Merchant points equal to 10% of this city's [ICON_GOLD] Gold output.</Text>
+		</Row>
+		<!--RIBAULT-->
+		<Row Tag="TXT_KEY_UNIT_JFD_RIBAULT">
+			<Text>Ribault</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_RIBAULT_TEXT">
+			<Text>A Ribauldequin, also known as a rabauld, ribault, ribaudkin, infernal machine or organ gun, was a late medieval volley gun with many small-caliber iron barrels set up parallel on a platform, in use during the 14th and 15th centuries. When the gun was fired in a volley, it created a shower of iron shot. They were employed, specifically, during the early fifteenth century, and continued serving, mostly, as an anti-personnel gun. The name organ gun comes from the multiple barrels with the likeness of pipe organ.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_RIBAULT_HELP">
+			<Text>Powerful Renaissance Era ranged unit that may make one additional attack per turn and specializes in defeating siege units. Only Milan may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_RIBAULT_STRATEGY">
+			<Text>The Ribault is the Milanese unique unit, replacing the Gatling Gun. Cheaper but weaker than the Gatling Gun, the Ribault is available earlier and receives a +33% Combat Bonus against siege units and starts with the Logistics promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_RIBAULT">
+			<Text>Combat Bonus vs Siege (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_RIBAULT_HELP">
+			<Text>+33% Combat Bonus against siege units.</Text>
+		</Row>
+		<!--PALAZZO-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_PALAZZO">
+			<Text>Palazzo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PALAZZO_HELP">
+			<Text>Provides [ICON_GREAT_PEOPLE] Great Merchant points equal to 10% of this city's [ICON_GOLD] Gold output. Trade routes other players make to this city will generate an additional 2 [ICON_GOLD] Gold for the city owner and the trade route owner.[NEWLINE][NEWLINE]Doubles the amount of [ICON_GOLD] Gold received from conquering this city.[NEWLINE][NEWLINE]City must have a Market.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PALAZZO_STRATEGY">
+			<Text>The Palazzo is the Milanese unique building, replacing the Bank. The Palazzo provides a Merchant specialist and increases this city's [ICON_STRENGTH] Defense Strength by 4. Additionally, the Palazzo increases the speed at which Great Merchants are generated in this city as well as the [ICON_GOLD] Gold output of this city. Trade routes other players make to this city will generate additional [ICON_GOLD] Gold. The Palazzo doubles the amount of [ICON_GOLD] Gold received from conquering this city. Can only be built if this city contains a Market.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_PALAZZO_TEXT">
+			<Text>In Italy, any urban building built as a grand residence is a palazzo; these are often no larger than a Victorian townhouse. It was not necessary to be a nobleman to have your house considered a palazzo; the hundreds of palazzi in Venice nearly all belonged to the patrician class of the city. In the Middle Ages these also functioned as warehouses and places of business, as well as homes. Each family's palazzo was a hive that contained all the family members, though it might not always show a grand architectural public front. In the 20th century, palazzo in Italian came to apply by extension to any large fine apartment building, as so many old palazzi were converted to this use.</Text>
+		</Row>
+		<!-- MINOR CIVS -->
+		<!-- San Marino -->
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_SAN_MARINO_DESC">
+			<Text>San Marino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_SAN_MARINO_SHORT_DESC">
+			<Text>San Marino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_SAN_MARINO_ADJECTIVE">
+			<Text>Sammarinese</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_SAN_MARINO_TEXT_1">
+			<Text>San Marino, officially the Republic of San Marino, also known as the Most Serene Republic of San Marino, is an enclaved microstate surrounded by Italy, situated on the Italian Peninsula on the north-eastern side of the Apennine Mountains. Its size is just over 61 km2 (24 sq mi) with an estimated population of over 30,000 with its capital being the City of San Marino and its largest city being Dogana. San Marino has the smallest population of all the members of the Council of Europe.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

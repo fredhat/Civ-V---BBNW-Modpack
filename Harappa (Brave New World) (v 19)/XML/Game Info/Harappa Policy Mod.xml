@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/13/2014 12:47:13 AM -->
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_TRADE_SEALS</Type>
+			<Description>TXT_KEY_POLICY_TRADE_SEALS</Description>
+			<Civilopedia>TXT_KEY_POLICY_TRADE_SEALS_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_TRADE_SEALS_HELP</Help>
+			<GridX>1000</GridX>
+			<GridY>1000</GridY>
+			<PortraitIndex>47</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			<InternalTradeRouteYieldModifier>20</InternalTradeRouteYieldModifier>
+		</Row>
+	</Policies>
+</GameData>

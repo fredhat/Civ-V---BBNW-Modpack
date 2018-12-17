@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						Papal State
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_JFD_PAPAL_STATES_ADJ">
+			<Text>Papal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PAPAL_STATES_DESC">
+			<Text>The Papal State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PAPAL_STATES_SHORT_DESC">
+			<Text>The Papal State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_PAPAL_STATES_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_PAPAL_STATES_TEXT_1">
+			<Text>The Papal States was a political entity that existed on the Italian peninsula from the 500s AD until 1870, when it was usurped by the unification of Italy by the Kingdom of Piedmont-Sardinia. It is unique in that it was under the direct sovereignty of the Pope, the head of the Roman Catholic Church. Throughout it's history, the Papal States has played a significant role in balancing the power of Europe and is arguably one of the most important European nations to have ever existed; being directly and indirectly responsible for such history-changing events as the colonization of the New World by the Spanish, the Counter-Reformation and the formation of the Holy Roman Empire.</Text>
+		</Row>
+		<!-- City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROMA">
+			<Text>Rome</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BENEVENTO">
+			<Text>Benevento</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PONTECORVO">
+			<Text>Pontecorvo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ASCOLI">
+			<Text>Ascoli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTEL_GANDOLFO">
+			<Text>Castel Gandolfo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_AVIGNON">
+			<Text>Avignon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_RAVENNA">
+			<Text>Ravenna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BOLOGNA">
+			<Text>Bologna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_FERRARA">
+			<Text>Ferrara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CIVITAVECCHIA">
+			<Text>Civitavecchia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PERUGIA">
+			<Text>Perugia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ASSISI">
+			<Text>Assisi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ORVIETO">
+			<Text>Orvieto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SINIGAGLIA">
+			<Text>Sinigaglia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ANCONA">
+			<Text>Ancona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_GUBBIO">
+			<Text>Gubbio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CAMERINO">
+			<Text>Camerino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_FERMO">
+			<Text>Fermo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_RIMINI">
+			<Text>Rimini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_URBINO">
+			<Text>Urbino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_RIETI">
+			<Text>Rieti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TODI">
+			<Text>Todi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VELLETRI">
+			<Text>Velletri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VITERBO">
+			<Text>Viterbo</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PAPAL_STATES_9">
+			<Text>Jone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PAPAL_STATES_8">
+			<Text>Forli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PAPAL_STATES_7">
+			<Text>Ted</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PAPAL_STATES_6">
+			<Text>Luis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PAPAL_STATES_5">
+			<Text>Manuel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PAPAL_STATES_4">
+			<Text>Francesco the Aloof</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PAPAL_STATES_3">
+			<Text>Adrian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PAPAL_STATES_2">
+			<Text>Tomas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PAPAL_STATES_1">
+			<Text>Pierre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PAPAL_STATES_0">
+			<Text>Bell</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Pius IX
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS">
+			<Text>Pius IX</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PIUS_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PIUS_TEXT_1">
+			<Text>Pius IX was the head of the Roman Catholic Church and sovereign of the Papal States in the late nineteenth century. He was the longest serving Roman Pontiff since Saint Peter, reigning for some 32 years. During his pontificate, Pius IX oversaw the convention of the First Vatican Council, which would declare Papal Infallibility, and which would centralized the Catholic Church within the Vatican. He would also decree the Immaculate Conception; formally recognising that Mary, Mother of God, was born without Original Sin. Much of Pius' reign would be interrupted by the threat of Italian nationalists on Rome, who eventually aided in the usurpation of the Papal States in the unification of Italy. Despite this, Pius IX resisted the invaders, refusing to bow to the Italian government, and, as prisoner within the Vatican, remained faithful and persevering; owing to the continuation of the Holy See.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PIUS_LIVED">
+			<Text>1792 - 1878 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PIUS_NAME">
+			<Text>Pius IX</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PIUS_SUBTITLE">
+			<Text>Leader of the Papal States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_JFD_PIUS_TEXT">
+			<Text>Praises to you, most blessed Pius IX, Bishop of Rome and Servant of the Servants of God. Marked by the trials of the aftermath of France's scourge upon Europe, your Pontificate would be the longest served since that of Saint Peter, and throughout you would tirelessly champion the long-held ways of Europe in the face of gripping nationalism and modernity. As Supreme Pontiff, you would oversee the convention of the First Vatican Council, where Papal Infallibility would be declared, and the central government of the Papacy and the Catholic Church would be formalised upon the Vatican within Rome. Even despite the usurpation of your temporal power by the irreverent Italian nationalists, your faith and perseverance would ensure the survival of the Holy See well into the 20th century.[NEWLINE][NEWLINE]Oh holy father, the time has come for the pillars of your faith to once more bear the sacred being of your papacy. Can you take upon your shoulders the will of God to lead the faithful? Can you spread the light of His Holy Mother Church against the darkness that gripes this age? Can you build a civilization that stands the test of time?</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Diplomacy
+		------------------------------------------------------------------>
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_FIRSTGREETING_1">
+			<Text>You are welcome in the name of Christ. Peace be upon you.</Text>
+		</Row>
+    	<Row Tag="TXT_KEY_LEADER_JFD_PIUS_FIRSTGREETING_2">
+			<Text>We are Pius IX, Vicar of Christ and Bishop of Rome, and sovereign of this Pontifical state. You are in the holy presence of Our Lord, and for this time while We grant you Our ear, We offer you peace.</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_DEFEATED_1">
+			<Text>What demon compels your heart thus? To destroy God's kingdom on earth?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_DEFEATED_2">
+			<Text>Long may you swelter in the sight of God for this wretched action.</Text>
+		</Row>
+		<!-- Human repeats an action too much, gets the following responses -->
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_REPEAT_TOO_MUCH_1">
+			<Text>Have temperance with your tongue. You annoy Us greatly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_REPEAT_TRADE_TOO_MUCH_1">
+			<Text>We are displeased by this continued nonsense.</Text>
+		</Row>
+		<!-- Greetings -->
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_GREETING_HOSTILE_HELLO_1">
+			<Text>We know your heresies, and We would have you kneel at Our feet before speaking to Us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_GREETING_POLITE_HELLO_1">
+			<Text>We are pleased to welcome you back in Our sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>The battles against your heresy will soon be won, and We would crown the victor King over your blasphemous lands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_GREETING_HUMAN_AT_WAR_1">
+			<Text>We pray for your safe victory in this time of battle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>We know that your armies march upon Our door. We are prepared to fight you! We shall not leave this holy kingdom!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIUS_GREETING_HOSTILE_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>We are displeased by your rampant greed, but We are not surprised; you are a known heretic.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_GREETING_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>We would beg to remind you that temperance is a virtue, and greed a sin; in case you got them mixed up.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_GREETING_HOSTILE_AGGRESSIVE_EXPANSION_1">
+			<Text>We would damn you for the greed by which you bloody this land!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_GREETING_AGGRESSIVE_EXPANSION_1">
+			<Text>We grow tired of your aggressive expansion. We would ask that you cease it at once.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_GREETING_FRIENDLY_STRONG_MILITARY_1">
+			<Text>We have heard of your powerful military. It would be most wise to align it with our Holy Mother Church.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_GREETING_FRIENDLY_STRONG_ECONOMY_1">
+			<Text>It has come to Our attention that your empire is overflowing with wealth. We would ask that you consider donating some to the Church.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_GREETING_HOSTILE_HUMAN_FEW_CITIES_1">
+			<Text>We feel you have too small an empire to be bothered with, so make it quick.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_GREETING_HOSTILE_HUMAN_SMALL_ARMY_1">
+			<Text>We would remind you that the great battles of the day are fought between men, be they wielding steel or fire - it does not matter. Looking upon the size of your armies, you may have forgotten this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>We would have nothing to say to you, for your sins cannot be forgiven.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_TOO_SOON_FOR_DOF_1">
+			<Text>We would do no such thing. We would not be seen in your company.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_DENOUNCE_1">
+			<Text>We condemn your heresies in the sight of God, and banish you from the Holy Mother Church and its divine bosom![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_DENOUNCE_2">
+			<Text>We condemn you, infidel! All divine kingdoms who follow the word of God condemn you.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>You have forsaken God then.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_HUMAN_DOFED_FRIEND_1">
+			<Text>I notice that you have pledged friendship with {1_CivName}. The Holy Mother Church is pleased.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_HUMAN_DOFED_ENEMY_1">
+			<Text>{1_CivName} is a place of grave heresy and blasphemy unbound. We trust you will have nothing to do with it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>For what possible reason could you have denounced {1_CivName}? This is a senseless action on your part.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>It is good to see others in this world still stand firm against acts of heresy like those committed in {1_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_HUMAN_DOF_SO_AI_DOF_1">
+			<Text>I noticed that you have declared your friendship with {1_CivName}. The Papal State respects your judgement, and has done the same.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_HUMAN_DOF_SO_AI_DENOUNCE_1">
+			<Text>These combined heresies of yours and of those of {1_CivName} deeply disturb Us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_HUMAN_DENOUNCE_SO_AI_DENOUNCE_1">
+			<Text>We share your convictions that {1_CivName} is a wretched cesspool of heresy, and that it must be condemned for letting such blasphemy go unchecked.</Text>
+		</Row>
+		<!-- General Diplo Text -->
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_COOP_WAR_REQUEST_1">
+			<Text>{1_PlayerName:textkey} has committed the most foulest of heresies, and only through war can their estates be seized and returned to the Holy Mother Church. We ask that you join Us in this holy crusade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_COOP_WAR_REQUEST_2">
+			<Text>We ask that you join Us in a holy crusade against {1_PlayerName:textkey}, who stands firmly as an enemy to the Papal State and to the Holy Mother Church.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_COOP_WAR_TIME_1">
+			<Text>The time has come for you to join Us in Our holy crusade against {1_PlayerName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_DEC_FRIENDSHIP_1">
+			<Text>We would like to declare with you a friendship, for you have shown such reverence and virtue that you are a model to which all leaders must aspire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>We know that your armies march upon Our door. We are prepared to fight you! We shall not leave this holy kingdom!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_PLOT_BUYING_WARNING_1">
+			<Text>We grow concerned over the rate at which you purchase land, and We are hopeful that this does not come to sour our relationship..</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>We shall warn you against your aggressive purchasing of land once more. Should you not heed Our holy warning, We would be forced to consider this an affront to the Holy Mother Church.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_EXPANSION_SERIOUS_WARNING_1">
+			<Text>We shall warn you against your aggressive expansion once more. Should you not heed Our holy warning, We would be forced to consider this an affront to the Holy Mother Church.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_EXPANSION_WARNING">
+			<Text>We grow concerned over your expansion, and We are hopeful that this does not come to sour our relationship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_RETURNED_CIVILIAN_1">
+			<Text>We are most grateful for this act of kindness and good faith.</Text>
+		</Row>
+		<!--Public Declarations-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_DECLARATION_PROTECT_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} announces to the world that it is now protecting {1_MinorCivName:textkey}. Attacking the City-State will greatly damage relations and may lead to war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_DECLARATION_ABANDON_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} has taken back its guarantee of protecting {1_MinorCivName:textkey}.</Text>
+		</Row>
+		<!-- Human is asking the AI for something -->
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_DONT_SETTLE_NO_1">
+			<Text>You shall not make demands unto the Holy Mother Church thus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_DONT_SETTLE_YES_1">
+			<Text>Then We shall oblige, for it is Our hope that we are to remain allies.</Text>
+		</Row>
+		<!--Deal Offers and related-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_LUXURY_TRADE_1">
+			<Text>We would ask that you share your great wealth with the Church.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_OPEN_BORDERS_EXCHANGE_1">
+			<Text>We would ask that you sign this agreement with the Church.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_RESPONSE_REQUEST_1">
+			<Text>We would ask that you share your great wealth with the Church.</Text>
+		</Row>
+		<!--AI Attacked by Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_ATTACKED_HOSTILE_1">
+			<Text>You would turn your back upon Our sacred being? Then let God show no mercy upon you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_ATTACKED_EXCITED_1">
+			<Text>You would turn your back upon Our sacred being? Then let God show no mercy upon you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_ATTACKED_SAD_1">
+			<Text>You would turn your back upon Our sacred being? Then let God show no mercy upon you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_ATTACKED_BETRAYED_1">
+			<Text>You would turn your back upon Our sacred being? Then let God show no mercy upon you.</Text>
+		</Row>
+		<!--AI Responses to a human peace offer-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_TOO_SOON_NO_PEACE_1">
+			<Text>We would not be content until you kneel before Our Papal ring.</Text>
+		</Row>
+		<!--AI Responses to a discussion mode topics-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_BAD_1">
+			<Text>We condemn you for this indecency.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PIUS_GOOD_1">
+			<Text>We are pleased with this decision.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						The Apostolic See
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_JFD_PAPAL_STATES_SHORT">
+			<Text>The Apostolic See</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_PAPAL_STATES">
+			<Text>+50% [ICON_TOURISM] Tourism output to Civilizations that share your religion. Receive a free Disciple Great Person whenever a Great Prophet is born. Disciples may be expended to create unique Great Works. The Palace provides +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DISCIPLE">
+			<Text>The teachings of an apostolic Great Prophet have inspired the work of a Disciple!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DISCIPLE_SHORT">
+			<Text>Apostolic Prophet!</Text>
+		</Row>
+		<!-- Disciple -->
+		<Row Tag="TXT_KEY_UNIT_JFD_DISCIPLE">
+			<Text>Disciple</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_DISCIPLE_HELP">
+			<Text>Unique Papal State cultural Great Person that may be expended to create a Great Work of Writing, Art or Music in an adjacent city with an empty Great Work slot.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_DISCIPLE_STRATEGY">
+			<Text>The Disciple is a unique unit for the Papal States. The Disciple may be expended to create a Great Work of Writing, Art or Music in an adjacent city with an empty Great Work slot, increasing that city's [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism output.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PAPAL_STATES">
+			<Text>Apostolic Prophet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PAPAL_STATES_HELP">
+			<Text>This Great Prophet claims to bring the word of God with him.</Text>
+		</Row>
+		<!-- Great Works of Art -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_RAPHAEL_DESC">
+			<Text>Raphael</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MADONNA">
+			<Text>Madonna del Granduca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_FRA_ANGELICO_DESC">
+			<Text>Fra Angelico</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_PAINTING_OF_ST_DOMINIC">
+			<Text>Painting of St. Dominic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GWEN_JOHN_DESC">
+			<Text>Gwen John</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_NUN">
+			<Text>The Nun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_PAOLO_DE_MATTEIS_DESC">
+			<Text>Paolo de Matteis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_ANNUNCIATION">
+			<Text>The Annunciation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_MEMLING_DESC">
+			<Text>Memling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_LAST_JUDGEMENT">
+			<Text>Last Judgement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_ENGUERRAND_QUARTON_DESC">
+			<Text>Enguerrand Quarton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_CORONATION_OF_THE_VIRGIN">
+			<Text>Coronation of the Virgin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CARAVAGGIO_DESC">
+			<Text>Caravaggio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_CRUCIFIXTION_OF_SAINT_PETER">
+			<Text>Crucifixion of Saint Peter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_MEISTER_FRANCKE_DESC">
+			<Text>Meister Francke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MAN_OF_SORROWS">
+			<Text>Man of Sorrows</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_BARTOLOME_ESTEBAN_MURILLO_DESC">
+			<Text>Murillo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_LIBERATION_OF_SAINT_PETER">
+			<Text>Liberation of Saint Peter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_MICHELANGELO_DESC">
+			<Text>Michelangelo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_FRESCO_OF_THE_LAST_JUDGEMENT">
+			<Text>The Last Judgement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_SCIPIONE_PULZONE_DESC">
+			<Text>Scipione Pulzone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_LAMENTATION">
+			<Text>Lamentation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_EL_GRECO_DESC">
+			<Text>El Greco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_SAINT_PETER_IN_PENITENCE">
+			<Text>Saint Peter in Penitence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_FRA_ANGELICO_2_DESC">
+			<Text>Fra Angelico</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MADONNA_OF_HUMILITY">
+			<Text>Madonna of Humility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_MURILLO_DESC">
+			<Text>Murillo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_IMMACULATE_CONCEPTION">
+			<Text>Immaculate Conception</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_PAOLO_VERONESE_DESC">
+			<Text>Paolo Veronese</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_WEDDING_AT_CANA">
+			<Text>The Wedding at Cana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_SANDRO_BOTTICELLI_DESC">
+			<Text>Sandro Botticelli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_PAINTING_OF_SAINT_SEBASTIAN">
+			<Text>Painting of Saint Sebastian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_REMBRANT_DESC">
+			<Text>Rembrant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_ADORATION_OF_THE_MAGI">
+			<Text>Adoration of the Magi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_REMBRANT_2_DESC">
+			<Text>Rembrant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_STONING_OF_SAINT_STEPHEN">
+			<Text>The Stoning of Saint Stephen</Text>
+		</Row>
+		<!-- Great Works of Music -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREGORIO_ALLEGRI_DESC">
+			<Text>Gregorio Allegri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MISEREREI_MEI_DEUS">
+			<Text>Misererei Mei, Deus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_PALESTRINA_DESC">
+			<Text>Palestrina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_PALESTRINA_2_DESC">
+			<Text>Palestrina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MISSA_PAPAE_MARCELLI_CREDO">
+			<Text>Missa Papae Marcelli: III. Credo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_ALMA_REDEMPTORIS_MATER">
+			<Text>Alma Redemptoris Mater</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_ANTOINE_BRUMEL_DESC">
+			<Text>Antoine Brumel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MISSA_ET_ECCE_TERRAE_MOTUS_GLORIA">
+			<Text>Missa Et ecce terrae motus. Gloria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_JHERONIMUS_VINDERS_DESC">
+			<Text>Jheronimus Vinders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_O_MORS_INEVITABILIS">
+			<Text>O Mors Inevitabilis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_JOHN_SHEPPARD_DESC">
+			<Text>John Sheppard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MEDIA_VITA">
+			<Text>Media Vita</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_JOHANNES_OCKEGHEM_DESC">
+			<Text>Johannes Ockeghem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_INTEMERATA">
+			<Text>Intemerata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_REQUIEM">
+			<Text>Requiem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_MOZART_2_DESC">
+			<Text>Mozart</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_REQUIEM_DIES_IRAE">
+			<Text>Requiem: Dies Irae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_VERDI_DESC">
+			<Text>Verdi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AVE_MARIA">
+			<Text>Ave Maria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_FRANZ_SCHUBERT_DESC">
+			<Text>Franz Schubert</Text>
+		</Row>
+		<!-- Great Works of Writing -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_SAINT_AUGUSTINE_OF_HIPPO_DESC">
+			<Text>Saint Augustine of Hippo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_CITY_OF_GOD">
+			<Text>City of God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_CITY_OF_GOD">
+			<Text>I don't care to inquire why they cannot believe an earthly body can be in heaven, while the whole earth is suspended on nothing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_SAINT_THOMAS_AQUINAS_DESC">
+			<Text>Saint Thomas Aquinas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_SUMMA_THEOLOGICA">
+			<Text>Summa Theologica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_SUMMA_THEOLOGICA">
+			<Text>Beauty adds to goodness a relation to the cognitive faculty: so that "good" means that which simply pleases the appetite; while the "beautiful" is something pleasant to apprehend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_SAINT_THERESA_DE_LISIEUX_DESC">
+			<Text>Saint Thérèse de Lisieux</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_STORY_OF_A_SOUL">
+			<Text>Story of a Soul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_STORY_OF_A_SOUL">
+			<Text>If a little flower could speak, it seems to me that it would tell us quite simply all that God has done for it, without hiding any of its gifts. It would not, under the pretext of humility, say that it was not pretty, or that it had not a sweet scent, that the sun had withered its petals,or the storm bruised its stem, if it knew that such were not the case.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_SAINT_GREGORY_THE_GREAT_DESC">
+			<Text>Saint Gregory the Great</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_BOOK_OF_PASTORAL_RULE">
+			<Text>The Book of Pastoral Rule</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_THE_BOOK_OF_PASTORAL_RULE">
+			<Text>For it is very often the case that the discipline of good works, which was maintained in a time of tranquillity, is ruined in the assumption of leadership. For an inexperienced sailor can steer a ship in calm waters, but even an experienced seaman is disordered by a storm.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_THOMAS_OF_CELANO_DESC">
+			<Text>Thomas of Celano</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_DIES_IRAE">
+			<Text>Dies Irae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_DIES_IRAE">
+			<Text>Wondrous sound the trumpet flingeth;[NEWLINE]Through earth's sepulchres it ringeth;[NEWLINE]All before the throne it bringeth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_SAINT_BONEVENTURE_DESC">
+			<Text>Saint Bonaventure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_SOULS_JOURNEY_TO_GOD">
+			<Text>Journey of the Soul Into God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_THE_SOULS_JOURNEY_TO_GOD">
+			<Text>This fire is God, and his furnace is in Jerusalem; and Christ enkindles it in the heat of His burning passion, which only he truly perceives who says: My soul chooses hanging and my bones death.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_BROTHER_LAWRENCE_DESC">
+			<Text>Brother Lawrence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_PRACTICE_OF_THE_PRESCENCE_OF_GOD">
+			<Text>The Practice of the Prescence of God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_THE_PRACTICE_OF_THE_PRESCENCE_OF_GOD">
+			<Text>That all things are possible to him who believes, that they are less difficult to him who hopes, they are more easy to him who loves, and still more easy to him who perseveres in the practice of these three virtues.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GEOFFREY_CHAUCER_DESC">
+			<Text>Geoffrey Chaucer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_PARSONS_TALE">
+			<Text>The Parson's Tale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_THE_PARSONS_TALE">
+			<Text>He was a shepherde and noght a mercenarie.[NEWLINE]And thogh he hooly were and vertuous,[NEWLINE]He was to synful men nat despitous,[NEWLINE]Ne of his speche daungerous ne digne,[NEWLINE]But in his techyng discreet and benynge.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_SAINT_CATHERINE_OF_SIENA_DESC">
+			<Text>Saint Catherine of Siena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_LETTERS_OF_SAINT_CATHERINE_OF_SIENA">
+			<Text>The Letters of Saint Catherine of Siena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_THE_LETTERS_OF_SAINT_CATHERINE_OF_SIENAE">
+			<Text>Wanting to live in peace is often the greatest cruelty. When the boil has come to a head it must be cut with the lance and burned with fire, and if that is not done, and only a plaster is put over it, the corruption will spread and that is often worse than death.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_DANTE_DESC">
+			<Text>Dante</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_DIVINE_COMEDY">
+			<Text>The Divine Comedy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_HE_DIVINE_COMEDY">
+			<Text>But already my desire and my will[NEWLINE]were being turned like a wheel, all at one speed,[NEWLINE]by the Love which moves the sun and the other stars.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_ALESSANDRO_MANZONI_DESC">
+			<Text>Alessandro Manzoni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_BETHROTHED">
+			<Text>The Betrothed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_THE_BETHROTHED">
+			<Text>Certainly the heart has always something to tell about the future to those who listen to it. But what does the heart know? Scarce a little of what has already happened.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_TERESA_OF_AVILA_DESC">
+			<Text>Saint Teresa of Avila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_LIFE_OF_SAINT_TERESA_OF_AVILA_BY_HERSELF">
+			<Text>The Life of Saint Teresa of Avila By Herself</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_THE_LIFE_OF_SAINT_TERESA_OF_AVILA_BY_HERSELF">
+			<Text>For if the will has nothing to employ it and love has no present object with which to busy itself, the soul finds itself without either support or occupation, its solitude and aridity cause it great distress and its thoughts involve it in the severest conflict.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_ST_FRANCOIS_DE_SALES_DESC">
+			<Text>Saint François de Sales</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_INTRODUCTION_TO_THE_DEVOUT_LIFE">
+			<Text>Introduction to the Devout Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_INTRODUCTION_TO_THE_DEVOUT_LIFE">
+			<Text>If, when stung by slander or ill-nature, we wax proud and swell with anger, it is a proof that our gentleness and humility are unreal, and mere artificial show.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_SAINT_JOHN_OF_THE_CROSS_DESC">
+			<Text>Saint John of the Cross</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_ASCENT_OF_MOUNT_CARMEL">
+			<Text>Ascent of Mount Carmel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_ASCENT_OF_MOUNT_CARMEL">
+			<Text>O gentle touch, and most gentle, for you touch me with your most simple and pure essence, which being infinite is infinitely gentle, therefore it is that this touch is so subtle, so loving, so deep, and so delicious that it savors of eternal life.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_THE_POPE_DESC">
+			<Text>The Pope</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_HOW_TO_DRESS_FOR_EVERY_OCCASSION_BY_THE_POPE">
+			<Text>How To Dress for Every Occasion By The Pope</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_HOW_TO_DRESS_FOR_EVERY_OCCASSION_BY_THE_POPE">
+			<Text>A big hat on your head says to everybody, "Guess who's in charge?" I'll give you a hint: It's you if you're wearing an impressive hat.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Swiss Guard
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_JFD_SWISS_GUARD">
+			<Text>Swiss Guard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_SWISS_GUARD_TEXT">
+			<Text>Swiss Guards describe, historically, the mercenaries who from Switzerland sought to serve as bodyguards throughout courts of Europe during the Middle Ages and the Renaissance. Lauded for their enduring loyalty and bravery, Swiss Guards served a wide variety of functions: from ceremonial guards to front-line troops, and were in use by the armies of some of Europe's greatest powers: including France, Spain and Naples. Although in 1874 the recruitment of Swiss Guards by foreign powers was forbidden by the Swiss Constitution, the Pontifical Swiss Guard that served the Holy See was an exception, and today remains the primary force of the Vatican; responsible for the safety of the Pope and the security of the Apostolic Palace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_SWISS_GUARD_STRATEGY">
+			<Text>The Swiss Guard is a unique unit for the Papal States, replacing the Landsknecht. The Swiss Guard receives a +25% Defense Bonus and heals 50 HP whenever it defeats an enemy unit while near the [ICON_CAPITAL] Capital. The Swiss Guard does not receive the same promotions as the Landsknecht, although it can still be purchased with [ICON_GOLD] Gold, can still move after purchase, and requires Piety instead of the Mercenary Armies Social Policy. After discovering Radio, the Swiss Guard provides +2 [ICON_TOURISM] Tourism when garrisoned in a city. The Swiss Guard cannot upgrade, but it also does not obsolete.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_SWISS_GUARD">
+			<Text>Powerful Medieval Era mercenary unit that specializes in defending the [ICON_CAPITAL] Capital. May move immediately after purchase. Provides +2 [ICON_TOURISM] Tourism when garrisoned in a city after discovering Radio. Cannot upgrade, but does not obsolete. Only the Papal States may purchase it.[NEWLINE][NEWLINE]Requires Piety and can only be purchased with [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SWISS_GUARD_TOURISM">
+			<Text>JFD: Swiss Guard Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SWISS_GUARD_TOURISM_HELP">
+			<Text>+2 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SWISS_GUARD">
+			<Text>Swiss Mercenaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SWISS_GUARD_HELP">
+			<Text>+25% Defense Bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SWISS_GUARD_HEALING">
+			<Text>Acriter et Fideliter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SWISS_GUARD_HEALING_HELP">
+			<Text>This unit heals 50 HP whenever it defeats an enemy unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SWISS_GUARD_HEALING_INFO">
+			<Text>Acriter et Fideliter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SWISS_GUARD_HEALING_INFO_HELP">
+			<Text>This unit heals 50 HP whenever it defeats an enemy unit while near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SWISS_GUARD_TOURISM">
+			<Text>Pontifical Guard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SWISS_GUARD_TOURISM_HELP">
+			<Text>Provides +2 [ICON_TOURISM] Tourism when garrisoned in a city after discovering Radio.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Chapel
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHAPEL">
+			<Text>Chapel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_CHAPEL_TEXT">
+			<Text>A chapel is a religious place of fellowship, prayer and worship that is attached to a larger, often nonreligious institution or that is considered an extension of a primary religious institution. It may be part of a larger structure or complex, such as a college, hospital, palace, prison, funeral home, church, synagogue or mosque, located on board a military or commercial ship, or it may be an entirely free-standing building, sometimes with its own grounds. Many military installations have chapels for the use of military personnel, normally under the leadership of a military chaplain. Until the Protestant Reformation, a chapel denoted a place of worship that was either at a secondary location that was not the main responsibility of the local parish priest, or that belonged to a person or institution. Most larger churches had one or more secondary altars, which if they occupied a distinct space, would often be called a chapel. Although chapels frequently refer to Christian places of worship, they are also commonly found in Jewish synagogues and do not necessarily connote a specific denomination. Non-denominational chapels are commonly encountered as part of a non-religious institution such as a hospital, airport, university, prison or military installation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHAPEL_STRATEGY"> 
+			<Text>The Chapel is the unique building for the Papal States, replacing the Temple. The Chapel increases the [ICON_PEACE] Faith output of this city and may be constructed up to three times per city. Each Chapel contains a Great Work of Writing, Art or Music slot that provides additional [ICON_PEACE] Faith when filled. The second Chapel requires this city to have at least five followers of your religion in order to be built, while the third requires at least ten followers. Each Chapel after the first provides reduced additional yields. The Chapel costs reduced [ICON_GOLD] Gold maintenance. Can only be built if this city contains a Shrine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHAPEL_HELP">
+			<Text>May be built up to three times per city. Contains a slot for a Great Work of Writing, Art or Music which, when filled, provides +2 [ICON_PEACE] Faith. The second Chapel may only be built while this city has at least five followers of your religion, while the third requires at least ten followers. Costs reduced [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]City must have a Shrine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHAPEL_FAITH">
+			<Text>JFD: Chapel Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHAPEL_FAITH_HELP">
+			<Text>+2 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Apostolic Palace
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_BUILDING_JFD_APOSTOLIC_PALACE">
+			<Text>Apostolic Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_APOSTOLIC_PALACE_TEXT">
+			<Text>The Apostolic Palace, located in Vatican City, is the official residence of the Pope, since the 15th century. The Apostolic Palace is notable for its large collective of frescos; particularly those found in the Sistine Chapel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_APOSTOLIC_PALACE_STRATEGY">
+			<Text>The Apostolic Palace indicates that this city is the [ICON_CAPITAL] Capital of your empire. The Apostolic Palace increases this city's [ICON_STRENGTH] Defense Strength by 2.5 and functions as the center of your [ICON_CONNECTED] City Connection network. Additionally, the Apostolic Palace increases the [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_GOLD] Gold output of this city. Contains a slot for a Great Work of Art. Although the Apostolic Palace is automatically rebuilt upon losing your [ICON_CAPITAL] Capital, you will be unable to win a [COLOR_POSITIVE_TEXT]Domination Victory[ENDCOLOR] until you retake your original [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Minor Civs
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_KARYES">
+			<Text>Karyes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_KARYES_DESC">
+			<Text>Karyes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_KARYES_SHORT_DESC">
+			<Text>Karyes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_KARYES_ADJECTIVE">
+			<Text>Karyes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_KARYES_TEXT_1">
+			<Text>Karyes is a settlement in Mount Athos. It is the seat of the clerical and secular administration of the Athonite monastic state. The 2001 Greek census reported a population of 233 inhabitants. It is the largest settlement in Mount Athos. Mount Athos is a mountain and peninsula in Greece. A World Heritage Site and autonomous polity in the Hellenic Republic, Athos is home to 20 stavropegial Eastern Orthodox monasteries under the direct jurisdiction of the patriarch of Constantinople. Today Greeks commonly refer to Mount Athos as the "Holy Mountain". In Classical times, while the mountain was called Athos, the peninsula was called Akté (sometimes Acte or Akte).</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

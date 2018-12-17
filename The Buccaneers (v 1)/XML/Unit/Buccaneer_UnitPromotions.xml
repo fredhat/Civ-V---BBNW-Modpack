@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<!--cannot be chosen-->
+		<Row>
+			<Type>PROMOTION_HIGH_SEA_RAIDING</Type>
+			<Description>TXT_KEY_PROMOTION_HIGH_SEA_RAIDING</Description>
+			<Help>TXT_KEY_PROMOTION_HIGH_SEA_RAIDING_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>false</LostWithUpgrade>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_HIGH_SEA_RAIDING</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_LETTER_OF_MARQUE</Type>
+			<Description>TXT_KEY_PROMOTION_LETTER_OF_MARQUE</Description>
+			<Help>TXT_KEY_PROMOTION_LETTER_OF_MARQUE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<RivalTerritory>true</RivalTerritory>
+			<PediaEntry>TXT_KEY_PROMOTION_LETTER_OF_MARQUE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_LETTER_OF_MARQUE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_LETTER_OF_MARQUE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_LETTER_OF_MARQUE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_LETTER_OF_MARQUE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+</GameData>

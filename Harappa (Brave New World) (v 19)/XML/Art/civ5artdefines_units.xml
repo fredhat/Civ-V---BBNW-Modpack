@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<!--
+	<UnitArtInfo>
+		<Type>ART_DEF_UNIT_HARAPPA_BULLOCK_CART</Type>
+		<Formation>LooseCivilian</Formation>
+		<DamageStates>1</DamageStates>
+		<UnitMemberArt>
+			<MemberType>ART_DEF_UNIT_MEMBER_HARAPPA_BULLOCK_CART</MemberType>
+			<MemberCount>1</MemberCount>
+		</UnitMemberArt>
+	</UnitArtInfo>
+	-->
+	<UnitArtInfo>
+		<Type>ART_DEF_UNIT_HARAPPA_BULLOCK_CART</Type>
+		<Formation>ChariotElephant</Formation>
+		<DamageStates>1</DamageStates>
+		<UnitMemberArt>
+			<MemberType>ART_DEF_UNIT_MEMBER_HARAPPA_BULLOCK_CART</MemberType>
+			<MemberCount>1</MemberCount>
+		</UnitMemberArt>
+	</UnitArtInfo>
+	<UnitArtInfo>
+		<Type>ART_DEF_UNIT_HARAPPA_BULLOCK_CART_ALT</Type>
+		<DamageStates>1</DamageStates>
+		<UnitMemberArt>
+			<MemberType>ART_DEF_UNIT_MEMBER_HARAPPA_BULLOCK_CART_ALT</MemberType>
+			<MemberCount>1</MemberCount>
+		</UnitMemberArt>
+	</UnitArtInfo>
+</GameData>

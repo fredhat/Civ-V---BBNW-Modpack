@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a9202374-e64d-43f7-9fbd-ed6030fa12ac" version="1">
+  <Properties>
+    <Name>More Civs Scotland</Name>
+    <Teaser>Adds the Scotland civilization led by Robert I Bruce to the game.</Teaser>
+    <Description>Adds the Scotland civilization to the game. Requires Brave New World.</Description>
+    <Authors>More Civilizations team</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="43D0B862A0847E71D568C5AFD7714382" import="1">Art/Atlases/MC_ScotlandAlpha_128.dds</File>
+    <File md5="58787DFF68D7B9130C2D08490628AAC5" import="1">Art/Atlases/MC_ScotlandAlpha_16.dds</File>
+    <File md5="59392B3B197BF6A104429CA291C78401" import="1">Art/Atlases/MC_ScotlandAlpha_24.dds</File>
+    <File md5="67E3FD0050DA61EACF4B0BBED0D7A965" import="1">Art/Atlases/MC_ScotlandAlpha_32.dds</File>
+    <File md5="5656EE69395DAEB4CA6B6452FB0C0613" import="1">Art/Atlases/MC_ScotlandAlpha_45.dds</File>
+    <File md5="BA3AD7E269A4536235FC53198745A268" import="1">Art/Atlases/MC_ScotlandAlpha_48.dds</File>
+    <File md5="56F0D05887275692508690129946D99D" import="1">Art/Atlases/MC_ScotlandAlpha_64.dds</File>
+    <File md5="FC89B4FED9366AAB73E86FCC63D885A8" import="1">Art/Atlases/MC_ScotlandAlpha_80.dds</File>
+    <File md5="E6FBFC592190657A0C807F3F7DD140C0" import="1">Art/Atlases/MC_Scotland_128.dds</File>
+    <File md5="EFB80A0A4CE8548C1F2E22BB5AC3069A" import="1">Art/Atlases/MC_Scotland_256.dds</File>
+    <File md5="CAF76AF2D72FD9630E2AF6A5CEC6251E" import="1">Art/Atlases/MC_Scotland_32.dds</File>
+    <File md5="63B2FDE68F5526A4C8D040E439725598" import="1">Art/Atlases/MC_Scotland_45.dds</File>
+    <File md5="A71D4F459CF1268930F27FA05D3661F0" import="1">Art/Atlases/MC_Scotland_64.dds</File>
+    <File md5="C7F230F815568CF9A1D00B510FF08592" import="1">Art/Atlases/MC_Scotland_80.dds</File>
+    <File md5="5F83FA957C8C4E7E3ADCAF0139DB6A50" import="1">Art/Models/Clan Castle/clancastle.fxsxml</File>
+    <File md5="6583FEB0E415BE307BE104659D700CCF" import="1">Art/Models/Clan Castle/clancastle.gr2</File>
+    <File md5="EB7BCBE661C00250E5701A4F3CC73D2A" import="1">Art/Models/Clan Castle/ClanCastle_DIFF.dds</File>
+    <File md5="415CA4E386B1AB8642A790CC8B7C73FA" import="1">Art/Models/Clan Castle/ClanCastle_DIFF_pl.dds</File>
+    <File md5="C9CD18F91FE5B568BCE37585212D318F" import="1">Art/Models/Clan Castle/ClanCastle_Ground.dds</File>
+    <File md5="4F3C17792667393F6F397B0D34BB009D" import="1">Art/Models/Clan Castle/ClanCastle_Ground_pl.dds</File>
+    <File md5="F9CD5D10A2ED84C22CE40C8B32C64ED3" import="1">Art/Models/Clan Castle/clancastle_hb.fxsxml</File>
+    <File md5="59C8863F5DDBF26C6D08B05751C92A13" import="1">Art/Models/Clan Castle/clancastle_hb.gr2</File>
+    <File md5="15B1BD4E350A00B122AE3E9B4094BE67" import="1">Art/Models/Clan Castle/clancastle_pl.fxsxml</File>
+    <File md5="78AB18C7297DC27F18A19351F700D41D" import="1">Art/Models/Clan Castle/clancastle_pl.gr2</File>
+    <File md5="260DF8DDF22255D6435E9BA58156721F" import="1">Art/Models/Clan Castle/sv_clancastle.dds</File>
+    <File md5="2AED682CE0244588E4A971C10D6144FE" import="1">Art/Models/Gallowglass/2hgs_denmark_diff.dds</File>
+    <File md5="DDA9464E62605D63566D348C075572BE" import="1">Art/Models/Gallowglass/2hgs_denmark_sref.dds</File>
+    <File md5="4C3873EF013A0A9E9990C687DB22A0BF" import="1">Art/Models/Gallowglass/2hswordsman_denmark.fxsxml</File>
+    <File md5="B915E4BE66DD06C583EEC7E2D649C933" import="1">Art/Models/Gallowglass/2hswordsman_denmark.gr2</File>
+    <File md5="F7F6A7C7832E8130B2311A6DC641251C" import="1">Art/Models/Gallowglass/DBaro2nClay_gloss.dds</File>
+    <File md5="9A5E69D7340765F000790541CC6755AD" import="1">Art/Models/Gallowglass/DBaronClay.dds</File>
+    <File md5="98A2A197CAA34CB3CE1DF7828773CE1F" import="1">Art/Models/Gallowglass/DBaronClay_2.dds</File>
+    <File md5="EB5F4D2EEBD8E47788AC5269D861902F" import="1">Art/Models/Gallowglass/Flag_MC_Gallowglass.dds</File>
+    <File md5="FB7550615CB16D7512DCEEB08A3F36CD" import="1">Art/Models/Gallowglass/l9.br2</File>
+    <File md5="0067E786AC0E3B04A11E94289B2AA79A" import="1">Art/Models/Gallowglass/sv_Gallowglass.dds</File>
+    <File md5="D44046603F2CE506E0A17E9E8C18C054" import="1">Art/Scenes/MC_Scotland_Leaderhead.dds</File>
+    <File md5="BC1EB4B64FE723A88EDD19D82A13DFEE" import="1">Art/Scenes/MC_Scotland_DoM.dds</File>
+    <File md5="5EF63C96DA7BCCD5A9B5163F9C4D1384" import="1">Art/Scenes/MC_Scotland_Map.dds</File>
+    <File md5="2707D7F1FF887F5313CD8A038D2A7101" import="0">Lua/JFD_ScotlandUIExperience.lua</File>
+    <File md5="483B508BF9E502CB2F729209837B9056" import="0">Lua/JFD_ScotlandEverything.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/Utilities/PlotIterators.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+    <File md5="6B76BC35E3FFF9F3DE8384517683B026" import="1">Sounds/MCRobertBrusPeace.mp3</File>
+    <File md5="F1C0ACDEE32D0673A27FB520DEFB55A4" import="1">Sounds/MCRobertBrusWar.mp3</File>
+    <File md5="331B9775F6B60D5FACD72B70CEEA6546" import="1">Sounds/MCScotlandDoM.mp3</File>
+    <File md5="7A9F1D49A804476DC0C2F824702286EB" import="0">SQL/ClanCastleDefine.sql</File>
+    <File md5="257269B67BCCF550B91A4C23A989D83A" import="0">SQL/GallowglassDefine.sql</File>
+    <File md5="18F770EA4F93532873D058011BFC834B" import="1">XML/Art/MC_Scotland_Leaderhead.xml</File>
+    <File md5="F41D49798B67864C98F769BA3AD78B29" import="0">XML/Buildings/MC_Scotland_BuildingClasses.xml</File>
+    <File md5="0C4DD9928C93F94E7F007C65589B2E7F" import="0">XML/Buildings/MC_Scotland_Buildings.xml</File>
+    <File md5="C42D553B8A9105525325F577ADE2FB61" import="0">XML/Civilizations/MC_Scotland_Civilizations.xml</File>
+    <File md5="43FDA5333DC1B1C172FE22EC1A623233" import="0">XML/Civilizations/MC_Scotland_Strategic.xml</File>
+    <File md5="DF9FFB98A329771F8F07C36F57D41476" import="0">XML/GameInfo/MC_Scotland_IconTextureAtlases.xml</File>
+    <File md5="B8C0124859A5A0A2AAFA5D587152370E" import="0">XML/GameInfo/MC_Scotland_Sounds.xml</File>
+    <File md5="099B5E4539B87FB0A1033507A91C475B" import="0">XML/GameInfo/MC_Scotland_Traits.xml</File>
+    <File md5="561AB30A3827BA21824269F2FB599157" import="0">XML/Leaders/MC_Scotland_Leader.xml</File>
+    <File md5="B2B6D1C93EE6DC12F77256805000A03E" import="0">XML/Terrain/MC_Scotland_Improvements.xml</File>
+    <File md5="CFA8BCB11FB48BE2A3FC08D392B3E067" import="0">XML/Text/MC_Scotland_Text.xml</File>
+    <File md5="6E5F4A30734AB70917B5B57E9E66A283" import="0">XML/Units/MC_Scotland_UnitPromotions.xml</File>
+    <File md5="40D3970654617DAD0BECFF722E0CF512" import="0">XML/Units/MC_Scotland_Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/ClanCastleDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/GallowglassDefine.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/MC_Scotland_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/MC_Scotland_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/MC_Scotland_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/MC_Scotland_Strategic.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/MC_Scotland_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/MC_Scotland_Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/MC_Scotland_Traits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/MC_Scotland_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/MC_Scotland_Improvements.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/MC_Scotland_Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/MC_Scotland_UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/MC_Scotland_Units.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_ScotlandEverything.lua">
+      <Name>ScotlandEverything</Name>
+      <Description>Lua for most parts of Scotland</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_ScotlandUIExperience.lua">
+      <Name>ScotlandUIExperience</Name>
+      <Description>Unit experience from the UI</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

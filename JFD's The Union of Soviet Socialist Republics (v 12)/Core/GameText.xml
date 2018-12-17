@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/4/2014 8:45:16 AM -->
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						Stalinist Russia
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_CIV_JFD_USSR_STALIN_ADJECTIVE">
+			<Text>Stalinist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_USSR_STALIN_DESC">
+			<Text>Soviet Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_USSR_STALIN_SHORT_DESC">
+			<Text>The Soviet Union</Text>
+		</Row>
+		<!-- City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_LENINGRAD">
+			<Text>Leningrad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_KIEV">
+			<Text>Kiev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_MINSK">
+			<Text>Minsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_KHARKOV">
+			<Text>Kharkov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_STALINGRAD">
+			<Text>Stalingrad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_SVERDLOVSK">
+			<Text>Sverdlovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_GORKY">
+			<Text>Gorky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_KRASNODAR">
+			<Text>Krasnodar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_VLADIVOSTOK">
+			<Text>Vladivostok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_NOVOSIBIRSK">
+			<Text>Novosibirsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_KRASNOYARSK">
+			<Text>Krasnoyarsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_KUYBYSHEV">
+			<Text>Kuybyshev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_BAKU">
+			<Text>Baku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_TBILISI">
+			<Text>Tbilisi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_ALMA_ATA">
+			<Text>Alma-Ata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_TASHKENT">
+			<Text>Tashkent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_OMSK">
+			<Text>Omsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_UFA">
+			<Text>Ufa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_CHELYABINSK">
+			<Text>Chelyabinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_SEVASTOPOL">
+			<Text>Sevastopol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_MOLOTOV">
+			<Text>Molotov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_KALININGRAD">
+			<Text>Kaliningrad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_RIGA">
+			<Text>Riga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_TALLIN">
+			<Text>Tallin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_KAZAN">
+			<Text>Kazan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_ODESSA">
+			<Text>Odessa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_KIROV">
+			<Text>Kirov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_ULYANOVSK">
+			<Text>Ulyanovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_DNEPROPETROVSK">
+			<Text>Dnepropetrovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_STALINO">
+			<Text>Stalino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_KHABAROVSK">
+			<Text>Khabarovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_TOLYATTI">
+			<Text>Tolyatti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_BARNAUL">
+			<Text>Barnaul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_USTINOV">
+			<Text>Ustinov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_ORDZONIKIDZE">
+			<Text>Ordzonikidze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_ASHGABAT">
+			<Text>Ashgabat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_STALINABAD">
+			<Text>Stalinabad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_NOVOKUZNETSK">
+			<Text>Novokuznetsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_TSELINOGRAD">
+			<Text>Tselinograd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_KARAGANDA">
+			<Text>Karaganda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_FRUNZE">
+			<Text>Frunze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_SHCHERBAKOV">
+			<Text>Shcherbakov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_ARZAMAS_16">
+			<Text>Arzamas-16</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_9">
+			<Text>Pantiuşa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_8">
+			<Text>Ursula</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_7">
+			<Text>Mikhail</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_6">
+			<Text>Ain-Ervin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_5">
+			<Text>Susemihl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_4">
+			<Text>Valery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_3">
+			<Text>Konon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_2">
+			<Text>Reino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_1">
+			<Text>Yuri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_0">
+			<Text>Moura</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_10">
+			<Text>Vladimir</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Stalin
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN">
+			<Text>Stalin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_STALIN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_STALIN_TEXT_1">
+			<Text>His birth name was Joseph Vissarionovich Dzhugashvili, but to the world he will always be known simply as Stalin ("man of steel" in Russian). Stalin was born in 1878 to a poor Georgian family. His father was a cobbler who often beat his wife and young son. At the age of eight, Stalin began his education in the Gori Church School, where instruction was conducted in Russian and he was mocked for his Georgian accent. Stalin graduated first in his class at the age of fourteen and began attending school next at the Tiflis Theological Seminary. Stalin had no interest in becoming a priest, but the seminary was one of the few institutions of higher learning permitted in Georgia by the repressive tsarist government.[NEWLINE][NEWLINE]It was here that Stalin became involved in the revolutionary socialist movement of Russia; in 1899 he was kicked out of the school for his participation in the radical cause. For the next decade Stalin worked in the political underground of the Caucasus region, for which he was arrested and sent to temporary exile in Siberia several times. Over the years Stalin rose through the ranks of the socialist organizations, and in 1912 he gained a position on the central committee of the Bolshevik Party. He later was appointed as an editor of "Pravda," (meaning, "Truth") the main communist newspaper, which was a position with a great deal of influence.[NEWLINE][NEWLINE]Stalin played little role in the events of the 1917 Bolshevik Revolution. He and the other editors of Pravda initially supported Keresnsky's Provisional Government, and even refused to publish Lenin's articles calling for it to be overthrown. (Later, Stalin would falsely claim that he had been part of a "Party Center" which directed the October Revolution.) During the Russian Civil War, Stalin served as a military commissar on various different fronts, but he seems to have been an indifferent military man at best. It was when that conflict ended that his star began to rise.[NEWLINE][NEWLINE]In 1922 Stalin secured the position of General Secretary of the Communist Party, a post that no one else particularly wanted. Stalin recognized the potential power of this job, however, as it gave him control over appointments within the Party. Over time, Stalin built up a group of fiercely loyal followers, eventually becoming one of the most powerful men in the Party.[NEWLINE][NEWLINE]After the death of Lenin in 1924, Stalin formed a centrist ruling coalition along with Kamenev and Zinoviev. In doing so Stalin successfully outmaneuvered his enemy Trotsky, another strong contender for leadership of the USSR. In 1928 Trotsky went into exile and he was assassinated some time thereafter (it is assumed at Stalin's orders). Then Stalin turned on his former allies Kamenev and Zinoviev, driving them from power as well. By the beginning of the 1930s, Stalin had secured undisputed power over both the Communist Party and all of the Soviet Union.[NEWLINE][NEWLINE]With his enemies out of the way, Stalin could begin a thorough transformation of Russia. Up until the First World War Russia had been primarily an agrarian society, but Stalin was determined to change it into an industrial powerhouse. In 1928 he implemented the Five Year Plans, designed to force rapid industrialization upon the country at any cost. To curb the power of the prosperous independent farmers (known as "kulaks") Stalin also nationalized individual farms, replacing them with larger collective farms. Stalin's collectivization of agriculture proved to be a disaster: output actually fell, and there was a great deal of peasant resistance (which was ruthlessly crushed by the Red Army). Despite the crop shortfalls Stalin sold off the agricultural produce of the USSR to get foreign currency to pay for further industrialization, deliberately engineering a mass famine which may have killed as many as 10 million people.[NEWLINE][NEWLINE]Fearing an army plot against him, in 1936 Stalin embarked on the Great Purge, which quickly degenerated into a terrible witch hunt. Many of the old communist leaders were executed after bizarre show trials during which they confessed to outlandish crimes. At the same time the Red Army was gutted of its officer corps. Millions of innocent people died or were exiled to Siberia for no offense whatsoever. Stalin's paranoia claimed an untold number of lives before it had run its course.[NEWLINE][NEWLINE]Stalin's Soviet Union was ruthlessly authoritarian, but it had achieved its goal of industrialization. Advances were made in science, and the free provision of certain state services - including education and housing - did provide new opportunities for many millions of former peasants (although the standard of living remained extremely low compared to Western countries). Freedom of expression was nonexistent, however, and the practice of any kind of religion was made illegal.[NEWLINE][NEWLINE]During the 1930s, Stalin was convinced that Hitler's Nazi Germany was a terrible threat to the Soviet Union. He sought defensive pacts and alliances with England and France, but was soundly rebuffed by both countries. Hoping to stave off what he saw as the USSR's inevitable conflict with Germany until his country had a chance to arm itself, Stalin signed a Faustian bargain with Hitler to divide Eastern Europe between the two powers. In September of 1939 Nazi Germany invaded Poland and three weeks later the Soviet Union jumped into the conflict to claim the eastern half of the country.[NEWLINE][NEWLINE]By doing so Stalin believed that he had earned Hitler's gratitude (if not friendship), and that a German attack on the USSR did not lay in the imminent future. However, like so many other leaders Stalin totally misread Hitler, and despite increasingly frantic warnings of German soldiers massing on the borders, he was totally caught off guard when in June of 1941 Hitler launched a massive invasion. In fact, for the first days of the invasion Stalin remained convinced that it was some kind of mistake and refused to let his troops counterattack for fear of provoking Hitler! Because of Stalin's blunders the Soviets suffered enormous losses in the first few weeks.[NEWLINE][NEWLINE]With Stalin stunned into bewildered inaction by his miscalculations, it was only the sheer size of Russia that prevented the Germans from winning a quick victory. In December of 1941 winter - Russia's oldest and best ally - saved Moscow from capture. Regaining his composure, Stalin then led the Soviet Union in a bitter and gruesome struggle to the death against Nazi Germany, with countless atrocities on both sides. Stalin's transfer of heavy industry east into the Urals, combined with the unbelievable size and manpower of the Soviet Union - supported by heavy British and American fighting in the West - ultimately led to victory in 1945, when Soviet troops marched triumphantly into Berlin. The cost, however, was staggering: an estimated 10 million Russian soldiers and 20 million civilians died in the conflict.[NEWLINE][NEWLINE]By the end of the war the Red Army had overrun Eastern Europe, and once there Stalin had no intention of leaving. Despite promising to allow free elections during wartime conferences with the Americans and British, Stalin had no intention of doing anything of the sort and he set up puppet communist regimes across the region. While Tito's government in Yugoslavia successfully broke away from Stalin's bloc, the rest of the countries in Eastern Europe would spend the next three decades under the oppressive rule of the Soviet Union.[NEWLINE][NEWLINE]Despite their uneasy alliance during the recent war, the USSR remained on hostile terms with its erstwhile Western Allies. Stalin's support of the Communist Chinese and his blockade of West Berlin in 1948 helped led to the outbreak of the Cold War, a bitter period of proxy warfare and ever-growing nuclear arsenals that would drag on for fifty bleak years.[NEWLINE][NEWLINE]During his reign Stalin encouraged the development of a sycophantic cult of personality where he was worshipped as little less than a god. When he finally died in 1953 there was an enormous outpouring of genuine grief across the Soviet Union.Overall, it must be said that Stalin was successful in changing the backwards agricultural state of the tsars into a modern global superpower. No country deserves more credit for defeating Nazi Germany than the Soviet Union.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_STALIN_LIVED">
+			<Text>1878 - 1953 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_STALIN_NAME">
+			<Text>Stalin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_STALIN_SUBTITLE">
+			<Text>Leader of the USSR</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_STALIN_TITLES_1">
+			<Text>General Secretary of the Communist Party[NEWLINE][NEWLINE]Chairman of the Council of Ministers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_USSR_DAWN">
+			<Text>We are humbled by your power and greatness, glorious Stalin of the Soviet Union. The empire that you took control of in 1928 was vast. Spanning from the Baltic Sea in the West to the Pacific Ocean in the East, and covering the Northern Asias, mighty Russia longed for direction. Her meek kings had failed to tame these ferocious lands, and so was the necessity of your harsh and demanding rule; to transform the Motherland from a decrepit, backwards empire into a powerful machine of industry and war. With determination and an unyielding will, you took up the mantle as a champion of socialism, and guarded mighty Russia from the moral pestilence of the West, setting the stage for a great clash of giants in the decades to come.[NEWLINE][NEWLINE]Great comrade, the Russian people long for your return as their glorious and wilful leader. Though the Soviet Union has fallen, its people do not forget for that which it once stood and remain united beneath the banner of their great yearning. Will you strengthen the bonds of your scattered people? Can you stand for the equality of your brothers and the fallen glory of your soviet union? Can you build a civilization that will stand the test of time?</Text> 
+		</Row>
+		<!----------------------------------------------------------------
+						Diplomacy
+		------------------------------------------------------------------>
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_FIRSTGREETING_1">
+			<Text>Hmph. You look like trouble, but I don't judge a book by its cover. Unless on that cover is a religious icon. Then I burn it. Do you come bearing religious icons?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_FIRSTGREETING_2">
+			<Text>I am Joseph Stalin, General Secretary of these united socialist republics; bound in blood and sweat against the tyranny of arbitrary kings and gods. That's right; you should tremble before me.</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DEFEATED_1">
+			<Text>You may taste the ash of this victory upon your tongue for now, but I have left my mark upon the hearts of men, and one day those men will rise up against you.</Text>
+		</Row>
+		<!-- Human repeats an action too much, gets the following responses -->
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_REPEAT_TOO_MUCH_1">
+			<Text>*readies weapon* Are you certain you want to be here right now?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_REPEAT_TRADE_TOO_MUCH_1">
+			<Text>Didn't I already say you would have to do better?</Text>
+		</Row>
+		<!-- Greetings -->
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_GREETING_HOSTILE_HELLO_1">
+			<Text>What do you want with me?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_GREETING_POLITE_HELLO_1">
+			<Text>I can be very polite, and believe me: I am.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>I hope you lose the little war that you're involved in. It would make for some good entertainment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_GREETING_HUMAN_AT_WAR_1">
+			<Text>Yes, I've noticed your little war. Just so you know, you wouldn't stand a chance if it were against me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>I will crush your little ants amassing at my borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STALIN_GREETING_HOSTILE_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>Continue to buy up this earth and I shall take all the more pleasure in burning it to the ground.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_GREETING_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>Capitalism is the tool of vermin. Cease your aristocracy, for it sows in the hearts of your men hatred.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_GREETING_HOSTILE_AGGRESSIVE_EXPANSION_1">
+			<Text>I feel that you're getting too liberal with your settling of the land. You know what I do with liberals? Take a "stab in the dark" at the answer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_GREETING_AGGRESSIVE_EXPANSION_1">
+			<Text>The spread of your cities and people is like a plague infecting the land. I look forward to the day I don't have to see it any more.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_GREETING_FRIENDLY_STRONG_MILITARY_1">
+			<Text>You have a powerful military. This is good. It will serve me well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_GREETING_FRIENDLY_STRONG_ECONOMY_1">
+			<Text>I have heard of your strong economy; forged from the principles of socialism, I expect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_GREETING_HOSTILE_HUMAN_FEW_CITIES_1">
+			<Text>Your empire would make a perfect frontier. Don't get comfortable as its leader.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_GREETING_HOSTILE_HUMAN_SMALL_ARMY_1">
+			<Text>With what armies do you hope to resist any invasion? Perhaps you should save me the trouble, and join the Soviet Union now.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>You are a capitalist of violence. I have little patience for you. You should be hung by the neck and shot for good measure.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_TOO_SOON_FOR_DOF_1">
+			<Text>No. You are not worthy of friendship with the Soviet Union.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DENOUNCE_1">
+			<Text>You have stood in the way of the Soviet Union for too long. It is time the world prepared itself for the prelude to war.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DENOUNCE_2">
+			<Text>Your empire is ripe for incorporation into the Soviet Union. It is now only a matter of time.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>You do not realise the mistake that you have made; it will cost you an empire, and your head - though you seem not to have been using either very well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_HUMAN_DOFED_FRIEND_1">
+			<Text>It is good that you have made friends with {1_CivName}. I would hate to have had to shoot one of you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_HUMAN_DOFED_ENEMY_1">
+			<Text>Do not get too close to {1_CivName}. They do not believe in our ways.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>{1_CivName} is a close friend of mine. If you are against them, then you are against me, and all of my armies and the might of my empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>It took you long enough to see sense in denouncing {1_CivName}, but at least you got there in the end. I suppose I should call off that assassination then.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_HUMAN_DOF_SO_AI_DOF_1">
+			<Text>I noticed that you have become friends with {1_CivName}. For the time being, I'll do the same, as it serves me well to show my support.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_HUMAN_DOF_SO_AI_DENOUNCE_1">
+			<Text>Oh, so you're friends with {1_CivName} are you? Well, my aim is good, so it doesn't bother me too much.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_HUMAN_DENOUNCE_SO_AI_DENOUNCE_1">
+			<Text>I agree that {1_CivName} is a home for fools. Perhaps the combination of our denouncements will test them a lesson.</Text>
+		</Row>
+		<!-- General Diplo Text -->
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_COOP_WAR_REQUEST_1">
+			<Text>{1_PlayerName:textkey} is too weak to be called the leader of an empire. They must be absorbed into the Soviet Union. You will aide me in this cause.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_COOP_WAR_TIME_1">
+			<Text>The time has come to incorporate {1_PlayerName:textkey} into the Soviet Union.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DEC_FRIENDSHIP_1">
+			<Text>I believe you would make a fine ally to the Soviet Union. You will accept my hand in friendship, and together we will make the world cower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>I warn you that while you may be prepared to play chess, I am prepared to play war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_PLOT_BUYING_WARNING_1">
+			<Text>Continue to buy up this earth and I shall take all the more pleasure in burning it to the ground.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>Continue to buy up this earth and I shall take all the more pleasure in burning it to the ground.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_EXPANSION_SERIOUS_WARNING_1">
+			<Text>I feel that you're getting too liberal with your settling of the land. You know what I do with liberals? Take a "stab in the dark" at the answer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_EXPANSION_WARNING">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_RETURNED_CIVILIAN_1">
+			<Text>Just so you know, that civilian had been exiled from my empire. Now I must shoot them.</Text>
+		</Row>
+		<!--Insults-->	
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_INSULT_JFD_STALIN_1">
+			<Text>Hah-hah! You're so weak and pathetic I just had to come over and let you know!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_INSULT_JFD_STALIN_2">
+			<Text>Ah, it's always good to see my favourite satellite state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_INSULT_JFD_STALIN_3">
+			<Text>I'm really getting tired of seeing your face. My hope is that one day you'll just go away or something.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_INSULT_JFD_STALIN_4">
+			<Text>Ah, it's you. My apologies. Sometimes I get you mixed up with the barbarians I have to swat from time to time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_INSULT_MILITARY_1">
+			<Text>Just so you know, your army is really quite pathetic. It'll be no challenge to conquer you, so keep it that way.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_INSULT_MILITARY_2">
+			<Text>With an army so weak it's a surprise your empire hasn't succumb to a barbarian invasion. Or, a Soviet invasion, hm? Hoh-hoh!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_INSULT_BULLY_1">
+			<Text>It shows just how pathetic you are that you must pick on the innocent. These are my future puppets you're messing with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_INSULT_UNHAPPINESS_1">
+			<Text>I can hear your people wailing in sorrow all the way over in my empire. If you don't do something soon they might just pack up and find a real civilization to live in.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_INSULT_UNHAPPINESS_2">
+			<Text>With people so unhappy it's a shock to me that they'd keep you around as their leader.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_INSULT_CITIES_1">
+			<Text>Its come to my attention that your empire appears to be quite puny. Maybe you would be better off as a part of my soviet union?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_INSULT_POPULATION_1">
+			<Text>Travelers have told us that your empire's economy is in pretty sad shape. If you had only not fallen into the trap of capitalism, you wouldn't be in this mess.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_INSULT_CULTURE_1">
+			<Text>It is a good thing that you are so uncultured; ideas are dangerous. And you don't seem the kind to keep control of your people's ideas.</Text>
+		</Row>
+		<!--Public Declarations-->
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DECLARATION_PROTECT_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} announces to the world that {1_MinorCivName:textkey} is a future member of the Soviet Union. Attacking the City-State will greatly damage relations and may lead to war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DECLARATION_ABANDON_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} has taken back its guarantee of protecting {1_MinorCivName:textkey}. They must serve no purpose to the Soviet Union.</Text>
+		</Row>
+		<!-- Human is asking the AI for something -->
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DONT_SETTLE_NO_1">
+			<Text>Absolutely not! I will settle what lands I damn well please.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DONT_SETTLE_YES_1">
+			<Text>Fine.</Text>
+		</Row>
+		<!--Deal Offers and related-->
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_LUXURY_TRADE_1">
+			<Text>Give that to me, now.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_OPEN_BORDERS_EXCHANGE_1">
+			<Text>I have been advised that this deal is in my best interest. If this is untrue, I will shoot someone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_RESPONSE_REQUEST_1">
+			<Text>Hand this over, so that you do not upset me.</Text>
+		</Row>
+		<!--AI Attacked by Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_ATTACKED_HOSTILE_1">
+			<Text>You will come to regret this most foolish, idiotic of actions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_ATTACKED_EXCITED_1">
+			<Text>Oh I'm sorry, did you attack me? NOW YOU WILL KNOW THE WRATH OF STALIN!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_ATTACKED_SAD_1">
+			<Text>You will come to regret this most foolish, idiotic of actions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_ATTACKED_BETRAYED_1">
+			<Text>Oh I'm sorry, did you betray me? NOW YOU WILL KNOW THE WRATH OF STALIN!!</Text>
+		</Row>
+		<!--AI Declaring War on Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DOW_GENERIC_1">
+			<Text>It is time that war dawned upon your pathetic little fiefdom and I make you my servant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DOW_LAND_1">
+			<Text>Your land belongs to this union of men! It is time to face real power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DOW_LAND_2">
+			<Text>Your land will make for a nice frontier! Maybe I won't burn your palace down, and keep it for myself.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DOW_WORLD_CONQUEST_1">
+			<Text>It will take you much courage to retreat from the march of my armies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DOW_OPPORTUNITY_1">
+			<Text>I have been waiting a long time for this day. Now would be a good time to put your affairs in order.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DOW_DESPERATE_1">
+			<Text>I will re-ignite the fires of this empire with my blood, if it must be so.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DOW_DESPERATE_2">
+			<Text>I shall make this final stand for the good of my empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DOW_BETRAYAL_1">
+			<Text>This betrayal is an unveiling of my greater plans to assume your empire as mine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_DOW_BETRAYAL_2">
+			<Text>It is unfortunate that brothers must wage war; but blood is harder to swallow than water.</Text>
+		</Row>
+		<!--AI Responses to a human peace offer-->
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_TOO_SOON_NO_PEACE_1">
+			<Text>Hah-hah! No peace for you, you damned idiot!</Text>
+		</Row>
+		<!--AI Responses to a discussion mode topics-->
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_BAD_1">
+			<Text>You have made me very upset. You damnable idiot. I will destroy you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_BAD_2">
+			<Text>I will bloody this damned response.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_STALIN_GOOD_1">
+			<Text>Good. I knew you didn't have the gall.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						The Warsaw Pact
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_JFD_USSR_STALIN">
+			<Text>Enemy units that end the turn inside your borders, or inside the borders of allied City-States or Civilizations with whom you share an Ideology, may take damage. Earn 3 more [ICON_INFLUENCE] Influence per turn with City-States you can demand tribute from.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_USSR_STALIN_SHORT">
+			<Text>Warsaw Pact</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_WARSAW_PACT">
+			<Text>Warsaw Pact</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_WARSAW_PACT_HELP">
+			<Text>This unit is inside Stalinist Soviet Union territory, or inside the territory of a City-State allied with the Stalinist Soviet Union or a Civilization that shares an Ideology with the Stalinist Soviet Union. This unit may take [COLOR_NEGATIVE_TEXT]10 Damage[ENDCOLOR] at the end of the turn.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Commissariat
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_BUILDING_JFD_STALIN_COMMISSARIAT_DESC">
+			<Text>Stalinist Commissariat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_STALIN_COMMISSARIAT_HELP">
+			<Text>+5% [ICON_PRODUCTION] Production when building military units for each trade route the civilization has with a City-State. Reduces [ICON_CULTURE] Culture cost for acquiring new tiles by 25%. Reduces enemy [ICON_SPY] Spy stealing rate by 25%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_STALIN_COMMISSARIAT_STRATEGY">
+			<Text>The Stalinist Commissariat is the unique building for Stalin's Soviet Union, replacing the Constabulary. The Stalinist Commissariat reduces the rate at which enemy [ICON_SPY] Spies steal technology from this city and increases the [ICON_CULTURE] Cultural border growth of this city. Additionally, the Stalinist Commissariat increases the [ICON_PRODUCTION] Production output of this city when building military units for each trade route the civilization has with a City-State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_JFD_STALIN_COMMISSARIAT_TEXT">
+			<Text>A commissariat is a department charged with maintaining supplies for an army. Military commissariats in the Soviet Union were devoted to the administration of local military affairs; including the mobilization of the army and the drafting of soldiers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_STALIN_SATELLITES">
+			<Text>JFD: Satellite State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_STALIN_SATELLITES_HELP">
+			<Text>+5% [ICON_PRODUCTION] Production when building military units.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						IS-2
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_IS2_INFO">
+			<Text>Communist Legion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_IS2_INFO_HELP">
+			<Text>May make one additional attack per turn while in friendly territory, or in territory belonging to an allied City-State or Civilization with a shared Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_IS2">
+			<Text>Communist Legion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_IS2_HELP">
+			<Text>May make one additional attack per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_IS2">
+			<Text>IS-2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_IS2">
+			<Text>Fast Atomic Era armor unit that may make one additional attack per turn while in friendly territory, or in territory belonging to an allied City-State or Civilization with a shared Ideology. Only Stalin's Soviet Union may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_IS2_STRATEGY">
+			<Text>The IS-2 is the unique unit for Stalin's Soviet Union, replacing the Tank. Faster and cheaper than the Tank, the IS-2 may make one additional attack per turn while in friendly territory, or in territory belonging to an allied City-State or Civilization with a shared Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_IS2_TEXT">
+			<Text>The IS tank family was a series of heavy tanks developed as a successor to the KV-series by the Soviet Union during World War II. It was named after Soviet leader Joseph Stalin. The heavy tank was designed with thick armour to counter the German 88 mm guns, and carried a main gun that was capable of defeating the German Tiger and Panther tanks. It was mainly a breakthrough tank, firing a heavy high-explosive shell that was useful against entrenchments and bunkers. The IS-2 was put into service in April 1944, and was used as a spearhead in the Battle of Berlin by the Red Army in the final stage of the war.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="488c2bae-ea94-45f8-8d79-7e943d41e3ca" version="1">
+  <Properties>
+    <Name>JFD's The Kingdom of Belgium</Name>
+    <Teaser>Adds the Kingdom of Belgium civilization led by Albert to the game.</Teaser>
+    <Description>Adds the Kingdom of Belgium civilization to the game.</Description>
+    <Authors>JFD, Janboruta</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A7073913A84BAD64137391F465A88644" import="0">Art/ArtDefines.sql</File>
+    <File md5="07FCF53AED1C2E1EB2C29C038BA16CBF" import="1">Art/Graphics/civ5_swerm1.fbx</File>
+    <File md5="C12E1992601585621BA69FB587C1E422" import="1">Art/Graphics/civ5_swerm1.fxsxml</File>
+    <File md5="E2FAA3CEC206A58D5F5FBAA778DA1BAF" import="1">Art/Graphics/civ5_swerm1.gr2</File>
+    <File md5="AE8384480CAD1D4BBBA0F83F567FC515" import="1">Art/Graphics/sv_Chasseur.dds</File>
+    <File md5="5FB636557846F6ED0395784E83E9F54A" import="1">Art/Graphics/swerm1.dds</File>
+    <File md5="505D25114B00306E1A284F8E145085AC" import="1">Art/Graphics/swerm1_sref.dds</File>
+    <File md5="FF567DEBFEAA6276AC0BCC87C973C714" import="1">Art/IconAtlas/JFD_BelgiumAlphaAtlas_128.dds</File>
+    <File md5="8F275D816A0764BF58F170BA86998A80" import="1">Art/IconAtlas/JFD_BelgiumAlphaAtlas_16.dds</File>
+    <File md5="9C110D3D16BBE6B632B75BCBB6822A8A" import="1">Art/IconAtlas/JFD_BelgiumAlphaAtlas_24.dds</File>
+    <File md5="20EFFA870AEC2E43375B41A3519EEA9A" import="1">Art/IconAtlas/JFD_BelgiumAlphaAtlas_32.dds</File>
+    <File md5="E4EC45BDB948AB88001D89ABD3E30856" import="1">Art/IconAtlas/JFD_BelgiumAlphaAtlas_45.dds</File>
+    <File md5="0D89BBE9DAC775479715E0148DEA226D" import="1">Art/IconAtlas/JFD_BelgiumAlphaAtlas_48.dds</File>
+    <File md5="0E3FDA772BFCEBEA6AAE26B57504DD74" import="1">Art/IconAtlas/JFD_BelgiumAlphaAtlas_64.dds</File>
+    <File md5="11DC93F9158850F3491EC3D43759428A" import="1">Art/IconAtlas/JFD_BelgiumAlphaAtlas_80.dds</File>
+    <File md5="417FCC8E24808D7E323D7EFEDB8AC60F" import="1">Art/IconAtlas/JFD_BelgiumAtlas_128.dds</File>
+    <File md5="4407031FED59222E98C6D534C1B37806" import="1">Art/IconAtlas/JFD_BelgiumAtlas_256.dds</File>
+    <File md5="9BBB5C3C75F4C9764B9897073CB24EAD" import="1">Art/IconAtlas/JFD_BelgiumAtlas_32.dds</File>
+    <File md5="40D8FBCE218385A175FACD1344F5755B" import="1">Art/IconAtlas/JFD_BelgiumAtlas_45.dds</File>
+    <File md5="E1DFF247439EA4CB56F3C67B76529D3D" import="1">Art/IconAtlas/JFD_BelgiumAtlas_64.dds</File>
+    <File md5="FB9D23E4A8ADB87F59D8BBEEFBB4861F" import="1">Art/IconAtlas/JFD_BelgiumAtlas_80.dds</File>
+    <File md5="F3DC7006535C2B464BC3672FA9169448" import="1">Art/IconAtlas/JFD_ChasseurUnitFlag_32.dds</File>
+    <File md5="4018D10FB376C08EA06488FAAE8BEB12" import="1">Art/IconAtlas/JFD_PralineFontIcons_22.ggxml</File>
+    <File md5="07FB41C77A84AADFF6BA3874B44503B3" import="1">Art/IconAtlas/Praline-FontIcons.dds</File>
+    <File md5="802B96FB13530E4358639E65829D761D" import="1">Art/Leaderscene/Albert_Diplo.dds</File>
+    <File md5="9D70A34A4A50A8D0BF5040A6CCB7E2C7" import="1">Art/Leaderscene/Albert_Scene.xml</File>
+    <File md5="8E63003CC25FA159D47A07E487B0E704" import="1">Art/Map/Albert_DOM.dds</File>
+    <File md5="E5BB32CD8A2DC8B6185689B7C23A362C" import="1">Art/Map/BelgiumMap512.dds</File>
+    <File md5="491F4FACCC46C87205C3DA2E9106CD99" import="1">Audio/Albert_Peace.mp3</File>
+    <File md5="347698720D76CC416292BC3197AD834C" import="1">Audio/Albert_War.mp3</File>
+    <File md5="1ABD7C094F92CFB1755021A2F5D28DF0" import="0">Audio/Audio.sql</File>
+    <File md5="6B752F602039EA0788732AE77CBACE09" import="0">Core/Buildings.sql</File>
+    <File md5="3CCFBA0B53CFF8D7D052CCE2C98C754D" import="0">Core/Builds.sql</File>
+    <File md5="BD2B963C262963D6719E5F35B015EA58" import="0">Core/Civilizations.sql</File>
+    <File md5="F120669E68BE225F3119904DE140EC78" import="0">Core/Diplomacy.sql</File>
+    <File md5="61757CAFC2F90195CBA6858CC38B65EE" import="0">Core/GameText.xml</File>
+    <File md5="048EF38356B1429CB91C7BA3D61A21E8" import="0">Core/Improvements.sql</File>
+    <File md5="6CE070F87E66602D0861DC956ED96E85" import="0">Core/Leaderhead.sql</File>
+    <File md5="C6D2D307EFD504738146D4A849B6650D" import="0">Core/MinorCivilizations.sql</File>
+    <File md5="16D6ECFBEAD063E166D9180C58ADEC4B" import="0">Core/PlayerColours.sql</File>
+    <File md5="9D29DA795E823FFFC657245582718E0F" import="0">Core/Promotions.sql</File>
+    <File md5="ECDD01CA25E98CD18BAF1BB26CF77517" import="0">Core/Resources.sql</File>
+    <File md5="31E4535831782759D47EF083ED22BB0B" import="0">Core/Traits.sql</File>
+    <File md5="C9DDE238236D8BD78C855715722DF1A5" import="0">Core/Units.sql</File>
+    <File md5="5EA317AC3DA41A4FCBDA13AE1071EA2E" import="0">Lua/JFD_BelgiumFunctions.lua</File>
+    <File md5="5EA317AC3DA41A4FCBDA13AE1071EA2E" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Audio/Audio.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Builds.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Improvements.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MinorCivilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Resources.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_BelgiumFunctions.lua">
+      <Name>Belgium Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

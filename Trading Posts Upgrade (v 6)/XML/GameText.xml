@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 13-Oct-14 3:43:15 -->
+<GameData>
+	<Language_en_US>
+		<!-- Improvements -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_TRADING_POST_X">
+			<Text>Trading Post</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_TRADING_POST_X">
+			<Text>Build a Trading Post</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_TRADING_POST_X_TEXT">
+			<Text>Trading Posts are outposts where hunters and trappers may sell their wares to civilians in exchange for food, weapons, whiskey, gold, and all of the other trappings of society. They can generate wealth for a society.[NEWLINE][NEWLINE]After 15 turns of being worked, the Trading Post upgrades into a Hamlet, which provides an additional +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_IMPROVEMENT_TRADING_POST"/>
+			<Set Text="Hamlet"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_IMPROVEMENTS_TRADING_POST_TEXT"/>
+			<Set Text="Hamlets are very small settlements where people who prefer the quietier country to the hectic city may sell their wares to travelers and city folk in exchange for food, weapons, whiskey, gold, and all of the other trappings of society. They can generate more wealth for a society than Trading Posts.[NEWLINE][NEWLINE]The Hamlet can only be upgraded to from a Trading Post. After 15 turns of being worked, the Hamlet upgrades into a Village, which provides an additional +1 [ICON_GOLD] Gold."/>
+		</Update>
+		<Row Tag="TXT_KEY_IMPROVEMENT_VILLAGE">
+			<Text>Village</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_VILLAGE_TEXT">
+			<Text>Villages are small settlements where people who prefer the quietier country to the hectic city may sell their wares to travelers and city folk in exchange for food, weapons, whiskey, gold, and all of the other trappings of society. They can generate more wealth for a society than Hamlets.[NEWLINE][NEWLINE]The Village can only be upgraded to from a Hamlet.</Text>
+		</Row>
+		<!-- Techs -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_TRAPPING_HELP"/>
+			<Set Text="Allows Workers to contruct [COLOR_POSITIVE_TEXT]Camps[ENDCOLOR] on sources of [ICON_RES_DEER] Deer, [ICON_RES_BISON] Bison, [ICON_RES_IVORY] Ivory, [ICON_RES_FUR] Fur, and [ICON_RES_TRUFFLES] Truffles. Allows Workers to construct the [COLOR_POSITIVE_TEXT]Trading Post[ENDCOLOR], which increases the [ICON_GOLD] Gold output of map tiles."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_GUILDS_HELP"/>
+			<Set Text="Allows your cities to convert [ICON_PRODUCTION] Production into [ICON_GOLD] Gold instead of working on units or buildings."/>
+		</Update>
+	</Language_en_US>
+</GameData>

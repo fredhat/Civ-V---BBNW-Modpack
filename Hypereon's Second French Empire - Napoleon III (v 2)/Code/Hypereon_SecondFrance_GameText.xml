@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--SECOND FRANCE-->
+		<Row Tag="TXT_KEY_CIV_HYPEREON_SECONDFRANCE_ADJECTIVE">
+			<Text>French</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_HYPEREON_SECONDFRANCE_DESC">
+			<Text>Second French Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_HYPEREON_SECONDFRANCE_SHORT_DESC">
+			<Text>France</Text>
+		</Row>
+		<!--City List-->
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_01">
+			<Text>Paris</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_02">
+			<Text>Lyon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_03">
+			<Text>Marseille</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_04">
+			<Text>Bordeaux</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_05">
+			<Text>Algiers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_06">
+			<Text>Lille</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_07">
+			<Text>Nantes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_08">
+			<Text>Toulouse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_09">
+			<Text>Saigon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_10">
+			<Text>Saint-Étienne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_11">
+			<Text>Orléans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_12">
+			<Text>Rouen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_13">
+			<Text>Pondichéry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_14">
+			<Text>Le Havre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_15">
+			<Text>Strasbourg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_16">
+			<Text>Toulon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_17">
+			<Text>Phnom Penh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_18">
+			<Text>Brest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_19">
+			<Text>Amiens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_20">
+			<Text>Nîmes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_21">
+			<Text>Limoges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_22">
+			<Text>Oran</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_23">
+			<Text>Montpellier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_24">
+			<Text>Besançon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_25">
+			<Text>Rennes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_26">
+			<Text>Nice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_27">
+			<Text>Dakar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_28">
+			<Text>Reims</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_29">
+			<Text>Angers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_30">
+			<Text>Metz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_31">
+			<Text>Tours</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_32">
+			<Text>Constantine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_33">
+			<Text>Caen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_34">
+			<Text>Grenoble</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_35">
+			<Text>Dijon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_36">
+			<Text>Nancy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_37">
+			<Text>Bône</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_38">
+			<Text>Le Mans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_39">
+			<Text>Aix-en-Provence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_40">
+			<Text>Perpignan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_41">
+			<Text>Mulhouse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_42">
+			<Text>Libreville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_43">
+			<Text>Clermont</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HYPEREON_SECONDFRANCE_44">
+			<Text>Sétif</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_HYPEREON_SECONDFRANCE_9">
+			<Text>Yves</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HYPEREON_SECONDFRANCE_8">
+			<Text>Joseph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HYPEREON_SECONDFRANCE_7">
+			<Text>Amédée-François</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HYPEREON_SECONDFRANCE_6">
+			<Text>Jean-Guillaume</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HYPEREON_SECONDFRANCE_5">
+			<Text>Baron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HYPEREON_SECONDFRANCE_4">
+			<Text>Joséphine</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HYPEREON_SECONDFRANCE_3">
+			<Text>Michelle</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HYPEREON_SECONDFRANCE_2">
+			<Text>Constance</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HYPEREON_SECONDFRANCE_1">
+			<Text>Renée</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HYPEREON_SECONDFRANCE_0">
+			<Text>Comte X</Text>
+		</Row>
+		<!--NAPOLEON III-->
+		<Row Tag="TXT_KEY_LEADER_HYPEREON_NAPOLEONIII">
+			<Text>Napoleon III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_TEXT_1">
+			<Text>Louis-Napoléon Bonaparte (20 April 1808 - 9 January 1873) was the only President (1848-52) of the French Second Republic and, as Napoleon III, the Emperor (1852-70) of the Second French Empire. He was the nephew and heir of Napoleon I. He was the first President of France to be elected by a direct popular vote. However, when he was blocked by the Constitution and Parliament from running for a second term, he organized a coup d'état in 1851, and then took the throne as Napoleon III on 2 December 1852, the forty-eighth anniversary of Napoleon I's coronation. He remains the longest-serving head of state since the French Revolution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_HEADING_2">
+			<Text>Emperor of the French</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_TEXT_2">
+			<Text>During the first years of the Empire, Napoleon's government imposed censorship and harsh repressive measures against his opponents. Some six thousand were imprisoned or sent to penal colonies until 1859. Thousands more, including Victor Hugo, went into voluntary exile abroad. From 1862 onwards he relaxed government censorship, and his regime came to be known as the "Liberal Empire." Many of his opponents returned to France and became members of the National Assembly. Napoleon III is best known today for his grand reconstruction of Paris, carried out by his prefect of the Seine Baron Haussmann. He launched similar public works projects in Marseille, Lyon and other French cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_HEADING_3">
+			<Text>Liberal Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_TEXT_3">
+			<Text>Napoleon III modernized the French banking system, greatly expanded and consolidated the French railroad system, and made the French merchant marine the second largest in the world. He promoted the building of the Suez Canal, and established modern agriculture, which ended famines in France and made France an agricultural exporter. He negotiated the 1860 Cobden–Chevalier free trade agreement with Britain, and similar agreements with France's other European trading partners. Social reforms included giving French workers the right to strike and the right to organize. Women's education greatly expanded, as did the list of required subjects in public schools.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_HEADING_4">
+			<Text>Foreign Policy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_TEXT_4">
+			<Text>In foreign policy, Napoleon III aimed to reassert French influence in Europe and around the world. He was a supporter of popular sovereignty, and of nationalism. In Europe, he allied with Britain and defeated Russia in the Crimean War (1854-56). His regime assisted Italian unification, and in doing so annexed Savoy and the County of Nice to France; at the same time his forces defended the Papal States against annexation by Italy. Napoleon doubled the area of the French overseas empire in Asia, the Pacific and Africa. On the other hand, his army's intervention in Mexico, which aimed to create a Second Mexican Empire under French protection, ended in failure.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_HEADING_5">
+			<Text>Downfall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_TEXT_5">
+			<Text>Beginning in 1866 Napoleon had to face the mounting power of Prussia, as Chancellor Otto von Bismarck sought German unification under Prussian leadership. In July 1870 Napoleon entered the Franco-Prussian War without allies and with inferior military forces. The French army was rapidly defeated and Napoleon III was captured at the Battle of Sedan. The French Third Republic was proclaimed in Paris, and Napoleon went into exile in England, where he died in 1873.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_NAME">
+			<Text>Louis-Napoléon Bonaparte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_SUBTITLE">
+			<Text>Leader of the Second French Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_TITLES_1">
+			<Text>Emperor of the French</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_TITLES_2">
+			<Text>President of the French Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HYPEREON_NAPOLEONIII_LIVED">
+			<Text>1808 - 1873 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_SECONDFRANCE_TEXT">
+			<Text>France and its colonies bow before you, O' Emperor of the French and the heir of Napoléon Bonaparte, Napoleon the Third. Destined to be emperor since young age, you would be elected as France's first president in 1848, after the tempests of the Spring of Nations had dethroned the Bourbons once and for all. Through cunning diplomatic maneuvring, you would take the throne of emperor in 1852, thus founding the Second French Empire. After a period of harsh censorship and repression, your reforms and public work projects brought industrial revolution into France, modernized its banking system, consolidated its railroads, brought end to famines and reconstructed its greatest cities with a glory never seen before - earning your regime the title 'Liberal Empire'. Your reassertion of the French power would eventually fail, first in Mexico, then in Europe, as the growing power of unifying Germany caused the downfall of the empire and its emperor; France's first democratic president - and its last autocratic monarch.[NEWLINE][NEWLINE]Illustrious Emperor, France still yearns for the imperial days of wealth, culture and glory. Can you answer their hopes and once more take the throne of great kings and emperors? Can you - the heir of Napoleon - outshine even the Sun of Austerlitz? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!--LIBERAL EMPIRE-->
+		<Row Tag="TXT_KEY_TRAIT_HYPEREON_SECONDFRANCE_SHORT">
+			<Text>Liberal Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_HYPEREON_SECONDFRANCE">
+			<Text>Earn points toward a [ICON_GOLDEN_AGE] Golden Age from adopting Social Policies. [ICON_GOLDEN_AGE] Golden Age [ICON_CULTURE] Culture and [ICON_PRODUCTION] Production bonuses are doubled in the [ICON_CAPITAL] Capital. Workers improve tiles 50% faster during a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYPEREON_SECONDFRANCE_TRAIT">
+			<Text>Dummy Trait Building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYPEREON_SECONDFRANCE_TRAIT_HELP">
+			<Text>Dummy Trait Building</Text>
+		</Row>
+		<!--ZOUAVE-->
+		<Row Tag="TXT_KEY_UNIT_HYPEREON_ZOUAVE">
+			<Text>Zouave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HYPEREON_ZOUAVE_TEXT">
+			<Text>Zouave was the title given to certain light infantry regiments in the French Army, normally serving in French North Africa between 1831 and 1962. The name was also adopted during the 19th century by units in other armies, such as volunteer regiments raised for service in the American Civil War and Brazilian free black volunteers in the Paraguayan War. The distinctive appearance of such units was given by the zouave uniform, which included short open-fronted jackets, baggy trousers (serouel), and often sashes and oriental head gear.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HYPEREON_ZOUAVE_HELP">
+			<Text>Fast Industrial Era gunpowder unit that receives additional [ICON_STRENGTH] Combat Strength for each [ICON_PUPPET] Puppet in the empire and specializes in fighting outside of friendly territory. Only Napoleon III's France may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HYPEREON_ZOUAVE_STRATEGY">
+			<Text>The Zouave is the unique unit for Napoleon III's France, replacing the Rifleman. Cheaper, faster and weaker than the Rifleman, the Zouave receives a +20% Attack Bonus outside of friendly territory as well as +1 [ICON_STRENGTH] Combat Strength for each [ICON_PUPPET] Puppet in the empire (up to +10).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HYPEREON_COLONIAL_ARMY">
+			<Text>Colonial Army</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HYPEREON_COLONIAL_ARMY_HELP">
+			<Text>+20% Attack Bonus outside of friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HYPEREON_COLONIAL_DRAFT">
+			<Text>Colonial Recruit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HYPEREON_COLONIAL_DRAFT_HELP">
+			<Text>Receives +1 [ICON_STRENGTH] Combat Strength for each [ICON_PUPPET] Puppet in the empire (up to +10).</Text>
+		</Row>
+		<!--GRANDE ECOLE-->
+		<Row Tag="TXT_KEY_BUILDING_HYPEREON_GRANDE_ECOLE">
+			<Text>Grande École</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYPEREON_GRANDE_ECOLE_HELP">
+			<Text>+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this city.[NEWLINE][NEWLINE]Once built, the Grande École can be specialized into the École Normale Superieure, École Polytechnique or Conservatoire National.[NEWLINE][NEWLINE]City must have a University.[NEWLINE][NEWLINE]Cannot be sold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYPEREON_GRANDE_ECOLE_STRATEGY">
+			<Text>The Grande École is the unique building for Napoleon III's France, replacing the Public School. The Grande École provides a Scientist specialist and increases the [ICON_RESEARCH] Science output of this city. Once built, the Grande École can be specialized into the École Normale Superieure, École Polytechnique or Conservatoire National, providing this city with additional bonuses. Only one specialization can be chosen per city. Can only be built if this city contains a University. The Grande École cannot be sold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HYPEREON_GRANDE_ECOLE_TEXT">
+			<Text>The grandes écoles of France, literally Grand Schools or Elite Schools, are higher education establishments outside the main framework of the French university system. Most were established by branches of the state; the first of all, École Polytechnique, during the French Revolution. The grandes écoles select students for admission based chiefly on national ranking in competitive written and oral exams, while French public universities have a legal obligation to accept all candidates of the region who hold a corresponding baccalauréat. Officially considered as public service, they usually require low fees, or even none, and allow grants to poor students like universities do.[NEWLINE][NEWLINE]They have historically produced many if not most of France's high-ranking civil servants, politicians and executives, as well as many big businessmen, scientists, writers and philosophers. Most of the grandes écoles teach either technoscience or business. Many concentrate on a single subject area, such as electric engineering or public works. Globally, they play a similar role as prestige or elite higher education institutions in the English speaking world, despite different official status and functioning.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYPEREON_GRANDE_ECOLE_SCIENCE">
+			<Text>École Normale Superieure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYPEREON_GRANDE_ECOLE_SCIENCE_HELP">
+			<Text>Specialization for the Grande École. Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]+15% [ICON_GREAT_PEOPLE] Great People generation in this city.[NEWLINE][NEWLINE]City must have a Grande École and must not have an École Polytechnique or a Conservatoire National.[NEWLINE][NEWLINE]Cannot be sold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYPEREON_GRANDE_ECOLE_SCIENCE_STRATEGY">
+			<Text>The École Normale Superieure is a unique specialization for the Grande École. The École Normale Superieure provides a Scientist specialist and increases the speed at which Great People are generated in this city. The École Normale Superieure has no maintenance cost. Can only be built if this city contains a Grande École and does not contain an École Polytechnique or a Conservatoire National. The École Normale Superieure cannot be sold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HYPEREON_GRANDE_ECOLE_SCIENCE_TEXT">
+			<Text>The École normale supérieure is a French grande école. It was initially conceived during the French Revolution and was intended to provide the Republic with a new body of professors, trained in the critical spirit and secular values of the Enlightenment. It has since developed into an elite institution which has become a platform for many of France's brightest young people to pursue high-level careers in government and academia, and as such stands as one of the symbols of Republican meritocracy, along with École nationale d'administration and Ecole Polytechnique, offering its alumni access to high positions within the state.[NEWLINE][NEWLINE]Founded in 1794 and reorganized by Napoleon, ENS has two main sections (literary and scientific) and a highly competitive selection process consisting of written and oral examinations. Its students excel in the fields of culture, academic research in the sciences and humanities. During their studies, ENS students hold the status of paid civil servants.[NEWLINE][NEWLINE]The École normale superieure is one of the three first grandes écoles founded in 1794 with the École polytecnique and the Conservatoire national des arts et métiers. In Civilization V it represents any similar grande école in France specialized in natural sciences and humanities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYPEREON_GRANDE_ECOLE_MILITARY">
+			<Text>École Polytechnique</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYPEREON_GRANDE_ECOLE_MILITARY_HELP">
+			<Text>Specialization for the Grande École. Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]+15 XP for all military units built in this city.[NEWLINE][NEWLINE]City must have a Grande École and must not have an École Normale Superieure or a Conservatoire National.[NEWLINE][NEWLINE]Cannot be sold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYPEREON_GRANDE_ECOLE_MILITARY_STRATEGY">
+			<Text>The École Polytechnique is a unique specialization for the Grande École. The École Polytechnique provides an Engineer specialist as well as experience for military units built in this city. The École Polytechnique has no maintenance cost. Can only be built if this city contains a Grande École and does not contain an École Normale Superieure or a Conservatoire National. The École Polytechnique cannot be sold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HYPEREON_GRANDE_ECOLE_MILITARY_TEXT">
+			<Text>École polytechnique (also known by the nickname X) is a French public institution of higher education and research, located in Palaiseau near Paris. It is one of the French Grandes écoles, and is renowned for its four-year undergraduate Ingénieur Polytechnicien degree in science and engineering.Students are usually admitted after two years of selective university-level preparation in mathematics and physics or after a Bachelor of Science (Licence in French education system).[NEWLINE][NEWLINE]Polytechnique was established in 1794 by the mathematician Gaspard Monge during the French Revolution, and became a military academy under Napoleon I in 1804. Today, the institution still runs under the supervision of the French ministry of Defence. Initially located in the Latin Quarter of central Paris, the establishment was moved in 1976 to Palaiseau on the Saclay Plateau, southwest of Paris. Polytechnique is a founding member of ParisTech, a grouping of leading Paris-area engineering colleges established in 2007. In 2014 it became a founding member of the confederal "University of Paris in Saclay". Among its alumni are three Nobel prize winners, one Fields Medalist, three Presidents of France and many CEOs of French and international companies.[NEWLINE][NEWLINE]The École polytechnique is one of the three first grandes écoles founded in 1794 with the École normale superieure and the Conservatoire national des arts et métiers. In Civilization V it represents any similar grande école in France with military history, specialized in engineering.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYPEREON_GRANDE_ECOLE_ECONOMY">
+			<Text>Conservatoire National</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYPEREON_GRANDE_ECOLE_ECONOMY_HELP">
+			<Text>Specialization for the Grande École. Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Production when constructing buildings.[NEWLINE][NEWLINE]City must have a Grande École and must not have an École Normale Superieure or an École Polytechnique.[NEWLINE][NEWLINE]Cannot be sold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYPEREON_GRANDE_ECOLE_ECONOMY_STRATEGY">
+			<Text>The Conservatoire National is a unique specialization for the Grande École. The Conservatoire National provides a Merchant specialist and increases the [ICON_PRODUCTION] Production output of this city when constructing buildings. The Conservatoire National has no maintenance cost. Can only be built if this city contains a Grande École and does not contain an École Normale Superieure or an École Polytechnique. The Conservatoire National cannot be sold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HYPEREON_GRANDE_ECOLE_ECONOMY_TEXT">
+			<Text>The Conservatoire National des Arts et Métiers (CNAM), or National Conservatory of Arts and Crafts, is a famous and prestigious doctoral degree-granting higher education establishment (or grand établissement) and Grande école which means elite school, operated by the French government, dedicated to providing education and conducting research for the promotion of science and industry. It has a large museum of inventions accessible to the public with over 250 000 visitors per year.[NEWLINE][NEWLINE]It was founded on 10 October 1794, during the French Revolution. It was first proposed by Abbé Henri Grégoire as a "depository for machines, models, tools, drawings, descriptions and books in all the areas of the arts and trades". The deserted Priory of Saint-Martin-des-Champs (and particularly its Gothic refectory by Pierre de Montereau) was selected as the site of collection, which formally opened in 1802. Originally charged with the collection of inventions, it has since become an educational institution. At the present time, it is known primarily as a continuing education school for adults seeking engineering (multidisciplinary scientific program) and business degrees, proposing evening classes in a variety of topics.[NEWLINE][NEWLINE]The Conservatoire national is one of the three first grandes écoles founded in 1794 with the École normale superieure and the École polytechnique. In Civilization V it represents any similar grande école in France specialized in civil engineering and business education.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

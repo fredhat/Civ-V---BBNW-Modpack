@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						Hannibal Carthage
+		------------------------------------------------------------------>
+		<Replace Tag="TXT_KEY_JFD_CARTHAGE_HANNIBAL_DESC">
+			<Text>Republic of Carthage</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_JFD_CARTHAGE_HANNIBAL_SHORT_DESC">
+			<Text>Carthage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CARTHAGE_HANNIBAL_ADJ">
+			<Text>Punic</Text>
+		</Row>
+		<!--City Names-->
+		<Delete Tag="TXT_KEY_CITY_NAME_JFD_QART_HADASHT" />
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_QART_HADASHT">
+			<Text>Qart Hadasht</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Hannibal
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL">
+			<Text>Hannibal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HANNIBAL_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HANNIBAL_TEXT_1">
+			<Text>Among the great captains of military history, few stand as high, and none higher, than Hannibal Barca. He was born the son of Hamilcar Barca in 247 BC, shortly before the Carthaginian defeat in the First Punic War. Hamilcar made it his mission to conquer new territory in Hispania (Spain) to make up for the loss of Sicily, Sardinia and Corsica to the Romans; when Hannibal grew old enough, he joined his father and learned the art of military command. According to legend, at this time Hannibal swore an oath of eternal vengeance on Rome.[NEWLINE][NEWLINE]After the death of his father and brother-in-law, Hannibal was acclaimed the commander of the Carthaginian forces in Hispania in 221 BC. He spent the next two years finishing the subjugation of the region, and then in 219 BC he attacked the town of Sagentum. Hannibal had been looking for a bigger fight: the city was under the protection of Rome and his attack was sure to spark a diplomatic incident. In fact, the situation boiled out of control and Rome declared war on Carthage, thus beginning the Second Punic War.[NEWLINE][NEWLINE]As soon as he heard that war had broken out, Hannibal resolved to embark on a daring raid into Italy itself. He gathered together his most reliable soldiers from Africa and Iberia and set out to the east. After crossing the Pyrenees and evading a Roman army in southern Gaul, in 218 BC Hannibal led his troops on a heroic crossing of the Alps, an astonishing feat that no one at the time thought possible and which caught the Romans totally by surprise.[NEWLINE][NEWLINE]Once he emerged on the other side of the mountains, Hannibal found shelter among the Gauls of the Po River. With these new allies replacing the many soldiers who had died in the difficult crossing, Hannibal fought a Roman army at the Trebia River, cutting it to pieces by a surprise flank attack. The following year in 217 BC, he crossed the Apennine Mountains and headed into central Italy, where at the Battle of Lake Trasimene he fought and destroyed the main Roman army. Now there was no force in all of Italy which could stand in his way.[NEWLINE][NEWLINE]The road to Rome was now open, but Hannibal had no siege weapons and he knew that he had no chance to take the city. Instead, he headed into the south of Italy and ravaged the countryside of Campania and Apulia, hoping to pull the southern Italian cities from their alliance with Rome. Despite their many defeats, in 216 the Romans assembled yet another army to face Hannibal at Cannae. Although heavily outnumbered, Hannibal used an elaborate envelopment maneuver to annihilate yet another Roman army. An estimated 50,000 Roman soldiers were killed, and the whole of southern Italy went into revolt against the Romans.[NEWLINE][NEWLINE]After this disaster, the Romans adopted a Fabian strategy (named after their commander Quintus Fabius Maximus) of avoiding battle with Hannibal and striking at his supplies. Despite receiving no assistance from Carthage, Hannibal continued to campaign across Italy holding together his ragtag army together in enemy territory for a decade. After his brothers Hasdrubal (207 BC) and Mago (205 - 203 BC) failed to relieve his army, however, any hope of successfully conquering Rome was lost.[NEWLINE][NEWLINE]Meanwhile, the Roman general Publius Cornelius Scipio had completed the Roman conquest of Hispania and invaded northern Africa. The Carthaginian government recalled Hannibal to Africa, where he was charged with defending the Carthage with untrained new levies. This was an all but impossible task, and after Hannibal's elephants failed to break the Roman lines at the Battle of Zama (202 BC), his infantry was routed and he had no choice but to surrender.[NEWLINE][NEWLINE]The Roman victory put an end to the war. Hannibal returned to Carthage, and was elected to be a "soffet," or one of the chief magistrates of the city-state. He was so effective in reorganizing the government that Carthage was able to pay back the heavy tribute Rome demanded earlier than expected and without exceptional taxation. Alarmed at this development and fearing Carthage's resurgence, the Roman Senate forced Hannibal into exile; he found refuge at the court of Antiochus III of the Seleucid Empire until the Romans demanded that he be surrendered to them. Rather than be given over to his enemies, Hannibal committed suicide in 183 BC[NEWLINE][NEWLINE]Although Hannibal's campaigns have been endlessly studied by military historians, we know very little about the man himself. All of the surviving accounts of the Second Punic War were written by the Romans, who detested Hannibal and had nothing complimentary to say about him (Hannibal's name was literally used as a bogeyman to scare misbehaving Roman children). Reading between the lines of their accounts, however, it is clear that Hannibal treated his foes with respect and was greatly admired by his soldiers.[NEWLINE][NEWLINE]Hannibal proved himself to be a fine political as well as military leader, a distinction that few men in history can claim. His success in defeating much larger Roman armies time and time again while operating in enemy country unquestionably ranks him as one of the greatest military commanders of all time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HANNIBAL_NAME">
+			<Text>Hannibal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HANNIBAL_SUBTITLE">
+			<Text>Leader of Carthage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HANNIBAL_TITLES_1">
+			<Text>Carthaginian General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HANNIBAL_LIVED">
+			<Text>247 - 183 BC</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_JFD_HANNIBAL_TEXT">
+			<Text>Your service is called to arms by the people of Carthage, mighty Hannibal; greatest commander of her armies. Your capability on the field of war is legendary; known the world over by foe and friend alike. For decades Carthage had been subject to the honour and power of the Roman Empire, but you swore vengeance unto Rome, and marched your armies across Hispania and Gaul, and then across the treacherous Alps toward the heart of their empire. Your very name caused cities to tremble and men to scatter in your wake, but you were ultimately defeated at Zama by the dishonourable Scipio Africanus in 202 BC. Returning home, you would be elected to the highest office of government, and you would prove yourself as capable a politician as your were commander of the Carthaginian forces.[NEWLINE][NEWLINE]O fearsome Hannibal, the armies of Carthage await your leadership. The hearts of your soldiers are filled with the lust for honour denied to them by their foes. Can you bring glory to their name? Can you march an army across the face of this earth and bring triumph and victory to Carthage? Can you build a civilization that can stand the test of time?</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Diplomacy
+		------------------------------------------------------------------>
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_FIRSTGREETING_1">
+			<Text>Hail wanderer, you stand before the guardian of mighty Carthage, favoured empire of Ba'al-hamon. If you seek with Carthage turmoil, then I will march a storm upon your pathetic armies and have your greatest generals weep in fear.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_FIRSTGREETING_2">
+			<Text>Hail. I am Hannibal, son of Hamilcar Barca. I am the guardian of Carthage. As is Ba'al-hamon our most fearsome lord in heaven, I am the most fearsome man to walk this earth, and my armies are the most fearsome to march upon its soil.</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DEFEATED_1">
+			<Text>Let us ease your people's fears, who think it long to await the death of this old man.</Text>
+		</Row>
+		<!-- Human repeats an action too much, gets the following responses -->
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_REPEAT_TOO_MUCH_1">
+			<Text>I will not tolerate your wasting of my time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_REPEAT_TRADE_TOO_MUCH_1">
+			<Text>I am no merchant. Go bother one of them.</Text>
+		</Row>
+		<!-- Greetings -->
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_GREETING_HOSTILE_HELLO_1">
+			<Text>You are near to making yourself an enemy to Carthage. What do you want?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_GREETING_POLITE_HELLO_1">
+			<Text>You are a friend to Carthage and thus a friend to me. I will offer you what assistance I can.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>Soon, your pathetic war will swallow your empire whole, and I shall revel in the victory, for it shall be a victory for all.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_GREETING_HUMAN_AT_WAR_1">
+			<Text>Though we are not allies, I offer my condolences to your war effort.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>You are tempting a storm that I warn you you cannot hope to defeat. Get your armies away from Carthage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HANNIBAL_GREETING_HOSTILE_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>If you do not cease your purchase of land near to Carthage, I will be forced to march my armies upon your empire and reclaim what has been stolen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_GREETING_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>I grow concerned about your efforts to purchase all the land that belongs to Carthage. I hope you know what my concern means for you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_GREETING_HOSTILE_AGGRESSIVE_EXPANSION_1">
+			<Text>I will not tolerate your expansion for much longer. You try the patience of Carthage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_GREETING_AGGRESSIVE_EXPANSION_1">
+			<Text>I grow concerned about your efforts to claim all the land that belongs to Carthage. I hope you know what my concern means for you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_GREETING_FRIENDLY_STRONG_MILITARY_1">
+			<Text>I welcome a man of such skill in war as I as a brother.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_GREETING_FRIENDLY_STRONG_ECONOMY_1">
+			<Text>Your empire is famous for its strong economy. Perhaps you'll use it to bolster your meagre armies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_GREETING_HOSTILE_HUMAN_FEW_CITIES_1">
+			<Text>You have very few cities. If you're not careful, you might succumb to invasion by a greater power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_GREETING_HOSTILE_HUMAN_SMALL_ARMY_1">
+			<Text>You must consider increasing the size of your army, or you will stand no chance on this earth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>Meet me on the battlefield, tyrant. Let us see how long your wicked ways will last against the might of Carthage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_TOO_SOON_FOR_DOF_1">
+			<Text>No. It is not within my powers to grant you this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DENOUNCE_1">
+			<Text>I will stand by no longer while you continue to bring despair and mayhem to this world. Carthage stands firmly against you.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DENOUNCE_2">
+			<Text>Your continued injustices against your people, and against the nations of this earth, cannot be abided by. The world must be told of your misdeeds.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>I will not stand by this denunciation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_RESPONSE_TO_BEING_DENOUNCED_2">
+			<Text>You are a fool. You have damned your empire to mockery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_HUMAN_DOFED_FRIEND_1">
+			<Text>It is good to see an ally in {1_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_HUMAN_DOFED_ENEMY_1">
+			<Text>{1_CivName} lacks as much honour as does a merchant's purse. Do not trust them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>You are a fool in making your sentiments toward {1_CivName} known to me. I assure you that Carthage stands firm at their side.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>This act of denouncement against {1_CivName} will hopefully make them rethink the way in which they view this world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_HUMAN_DOF_SO_AI_DOF_1">
+			<Text>I noticed that you have declared your friendship with {1_CivName}. I will do the same, for I honour the friends of my friend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_HUMAN_DOF_SO_AI_DENOUNCE_1">
+			<Text>I do not believe you have made a wise choice in befriending {1_CivName}. I will speak to my government, and seek to move against you both.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_HUMAN_DENOUNCE_SO_AI_DENOUNCE_1">
+			<Text>I share your convictions that {1_CivName} only causes problems for our cause. Perhaps the combination of our denouncements will rally the passion of their working men to rise up against their tyrannical leader.</Text>
+		</Row>
+		
+		<!-- General Diplo Text -->
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_COOP_WAR_REQUEST_1">
+			<Text>{1_PlayerName:textkey} has dishonoured mighty Carthage. Will you pledge your support in doing war with them?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_COOP_WAR_REQUEST_2">
+			<Text>{1_PlayerName:textkey} has subjected my ancestors to their honour for long enough. Will you join me in forcing them beneath ours?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_COOP_WAR_TIME_1">
+			<Text>The time for war against {1_PlayerName:textkey} has become.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DEC_FRIENDSHIP_1">
+			<Text>It is hard to find worthy friends in this world. I'd like to make a public Declaration of Friendship, informing the other empires of the bond between our peoples. What do you say?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DEC_FRIENDSHIP_2">
+			<Text>Great leader, would you care to make a Declaration of Friendship to the world? My hope is that we can build a long-lasting bond between our two empires.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>It's come to my attention that you have a large number of Units near my borders. I request that you move them elsewhere to avoid causing undue distress to my citizens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_PLOT_BUYING_WARNING_1">
+			<Text>I grow concerned about your efforts to purchase all the land that belongs to Carthage. I hope you know what my concern means for you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>If you do not cease your purchase of land near to Carthage, I will be forced to march my armies upon your empire and reclaim what has been stolen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_EXPANSION_SERIOUS_WARNING_1">
+			<Text>I will not tolerate your expansion for much longer. You try the patience of Carthage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_EXPANSION_WARNING">
+			<Text>I grow concerned about your efforts to claim all the land that belongs to Carthage. I hope you know what my concern means for you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_RETURNED_CIVILIAN_1">
+			<Text>Carthage gives her thanks to your mercy in returning one of her civilians.</Text>
+		</Row>
+		<!--Public Declarations-->
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DECLARATION_PROTECT_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} announces to the world that it is now protecting {1_MinorCivName:textkey}. Attacking the City-State will greatly damage relations and may lead to war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DECLARATION_ABANDON_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} has taken back its guarantee of protecting {1_MinorCivName:textkey}.</Text>
+		</Row>
+		<!-- Human is asking the AI for something -->
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DONT_SETTLE_NO_1">
+			<Text>Carthage will not submit to your senseless demands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DONT_SETTLE_YES_1">
+			<Text>Very well. I will speak to my government and persuade this settlement.</Text>
+		</Row>
+		<!--Deal Offers and related-->
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_LUXURY_TRADE_1">
+			<Text>I believe that you will honour this trade, as it is certainly fair. Is that right?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_OPEN_BORDERS_EXCHANGE_1">
+			<Text>You will let Carthage's armies pass through your borders, as there is immediate need to do so.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_RESPONSE_REQUEST_1">
+			<Text>Carthage has asked that I request this of you. The merchants weren't home.</Text>
+		</Row>
+		<!--AI Attacked by Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_ATTACKED_HOSTILE_1">
+			<Text>You have made a careless mistake in allowing me the opportunity to bring down Carthage's wrath upon you. Your generals will tremble in the arms of their wives when they hear my trumpet call them to battle!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_ATTACKED_EXCITED_1">
+			<Text>You have made a careless mistake in allowing me the opportunity to bring down Carthage's wrath upon you. Your generals will tremble in the arms of their wives when they hear my trumpet call them to battle!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_ATTACKED_BETRAYED_1">
+			<Text>I was mistaken when I thought there was an ounce of honour in your blood. I will prove this by spilling it for all your men to see.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_ATTACKED_SAD_1">
+			<Text>I was mistaken when I thought there was an ounce of honour in your blood. I will prove this by spilling it for all your men to see.</Text>
+		</Row>
+		<!--AI Declaring War on Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DOW_GENERIC_1">
+			<Text>My ancestors have yielded long enough to your honour. It is time for your people to yield to mine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DOW_GENERIC_2">
+			<Text>I have come to aide your people in war against your empire. They deserve no more to be oppressed by your dishonour.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DOW_LAND_1">
+			<Text>Your lands belong to Carthage and as Ba'al-hamon is my witness I shall be the man to deliver them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DOW_WORLD_CONQUEST_1">
+			<Text>My ancestors have yielded long enough to your honour. It is time for your people to yield to mine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DOW_OPPORTUNITY_1">
+			<Text>You have flaunted your weakness for too long. If I do not take advantage of it, someone else will.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DOW_DESPERATE_1">
+			<Text>My ancestors have yielded long enough to your honour. It is time for your people to yield to mine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DOW_DESPERATE_2">
+			<Text>My ancestors have yielded long enough to your honour. It is time for your people to yield to mine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_DOW_BETRAYAL_1">
+			<Text>My ancestors have yielded long enough to your honour. It is time for your people to yield to mine.</Text>
+		</Row>
+		<!--AI Responses to a human peace offer-->
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_TOO_SOON_NO_PEACE_1">
+			<Text>No. Glory still beats in my heart.</Text>
+		</Row>
+		<!--AI Responses to a discussion mode topics-->
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_BAD_1">
+			<Text>I will find a way to force your subject, or make one.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_BAD_2">
+			<Text>There is no honour in your breath. Perhaps it should be stopped.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HANNIBAL_GOOD_1">
+			<Text>Good. You're not a fool then.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						The Hundred and Four
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_JFD_CARTHAGE_HANNIBAL_SHORT">
+			<Text>The Hundred and Four</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_CARTHAGE_HANNIBAL">
+			<Text>During peacetime, garrisoned units provide up to +50% [ICON_PRODUCTION] Production when constructing buildings. Military units can enter Mountain tiles after the first Shophet is born, but take 50 damage if they end the turn on a Mountain tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_HUNDRED_AND_FOUR">
+			<Text>The Hundred and Four</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_HUNDRED_AND_FOUR_HELP">
+			<Text>This unit provides [ICON_PRODUCTION] Production when constructing buildings based on its [ICON_STRENGTH] Combat Strength when garrisoned in a city during peacetime (up to 50%).</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Phoenician Heritage
+		------------------------------------------------------------------>
+		<Replace Tag="TXT_KEY_TRAIT_JFD_CARTHAGE_DIDO_SHORT">
+			<Text>Phoenician Heritage</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRAIT_JFD_CARTHAGE_DIDO">
+			<Text>Coastal cities claim all workable water tiles when founded and reveal a nearby source of the unique [ICON_RES_JFD_SHELLFISH] Shellfish Luxury Resource.</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_RESOURCE_JFD_SHELLFISH">
+			<Text>Shellfish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_SHELLFISH_TEXT">
+			<Text>Muricidae is the name of a large and varied taxonomic family of small to large predatory sea snails, marine gastropod mollusks, commonly known as murex snails or rock snails. With about 1,600 living species, the Muricidae represent almost 10% of the Neogastropoda. Additionally, 1,200 fossil species have been recognized. Numerous subfamilies are recognized, although experts disagree about the subfamily divisions and about defining the genera. Many muricids have unusual shells which are considered attractive by shell collectors and by interior designers.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Shophet
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_JFD_SHOPHET">
+			<Text>Shophet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_SHOPHET_HELP">
+			<Text>Unique Great General for Hannibal's Carthage that embarks as a Great Admiral. Friendly military land units near to or stacked with the Shophet heal 25 HP whenever they defeat an enemy unit and enemy cities within two tiles of the Shophet take damage at the end of the turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_SHOPHET_TEXT">
+			<Text>In the various independent city states constituting Phoenicia proper (coasts of present Lebanon and Syria) and its "Punic" Mediterranean colonies a shofet (in Punic, suffet or suffete) was a non-royal magistrate granted control over a city-state, sometimes functioning much in the same way as a Roman consul.[NEWLINE][NEWLINE]The term is most widely known from the suffetes of Carthage, a former Phoenician colony. Following the overthrow of its monarchy in the 5th century BC, Carthage was ruled by a number of aristocratic councils presided over by two suffetes, who served in similar capacity to Roman consuls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_SHOPHET_STRATEGY">
+			<Text>The Shophet is a unique unit for Hannibal's Carthage, replacing the Great General. Friendly military land units near to or stacked with the Shophet heal 25 HP whenever they defeat an enemy unit and enemy cities within two tiles of it take damage at the end of the turn based on its distance from them. Unlike the Great General, when the Shophet embarks it becomes a Great Admiral, becoming a Great General again upon disembarking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SHOPHET_GENERAL">
+			<Text>Admiralty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SHOPHET_GENERAL_HELP">
+			<Text>Embarks as a Great Admiral.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SHOPHET_ADMIRAL">
+			<Text>Commandeering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SHOPHET_ADMIRAL_HELP">
+			<Text>Disembarks as a Great General (can only disembark in a friendly city).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SHOPHET">
+			<Text>Hannibal ante Portas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SHOPHET_HELP">
+			<Text>Enemy cities within two tiles of this unit take damage at the end of the turn. Friendly military land units near to or stacked with this unit heal 25 HP whenever they defeat an enemy unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SHOPHET_HEAL">
+			<Text>Nearby Shophet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SHOPHET_HEAL_HELP">
+			<Text>This unit heals 25 HP whenever it defeats an enemy unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HANNIBAL_IS_AT_THE_GATES">
+			<Text>A Punic Shophet is at the gates of {1_CityName}!</Text>
+		</Row>		
+		<Row Tag="TXT_KEY_BUILDING_JFD_CARTHAGE_HANNIBAL">
+			<Text>JFD: Carthage Hannibal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CARTHAGE_HANNIBAL_HELP">
+			<Text>+1% [ICON_PRODUCTION] Production when constructing buildings.</Text>
+		</Row>
+		<!-- Shophet Names -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_BOMILCAR">
+			<Text>Bomilcar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_HAMILCAR_BARCA">
+			<Text>Hamilcar Barca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_HANNIBAL">
+			<Text>Hannibal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_HANNIBAL_BARCA">
+			<Text>Hannibal Barca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_HASDRUBAL_II">
+			<Text>Hasdrubal II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_HASDRUBAL_GISCO">
+			<Text>Hasdrubal Gisco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_HASDRUBAL_THE_BOETHARCH">
+			<Text>Hasdrubal the Boetharch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_MAGO_I">
+			<Text>Mago I Justin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_MAGO_II">
+			<Text>Mago II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_MAGO_III">
+			<Text>Mago III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_HIMILCO_I">
+			<Text>Himilco I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_HIMILCO_II">
+			<Text>Himilco II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_HASDRUBAL_THE_FAIR">
+			<Text>Hasdrubal the Fair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_AD_HERBAL">
+			<Text>Ad Herbal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CARTHALO">
+			<Text>Carthalo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_HANNIBAL_MONOMACHUS">
+			<Text>Hannibal Monomachus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_HANNIBAL_THE_RHODIAN">
+			<Text>Hannibal the Rhodian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_HANNO_THE_ELDER">
+			<Text>Hanno the Elder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_HANNO_THE_GREAT">
+			<Text>Hanno the Great</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_MAHARBAL">
+			<Text>Maharbal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_SOPHONISBA">
+			<Text>Sophonisba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_ADERBAAL">
+			<Text>Aderbaal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_BODASHTART">
+			<Text>Bodashtart</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_PHILOSIR">
+			<Text>Philosir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_ADBMELQART">
+			<Text>Abdmelqart</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						African Forest Elephant
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_JFD_FOREST_ELEPHANT_HELP">
+			<Text>Powerful Classical Era mounted unit that strikes fear into adjacent enemy units and specializes in generating Great Generals through combat. Does not require a source of [ICON_RES_HORSE] Horses to be built. Only Hannibal's Carthage may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_FOREST_ELEPHANT_STRATEGY">
+			<Text>The African Forest Elephant is a unqiue unit for Hannibal's Carthage, replacing the Horseman. Stronger but slower and more expensive than the Horseman, the African Forest Elephant strikes fear into adjacent enemy units, inflicitng them with a -10% Combat Penalty, and contributes twice as many points toward the generation of Great Generals through combat. Unlike the Horseman, the African Forest Elephant does not require a source of [ICON_RES_HORSE] Horses to be built.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Cothon
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COTHON">
+			<Text>Cothon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COTHON_HELP">
+			<Text>+15% [ICON_PRODUCTION] Production when building naval units. Each worked Coast and Ocean tile provides +1 [ICON_GOLD] Gold. Increases the [ICON_STRENGTH] Defense Strength of this city when a military naval unit is stationed in it. Forms a [ICON_CONNECTED] City Connection with the [ICON_CAPITAL] Capital over water (if they're not already connected by land). Naval trade routes originating from this city have a 50% increase in range and provide an additional 4 [ICON_GOLD] Gold when connecting to another civilization.[NEWLINE][NEWLINE]City must be next to a Coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_COTHON_TEXT">
+			<Text>A cothon is an artificial, protected inner harbor such as that in Carthage during the Punic Wars c.200 BC. The cothon at Carthage was divided into a rectangular merchant harbor followed by an inner protected harbor reserved for military use only. This inner harbor was circular and surrounded by an outer ring of structures divided into a series of docking bays for ship maintenance, along with an island structure at its centre that also housed navy ships. Each individual docking bay featured a raised slipway. Above the raised docking bays was a second level consisting of warehouses where oars and rigging were kept along with supplies such as wood and canvas. On the island structure there existed a raised 'cabin' where the admiral in command could observe the whole harbor along with the surrounding sea. Altogether the inner docking complex could house up to 220 ships. The entire harbor was protected by an outer wall and the main entrance could be closed off with iron chains.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COTHON_STRATEGY">
+			<Text>The Cothon is the unique building for Dido's Carthage, replacing the Harbor. The Cothon increases this city's [ICON_STRENGTH] Defense Strength when a military naval unit is stationed in it and increases the [ICON_PRODUCTION] Production output of this city when building naval units. Additionally, the Cothon increases the [ICON_GOLD] Gold output of this city as well as the range and [ICON_GOLD] Gold output of naval trade routes leaving this city. The Cothon allows water [ICON_CONNECTED] City Connections between cities. Can only be built if this city is next to a Coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CARTHAGE_DIDO">
+			<Text>JFD: Carthage Dido</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CARTHAGE_DIDO_HELP">
+			<Text>+1 [ICON_STRENGTH] City Defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_COTHON">
+			<Text>Cothon Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_COTHON_HELP">
+			<Text>When stationed in a city with a Cothon, this unit provides [ICON_STRENGTH] Defense Strength based on its [ICON_STRENGTH] Combat Strength.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Quinquereme
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_JFD_QUINQUEREME_HELP">
+			<Text>Powerful Ancient Era naval melee unit that specializes in defeating naval units and defending the homelands. Ignores enemy zones of control. Cannot capture cities. Only Dido's Carthage may build it.</Text>
+		</Row> 
+		<Row Tag="TXT_KEY_UNIT_JFD_QUINQUEREME_STRATEGY">
+			<Text>The Quinquereme is the unique unit for Dido's Carthage, replacing the Trireme. Stronger than the Trireme, the Quinquereme receives a +20% Combat Bonus in friendly territory, ignores enemy zones of control and starts with the first Boarding Party promotion. The Quinquereme cannot capture cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_QUINQUEREME_FRIENDLY_LANDS">
+			<Text>Merchant Waters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_QUINQUEREME_FRIENDLY_LANDS_HELP">
+			<Text>+20% Combat Bonus in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_QUINQUEREME_ZOC">
+			<Text>Ignores Zones of Control</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_QUINQUEREME_ZOC_HELP">
+			<Text>Ignores enemy zones of control.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

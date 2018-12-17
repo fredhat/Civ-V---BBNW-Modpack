@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/30/2015 10:03:44 AM -->
+<GameData>
+	<Language_en_US>
+		<!--PATRIARCHATE OF CONSTANTINOPLE-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_BYZANTIUM_THEODORA_SHORT">
+			<Text>Patriarchate of Constantinople</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_BYZANTIUM_THEODORA">
+			<Text>Start with the Piety Social Policy tree unlocked. Choose an additional belief when founding a religion.</Text>
+		</Row>
+		<!--DROMON-->
+		<Replace Tag="TXT_KEY_JFD_DROMON_HELP">
+			<Text>Powerful Ancient Era naval ranged unit that specializes in defeating naval units. Only Theodora's Byzantium may build it.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_DROMON_STRATEGY">
+			<Text>The Dromon in the unique unit for Theodora's Byzantium, replacing the Trireme. Stronger than the Trireme, the Dromon receives a +50% Combat Bonus against naval units.</Text>
+		</Replace>
+		<!--STOUDION-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_STOUDION">
+			<Text>Stoudion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_STOUDION_HELP">
+			<Text>+25% [ICON_GREAT_PEOPLE] Great People generation in this City. Missionary units purchased in this city receive +1 [ICON_MOVES] Movement and do not receive a Sight penalty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_STOUDION_STRATEGY">
+			<Text>The Stoudion is the unique building for Theodora's Byzantium, replacing the Garden. The Stoudion increases the speed at which Great People are generated in this city as well as the [ICON_PEACE] Faith output of this city. Missionary units purchased in this city receive +1 [ICON_MOVES] Movement and do not receive a Sight penalty. The Stoudion does not require this city to be next to a River or Lake to be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_STOUDION_TEXT">
+			<Text>The Monastery of Stoudios, more fully Monastery of Saint John the Forerunner "at Stoudios", often shortened to Stoudios, Studion, or Stoudion, was historically the most important monastery of Constantinople (modern-day Istanbul), the capital of the Byzantine Empire. The residents of the monastery were referred to as Stoudites (or Studites). Although the monastery has been derelict for half a millennium, the laws and customs of the Stoudion were taken as models by the monks of Mount Athos and of many other monasteries of the Orthodox world; even today they have influence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_STOUDION">
+			<Text>Stoudites</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_STOUDION_HELP">
+			<Text>+1 [ICON_MOVES] Movement.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="050699d3-0d9d-4c03-8563-e97e46ee52f3" version="1">
+  <Properties>
+    <Name>JFD's The Kingdom of England (Henry VIII)</Name>
+    <Teaser>Adds the Kingdom of England civilization led by Henry VIII to the game.</Teaser>
+    <Description>Adds the Kingdom of England civilization to the game. Tweaks the base game English civilization.</Description>
+    <Authors>JFD, Sukritact, Janboruta, Viregel</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="CA1FDCE37B5C9B93723EA4D7A0F8E51D" import="1">Art/Diplomacy/Henry_Diplo.dds</File>
+    <File md5="1640CD8C8CD8F0CF0A9FC185CAE2A253" import="1">Art/Diplomacy/Henry_Scene.xml</File>
+    <File md5="854A0939C226E0A013F84BC18919A117" import="1">Art/IconAtlas/JFD_EnglandHenryAlphaAtlas_16.dds</File>
+    <File md5="DC292E8F344F8B3AF0EF4451F2E7D3CB" import="1">Art/IconAtlas/JFD_EnglandHenryAlphaAtlas_24.dds</File>
+    <File md5="DA10145A086952A4337F3A5BE4F54E23" import="1">Art/IconAtlas/JFD_EnglandHenryAlphaAtlas_32.dds</File>
+    <File md5="E7B03284312B0432B55F66D74114B505" import="1">Art/IconAtlas/JFD_EnglandHenryAlphaAtlas_45.dds</File>
+    <File md5="6DFE8DF8D728618F1B7D013AB9361960" import="1">Art/IconAtlas/JFD_EnglandHenryAlphaAtlas_48.dds</File>
+    <File md5="02F8C67A87541ABBC0BC2960110B9FA8" import="1">Art/IconAtlas/JFD_EnglandHenryAlphaAtlas_64.dds</File>
+    <File md5="364634328FDB8DCD035FB1C0D1555C52" import="1">Art/IconAtlas/JFD_EnglandHenryAlphaAtlas_80.dds</File>
+    <File md5="C8ADCE109E8F3EDE5BE33C9754B71C7C" import="1">Art/IconAtlas/JFD_EnglandHenryAlphaAtlas_128.dds</File>
+	<File md5="9C9ADEAD66F829E6413D98D26144381C" import="1">Art/IconAtlas/JFD_EnglandHenryAtlas_128.dds</File>
+    <File md5="7AA57C01A21CADA2307436AEA9DB17EA" import="1">Art/IconAtlas/JFD_EnglandHenryAtlas_256.dds</File>
+    <File md5="E14A168FDB60E28C1C4900D54EB9312F" import="1">Art/IconAtlas/JFD_EnglandHenryAtlas_32.dds</File>
+    <File md5="70CB0C69BC3BCEF94C1933C8D4F71F4C" import="1">Art/IconAtlas/JFD_EnglandHenryAtlas_45.dds</File>
+    <File md5="D957CFEDFBD65BB073CF5684FD23BDE9" import="1">Art/IconAtlas/JFD_EnglandHenryAtlas_64.dds</File>
+    <File md5="C2020746569753E141D82F05E78A6B01" import="1">Art/IconAtlas/JFD_EnglandHenryAtlas_80.dds</File>
+    <File md5="980F57C54A757BEFEDC497360F134B74" import="1">Art/Map/HenryEnglandMap512.dds</File>
+    <File md5="B028A25D83CE29BAAC8624076BBF6E6A" import="1">Art/Map/Henry_DOM.dds</File>
+    <File md5="73ACE10D8EBAE6D4227431C4B5EB8BC1" import="1">Audio/Henry_Peace.mp3</File>
+    <File md5="6B859AD8457C42425C15D9A1B9CC5E4C" import="1">Audio/Henry_War.mp3</File>
+    <File md5="26440079327FED58A87344213B11C688" import="0">Core/ArtDefines.sql</File>
+    <File md5="867E77E465212F704C0E485881B66937" import="0">Core/GameDefines.sql</File>
+    <File md5="7EBEFD52F3CEA3E977DFA26CAEADB4B6" import="0">Core/GameDefines_Diplomacy.sql</File>
+    <File md5="11437BA64F847FB5B05EA582B286F326" import="0">Core/GameText.xml</File>
+    <File md5="587339737BBB8013652F4021ADFDD716" import="0">Core/GameText_Diplomacy.xml</File>
+    <File md5="4D619BCB61501E6F41C9AA31722CCABD" import="0">Lua/JFD_EnglandHenryVIIIFunctions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameDefines_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameText_Diplomacy.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_EnglandHenryVIIIFunctions.lua">
+      <Name>JFD_EnglandHenryVIIIFunctions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

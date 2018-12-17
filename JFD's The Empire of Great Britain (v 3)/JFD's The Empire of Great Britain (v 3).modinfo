@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6c049286-e464-452d-9426-365d8875b2c6" version="3">
+  <Properties>
+    <Name>JFD's The Empire of Great Britain</Name>
+    <Teaser>Adds the Empire of Great Britain civilization led by Victoria to the game.</Teaser>
+    <Description>Adds the Empire of Great Britain civilization to the game. Tweaks the base game England civilization. Requires Brave New World.</Description>
+    <Authors>JFD, Janboruta</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="CCE517C3C53B2EAC62E0582972D25A1B" import="0">Art/ArtDefines.sql</File>
+	<File md5="0294BA39DF9332E341A6E7D89308D954" import="1">Art/Graphics/Grand Carrack/sv_GrandCarrack.dds</File>
+    <File md5="235805143A760DDD9F22EDBA552F9774" import="1">Art/Graphics/Grand Carrack/u_british_carrack.fxsxml</File>
+    <File md5="44FF879C9C7ABAD55C7503F2CA84BEE9" import="1">Art/Graphics/Grand Carrack/u_british_carrack.gr2</File>
+    <File md5="53050466E292627D9D1EB25FF313B2D2" import="1">Art/Graphics/Grand Carrack/u_grand_carrack_damg_diff.dds</File>
+    <File md5="7F5EAA15149BD31A9D73334D9B6432F1" import="1">Art/Graphics/Grand Carrack/u_grand_carrack_diff.dds</File>
+    <File md5="7AFC633E0B37941897D553FDA038A426" import="1">Art/Graphics/Grand Carrack/u_grand_carrack_sref.dds</File>
+    <File md5="2CDB17CD1CF5A355A98905BC56FA3F24" import="1">Art/Graphics/Redcoat/civ5_engrm1.fxsxml</File>
+    <File md5="47B4F4BA3F2180B816C855E5932D2D41" import="1">Art/Graphics/Redcoat/civ5_engrm1.gr2</File>
+    <File md5="09A2C00D49DF2FF2CBB8A4481366D86D" import="1">Art/Graphics/Redcoat/engrm1.dds</File>
+    <File md5="F85DE158C1881134130FC09224EED765" import="1">Art/Graphics/Redcoat/engrm1_sref.dds</File>
+    <File md5="79804AFBD4C4C440C45662F4B4B820A4" import="1">Art/Graphics/Redcoat/sv_redcoat.dds</File>
+    <File md5="79B11AD6C33977BF5367EB560EFC5763" import="1">Art/IconAtlas/JFD_GreatBritainAlphaAtlas_128.dds</File>
+    <File md5="4DA870823A84DFD7AF00D3CDF2A02899" import="1">Art/IconAtlas/JFD_GreatBritainAlphaAtlas_16.dds</File>
+    <File md5="F36CDB753E6E569758C614F152388CC8" import="1">Art/IconAtlas/JFD_GreatBritainAlphaAtlas_22.dds</File>
+    <File md5="2941438584BD5926B8423C4354BB2C0D" import="1">Art/IconAtlas/JFD_GreatBritainAlphaAtlas_24.dds</File>
+    <File md5="81A673E19E708091C4D091185756AC94" import="1">Art/IconAtlas/JFD_GreatBritainAlphaAtlas_32.dds</File>
+    <File md5="75A7CCCA5ADE6139CAD5BCCC501DA39D" import="1">Art/IconAtlas/JFD_GreatBritainAlphaAtlas_45.dds</File>
+    <File md5="16EB870FE68B8FC0975EF03F0C0B5E0A" import="1">Art/IconAtlas/JFD_GreatBritainAlphaAtlas_48.dds</File>
+    <File md5="546410CFA59A5B1E8662A31B70F500B1" import="1">Art/IconAtlas/JFD_GreatBritainAlphaAtlas_64.dds</File>
+    <File md5="08834C86A6FAED3125720A253260E655" import="1">Art/IconAtlas/JFD_GreatBritainAlphaAtlas_80.dds</File>
+    <File md5="B66637ED137E6175D79FDC5624E524BE" import="1">Art/IconAtlas/JFD_GreatBritainAtlas_128.dds</File>
+    <File md5="C3D990D7CEDB0479FCC8D80CB03C9E32" import="1">Art/IconAtlas/JFD_GreatBritainAtlas_256.dds</File>
+    <File md5="BBC55EAE0321FF2D16265B1B7308809E" import="1">Art/IconAtlas/JFD_GreatBritainAtlas_32.dds</File>
+    <File md5="23E306635F38EFA6D8F4FBEB0060EC56" import="1">Art/IconAtlas/JFD_GreatBritainAtlas_45.dds</File>
+    <File md5="0E810194ED65F7167C669E38A0B21F53" import="1">Art/IconAtlas/JFD_GreatBritainAtlas_64.dds</File>
+    <File md5="D443D7C2446398C86CBC7264B5FCFC73" import="1">Art/IconAtlas/JFD_GreatBritainAtlas_80.dds</File>
+    <File md5="1D44D58B3B91CABFEA35CC2D0546480F" import="1">Art/IconAtlas/UnitFlagGrandCarrackAtlas_32.dds</File>
+    <File md5="5575CD50C35EA9C66EB907156503730E" import="1">Art/IconAtlas/UnitFlagRedcoatAtlas_32.dds</File>
+    <File md5="FFFF91197598E99F8208270CDE440470" import="1">Art/Leaderscene/Victoria_diplo.dds</File>
+    <File md5="327DC2FDE92975EC71B5E6828C879B15" import="1">Art/Leaderscene/Victoria_Scene.xml</File>
+    <File md5="2666ABCC20BB78F653726C855EE50A14" import="1">Art/Map/GreatBritainMap512.dds</File>
+    <File md5="8FC8C83E46EE75BCE4FC24DE0687F63B" import="1">Art/Map/Victoria_DOM.dds</File>
+    <File md5="0931A01F67457F9BF272F852E57B0463" import="0">Audio/Audio.sql</File>
+    <File md5="EE24BB72EAE27E9C8DE4CC8CB801E1E0" import="1">Audio/Victoria_Peace.mp3</File>
+    <File md5="73E3D1D7C57DD1CDF917B72790ED7EBA" import="1">Audio/Victoria_War.mp3</File>
+    <File md5="42AF357F31B67DE937CCADE82C7229AA" import="0">Core/Buildings.sql</File>
+    <File md5="64E304DAF0BCC76C6F4ED49E4BACD36E" import="0">Core/Civilizations.sql</File>
+    <File md5="D00AE8C80355666D905AC060DD97E8AB" import="0">Core/Diplomacy.sql</File>
+    <File md5="02783B36357BCBE8A05CC371F3659FBD" import="0">Core/GameText.xml</File>
+    <File md5="57C61C21FBCC6845DB40636F9814C676" import="0">Core/JFD's England Revision/Buildings.sql</File>
+    <File md5="87229F8A01B9E6507D51581F016964BD" import="0">Core/JFD's England Revision/GameText.xml</File>
+    <File md5="57C61C21FBCC6845DB40636F9814C676" import="0">Core/JFD's England Revision/Leaders.sql</File>
+    <File md5="0CC08A642261FDC5F8F198B8302DE8DD" import="0">Core/JFD's England Revision/Promotions.sql</File>
+    <File md5="79AD0CF0B3C9B349781DC843B7577F39" import="0">Core/JFD's England Revision/Traits.sql</File>
+    <File md5="A8761FF5381A9DD3A36F033AF3ACAA42" import="0">Core/JFD's England Revision/Units.sql</File>
+    <File md5="9E84FBC431E950D240476EC3FCC86ACA" import="0">Core/Leaderhead.sql</File>
+    <File md5="11328ED509618C3636C342B57CF3D30F" import="0">Core/PlayerColours.sql</File>
+    <File md5="144E1756DC724568E79D6A49B9219233" import="0">Core/Promotions.sql</File>
+    <File md5="7E401CFD5EE6E42F4FCFD6C13B041AB1" import="0">Core/Traits.sql</File>
+    <File md5="CC5A36B41AAEFCAD48BAD1209793BAA7" import="0">Core/Units.sql</File>
+    <File md5="FEA700D3478A0BB0D33D8622124BA440" import="0">Lua/JFD_GreatBritainFunctions.lua</File>
+    <File md5="3B7B1EE92949FC3B7B9308074F036BEB" import="1">Lua/Utilities/NewSaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Audio/Audio.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/JFD's England Revision/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/JFD's England Revision/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/JFD's England Revision/Leaders.sql</UpdateDatabase>
+      <UpdateDatabase>Core/JFD's England Revision/Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/JFD's England Revision/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/JFD's England Revision/Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_GreatBritainFunctions.lua">
+      <Name>JFD_CoreFunctions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

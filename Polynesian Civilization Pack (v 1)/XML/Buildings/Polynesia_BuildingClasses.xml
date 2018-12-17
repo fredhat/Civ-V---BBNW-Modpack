@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_MC_MALAE_FOOD</Type>
+			<DefaultBuilding>BUILDING_MC_MALAE_FOOD</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_PA_MILITARY_UNIT_PRODUCTION</Type>
+			<DefaultBuilding>BUILDING_PA_MILITARY_UNIT_PRODUCTION</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MC_HEIAU</Type>
+			<DefaultBuilding>BUILDING_MC_HEIAU_SCIENTIST</DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+</GameData>

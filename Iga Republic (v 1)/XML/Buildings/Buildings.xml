@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Pouakai-->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_IGA_SPY_DUMMY</Type>
+			<DefaultBuilding>BUILDING_IGA_SPY_DUMMY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_IGA_SPY_DUMMY</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_IGA_SPY_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_IGA_SPY_DUMMY</BuildingClass>
+			<Description>TXT_KEY_BUILDING_IGA_SPY_DUMMY</Description>
+			<Cost>-1</Cost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<FaithCost>-1</FaithCost>
+			<ExtraSpies>1</ExtraSpies>
+			<NeverCapture>1</NeverCapture>
+			<NukeImmune>1</NukeImmune>
+		</Row>
+	</Buildings>
+</GameData>

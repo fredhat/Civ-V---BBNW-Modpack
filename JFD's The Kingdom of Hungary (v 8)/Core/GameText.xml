@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/16/2014 11:54:41 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- HUNGARY -->
+		<Row Tag="TXT_KEY_CIV_JFD_HUNGARY_ADJECTIVE">
+			<Text>Hungarian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_HUNGARY_DESC">
+			<Text>Hungarian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_HUNGARY_SHORT_DESC">
+			<Text>Hungary</Text>
+		</Row>
+		<!-- Cities -->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BUDAPEST">
+			<Text>Budapest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EZTERGOM">
+			<Text>Esztergom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_DEBRECEN">
+			<Text>Debrecen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SZEGED">
+			<Text>Szeged</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_MISKOLC">
+			<Text>Miskolc</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PECS">
+			<Text>Pécs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_GYOR">
+			<Text>Gyor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_NYIREHYHAZA">
+			<Text>Nyíregyháza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_KECSKEMET">
+			<Text>Kecskemét</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SZEKESFEHERVAR">
+			<Text>Székesfehérvár</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SZOMBATHELY">
+			<Text>Szombathely</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SZOLNOK">
+			<Text>Szolnok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TATABANYA">
+			<Text>Tatabánya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_KAPOSVAR">
+			<Text>Kaposvár</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ERD">
+			<Text>Érd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VESZPREM">
+			<Text>Veszprém</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BEKESCSABA">
+			<Text>Békéscsaba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOPRON">
+			<Text>Sopron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGER">
+			<Text>Eger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_NAGYKANIZSA">
+			<Text>Nagykanizsa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_DUNAUJVAROS">
+			<Text>Dunaújváros</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HODMEZOVSARHELY">
+			<Text>Hódmezővásárhely</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_DUNAKESZI">
+			<Text>Dunakeszi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CEGLED">
+			<Text>Cegléd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BAJA">
+			<Text>Baja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SALGOTARJAN">
+			<Text>Sálgótarjan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SZIGETSZENTMIKLOS">
+			<Text>Szigetszentmiklós</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VAC">
+			<Text>Vác</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_GODOLLO">
+			<Text>Gödöllö</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_OZD">
+			<Text>Ózd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SZEKSZARD">
+			<Text>Szekszárd</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HUNGARY_9">
+			<Text>Paprika</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HUNGARY_8">
+			<Text>Petofi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HUNGARY_7">
+			<Text>Sandor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HUNGARY_6">
+			<Text>Piroska</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HUNGARY_5">
+			<Text>Dorottya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HUNGARY_4">
+			<Text>Imre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HUNGARY_3">
+			<Text>Bela</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HUNGARY_2">
+			<Text>Lajos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HUNGARY_1">
+			<Text>Andras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HUNGARY_0">
+			<Text>Zerffi</Text>
+		</Row>
+		<!-- Civilopedia -->
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_TEXT_1">
+			<Text>Hungary was an important medieval kingdom settled by the Uralic Magyar people in the 9th century AD. During the Middle Ages, Hungary was a crucial piece of Christian Europe's defense against Ottoman incursion. The kingdom collapsed in the 16th century but Hungary persisted as an important battleground between Christian Europe and Muslim invaders. Hungary has remained relevant as a part of the Austro-Hungarian empire in the 1800s, the Soviet Bloc during the Cold War, and the European Union since.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_HEADING_2">
+			<Text>Geography and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_TEXT_2">
+			<Text>Like many places of human settlement, the area now known as Hungary features two major rivers, the Danube and the Tisza. The Danube is a key artery for most of Central Europe, and flows through the Hungarian capital, Budapest. Located in the Carpathian basin, Hungary is not particularly resoruce-rich, but it contains plenty of fertile land to support human settlement. Its location as a border between the Balkan Peninsula (and Turkey) and the rest of northern and western Europe has defined its role throughout history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_HEADING_3">
+			<Text>Early History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_TEXT_3">
+			<Text>Before the arrival of the Hungarians, many empires controlled or occupied the Carpathian basin. It was part of the Roman empire beginning in 9 BC, and a small settlement was built, the remains of which are part of the city of Budapest. After the Romans came the Huns, which, despite their name, are believed to be unrelated to the Hungarians. After the fall of Rome, the Goths, Lombards and other so-called barbarians took control. Slavs, Avars, and Franks also played a role in shaping the Carpathian up until the arrival of the Hungarians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_HEADING_4">
+			<Text>Hungarian Conquest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_TEXT_4">
+			<Text>Retreating after being attacked by the Bulgarians and the Pechenegs, the Hungarians migrated to the Carpathian Basin around 895. The Hungarians first had appeared in history as a Uralic people, but the coalition between their two assailants drove the Magyars (a term largely synonymous with Hungarian) to their current lands.[NEWLINE][NEWLINE]The conquest of the Carpathian was not instantaneous.  The Hungarians first conquered the lands east of the Danube but the lands to the west – the former Roman province of Pannonia – took a few years longer. The Magyars were raiders – in 899 and 900, they ventured into Italy, plundering lands until they were halted by the Venetians.[NEWLINE][NEWLINE]Moravia, the polity that controlled these areas, ceased to exist soon after the year 900. The exact circumstances of the completion of the Hungarian conquest of the Carpathian Basin is unclear. However, the nation and state known as Hungary would exist there from this point onwards.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_HEADING_5">
+			<Text>Hungarian invasions of Europe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_TEXT_5">
+			<Text>After their conquests, the Hungarian people remained afraid of their neighbors to the east, the Pechenegs, feeling they were outnumbered. Large swathes of the region were left uninhabitated, concentrating the population for defensive purposes. Instead of fighting the Pecehengs, they turned westward, raiding into Western Europe. Swabia, the West Frankish marches, Bavaria and Saxony were all targets of the Hungarians, as was the Byzantine Empire. Defeat at the hand of the Franks at the Battle of Lechfeld in 955 ended their incursions westward, while defeat by the Byzantines at Arkadopolis in 970 ended their exploits there.[NEWLINE][NEWLINE]These invasions occurred during a time where raiding was widespread throughout Europe – Muslims, Vikings and Hungarians were all wreaking havoc across Western Europe. Like with the Vikings, many of the Hungarian raiders were gradually assimilated into European civilization. After these defeats, the Hungarians abandoned raiding and nomadism for a more sedentary lifestyle in Central Europe.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_HEADING_6">
+			<Text>Christianization and the Arpads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_TEXT_6">
+			<Text>The Arpad dynasty participated in the conquest of the Carpathian, and ruled the Hungarians afterward. Geza was the first to initiate Hungarian contact with Christianity, while his son Stephen I became the first King of Hungary after doing battle with pagan forces led by his uncle. He was crowned in 1000 or 1001 with the blessing of the Pope, with Hungary becoming an Apostolic Kingdom.[NEWLINE][NEWLINE]After Stephen consolidated his power, he moved to Christianize and Westernize Hungary, establishing feudalism and Latin as the official language. Hungary grew in power and prestige. Another Arpad king, Bela III, was notably more wealthy than the kings of France and England at the time. Andrew II led the Fifth Crusade into the Middle East, raising a massive army. The Golden Bull of 1222, also issued by Andrew II, was the first constitutional document in continental Europe, being issued a mere seven years after the Magna Carta in England.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_HEADING_7">
+			<Text>The Mongol Invasion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_TEXT_7">
+			<Text>Like most of the world during the 1200s, the Kingdom of Hungary suffered greatly at the hands of the Mongols. Over half of Hungary's two million residents fell victim to the Mongol hordes, while many refugees of those fleeing the invaders took residence in Hungary and were eventually absorbed into the population.[NEWLINE][NEWLINE]After the invasion ended, Bela IV ordered the construction of many fortifications and defenses, in order to better protect against further Mongol incursions. The Mongols did indeed return in the late 1200s, and their forces were repelled much easier.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_HEADING_8">
+			<Text>The Angevin Dynasty and Successors</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_TEXT_8">
+			<Text>After a few chaotic decades in the wake of the Arpad dynasty, the Angevins took power, with Louis the Great as one of their most powerful. Louis led campaigns all over Europe and became king of Poland from 1370 onward. After he died without a male heir, the Hungarian throne was again thrown into turmoil. It was only stabilized after Sigismund of Luxembourg (related to the Arpads) ascended to the throne. In 1433, he became Holy Roman Emperor.[NEWLINE][NEWLINE]The last significantly powerful Hungarian king was Matthias Corvinus, who reigned at the dawn of the Renaissance.  He was the first king elected that was not part of the prior dynastic structure. He created the Bibliotecha Corviniana, the second-largest library in Europe at the time behind the Vatican library. His mercenary army, the Black Army, won many victories against other Europeans and the Ottomans. Hungary declined after his death without an heir, paving the way for increased Ottoman influence in the region.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_HEADING_9">
+			<Text>Ottoman Wars</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_TEXT_9">
+			<Text>In the 16th century, the Ottomans finally overwhelmed the Kingdom of Hungary. The specific point at which this event occurred is often given as the 1526 Battle of Mohacs. The king, Louis II, died, and the nobility, in disarray, elected two kings simultaneously. Buda, the capital, was conquered in 1541.[NEWLINE][NEWLINE]Hungary was divided, with the east under direct Ottoman control or suzerainty, and the east under the control of the Habsburg dynasty. In 1686, the Holy League, a coalition of Christian nations, sent an army that retook Buda from the Ottomans. By 1718, the entire Kingdom of Hungary was removed from Ottoman rule. Hungary was devastated by this prolonged occupation and war.[NEWLINE][NEWLINE]In the centuries after the Ottoman occupation, Hungary remained under the sway of the Habsburgs. Some politicians attempted to modernize, but this did not prove successful. Along with many other European nations, Hungary rebelled in 1848, against their Habsburg rulers. The rebels wanted a more democratic and more independent Hungary. The Habsburgs managed to subdue the revolution using populations from neighboring territories and eventually military conquest.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_HEADING_10">
+			<Text>The Austro-Hungarian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_TEXT_10">
+			<Text>Austria-Hungary, a dual monarchy, was established in 1867. This combined polity was one of the largest and most populous in Europe, and spurred on a period of significant development in all respects.[NEWLINE][NEWLINE]In 1914, Archduke Franz Ferdinand, the presumed heir to the Austro-Hungarian throne, was assassinated in Sarajevo by Serbian nationalists. Hungarian elements in the Austro-Hungarian government attempted to prevent the outbreak of war, but they failed. Austria-Hungary was a large part of the Central Powers of World War I. The Empire drafted nine million soldiers, with four of those millions from Hungary. Hungarian troops specifically suffered more losses than any other part of the dual monarchy. While Serbia and Romania were captured, the Central Powers lost the war, and the Austro-Hungarian Empire was dissolved into its constituent nations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_HEADING_11">
+			<Text>Interwar and World War II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_TEXT_11">
+			<Text>The Aster Revolution, in 1918, brought the socialist Mihaly Karolyi into power as Hungary's first president. The army was disbanded. Serbia, Romania, and Czechoslovakia took areas of Hungary which had majority ethnic populations, but also some of the Magyar areas. These annexations were not contested by the victorious Entente. A communist revolution occurred in 1919, but was put down by Romanian troops.[NEWLINE][NEWLINE]The Treaty of Trianon, in 1920, took away 71% of its territory and two-thirds of its population. Many Hungarians became minorities in new countries. As a result, rightist forces took control of Hungary. During the Depression, autocratic and right-wing influences, including influence from Nazi Germany, drove Hungary in the direction of the Axis. The Germans and Italians granted Hungary part of the annexed Czechoslovakia in 1938. As 1939 progressed, Hungary began to reoccupy some of its former territories.[NEWLINE][NEWLINE]The Hungarians only formally entered World War II on the side of the Axis in the wake of the German invasion of the Soviet Union, Operation Barbarossa. They fought largely on the eastern front. In 1943, however, the Hungarians sought a surrender, as they had suffered great losses. In response, the Axis invaded and occupied Hungary, installing a puppet fascist regime. The country's economy was rededicated to the war effort. Eventually, the Soviets took Budapest after a two month long battle. After the war, Hungary returned to its pre-1938 borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_HEADING_12">
+			<Text>The People's Republic of Hungary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_TEXT_12">
+			<Text>After the defeat of the Axis powers in 1945, Hungary fell into the Soviet sphere of influence. A Stalinist-style purge followed the emergence of a communist government, killing many and adding onto the devastation of the war. Matayas Rakosi's regime led to a decrease in the standard of living.[NEWLINE][NEWLINE]In 1956, the Hungarian Revolution ousted Rakosi. For a brief time, Hungary withdrew from the Warsaw Pact, and Imre Nagy restored multiparty democracy. A month later, the Soviets intervened, killing tens of thousands and putting a stop to any reform. Janos Kadar was installed as the new leader. His more inclusive and less repressive attitude, combined with free-market reforms introduced as part of the New Economic Mechanism, led Hungary to have a higher standard of living and a more functional economy than many other Eastern Bloc states. Kadarwould rule until the peaceful fall of the People's Republic in 1989.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_HEADING_13">
+			<Text>Present</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_TEXT_13">
+			<Text>The modern nation of Hungary managed to join the European Union in 2004. Like many Central European nations, recovery from the socialist period has been mixed. Today's Hungary faces issues like controversy over the country's large Roma (also known as gypsy) population and the role that the European Union should play in the government of its constituent nations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_FACTOID_HEADING">
+			<Text>Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HUNGARY_FACTOID_TEXT">
+			<Text>Although Attila was considered an ancestral ruler of the Hungarians for centuries, this is now considered false. The term 'Hungary' is believed, instead, to originate from a 7th Century Magyar alliance with the Bulgars, called 'On-Ogour,' meaning '(the) Ten Arrows.'[NEWLINE][NEWLINE]From 1000 AD to 1844, Latin was the official language of Hungary.[NEWLINE][NEWLINE]Hungary was described by Pope Pius II as 'the shield of Christianity and the defender of Western civilization' and was uniquely granted the title of Apostolic Kingdom.[NEWLINE][NEWLINE]Hungary has yet to be featured in the Civilization franchise, but hopefully one day...</Text>
+		</Row>
+		<!-- STEPHEN I -->
+		<Row Tag="TXT_KEY_LEADER_JFD_STEPHEN">
+			<Text>Stephen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_STEPHEN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_STEPHEN_TEXT_1">
+			<Text>Stephen I, also Saint Stephen, was the last Grand Prince of the Hungarians between 997 and 1000 or 1001, and the first King of Hungary from 1000 or 1001 until his death in 1038. He was born as Vajk in Esztergom. The year of his birth is uncertain, but many details of his life suggest that he was born in or after 975. He was the only son of Grand Prince Géza and his wife, Sarolt, who was descended from the prominent family of the gyulas. Although both of his parents were baptized, Stephen was the first member of his family to become a devout Christian. He married Gisela of Bavaria, a scion of the imperial Ottonian dynasty.[NEWLINE][NEWLINE]After succeeding his father in 997, Stephen had to fight for the throne against his relative, Koppány, who was supported by masses of pagan warriors. He defeated Koppány mainly with the assistance of Vecelin, Hont and Pázmány and other knights of foreign origin, but also with help from native lords. He was crowned on 25 December 1000 or 1 January 1001 with a crown sent by Pope Sylvester II. In a series of wars against semi-independent tribes and chieftains—including the Black Hungarians and his uncle, Gyula the Younger—he unified the Carpathian Basin. He protected the independence of his kingdom by forcing the invading troops of Conrad II, Holy Roman Emperor to withdraw from Hungary in 1030.[NEWLINE][NEWLINE]Stephen established at least one archbishopric, six bishoprics and three Benedictine monasteries; thus the Church in Hungary developed independently of the archbishops of the Holy Roman Empire. He ensured the spread of Christianity among his subjects with severe punishments. His system of local administration was based on counties organized around fortresses and administered by royal officials. Hungary, which enjoyed a lasting period of peace during his reign, became a preferred route for pilgrims and merchants traveling between Western Europe and the Holy Land or Constantinople.[NEWLINE][NEWLINE]He survived all of his children, which caused bitter conflicts among his relatives, lasting for decades. He died on 15 August 1038 and was buried in his new basilica, built in Székesfehérvár and dedicated to the Holy Virgin. Pope Gregory VII canonized him together with his son, Emeric, and Bishop Gerard of Csanád, in 1083. Stephen is a popular saint in Hungary and the neighboring territories. In Hungary, his feast day (celebrated on 20 August) is also a public holiday commemorating the foundation of the state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_STEPHEN_LIVED">
+			<Text>967 - 1038 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_STEPHEN_NAME">
+			<Text>Stephen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_STEPHEN_SUBTITLE">
+			<Text>Leader of Hungary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_JFD_STEPHEN_TEXT">
+			<Text>Most holy and apostolic King Stephen of Hungary, we are blessed with your audience. You ascended the throne of Hungary a Grand Prince, but in your wake would leave it a powerful and formidable kingdom; envied across Europe for its piety and devotion to God. Forged from the ideals of Charlemagne's enlightened empire, the Hungarian Kingdom would become a bastion of western and Christian virtue, waging countless defences against the Moslim Turks, and championing the divine right and sanctity of her apostolic Kings. As sovereign, you would force back the powers that sought to subjugate the lands of the Carpathian Mountains, and you would ensure stability for the Kingdom under the guide of your unyielding faith and devastating military prowess; earning Hungary her place as one of the foremost powers of medieval Europe.[NEWLINE][NEWLINE]O blessed Stephen, who art adorned as the herald of a glorious age, your people call for a monarch to wield her ancient duties. Can you bear this sacred and holy crown? Can you fashion from barbarity a kingdom once more emblazoned with honour and devotion? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!-- APOSTOLIC MAJESTY -->
+		<Row Tag="TXT_KEY_TRAIT_JFD_HUNGARY_SHORT">
+			<Text>Apostolic Majesty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_HUNGARY">
+			<Text>While all of your cities follow the same religion, half of your [ICON_PEACE] Faith output contributes toward a [ICON_GOLDEN_AGE] Golden Age. Cities following your religion may spend [ICON_PEACE] Faith on hurrying military units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HUNGARY_FAITH_HURRY">
+			<Text>{1_Num} [ICON_PEACE] Faith Available</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HUNGARY_FAITH_HURRY_TT">
+			<Text>Spend {1_Num} [ICON_PEACE] Faith to hurry the [ICON_PRODUCTION] Production of this military unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HUNGARY_FAITH_HURRY_DISABLED_TT">
+			<Text>[COLOR_WARNING_TEXT]You can only hurry the [ICON_PRODUCTION] Production of a military unit if this city is following your religion and is not in [ICON_RESISTANCE] Resistance.[ENDCOLOR]</Text>
+		</Row>
+		<!-- UU -->
+		<Row Tag="TXT_KEY_JFD_HUSSAR_DESC">
+			<Text>Hussar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HUSSAR_TEXT">
+			<Text>Taking their name from the Latin "Cursarius," meaning "Raider," the fearsome light cavalrymen of Hungary known as the Hussars served the Habsburg Empire and Austria throughout the 17th and 18th centuries. Emulated by cavalry units across Europe, the Hussars formed as an irregular regiment of skilled riders relying on swift, unpredictable hit-and-run tactics. Over time the Hussars became a formal unit, with recruits judged on specific requirements regulating both the rider and his mount. Hussar regiments were used extensively during the Napoleonic Wars, and eventually served in armies across Europe and Asia well into the 19th century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HUSSAR_STRATEGY">
+			<Text>The Hussar is the unique unit for Stephen's Hungary, replacing the Cavalry. Faster and cheaper than the Cavalry, the Hussar starts with additional Sight and receives a +50% Flank Attack Bonus and ignores enemy zones of control.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HUNGARY_HELP">
+			<Text>Fast Industrial Era mounted unit that starts with additional Sight and specializes in flank attacks. Ignores enemy zones of control. Only Stephen's Hungary may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_LIGHT_CAVALRY">
+			<Text>Ignores Zones of Control</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_LIGHT_CAVALRY_HELP">
+			<Text>Ignores enemy zones of control.</Text>
+		</Row>
+		<!-- VEGVAR -->
+		<Row Tag="TXT_KEY_BUILDING_JFD_VEGVAR">
+			<Text>Végvár</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_VEGVAR_HELP">
+			<Text>Each defensive building in this city provides +2 [ICON_PEACE] Faith. As long as this city follows your religion, each defensive building in this city increases religious pressure emanating from this city by 25% and if this city is occupied by an enemy civilization, this city will take 30 damage per turn until it is retaken or peace is declared.[NEWLINE][NEWLINE]City must have Walls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_VEGVAR_STRATEGY">
+			<Text>The Végvár is the unique building for Stephen's Hungary, replacing the Castle. The Végvár increases this city's [ICON_STRENGTH] Defense Strength by 7 and Hit Points by 25 as well as the [ICON_CULTURE] Culture and [ICON_PEACE] Faith output of this city. As long as this city follows your religion, the Vegvar increases the religious pressure emenating from this city and if this city is occupied by an enemy civilization, this city will take 30 damage per turn until it is retaken or peace is declared. Can only be built if this city contains Walls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_JFD_VEGVAR_TEXT">
+			<Text>Végvárs were sturdy fortresses designed to serve in protecting the Hungarian border from the Ottoman Empire, and to offer sanctuary to the citizens of the surrounding areas. By the end of the 15th Century, Végvárs lined the southern Hungarian border and proved invaluable in asserting the Hungarian claim of vassalship over Serbia, Wallachia and Moldavia against the Ottoman Turks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_VEGVAR_PRESSURE">
+			<Text>JFD: Végvár Pressure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_VEGVAR_PRESSURE_HELP">
+			<Text>+25% religious pressure.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_VEGVAR_FAITH">
+			<Text>JFD: Végvár Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_VEGVAR_FAITH_HELP">
+			<Text>+2 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HUNGARY_DUMMY">
+			<Text>JFD: Hungary Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HUNGARY_DUMMY_HELP">
+			<Text>Hungary dummy building.</Text>
+		</Row>
+		<!-- DIPLOMATIC MARRIAGE -->
+		<Row Tag="TXT_KEY_TRAIT_JFD_ANNEX_CITY_STATE">
+			<Text>Cannot gain Settlers nor found new cities. May spend [ICON_GOLD] Gold to assimilate an allied City-State. Excess [ICON_HAPPINESS_1] Happiness contributes toward [ICON_GREAT_PEOPLE] Great People generation in the [ICON_CAPITAL] Capital (up to 50%).</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_POP_CSTATE_BUYOUT">
+			<Text>Diplomatic Marriage</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_CSTATE_BUYOUT_TT">
+			<Text>You may spend {1_BuyoutCost} [ICON_GOLD] Gold to acquire this City-State, assimilating it and its units into your empire.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_CSTATE_BUYOUT_DISABLED_TT">
+			<Text>You may spend {2_BuyoutCost} [ICON_GOLD] Gold to acquire this City-State, assimilating it and its units into your empire.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You must be allied with this City-State for {1_NumTurns} turns and have {2_BuyoutCost} [ICON_GOLD] Gold to assimilate it.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_CSTATE_BUYOUT_DISABLED_ALLY_TT">
+			<Text>You may spend {3_BuyoutCost} [ICON_GOLD] Gold to acquire this City-State, assimilating it and its units into your empire.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You must be allied with this City-State for {1_NumTurns} turns ({2_TurnsAllied} turns so far) and have {3_BuyoutCost} [ICON_GOLD] Gold to assimilate it.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT">
+			<Text>{@2_MinorCivName} joins the Austrian Empire!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT_TT_1">
+			<Text>{@2_MinorCivName} has been assimilated by {@1_CivName}.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT_TT_2">
+			<Text>{@2_MinorCivName} has been assimilated by {@1_CivName}.</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_BUILDING_JFD_AUSTRIAN_GREAT_PEOPLE_GEN">
+			<Text>JFD: Austrian Great Person Gen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_AUSTRIAN_GREAT_PEOPLE_GEN_HELP">
+			<Text>+1% [ICON_GREAT_PEOPLE] Great People generation.</Text>
+		</Row>
+		<!-- COFFEE HOUSE -->
+		<Row Tag="TXT_KEY_BUILDING_JFD_COFFEE_HOUSE_STRATEGY">
+			<Text>The Coffee House is the Austrian unique building, replacing the Windmill. The Coffee House increases the civilization's [ICON_HAPPINESS_1] Happiness as well as this city's [ICON_PRODUCTION] Production output. Unlike the Windmill, the Coffee House provides a Writer specialist, as well as an Artist specialist and a Musician specialist when constructed. The Coffee House can be constructed in any city, including those that are built on Hills. The Coffee House cannot be sold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COFFEE_HOUSE_HELP">
+			<Text>Provides one Artist and one Musician specialist when constructed.[NEWLINE][NEWLINE]Cannot be sold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_AUSTRIAN_ARTIST">
+			<Text>Coffee House Artist Specialist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_AUSTRIAN_MUSICIAN">
+			<Text>Coffee House Musician Specialist</Text>
+		</Row>
+		<!-- DRAGOON -->
+		<Row Tag="TXT_KEY_JFD_DRAGOON_DESC">
+			<Text>Dragoon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DRAGOON_TEXT">
+			<Text>The word dragoon originally meant mounted infantry, who were trained in horse riding as well as infantry fighting skills. However, usage altered over time and during the 18th century, dragoons evolved into conventional light cavalry units and personnel. Dragoon regiments were established in most European armies during the late 17th and early 18th centuries.[NEWLINE][NEWLINE]The name is possibly derived from a type of firearm (called a dragon) carried by dragoons of the French Army. There is no distinction between the words dragon and dragoon in French; both are referred to as dragon.[NEWLINE][NEWLINE]The title has been retained in modern times by a number of armoured or ceremonial mounted regiments.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DRAGOON_STRATEGY">
+			<Text>The Dragoon is the Austrian unique unit, replacing the Cavalry. The Dragoon receives a +15% Combat Bonus against mounted units and earns promotions 50% faster. After discovering Radio, the Dragoon provides +1 [ICON_TOURISM] Tourism per level (up to 5) when garrisoned in a city. The Dragoon does not obsolete.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DRAGOON_HELP">
+			<Text>Strong Industrial Era mounted unit that earns promotions faster and specializes in defeating mounted units. Provides +1 [ICON_TOURISM] Tourism per level (up to 5) when garrisoned in a city after discovering Radio. Does not obsolete. Only Austria may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DRAGOON_EXPERIENCE_BONUS">
+			<Text>Deft Tactics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DRAGOON_EXPERIENCE_BONUS_HELP">
+			<Text>Earns 50% more experience from combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DRAGOON_MOUNTED_BONUS">
+			<Text>Combat Bonus vs Mounted (15)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DRAGOON_MOUNTED_BONUS_HELP">
+			<Text>+15% Combat Bonus against mounted units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_CEREMONIAL_DRAGOONS">
+			<Text>Ceremonial Dragoons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_CEREMONIAL_DRAGOONS_HELP">
+			<Text>Provides +1 [ICON_TOURISM] Tourism per level (up to 5) when garrisoned in a city after discovering Radio.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_AUSTRIAN_DRAGOON_TOURISM">
+			<Text>JFD: Dragoon Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_AUSTRIAN_DRAGOON_TOURISM_HELP">
+			<Text>+1 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_AUSTRIAN_DRAGOON_TOURISM_2_HELP">
+			<Text>+2 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_AUSTRIAN_DRAGOON_TOURISM_3_HELP">
+			<Text>+3 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_AUSTRIAN_DRAGOON_TOURISM_4_HELP">
+			<Text>+4 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_AUSTRIAN_DRAGOON_TOURISM_5_HELP">
+			<Text>+5 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<!-- LVIV -->
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_LVIV">
+			<Text>Lviv</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_LVIV_ADJ">
+			<Text>Lviv</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_LVIV_TEXT">
+			<Text>Lviv is a city in western Ukraine that was once a major population centre of the Halych-Volyn Principality, the Crown of the Kingdom of Poland, the Habsburg Kingdom of Galicia and Lodomeria, and later the capital of Lwów Voivodeship during the Second Polish Republic.[NEWLINE][NEWLINE]Formerly capital of the historical region of Galicia, Lviv is now regarded as one of the main cultural centres of today's Ukraine. The historical heart of Lviv with its old buildings and cobblestone streets has survived Soviet and Nazi occupation during World War II largely unscathed. The city has many industries and institutions of higher education such as Lviv University and Lviv Polytechnic. Lviv is also a home to many world-class cultural institutions, including a philharmonic orchestra and the famous Lviv Theatre of Opera and Ballet. The historic city centre is on the UNESCO World Heritage List. Lviv celebrated its 750th anniversary with a son et lumière in the city centre in September 2006.[NEWLINE][NEWLINE]The archaeological traces of settlement on the site of Lviv city date from as early as the 5th century. Archaeological excavations in 1977 showed Lendian settlement between the 8th and 10th centuries AD. In 1031 the settlement site with the rest of adjacent region was conquered from Mieszko II Lambert King of Poland by prince Yaroslav the Wise. After the invasion of Batu Khan, the city was rebuilt in 1240 by King Daniel of the Rurik Dynasty, ruler of the medieval Ruthenian kingdom of Galicia–Volhynia, and named after his son, Lev.[NEWLINE][NEWLINE]The first record of Lviv in chronicles dates from 1256. In 1340 Galicia including Lviv were incorporated into the Kingdom of Poland by Casimir III the Great by inheritance from prince Bolesław Jerzy II of Mazovia. In 1356, Lviv received Magdeburg Rights from King Casimir III the Great. Lviv belonged to the Kingdom of Poland till 1772. Under subsequent partitions, Lviv became part of the Austrian Empire. From 1918, the city of Lviv became the capital of the Lwów Voivodeship of the Second Polish Republic, until the Soviet invasion of Poland in 1939; it later fell into German hands. On 22 July 1944, following the successful Lwów Uprising, Lviv was liberated from Nazi occupation by Polish troops, cooperating with advancing Soviet forces.[NEWLINE][NEWLINE]From the 15th century the city acted as a major Polish and later also as a Jewish cultural centre, with Poles and Jews comprising a demographic majority of the city until the outbreak of World War II, and the Holocaust, and the population transfers of Poles that followed. The other ethnic groups living within the city – Germans, Ruthenians (Ukrainians), and Armenians – also contributed greatly to Lviv's culture. With the joint German–Soviet Invasion of Poland at the outbreak of World War II, the city of Lwów and its province were annexed by the Soviet Union and became part of the Ukrainian Soviet Socialist Republic from 1939 to 1941. Between 30 June 1941 and 27 July 1944 Lwów was under German occupation, and was located in the General Government. On 27 July 1944 it was captured by the Soviet Red Army. According to the agreements of the Yalta Conference, Lwów was transferred to the Ukrainian SSR, most of the Poles living in Lwów were deported into lands newly acquired from Germany under terms of the Potsdam Agreement (officially termed Recovered Territories in Poland), and the city became the main centre of the western part of Soviet Ukraine, inhabited predominantly by Ukrainians with a significant Russian minority.[NEWLINE][NEWLINE]After the dissolution of the Soviet Union in 1991, the city of Lviv remained a part of the now independent Ukraine, for which it currently serves as the administrative centre of Lviv Oblast, and is designated as its own raion (district) within that oblast.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

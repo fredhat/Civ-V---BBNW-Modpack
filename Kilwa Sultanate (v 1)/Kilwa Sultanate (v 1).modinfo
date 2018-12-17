@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="be1a0a53-6a84-4b7f-b2d0-5100c5028864" version="1">
+  <Properties>
+    <Name>Kilwa Sultanate</Name>
+    <Teaser>Adds the Kilwa civilization led by Ali ibn al-Hassan to the game.</Teaser>
+    <Description>Adds the Kilwa civilization to the game. Requires Gods & Kings.</Description>
+    <Authors>More Civilizations team</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>1</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+	<ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="3BB2AA48DA985F2C7A36E7801F87964D" import="1">Art/Atlases/KilwaAlpha_128.dds</File>
+    <File md5="E0C7E1E626C11776902060BEFC3DD62B" import="1">Art/Atlases/KilwaAlpha_16.dds</File>
+    <File md5="60D071E36FA4E7C0C417F55F2854F140" import="1">Art/Atlases/KilwaAlpha_24.dds</File>
+    <File md5="6890F6C75458707C3BEB375762491EAD" import="1">Art/Atlases/KilwaAlpha_32.dds</File>
+    <File md5="913D94310D227B1A303A479BEC410A7A" import="1">Art/Atlases/KilwaAlpha_45.dds</File>
+    <File md5="9256AAC950214CC9CE53FF71ADF188E6" import="1">Art/Atlases/KilwaAlpha_48.dds</File>
+    <File md5="123821840F65CD5A7FE0C27A7CF82D39" import="1">Art/Atlases/KilwaAlpha_64.dds</File>
+    <File md5="339F250F0FBE11F2DF3B667C0BFCCA24" import="1">Art/Atlases/KilwaAlpha_80.dds</File>
+    <File md5="BE7D3F57DB92C77C41122F06B5BBBCBF" import="1">Art/Atlases/Kilwa_128.dds</File>
+    <File md5="1D5E06D8907BEBC33578271B6FACD759" import="1">Art/Atlases/Kilwa_256.dds</File>
+    <File md5="27066C65204148239B9B81D47EF93073" import="1">Art/Atlases/Kilwa_32.dds</File>
+    <File md5="F796A50DEC7C2A68931891AE9D649D59" import="1">Art/Atlases/Kilwa_45.dds</File>
+    <File md5="7DC9F9E00DC747999C26DF94B2DAB5D8" import="1">Art/Atlases/Kilwa_64.dds</File>
+    <File md5="087B0294EC820A2FBB22ECDA77795C33" import="1">Art/Atlases/Kilwa_80.dds</File>
+    <File md5="8A19F17ACD4DDCBF254AC1EB4AEB9A4C" import="1">Art/Scenes/DOM_Kilwa.dds</File>
+    <File md5="6B75F82B9DCEA3B3A3CC50525DCE4248" import="1">Art/Scenes/Kilwa_Diplo.dds</File>
+    <File md5="9560AA5958178A5037932C18A8A809E0" import="1">Art/Scenes/Kilwa_Leaderhead.xml</File>
+    <File md5="2BB550B6D6284420C7948100DEC5C16A" import="1">Art/Scenes/Kilwa_Map512.dds</File>
+    <File md5="93C7C68BE6E8FBB044AD8F8ECB8FC005" import="1">Art/Unit Art/dhow.fxsxml</File>
+    <File md5="5B2DFBF8129329A576030EA9EF687D10" import="1">Art/Unit Art/dhow.gr2</File>
+    <File md5="631082116C46DEBF0C37CC527AF8657D" import="0">Art/Unit Art/DhowDefine.sql</File>
+    <File md5="51FA0DFCF880D05EBCFB628C3D617345" import="1">Art/Unit Art/DhowFlag.dds</File>
+    <File md5="154992CA538046F5268C1E6BDACC8F28" import="1">Art/Unit Art/dhow_diff.dds</File>
+    <File md5="4B9094E43AD9C1F4C32563515029C387" import="1">Art/Unit Art/dhow_sref.dds</File>
+    <File md5="445ECAAD8FCA1086306953B3AE92D874" import="1">Art/Unit Art/sv_dhow.dds</File>
+    <File md5="F15BA8BABC8F95EDB4D66F2F6311D473" import="1">Audio/Al_Hassan_Peace.mp3</File>
+    <File md5="7B34814D3EBA2E16C9240C1621BDD09B" import="1">Audio/Al_Hassan_War.mp3</File>
+    <File md5="9D11C4D5FF5754DB855A61511CBD9E6E" import="1">Audio/KilwaDoM.mp3</File>
+    <File md5="DC0EE87FF4CED8EA61072C909F57FBE7" import="0">Lua/FirstMetGold.lua</File>
+	<File md5="B2B1425EC106C0AE356CDEB3E5DBD7EE" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+    <File md5="EA0FE3A558B95E8AB4D18AC726AB8EFF" import="0">XML/Buildings/Kilwa_Buildings.xml</File>
+    <File md5="E54F82B39786B8FFB41B684AFAEB7EA8" import="0">XML/Civilization/Kilwa_Civilizations.xml</File>
+    <File md5="90D774D6BA31C16B030F4E31F62ABFB2" import="0">XML/GameInfo/Kilwa_IconTextureAtlases.xml</File>
+    <File md5="908924F30B273D181669D7FEE1D728E7" import="0">XML/GameInfo/Kilwa_Traits.xml</File>
+    <File md5="06C2DCC683C6E075E6DD7379AB8CE735" import="0">XML/Leaders/Kilwa_Leader.xml</File>
+    <File md5="FA0F36C5EAD5605993245D6817B6D064" import="0">XML/Sounds/Kilwa_Sounds.xml</File>
+    <File md5="36F7975FC081DED44C800DFB255D93ED" import="0">XML/Text/Kilwa_Text.xml</File>
+    <File md5="87E1435E521FFEF617F0CC4F2B97612C" import="0">XML/Units/Kilwa_Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+	  <UpdateDatabase>Art/Unit Art/DhowDefine.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Kilwa_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization/Kilwa_Civilizations.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/GameInfo/Kilwa_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Kilwa_Traits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Kilwa_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Sounds/Kilwa_Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Kilwa_Text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Units/Kilwa_Units.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/FirstMetGold.lua">
+      <Name>Kilwa First Met Gold</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

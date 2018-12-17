@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--FRANCE (NAPOLEON)-->
+		<Row Tag="TXT_KEY_CIV_JFD_FRANCE_NAPOLEON_ADJECTIVE">
+			<Text>Napoleonic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_FRANCE_NAPOLEON_DESC">
+			<Text>Napoleonic Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_FRANCE_NAPOLEON_SHORT_DESC">
+			<Text>France</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_FRANCE_NAPOLEON_HEADING_1">
+			<Text>The Napoleonic Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_FRANCE_NAPOLEON_TEXT_1">
+			<Text>The Empire of Napoleon Bonaparte was born out of the turbulence of the French Revolution, which had established a constitution sought to be dethroned by members of the executive, post-monarchical government, of which Napoleon would be placed at its charge. His Empire would come to ravage the powers of Europe; at its height stretching across most of the central continent and amassing a military power unseen before - an homage to the ancient, Frankish empire of Charlemagne. Napoleon's Empire would cause great political and legal change within Europe. Where he conquered, his code of laws, venerating judicial equality and legalised divorce, would follow, and behind him he would leave much of the ancient nobility of his conquests without privilege. Defeats in Spain and then in Russia, however, would inflict a fatal wound upon his empire, and in 1814 Napoleon Bonaparte would abdicate his Imperial throne. Though he would return briefly in 1815, his defeat at Waterloo would seal the coffin of his legacy, and subsequently the Bourbon Monarchy of France would be restored.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_FRANCE_NAPOLEON_HEADING_2">
+			<Text>History of France</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_FRANCE_NAPOLEON_TEXT_2">
+			<Text>Modern France has its roots in ancient Gaul. In the 2nd century BC Rome intervened on the side of Massilia (Marseilles), a Greek colony founded in 600 BC, in its struggle against the barbarian tribes of the hinterland. The result was the formation, in 121 BC, of the Roman Provincia in what is now southern France; between 58 to 50 BC Julius Caesar seized the remainder. For more than four centuries Gaul enjoyed the benefits of Roman rule, and many ruins of aqueducts and bathhouses still dot the French landscape. After 395 AD the internal problems of the Empire encouraged barbarian penetration of Gaul. By 418, the Franks and Burgundians were established west of the Rhine, and the Visigoths had settled in Aquitaine. The period of the Merovingian and Carolingian Frankish dynasties (476-887) frames the Early Middle Ages. [NELWINE][NEWLINE]Following his ascension, the first Merovingian king, Clovis (481-511), consolidated the position of the Franks in northern Gaul. Clovis came to believe that his victories were due to the Christian God. Clovis' subsequent conversion assured the Frankish rulers of the support not only of the Catholic Church but of the majority of their own subjects. The Frankish kingdom reached its largest extent under Charlemagne (768-814), who united modern-day France, Italy, and Germany under his rule. After Charlemagne's death, his grandsons divided the kingdom into the three parts that have largely survived to the present. France was a divided kingdom for much of the medieval period, but power gradually began to accumulate in the hands of the rulers of the Ile de France region centered around Paris. By the rise of the house of Valois in 1328, France was the most powerful kingdom in Europe. Its ruler could muster larger armies than rivals; he could tap enormous fiscal resources; and the king's courts maintained royal supremacy. The history of France in the Late Middle Ages is dominated by efforts of its kings to maintain their suzerainty, efforts that, despite French advantages, were long frustrated.[NEWLINE][NEWLINE]The Hundred Years War was an intermittent struggle between England and France in the 14th-15th centuries over a series of dynastic disputes, including the legitimate succession to the French crown. The war's turning point was reached in 1429, when an English army was forced to raise its siege of Orleans by a relief force organized by Joan of Arc. By 1453, England retained only Calais, which it finally relinquished in 1558. The French kings of the 16th century spent much of their time fighting the Hapsburg monarchs for control of Italy, while religious conflict between Catholics and Protestants led to a series of civil wars between 1562 and 1598.[NEWLINE][NEWLINE]The ascension of the Bourbon line of kings beginning in 1589 brought renewed stability to France, and the country soared to some of its greatest heights during the long rule of Louis XIV (1643-1715). Under Louis, France became the artistic and intellectual capital of Europe. From his magnificent palace of Versailles, Louis was truly the "Sun King", the absolute master of all he surveyed. The French military was the most powerful in Europe at this time, known for the elite Musketeer units that served as the king's personal guard. France was so strong at this time that the other European nations kept banding together to stop France from conquering them - a pattern that would be repeated in the French Revolution.[NEWLINE][NEWLINE]These intellectual developments, although significant by themselves, gave rise to a still more momentous change: the French Enlightenment. This movement was a cultural transformation based on rationalism, empiricism, and an amorphous concept of freedom found in the influential writings of figures like Voltaire (1694-1778) and Rousseau (1712-78). Compounding the situation was the bankruptcy of the French crown, which forced the king to call upon representatives of the people for additional taxes. Hence, what began in 1787 as a conflict between royal authority and aristocrats became a triangular struggle, with "the masses" opposing both absolutism and privilege. By any standard, the fall of the Bastille to the Parisian crowd in 1789 was a monumental event, a seemingly miraculous triumph of the people. But the French Revolution soon degenerated into a reign of terror and chaos. After a decade of violence and uncertainty, Napoleon terminated the bloodshed by overthrowing the French government in 1800, at the price of suppressing freedom altogether. In utter contrast to the Revolution, militarism became the defining quality of the Napoleonic regime. The French armies under Napoleon won victory after victory against all of the other great European powers, but decades of war led to the exhaustion of the nation and eventual defeat in 1815.[NEWLINE][NEWLINE]However, the revolutionary fervor of the French citizenry was undiminished by the Napoleonic experience, and led to further revolutions in 1830 and 1848. The latter revolution lead to the short-lived Second Republic (1848-1852), which was overthrown by Napoleon's nephew "Napoleon III" who instituted the Second Empire (1852-1870). Following defeat in the Franco-Prussia War, the Third Republic (1870-1940) was formed, which survived the First World War but collapsed in the face of the German invasion in 1940. After the war, the period of the short-lived Fourth Republic (1947-59) was succeeded by the Fifth Republic (the current one), adopted in September 1958 by popular referendum. Although shorn of its past colonial holdings and aura of military invulnerability, France today remains a major economic power and influential member of the European Union.</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_FRANCE_NAPOLEON_0">
+			<Text>A Foot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_FRANCE_NAPOLEON_1">
+			<Text>Mme Walewska</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_FRANCE_NAPOLEON_2">
+			<Text>Joséphine</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_FRANCE_NAPOLEON_3">
+			<Text>Éponine</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_FRANCE_NAPOLEON_4">
+			<Text>Javert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_FRANCE_NAPOLEON_5">
+			<Text>Vidocq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_FRANCE_NAPOLEON_6">
+			<Text>Vandernoot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_FRANCE_NAPOLEON_7">
+			<Text>Jérôme</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_FRANCE_NAPOLEON_8">
+			<Text>Fouché</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_FRANCE_NAPOLEON_9">
+			<Text>Schulmeister</Text>
+		</Row>
+		<!--SUN OF AUSTERLITZ-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_FRANCE_NAPOLEON_SHORT">
+			<Text>The Sun of Austerlitz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_FRANCE_NAPOLEON">
+			<Text>Receive a free Great General upon the outbreak of war with a major Civilization. Great Generals provide stacked military land units with 5 XP per turn and may be expended to instantly assimilate [ICON_OCCUPIED] Occupied cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_NAPOLEONIC_MARSHAL">
+			<Text>Marshal of the Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_NAPOLEONIC_MARSHAL_TEXT">
+			<Text>Marshal of the Empire was a title bestowed upon the most prestigious and accomplished of Napoleon's military generals, who were granted special honours that elevated them to serve in many important roles in the management of his empire. A number of these Marshals even went on to establish royal dynasties, such as the Bernadottes who today remain the ruling House of Sweden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_NAPOLEONIC_MARSHAL_STRATEGY">
+			<Text>The Marshal of the Empire is a unique unit for Napoleon's France, replacing the Great General. When stationed in an [ICON_OCCUPIED] Occupied city, the Marshal of the Empire may be expedned to instantly assimilate that city into your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GENERAL_FRANCE">
+			<Text>Marshal of the Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GENERAL_FRANCE_HELP">
+			<Text>May be expended to instantly assimilate an [ICON_OCCUPIED] Occupied city into your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NAPOLEON_GENERAL_EXPEND">
+			<Text>Expend Great General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NAPOLEON_GENERAL_EXPEND_TT_OCCUPIED">
+			<Text>This Great General instantly assimilates this city into your empire. This city receives a free Courthouse and is no longer in [ICON_RESISTANCE] Resistance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NAPOLEON_GENERAL_EXPEND_TT_OCCUPIED_DISABLED">
+			<Text>This Great General instantly assimilates this city into your empire. This city receives a free Courthouse and is no longer in [ICON_RESISTANCE] Resistance.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]This city must not be a [ICON_PUPPET] Puppet and must not currently be being [ICON_RAZING] Razed. A Great general must be stationed in this city.[ENDCOLOR]</Text>
+		</Row>
+		<!-- Marshal Names -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_1">
+			<Text>Bernadotte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_2">
+			<Text>Berthier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_3">
+			<Text>Murat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_4">
+			<Text>de Moncey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_5">
+			<Text>Jourdan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_6">
+			<Text>Masséna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_7">
+			<Text>Augereau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_8">
+			<Text>Soult</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_9">
+			<Text>Lannes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_10">
+			<Text>Mortier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_11">
+			<Text>Ney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_12">
+			<Text>Davout</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_13">
+			<Text>Bessières</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_14">
+			<Text>de Kallermann</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_15">
+			<Text>Lefebvre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_16">
+			<Text>de Pérignon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_17">
+			<Text>Sérurier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_18">
+			<Text>Victor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_19">
+			<Text>MacDonald</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_20">
+			<Text>Oudinot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_21">
+			<Text>de Marmont</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_22">
+			<Text>Suchet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_23">
+			<Text>Saint-Cyr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_24">
+			<Text>Poniatowski</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_NAPOLEON_25">
+			<Text>de Grouchy</Text>
+		</Row>
+		<!--IMPERIAL GUARD-->
+		<Row Tag="TXT_KEY_UNIT_JFD_IMPERIAL_GUARD">
+			<Text>Imperial Guard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_IMPERIAL_GUARD_HELP">
+			<Text>Powerful Renaissance Era gunpowder unit that specializes in generating Great Generals through combat and defeating mounted units. Ignores enemy zones of control. Does not require a source of [ICON_RES_HORSE] Horses to be built. Only Napoleon's France may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_IMPERIAL_GUARD_STRATEGY">
+			<Text>The Imperial Guard is a unique unit for Napoleon's France, replacing the Lancer. Slower than the Lancer, the Imperial Guard receives a +33% Combat Bonus against mounted units and contributes 50% more points toward the generation of Great Generals through combat. Additionally, the Imperial Guard ignores enemy zones of control. Unlike the Lancer, the Imperial Guard is a gunpowder unit, and as such does not receive the same penalties as the Lancer and upgrades into the Great War Infantry. Unlike the Lancer, the Imperial Guard does not require a source of [ICON_RES_HORSE] Horses to be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_IMPERIAL_GUARD_TEXT">
+			<Text>Napoleon's Imperial Guard was an elite division of the French Army that served under the direct command of Napoleon I, acting both as his personal bodyguard and as a reserve force. Although originally the Guard consisted of only a small group of some 8,000 soldiers, by 1812, it had amassed just under 100,000 men, and comprised its own cavalry, artillery and infantry divisions. The guard itself was divided into three sections: the Old Guard, which consisted of Napoleon's most veteran soldiers, the Middle Guard, veterans of Napoleons campaigns between 1805 and 1809, and the Young Guard, the best of the French Army's new recruits.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_IMPERIAL_GUARD_ZOC">
+			<Text>Ignores Zones of Control</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_IMPERIAL_GUARD_ZOC_HELP">
+			<Text>Ignores enemy zones of control.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_TEACHINGS">
+			<Text>Marshal's Teachings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_TEACHINGS_HELP">
+			<Text>Earns 5 XP per turn when stacked with a Great General.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GRANDE_ARMEE">
+			<Text>Grande Armée</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GRANDE_ARMEE_HELP">
+			<Text>This unit costs 50% less [ICON_GOLD] Gold to upgrade.</Text>
+		</Row>
+		<!--IMPERIAL GUARD-->
+		<Row Tag="TXT_KEY_UNIT_JFD_CHEVAU_LEGER">
+			<Text>Chevau-léger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_CHEVAU_LEGER_TEXT">
+			<Text>In French, the term Chevau-léger means "Light Horse." During the late 15th and 16th centuries in France, Austria and Spain, the contemporary militaries of the day were undergoing a reformation, which led to the de-emphasis of heavily armoured cavalry in favour of those lightly armoured and possessing of a shorter lance. Amongst the Chevau-légers of Napoleon's Empire was the famous Polish 1st Light Cavalry Regiment of the French Guards, which was lauded for its legendary charges against the enemy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_CHEVAU_LEGER_HELP">
+			<Text>Fast Industrial Era mounted unit that specializes in defeating mounted and siege units. Receives additional [ICON_STRENGTH] Combat Strength when damaged. Only Napoleon's France may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_CHEVAU_LEGER_STRATEGY">
+			<Text>The Chevau-léger is a unique unit for Napoleon's France, replacing the Cavalry. Faster and cheaper than the Cavalry, the Chevau-léger receives a +25% Combat Bonus against mounted units as well as a +25% Combat Bonus against siege units. Additionally, the Chevau-léger receives +1 [ICON_STRENGTH] Combat Strength for every 5 damage taken.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_NAPOLEONIC_BONUS_VS_SIEGE">
+			<Text>Combat Bonus vs Mounted/Siege (25)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_NAPOLEONIC_BONUS_VS_SIEGE_HELP">
+			<Text>+25% Combat Bonus against mounted and siege units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BONUS_WHEN_DAMAGED">
+			<Text>Honour Guard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BONUS_WHEN_DAMAGED_HELP">
+			<Text>+1 [ICON_STRENGTH] Combat Strength for every 5 damage taken.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

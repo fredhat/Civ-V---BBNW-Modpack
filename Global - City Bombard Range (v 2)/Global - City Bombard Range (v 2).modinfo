@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="67721091-c296-4ab7-a1da-e9edbf97d779" version="2">
+  <Properties>
+    <Name>Global - City Bombard Range</Name>
+    <Teaser>Changes the bombard range of cities based on known techs.</Teaser>
+    <Description>Changes the bombard range of cities to be a function of the tech known by that city's owner.</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="1" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="1700089AA68E01821C09BBDFC6192D86" import="0">LUA/GlobalCityBombardRange.lua</File>
+    <File md5="8BBC3BE481F875D39E2B2020D4BA6C47" import="0">SQL/GlobalCityBombardRange.sql</File>
+    <File md5="82296A4E608025433D1476F2EE6521CB" import="1">UI/InGame/Bombardment.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/GlobalCityBombardRange.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/GlobalCityBombardRange.lua">
+      <Name>Global City Bombar Range</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

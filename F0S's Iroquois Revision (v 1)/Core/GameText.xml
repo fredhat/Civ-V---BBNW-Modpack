@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						The Great Warpath
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_F0S_IGNORE_TERRAIN_IN_FOREST">
+			<Text>Forest and Jungle tiles in friendly territory act as if they were Roads and can be used to establish [ICON_CONNECTED] City Connections after discovering The Wheel. Workers may plant Forests after discovering Fertilizer.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Mohawk Warrior
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_F0S_MOHAWK_WARRIOR_HELP">
+			<Text>Powerful Classical Era melee unit that is invisible until it attacks in Forest tiles and specializes in fighting in Forest. Moves at double the rate in Forest and Jungle tiles. Does not require a source of [ICON_RES_IRON] Iron to be built. Only the Iroquois may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_F0S_MOHAWK_WARRIOR_STRATEGY">
+			<Text>The Mohawk Warrior is the Iroquoian unique unit, replacing the Swordsman. The Mohawk Warrior receives a +33% Combat Bonus and is invisible until it attacks in Forest tiles. Additionally, the Mohawk Warrior starts with the Woodsman promotion, allowing it to move at double the rate in Forest and Jungle tiles. Unlike the Swordsman, the Mohawk Warrior does not require a source of [ICON_RES_IRON] Iron to be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_MOHAWK">
+			<Text>Combat Bonus in Forest (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_MOHAWK_HELP">
+			<Text>+33% Combat Bonus in Forest tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_FOREST_INVISIBLE_INFO">
+			<Text>Forest Guerilla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_FOREST_INVISIBLE_INFO_HELP">
+			<Text>This unit is invisible until it attacks in Forest tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_FOREST_INVISIBLE">
+			<Text>Forest Guerilla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_FOREST_INVISIBLE_HELP">
+			<Text>This unit is invisible until it attacks.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Longhouse
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_BUILDING_F0S_LONGHOUSE_HELP">
+			<Text>Each worked Forest tile provides +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Allows establishing internal [ICON_PRODUCTION] Production trade routes from this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_LONGHOUSE_STRATEGY">
+			<Text>The Longhouse is the Iroquoian unique building, replacing the Workshop. The Longhouse provides an Engineer specialist and increases the [ICON_PRODUCTION] Production output of this city. The Longhouse allows you to establish internal [ICON_PRODUCTION] Production trade routes from this city.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Plant Forest
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_IMPROVEMENTS_F0S_PLANT_FOREST">
+			<Text>Plant Forest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENTS_F0S_PLANT_FOREST_HELP">
+			<Text>Plants a Forest, replacing any Improvements or Features on a tile. Can only be built on a Grassland, Plains or Tundra tile. Only the Iroquois may plant a Forest.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENTS_F0S_PLANT_FOREST_TEXT">
+			<Text>Reforestation is the natural or intentional restocking of existing forests and woodlands that have been depleted, usually through deforestation. Reforestation can be used to improve the quality of human life by soaking up pollution and dust from the air, rebuild natural habitats and ecosystems, mitigate global warming since forests facilitate biosequestration of atmospheric carbon dioxide, and harvest for resources, particularly timber.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_F0S_FOREST">
+			<Text>Plant a [LINK=IMPROVEMENT_PLANT_FOREST]Forest[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_F0S_FOREST_HELP">
+			<Text>Plant a Forest, replacing any Improvements or Features on this tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_F0S_FOREST_REC">
+			<Text>Plant a Forest, replacing any Improvements or Features on this tile.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

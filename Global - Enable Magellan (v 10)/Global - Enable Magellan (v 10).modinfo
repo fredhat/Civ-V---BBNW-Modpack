@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a3944698-d02f-4af2-b0e5-0e4d968c106c" version="10">
+  <Properties>
+    <Name>Global - Enable Magellan</Name>
+    <Teaser>Enables the Magellan achievement.</Teaser>
+    <Description>Makes it so that the first civilization to circumnaviagte the globe receives +1 Movement on all of their naval units.</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.2kgames.com/showthread.php?107143-MOD-Global-Enable-Magellan</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="1" maxversion="999" title="DLL - Various Mod Components" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="7316832011BC32AB3867CF9A59216015" import="0">LUA/GlobalEnableMagellan.lua</File>
+    <File md5="BC2436226347FD70214D1B4ECC2961DF" import="1">UI/MagellanNotification.lua</File>
+    <File md5="65F75811D8A595394C3D0C61451784C4" import="1">UI/MagellanNotification.xml</File>
+    <File md5="CFD74206B980F4A811E6EE3F7404D222" import="0">XML/GlobalEnableMagellan.xml</File>
+    <File md5="4F78DAF6255E32EC538B87D671C516DD" import="0">XML/GlobalEnableMagellanDLL.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GlobalEnableMagellanDLL.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GlobalEnableMagellan.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="CustomNotificationAddin" file="UI/MagellanNotification.lua">
+      <Name>MagellanNotification</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/GlobalEnableMagellan.lua">
+      <Name>GlobalEnableMagellan</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

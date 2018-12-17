@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="355e6185-0f39-4079-8b47-3d6d893e1d5e" version="1">
+  <Properties>
+    <Name>Fishing Village Improvement</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Adds the Fishing Village improvement to the game.</Teaser>
+    <Description>Adds the Fishing Village coastal tile improvement to the game.</Description>
+    <Authors>TPangolin, JFD</Authors>
+    <SpecialThanks>Senshi, Neirai, Mewr11, Civitar, Knightmare, DJSHenniger, Chrisy15, F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="90610ABB61DEE694BD310FA69510AE53" import="1">Art/Graphics/Kampung/Coracle_256.dds</File>
+    <File md5="FC57BB14E0E85FFF1745668A61CAA7EA" import="1">Art/Graphics/Kampung/southpacific.dds</File>
+    <File md5="C1E942858990B65B29879599F417FE1D" import="1">Art/Graphics/Kampung/sv_Kampung.dds</File>
+    <File md5="B19F71F371126E70F51778820660DD2D" import="1">Art/Graphics/Kampung/Water Village B.fxsxml</File>
+    <File md5="AA3EC33C6E724DC6841189C7E901DC1B" import="1">Art/Graphics/Kampung/Water Village HB.fxsxml</File>
+    <File md5="EA5CCBB5CAA3F53B6E381C255339111C" import="1">Art/Graphics/Kampung/Water Village HB.gr2</File>
+    <File md5="8DB95EFDBC3429051D9012C7D1C5EF51" import="1">Art/Graphics/Kampung/Water Village PL.fxsxml</File>
+    <File md5="BEE717E832CD426DBEBCD6DC4731B867" import="1">Art/Graphics/Kampung/Water Village PL.gr2</File>
+    <File md5="613A6736D630F09D0B9E9CD820D8C095" import="1">Art/Graphics/Kampung/Water Village.gr2</File>
+    <File md5="7E63549F0164EC469AF64651BE2FD651" import="1">Art/IconAtlas/CLMalaysiaIcons128.dds</File>
+    <File md5="2D461FDC97F0F58724127BB9731C6B85" import="1">Art/IconAtlas/CLMalaysiaIcons256.dds</File>
+    <File md5="ECA38A3EE4531E90392A7FAE08C2BABE" import="1">Art/IconAtlas/CLMalaysiaIcons32.dds</File>
+    <File md5="6AFB64A9203853A7D995C821F6BEB262" import="1">Art/IconAtlas/CLMalaysiaIcons45.dds</File>
+    <File md5="0D259E56E47573A7248F09905F113675" import="1">Art/IconAtlas/CLMalaysiaIcons48.dds</File>
+    <File md5="2837E9F5907B0C7D7F98081BC02F3B14" import="1">Art/IconAtlas/CLMalaysiaIcons64.dds</File>
+    <File md5="845AE3A2B242411CCCC7F8470777BB3E" import="1">Art/IconAtlas/CLMalaysiaIcons80.dds</File>
+    <File md5="62DCBF0BD0E4B471792606BB1C9EDA2B" import="0">Art/IconAtlas/IconAtlas.xml</File>
+    <File md5="F1390D36F3FCCD6770DD9B9C61600B3F" import="1">Art/IconAtlas/KampungIcon256.dds</File>
+    <File md5="07317150B01A7777C451E6F07AC34F78" import="1">Art/IconAtlas/KampungIcon45.dds</File>
+    <File md5="FA02D6C7187EF7622C44D5F9104A0D8B" import="1">Art/IconAtlas/KampungIcon64.dds</File>
+	<File md5="CF5747139A86B66B944C30512C4CBB03" import="0">Core/ArtDefines.sql</File>
+    <File md5="F472E0B693F057066F8CC1D0FFACF4D2" import="0">Core/GameText.xml</File>
+    <File md5="13D4FC6BECAD060EC4544E5A991EC2A5" import="0">Core/Improvements.sql</File>
+	<File md5="B9A52D8CB699E247AF4DD47FB996E836" import="0">Lua/FishingVillageFunctions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/IconAtlas/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Core/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Improvements.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/FishingVillageFunctions.lua">
+      <Name>FishingVillageFunctions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b8bba8fe-c7b7-4fe1-9e21-950fd6180e98" version="3">
+  <Properties>
+    <Name>Sukritact's Tuscan Civilization</Name>
+    <Teaser>Adds the Tuscan civilization led by Lorenzo de' Medici to the game.</Teaser>
+    <Description>Adds the Tuscan civilization to the game. Requires Brave New World.</Description>
+    <Authors>Sukritact, Leugi, Chris Sifniotis, Pouakai</Authors>
+    <SpecialThanks>JFD, Rual, Paradox Interactive, Charlatan Alley, KyteM, F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="643813FABF53EB1B92C2823BCAE64F7F" import="0">Art/Tuscany_ArtDefines.sql</File>
+    <File md5="A46A2E14AAAF718620F638A287A98997" import="1">Art/Atlases/TuscanyAlpha_128.dds</File>
+    <File md5="E704B5C2A4F2B58D11D050BF445A29B3" import="1">Art/Atlases/TuscanyAlpha_16.dds</File>
+    <File md5="A553808B7DBE68731E412F39CF60044D" import="1">Art/Atlases/TuscanyAlpha_24.dds</File>
+    <File md5="D3B5171CDA085C0A23E1F4803CE647C2" import="1">Art/Atlases/TuscanyAlpha_32.dds</File>
+	<File md5="28108E76792537E9ABEBD8755923CAA1" import="1">Art/Atlases/TuscanyAlpha_45.dds</File>
+    <File md5="739F5351554FC8EB0702BCB479EAB891" import="1">Art/Atlases/TuscanyAlpha_48.dds</File>
+    <File md5="133A19D723BBDD66CF9EE029A5FACAA5" import="1">Art/Atlases/TuscanyAlpha_64.dds</File>
+	<File md5="739EA5F27B61CC7AB3DB29EE957597FB" import="1">Art/Atlases/TuscanyAlpha_80.dds</File>
+    <File md5="D5DB7FFFC26ED60F4AB26EF7A53E3FE9" import="1">Art/Atlases/Tuscany_128.dds</File>
+    <File md5="52D9F4825DAD1DD65DD396F711153B53" import="1">Art/Atlases/Tuscany_256.dds</File>
+    <File md5="71FAB73E3301CF81B45042640DEB3E77" import="1">Art/Atlases/Tuscany_32.dds</File>
+    <File md5="C9481041D5B3758399126EFB153E1BEE" import="1">Art/Atlases/Tuscany_45.dds</File>
+    <File md5="BCAE62C14059BE5E66572FA19E33F2C3" import="1">Art/Atlases/Tuscany_64.dds</File>
+    <File md5="4BCC8799A84A932E9E80DCC6C24A75E0" import="1">Art/Atlases/Tuscany_80.dds</File>
+	<File md5="BB058DC8E7B09D033483C9E615260787" import="1">Art/Scenes/Lorenzo_Screen.dds</File>
+	<File md5="14651FE7BB17B534EBD178813022668A" import="1">Art/Scenes/TuscanSantaMaria_Splash.dds</File>
+    <File md5="4998E237D32CC51572CA28AB7CAF7881" import="1">Art/Scenes/Tuscany_DOM.dds</File>
+	<File md5="4D8A619027E8392680E42FD3C2D58E11" import="1">Art/Scenes/TuscanyMap512.dds</File>
+    <File md5="A10639439F995CB6C1220FCB30DAA62D" import="1">Art/Tuscany_Leaderhead.xml</File>
+    <File md5="7E66654DB3B64A8EEB87782D228620A3" import="1">Art/Units/condottiere.fxsxml</File>
+    <File md5="2BF9DA3CF8B82C472D7F59FC7CF3DE82" import="1">Art/Units/Condottiere.gr2</File>
+    <File md5="32A429099E1090F65DC8CB81EC6431ED" import="1">Art/Units/condottiere_diff.dds</File>
+    <File md5="A2FC7D39829D0C2C95A989245E51BEF5" import="1">Art/Units/condottiere_sref.dds</File>
+	<File md5="2F262269AEBFDDF47365FF9A758C99B6" import="1">Art/Units/CondottiereFlag.dds</File>
+    <File md5="FA3EC147B5FB7FDECF6B4CA03E731031" import="1">Art/Units/sv_Condottiere.dds</File>
+	<File md5="A2EA3D54D831B9779EC517D2BB1C900A" import="0">Audio/Tuscany_Audio.sql</File>
+    <File md5="9DA4D74C66F516EE443BCD86E1B7F9B6" import="1">Audio/Tuscany_Peace.mp3</File>
+    <File md5="FE4F0C5EAEEEB04D826F4EBD99C7B5A4" import="1">Audio/Tuscany_War.mp3</File>
+    <File md5="ECF9BD6209193A68C68490772D06FCB3" import="1">Audio/Tuscany_DoM.mp3</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+    <File md5="8416CC003D97EBA796C55CC915535070" import="0">Lua/Tuscany_CoreFunctions.lua</File>
+    <File md5="B599FB81F39B2FC9D60EF44A5507EC6C" import="0">Core/Tuscany_Buildings.sql</File>
+    <File md5="EA2EB44B7A4DDB8D4C27B425975EDE4F" import="0">Core/Tuscany_Civilizations.sql</File>
+    <File md5="427ACF3206CDEE694C2DC53AC215F717" import="0">Core/Tuscany_Diplomacy.sql</File>
+    <File md5="020D07291C5C60DF692C07E8FD2ABB44" import="0">Core/Tuscany_EN_US.xml</File>
+    <File md5="970DE123850AE8E5FA5417E66A1982C2" import="0">Core/Tuscany_Leaderhead.sql</File>
+    <File md5="E0DD1F71B97B5DA39FB80E4E7B87F226" import="0">Core/Tuscany_MinorCivilizations.sql</File>
+    <File md5="2E02690236FE48C8DB10BD53AA7120F4" import="0">Core/Tuscany_PlayerColours.sql</File>
+    <File md5="AF460B9299F7661D8BFBD3B31BF504D3" import="0">Core/Tuscany_Promotions.sql</File>
+    <File md5="0E0508445BDF5172BB98CBCEBEC86740" import="0">Core/Tuscany_Traits.sql</File>
+    <File md5="CE2525A18C161358F26E79FD2A05A3ED" import="0">Core/Tuscany_Units.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Tuscany_ArtDefines.sql</UpdateDatabase>
+	  <UpdateDatabase>Audio/Tuscany_Audio.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Tuscany_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Tuscany_Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Tuscany_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Tuscany_EN_US.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Tuscany_Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Tuscany_MinorCivilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Tuscany_PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Tuscany_Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Tuscany_Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Tuscany_Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Tuscany_CoreFunctions.lua">
+      <Name>Tuscany_CoreFunctions</Name>
+      <Description>
+	  </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

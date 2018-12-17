@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<UnitMemberArtInfos>
+	<!--
+	<UnitMemberArtInfo>
+		<Type>ART_DEF_UNIT_MEMBER_HARAPPA_BULLOCK_CART</Type>
+		<fScale>0.12</fScale>
+		<Granny>Assets/Units/Settler/Settler_ASIA/Settlers_Asian_Ox.fxsxml</Granny>
+		<Combat>
+			<Defaults>ART_DEF_TEMPLATE_DEFENSELESS_BASE</Defaults>
+		</Combat>
+		<MaterialTypeTag>CLOTH</MaterialTypeTag>
+		<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+	</UnitMemberArtInfo>
+	-->
+	<UnitMemberArtInfo>
+		<Type>ART_DEF_UNIT_MEMBER_HARAPPA_BULLOCK_CART</Type>
+		<!--<fScale>0.13</fScale>-->
+		<fScale>0.26</fScale>
+		<Granny>SupplyTrain.fxsxml</Granny>
+		<Combat>
+			<Defaults>ART_DEF_TEMPLATE_MOUNTED</Defaults>
+			<bReformBeforeCombat>1</bReformBeforeCombat>
+			<bHasShortRangedAttack>1</bHasShortRangedAttack>
+			<bHasLongRangedAttack>1</bHasLongRangedAttack>
+			<bHasStationaryMelee>1</bHasStationaryMelee>
+			<Weapon>
+				<WeaponTypeTag>ARROW</WeaponTypeTag>
+				<WeaponTypeSoundOverrideTag>ARROW</WeaponTypeSoundOverrideTag>
+				<fMissTargetSlopRadius>10.0</fMissTargetSlopRadius>
+			</Weapon>
+			<Weapon>
+				<Usage>Vs_City</Usage>
+				<fVisKillStrengthMin>10.0</fVisKillStrengthMin>
+				<fVisKillStrengthMax>20.0</fVisKillStrengthMax>
+				<WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+				<fMissTargetSlopRadius>10.0</fMissTargetSlopRadius>
+			</Weapon>
+		</Combat>
+		<MaterialTypeTag>CLOTH</MaterialTypeTag>
+		<MaterialTypeSoundOverrideTag>WOODSM</MaterialTypeSoundOverrideTag>
+	</UnitMemberArtInfo>
+	<UnitMemberArtInfo>
+		<Type>ART_DEF_UNIT_MEMBER_HARAPPA_BULLOCK_CART_ALT</Type>
+		<fScale>0.12</fScale>
+		<Granny>SupplyTrainV2.fxsxml</Granny>
+		<Combat>
+			<Defaults>ART_DEF_TEMPLATE_DEFENSELESS_BASE</Defaults>
+		</Combat>
+		<MaterialTypeTag>CLOTH</MaterialTypeTag>
+		<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+	</UnitMemberArtInfo>
+</UnitMemberArtInfos>

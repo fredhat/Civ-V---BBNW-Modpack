@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--EGYPT-->
+		<Row Tag="TXT_KEY_CIV_JFD_EGYPT_HATSHEPSUT_ADJECTIVE">
+			<Text>Egyptian</Text>
+		</Row>
+		<!--Pedia-->
+		<Row Tag="TXT_KEY_CIV5_JFD_EGYPT_HATSHEPSUT_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_EGYPT_HATSHEPSUT_TEXT_1">
+			<Text>The New Kingdom of Egypt, also referred to as the Egyptian Empire, is the period in ancient Egyptian history between the 16th century BC and the 11th century BC, covering the Eighteenth, Nineteenth, and Twentieth Dynasties of Egypt. Radiocarbon dating places the exact beginning of the New Kingdom between 1570–1544 BC. The New Kingdom followed the Second Intermediate Period and was succeeded by the Third Intermediate Period. It was Egypt's most prosperous time and marked the peak of its power.[NEWLINE][NEWLINE]The later part of this period, under the Nineteenth and Twentieth Dynasties (1292–1069 BC) is also known as the Ramesside period, after the eleven pharaohs that took the name of Ramesses.[NEWLINE][NEWLINE]Possibly as a result of the foreign rule of the Hyksos during the Second Intermediate Period, the New Kingdom saw Egypt attempt to create a buffer between the Levant and Egypt, and attained its greatest territorial extent. Similarly, in response to very successful 17th century attacks by the powerful Kingdom of Kush, the New Kingdom felt compelled to expand far south into Nubia and hold wide territories in the Near East. Egyptian armies fought Hittite armies for control of modern-day Syria.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_EGYPT_HATSHEPSUT_HEADING_2">
+			<Text>Geography and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_EGYPT_HATSHEPSUT_TEXT_2">
+			<Text>Egypt is a riparian (river-based) civilization lying alongside the Nile, which, at some 6500 km (4000 miles) in length, is the longest river on the planet. Egypt occupies the northern section of this river in a narrow but extremely fertile corridor running through otherwise harsh desert terrain of the North African Sahara desert. While the physical area of Egypt extended a great distance to the east and west, the vast majority of that terrain is empty useless desert, and through its history almost all Egyptians have lived within walking distance of the river.[NEWLINE][NEWLINE]Until the implementation of damming projects in the 20th century, the Nile flooded its banks in the summer of every year. Egyptian farmers relied on these floods to bring water and fresh nutrients to their fields, and a dry year could easily spell famine and disaster to the population. The Nile also provided a good deal of protein to the Egyptians, who were adept fishermen and who early on mastered the construction and handling of small watercraft.[NEWLINE][NEWLINE]The Mediterranean Sea lies to the north of Egypt. A mild and generous sea, the Mediterranean encourages exploration and trade between all civilizations who live on its borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_EGYPT_HATSHEPSUT_HEADING_3">
+			<Text>Eighteenth Dynasty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_EGYPT_HATSHEPSUT_TEXT_3">
+			<Text>The Eighteenth Dynasty contained some of Egypt's most famous Pharaohs, including Ahmose I, Hatshepsut, Thutmose III, Amenhotep III, Akhenaten and Tutankhamun. Queen Hatshepsut concentrated on expanding Egypt's external trade by sending a commercial expedition to the land of Punt.NEWLINE][NEWLINE]Thutmose III ("the Napoleon of Egypt") expanded Egypt's army and wielded it with great success to consolidate the empire created by his predecessors. This resulted in a peak in Egypt's power and wealth during the reign of Amenhotep III. During the reign of Thutmose III (ca. 1479–1425 BC), Pharaoh, originally referring to the king's palace, became a form of address for the person who was king.[NEWLINE][NEWLINE]One of the best-known 18th Dynasty Pharaohs is Amenhotep IV, who changed his name to Akhenaten in honor of the Aten and whose exclusive worship of the Aten is often interpreted as history's first instance of monotheism. Akhenaten's religious fervor is cited as the reason why he was subsequently written out of Egyptian history. Under his reign, in the 14th century BC, Egyptian art flourished and attained an unprecedented level of realism.[NEWLINE][NEWLINE]Towards the end of the 18th Dynasty, the situation had changed radically. Aided by Akhenaten's apparent lack of interest in international affairs, the Hittites had gradually extended their influence into Phoenicia and Canaan to become a major power in international politics—a power that both Seti I and his son Ramesses II would need to deal with during the 19th dynasty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_EGYPT_HATSHEPSUT_HEADING_4">
+			<Text>Nineteenth Dynasty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_EGYPT_HATSHEPSUT_TEXT_4">
+			<Text>Ramesses II ("the Great") sought to recover territories in the Levant that had been held by the 18th Dynasty. His campaigns of reconquest culminated in the Battle of Kadesh, where he led Egyptian armies against those of the Hittite king Muwatalli II. Ramesses was caught in history's first recorded military ambush, although he was able to rally his troops and turn the tide of battle against the Hittites thanks to the arrival of the Ne'arin. The outcome of the battle was undecided with both sides claiming victory at their home front, ultimately resulting in a peace treaty between the two nations.[NEWLINE][NEWLINE]Ramesses II was also famed for the huge number of children he sired by his various wives and concubines; the tomb he built for his sons, many of whom he outlived, in the Valley of the Kings has proven to be the largest funerary complex in Egypt.[NEWLINE][NEWLINE]His immediate successors continued the military campaigns, although an increasingly troubled court—which at one point put a usurper (Amenmesse) on the throne—made it increasingly difficult for a pharaoh to effectively retain control without incident.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_EGYPT_HATSHEPSUT_HEADING_5">
+			<Text>Twentieth Dynasty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_EGYPT_HATSHEPSUT_TEXT_5">
+			<Text>The last "great" pharaoh from the New Kingdom is widely regarded[citation needed] to be Ramesses III, a Twentieth Dynasty pharaoh who reigned several decades after Ramesses II.[NEWLINE][NEWLINE]In the eighth year of his reign the Sea Peoples invaded Egypt by land and sea. Ramesses III defeated them in two great land and sea battles. He claimed that he incorporated them as subject peoples and settled them in Southern Canaan although there is evidence that they forced their way into Canaan. Their presence in Canaan may have contributed to the formation of new states, such as Philistia, in this region after the collapse of the Egyptian Empire. He was also compelled to fight invading Libyan tribesmen in two major campaigns in Egypt's Western Delta in his sixth year and eleventh year respectively.[NEWLINE][NEWLINE]The heavy cost of this warfare slowly drained Egypt's treasury and contributed to the gradual decline of the Egyptian Empire in Asia. The severity of the difficulties is indicated by the fact that the first known labor strike in recorded history occurred during the 29th year of Ramesses III's reign, when the food rations for Egypt's favored and elite royal tomb-builders and artisans in the village of Deir el Medina could not be provisioned. Something in the air prevented much sunlight from reaching the ground and also arrested global tree growth for almost two full decades until 1140 BC. One proposed cause is the Hekla 3 eruption of the Hekla volcano in Iceland but the dating of this remains disputed.[NEWLINE][NEWLINE]Rameses III's death was followed by years of bickering among his heirs. Three of his sons ascended the throne successively as Ramesses IV, Rameses VI and Rameses VIII. Egypt was increasingly beset by droughts, below-normal flooding of the Nile, famine, civil unrest and official corruption. The power of the last pharaoh of the dynasty, Ramesses XI, grew so weak that in the south the High Priests of Amun at Thebes became the de facto rulers of Upper Egypt, and Smendes controlled Lower Egypt even before Rameses XI's death. Smendes eventually founded the Twenty-First dynasty at Tanis.[NEWLINE][NEWLINE]From Wikipedia.</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_1">
+			<Text>Thebes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_2">
+			<Text>Syene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_3">
+			<Text>Karnak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_4">
+			<Text>Elephantine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_5">
+			<Text>Khmun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_6">
+			<Text>Deir el-Bahri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_7">
+			<Text>Memphis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_8">
+			<Text>Heliopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_9">
+			<Text>Pithom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_10">
+			<Text>Bubastis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_11">
+			<Text>Abydos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_12">
+			<Text>Hebenu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_13">
+			<Text>Speos Artemidos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_14">
+			<Text>Ta Dehent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_15">
+			<Text>Set Maat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_16">
+			<Text>Byblos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_17">
+			<Text>Buto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_18">
+			<Text>Men'at Khufu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_19">
+			<Text>Lachish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_20">
+			<Text>Jerusalem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_21">
+			<Text>Tyre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_22">
+			<Text>Ugarit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_23">
+			<Text>Semna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_24">
+			<Text>Kerma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_25">
+			<Text>Busiris</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_26">
+			<Text>Avaris</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_EGYPT_HATSHEPSUT_27">
+			<Text>Thinis</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_CIVILIZATION_JFD_EGYPT_HATSHEPSUT_1">
+			<Text>Amenmose</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIVILIZATION_JFD_EGYPT_HATSHEPSUT_2">
+			<Text>Wadjmose</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIVILIZATION_JFD_EGYPT_HATSHEPSUT_3">
+			<Text>Ramose</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIVILIZATION_JFD_EGYPT_HATSHEPSUT_4">
+			<Text>Nyuserre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIVILIZATION_JFD_EGYPT_HATSHEPSUT_5">
+			<Text>Kamose</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIVILIZATION_JFD_EGYPT_HATSHEPSUT_6">
+			<Text>Sonbef</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIVILIZATION_JFD_EGYPT_HATSHEPSUT_7">
+			<Text>Neferure</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIVILIZATION_JFD_EGYPT_HATSHEPSUT_8">
+			<Text>Sobekneferu</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIVILIZATION_JFD_EGYPT_HATSHEPSUT_9">
+			<Text>Neferneferuaten</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIVILIZATION_JFD_EGYPT_HATSHEPSUT_10">
+			<Text>Ahhotep</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!--HATSHEPSUT-->
+		<Row Tag="TXT_KEY_LEADER_JFD_HATSHEPSUT">
+			<Text>Hatshepsut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HATSHEPSUT_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HATSHEPSUT_TEXT_1">
+			<Text>Hatshepsut was born the daughter of King Thutmose I and Queen Ahmose. She became Queen when her father died and her husband (and half-brother) Thutmose II became Pharaoh. She and Thutmose II had a daughter together, but no son, and Thutmose II declared a son he had with a palace concubine to be his heir and successor. Thutmose II died in his early thirties while his son was still a child, and in her early teens Hatshepsut became the young pharaoh's regent, and thus ruler of all Egypt.[NEWLINE][NEWLINE]Apparently, Hatshepsut liked the job and decided that she wanted to keep it. Declaring that the gods had appointed her as her husband's successor, she declared herself "King of Upper and Lower Egypt" and began wearing all of the trappings of a King, including a false beard. She didn't kill her husband's son, and some evidence suggests that they became co-rulers, Thutmose III in charge of the military, while Hatshepsut concentrated upon improving Egypt's commerce and infrastructure, and upon religious matters.[NEWLINE][NEWLINE]Hatshepsut is known to have greatly expanded Egypt's commerce with Asia, Nubia and Libya, and she sent expeditions to far-off places that Egypt had never traded with before. She repaired many of Egypt's temples and secular buildings that had been severely damaged by invasion in years past. She constructed many obelisks and statues, and a striking mortuary building for herself and her father.[NEWLINE][NEWLINE]Hatshepsut died sometime around 1450 BC, apparently of natural causes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HATSHEPSUT_NAME">
+			<Text>Hatshepsut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HATSHEPSUT_SUBTITLE">
+			<Text>Leader of Egypt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HATSHEPSUT_TITLES_1">
+			<Text>Pharaoh of Egypt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HATSHEPSUT_LIVED">
+			<Text>1508 - 1458 BC</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_EGYPT_HATSHEPSUT_TEXT">
+			<Text>Blessings of Amun-Ra upon you, foremost and noble Hatshepsut. May the rivers of Egypt flow freely from your benevolance. As wife to the great King Thutmose III, you ruled jointly during an age of recovery and expansion. You organized and restored Egypt's ancient trade links, and oversaw the construction of many great buildings and monuments. It was with your dignity and prudence that the great wealth of Egypt would be ensured for ages to come.[NEWLINE][NEWLINE]Honoured Queen, the coffers of the 18th Dynasty beckons your hand to guide its wealth once more. Can you bring peace and trade to Egypt? Can you erect great temples and monuments to the Gods? Can you build a civilization that can stand the test of time?</Text>
+		</Row>
+		<!--EXPEDITION TO TA NETJER-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_EGYPT_HATSHEPSUT_SHORT">
+			<Text>Expedition to Ta Netjer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_EGYPT_HATSHEPSUT">
+			<Text>Receive a free Merchant Barge upon discovering a Technology that provides additional trade routes. Receive a [ICON_GOLD] Gold boost whenever you first meet a Civilization and reveal all of that Civilization's coastal cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_EGYPT_HATSHEPSUT_MSG">
+			<Text>You receive {1_Num} [ICON_GOLD] Gold from meeting {2_CivName}.</Text>
+		</Row>
+		<!--MERCHANT BARGE-->
+		<Row Tag="TXT_KEY_UNIT_JFD_MERCHANT_BARGE">
+			<Text>Merchant Barge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_MERCHANT_BARGE_HELP">
+			<Text>Unique Ancient Era naval trade unit that causes its origin city and destination city to celebrate a "We Love the King Day" while connected to a foreign [ICON_CAPITAL] Capital or City-State. Only Hatshepsut's Egypt may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_MERCHANT_BARGE_STRATEGY">
+			<Text>The Merchant Barge is the unique unit for Hatshepsut's Egypt, replacing the Cargo Ship. While connected to a foreign [ICON_CAPITAL] Capital or City-State, the Merchant Barge causes its origin city and destination city to celebrate a "We Love the King Day".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_MERCHANT_BARGE_TEXT">
+			<Text>Hatshepsut's reign is well known for its restoration of the trade networks which had been previously destroyed by the Hyksos invaders. Perhaps the most famous of such networks was the result of her expedition to the land of Punt. It was from Punt that Hatshepsut introduced goods such as frankincense and myrrh to Egypt.</Text>
+		</Row>
+		<!--BURIAL TOMB-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_BURIAL_TOMB_HELP">
+			<Text>+2 [ICON_HAPPINESS_1] Happiness while celebrating a "We Love the King Day". Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]Doubles the amount of [ICON_GOLD] Gold received from conquering this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_BURIAL_TOMB_STRATEGY">
+			<Text>The Burial Tomb is the unique building for Hatshepsut's Egypt, replacing the Shrine. The Burial Tomb increases the civilization's [ICON_HAPPINESS_1] Happiness while this city is celebrating a "We Love the King Day" and increases the [ICON_PEACE] Faith output of this city. The Burial Tomb has no maintenance cost but doubles the amount of [ICON_GOLD] Gold received from conquering this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_BURIAL_TOMB_HAPPINESS_DESC">
+			<Text>Burial Tomb Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_BURIAL_TOMB_HAPPINESS_HELP">
+			<Text>+2 [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="65F4ACAA-52AF-7E18-4872-69A916F2848F" version="4">
+  <Properties>
+    <Name>F0S's Piety Revision</Name>
+    <Teaser>Revises the base game Piety policy tree.</Teaser>
+    <Description>Totally overhauls the base game Piety tree as well as Religious options in general. Uses building art, great prophet names, artifact names and sounds from JFD's Rise to Power: https://forums.civfanatics.com/threads/jfds-rise-to-power.529810/</Description>
+    <Authors>F0S</Authors>
+    <SpecialThanks>Whoward, Gazebo, Janboruta, Sukritact, Viregel, Tomatekh, Leugi, Barathor, Clotting, DarkScythe, Sir Kesler, Sir Chrisy, Sir Daniel Empire, LeeS, Barbarian King, JFD</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+	<Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="44" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="D72BDAD7CA600E8E0F6B578B4BBCFF3C" import="1">Art/IconAtlas/JFD_PietyBuildingsAtlas_128.dds</File>
+    <File md5="B7BE84E6BF994913FEFFCA63E6AAF9A5" import="1">Art/IconAtlas/JFD_PietyBuildingsAtlas_256.dds</File>
+    <File md5="7B97327661C4D2A380AD3BA3639CD042" import="1">Art/IconAtlas/JFD_PietyBuildingsAtlas_45.dds</File>
+    <File md5="FBD3D3FEB9FFF9CDD30E606831324F0E" import="1">Art/IconAtlas/JFD_PietyBuildingsAtlas_64.dds</File>
+    <File md5="4AC7600EDD0FDC95015AA46E24DDE823" import="1">Art/IconAtlas/JFD_PietyBuildingsAtlas_80.dds</File>
+	<File md5="9C7588481E0330B7CF8F40F1B2451E69" import="1">Art/Images/Relic_background.dds</File>
+	<File md5="3F805B2AB893F36BBFABA59C381A47E9" import="1">Art/Mission/sv_mission.dds</File>
+    <File md5="38466E314C6085A4D651A68812DB4876" import="1">Art/Mission/Mission_Icons_256.dds</File>
+    <File md5="E0AB15957FCD9B8DCEEAB5C0BDA3446D" import="1">Art/Mission/Mission_Icons_128.dds</File>
+    <File md5="FAD785AC9A43BEE1BD2900C1103B0E46" import="1">Art/Mission/Mission_Icons_80.dds</File>
+    <File md5="49857BA699045363098FE2B79E87319D" import="1">Art/Mission/Mission_Icons_64.dds</File>
+    <File md5="D5CBB74BB52D208E4227D9CEF43A5415" import="1">Art/Mission/Mission_Icons_45.dds</File>
+    <File md5="B5485441745D953EC63A007BBED83443" import="1">Art/Mission/Mission_Icons_32.dds</File>
+    <File md5="12E4EE30913BA3B0E33B3282A223DC77" import="1">Art/Mission/sistineTI_B.gr2</File>
+    <File md5="1FA20CCA1D22D98553FB081914135E8A" import="1">Art/Mission/sistineTI_HB.gr2</File>
+    <File md5="78144997663F35B7890DFFBC7AD01751" import="1">Art/Mission/Mission_Build_Icons_256.dds</File>
+    <File md5="FE2823796109C79060EFF19D7971E80B" import="1">Art/Mission/Mission_Build_Icons_128.dds</File>
+    <File md5="405FC31C3558BAE06BBED86B10BB0242" import="1">Art/Mission/Mission_Build_Icons_80.dds</File>
+    <File md5="C83BE7B90EC7685EF7F0BAE7EF3542C5" import="1">Art/Mission/Mission_Build_Icons_64.dds</File>
+    <File md5="0FED747282ECC7E5CF9FF03B5567A256" import="1">Art/Mission/Mission_Build_Icons_45.dds</File>
+    <File md5="C8D5BF0D8A3E59E6B86AB9DD6AF69F6F" import="1">Art/Mission/Mission_Build_Icons_32.dds</File>
+    <File md5="BE9BDE63875788A62455721BF3996A54" import="1">Art/Mission/sistineTI_B.fxsxml</File>
+    <File md5="9986CACE6AD8C97DFDD06C57056AE7F7" import="1">Art/Mission/sistineTI_HB.fxsxml</File>
+    <File md5="713DFE5097E73CD63C4CAAC68180285C" import="1">Art/Mission/Wonder_grnd_diff.dds</File>
+    <File md5="C02A8CE019EED7DC65D5ACBB90E91539" import="1">Art/Mission/wonder_grnd_h.dds</File>
+    <File md5="C4089962F18D8E73929965C380301DEB" import="1">Art/Mission/WTI_PL.gr2</File>
+    <File md5="4DCBDD65E117E4242917B61765FC406D" import="1">Art/Mission/WTI_PL.fxsxml</File>
+	<File md5="F8F1E42B914EB262B3BD37C670BB4359" import="1">Audio/JFD_RelicFX.mp3</File>
+	<File md5="BD3B228F08B10DDBA186C5F85A2EE741" import="0">Core/Piety_ArtDefines.sql</File>
+	<File md5="8FC3253F27C1E3CD2AC2976349FB735B" import="0">Core/Piety_Audio.sql</File>
+	<File md5="06519ED709869ECF93696100F33AA553" import="0">Core/Piety_Beliefs.sql</File>
+	<File md5="EFC4AE1ABEFAE9F38A2171546924BF53" import="0">Core/Piety_Buildings.sql</File>
+	<File md5="FB4C972F51968FB8593A4BA02E7C3A31" import="0">Core/Piety_Builds.sql</File>
+    <File md5="3180C6FA7D26886ADF1FA8E951EFFAD8" import="0">Core/Piety_GameText.xml</File>
+	<File md5="EB3A201BBB071B35EC1C8568D71D8C31" import="0">Core/Piety_GreatWorks.sql</File>
+    <File md5="B01C1E1A2F5F5FFB5D676B77F63EBD54" import="0">Core/Piety_IconAtlases.sql</File>
+	<File md5="87ACDF9A91DB84378914A18D83F2AB6E" import="0">Core/Piety_Improvements.sql</File>
+    <File md5="BF96E35C2BF606FABC100643CC2E52F5" import="0">Core/Piety_Policies.sql</File>
+	<File md5="025DD428CA524292E0BCBC4F55AE4522" import="0">Core/Piety_Promotions.sql</File>
+    <File md5="A5E03294C4587E0EAAF0F762D246651C" import="0">Core/Piety_Units.sql</File>
+    <File md5="5F5948EA9B6B817A59993E43335A2D97" import="0">Lua/F0S_Piety_Functions.lua</File>
+    <File md5="FAFCC35595DF3DEB392227828A29E074" import="1">Lua/Utilities/F0S_Piety_Utils.lua</File>
+	<File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+	  <UpdateDatabase>Core/Piety_ArtDefines.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Piety_Audio.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Piety_Beliefs.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Piety_Buildings.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Piety_Builds.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Piety_GameText.xml</UpdateDatabase>
+	  <UpdateDatabase>Core/Piety_GreatWorks.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Piety_IconAtlases.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Piety_Improvements.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Piety_Policies.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Piety_Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Piety_Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/F0S_Piety_Functions.lua">
+      <Name>F0S_Piety_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

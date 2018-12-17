@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bc011532-8fa9-4ce5-a344-04ba138d9682" version="7">
+  <Properties>
+    <Name>Policy - Reveal Capitals</Name>
+    <Teaser>Reveals all City-States upon adopting the Patronage Social Policy tree opener. Reveals all Capitals upon adopting the Commerce Social Policy tree opener.</Teaser>
+    <Description>Reveals either all City-State Capitals or all player Capitals upon adopting the Patronage or Commerce Social Policy trees. Tweaks the base game Patronage and Commerce Social Policy trees.</Description>
+    <Authors>William Howard</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.2kgames.com/showthread.php?108271-MOD-Policy-Reveal-Capitals</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="57944E2D5FFC3B3AF8D009001484329C" import="0">Core/Buildings.sql</File>
+	<File md5="1BFAA5E7013906979A75AAF17AEF5E9D" import="0">Core/GameText.xml</File>
+	<File md5="3D41C72B8BE53C83304A70A641D6502F" import="0">Core/Policies.sql</File>
+	<File md5="8D7C7757FED0EDDFA337A91D83250742" import="0">Core/Units.sql</File>
+	<File md5="8CF3081B6FEF75A74F32F2F92732E1F5" import="0">Lua/PolicyRevealCapitals.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+	  <UpdateDatabase>Core/Policies.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/PolicyRevealCapitals.lua">
+      <Name>PolicyRevealCapitals</Name>
+      <Description>PolicyRevealCapitals</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

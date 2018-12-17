@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--UNITED KINGDOM-->
+		<Row Tag="TXT_KEY_CIV_JFD_CASTILE_SHORT_DESC">
+			<Text>Castile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_CASTILE_DESC">
+			<Text>Castilian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_CASTILE_ADJECTIVE">
+			<Text>Castilian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_CASTILE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_CASTILE_TEXT_1">
+			<Text>The Kingdom of Castile was a large and powerful state on the Iberian Peninsula during the Middle Ages. Its name comes from the host of castles constructed in the region. It began as the County of Castile (Condado de Castilla), an eastern frontier lordship of the Kingdom of León in the 9th century. During the 10th century its counts increased their autonomy, but it was not until 1065 that it was separated from León and became a kingdom in its own right. Between 1072 and 1157 it was again united with León, and after 1230 this union became permanent. Throughout this period the Castilian kings made extensive conquests in the southern Iberia at the expense of the Islamic principalities. Castile and León, with their southern acquisitions, came to be known collectively as the Crown of Castile, a term that also came to encompass overseas expansion.</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_1">
+			<Text>Toledo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_2">
+			<Text>Leon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_3">
+			<Text>Valladolid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_4">
+			<Text>Burgos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_5">
+			<Text>Oviedo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_6">
+			<Text>Madrid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_7">
+			<Text>Santiago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_8">
+			<Text>Segovia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_9">
+			<Text>Avila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_10">
+			<Text>Bilbao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_11">
+			<Text>Salamanca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_12">
+			<Text>Santander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_13">
+			<Text>Soria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_14">
+			<Text>Badajoz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_15">
+			<Text>Tordesillas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_16">
+			<Text>Finisterre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_17">
+			<Text>Calatrava</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_18">
+			<Text>Aguilar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_19">
+			<Text>Zamora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_20">
+			<Text>Cuenca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_21">
+			<Text>Corunna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_22">
+			<Text>Las Navas de Tolosa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_23">
+			<Text>Murcia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_24">
+			<Text>Cartagena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_25">
+			<Text>Merida</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_26">
+			<Text>Toro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_27">
+			<Text>Cordoba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_28">
+			<Text>Seville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_29">
+			<Text>Cadiz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_30">
+			<Text>Alicante</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_31">
+			<Text>Ciudad Real</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_32">
+			<Text>Gijon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_33">
+			<Text>Jaen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_34">
+			<Text>Plasencia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_35">
+			<Text>Camora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_36">
+			<Text>Penafiel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_37">
+			<Text>Caceres</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_38">
+			<Text>Siguenza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_39">
+			<Text>Albacete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_40">
+			<Text>Almagro</Text>
+		</Row>
+		<!--ISABELLA-->
+		<Row Tag="TXT_KEY_CIV5_DAWN_JFD_CASTILE_TEXT">
+			<Text>Blessed Isabella, Servant of God, Holy Queen of Castile and León, your people greet and welcome you! You are the ruler of Spain, a beautiful and ancient country at the crossroads of the world between Europe and Africa, one shore on the Mediterranean and the other on the mighty Atlantic Ocean. The Spanish are a multicultural people, with roots in the Muslim and Christian world. A seafaring race, Spanish explorers found and conquered much of the New World, and for many centuries its gold and silver brought Spain unrivaled wealth and power, making the Spanish court the envy of the world.[NEWLINE][NEWLINE]O fair and virtuous Isabella, will you rebuild the Spanish Empire and show the world again the greatness of your people?  Will you take up the mantle of the holy monarchy and vanquish your foes under Heaven's watchful eyes?  Your adoring subjects await your command. Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!--SEVEN CITIES OF GOLD-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_CASTILE_SHORT">
+			<Text>Seven Cities of Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_CASTILE">
+			<Text>Receive a [ICON_GOLD] Gold boost whenever you discover a Natural Wonder. Each worked Natural Wonder provides 50% more yields. Start a [ICON_GOLDEN_AGE] Golden Age upon circumnavigating the world.</Text>
+		</Row>
+		<!--TREASURE Galleon-->
+		<Row Tag="TXT_KEY_UNIT_JFD_TREASURE_SHIP">
+			<Text>Treasure Galleon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_TREASURE_SHIP">
+			<Text>Powerful Renaissance Era naval ranged unit that earns [ICON_GOLD] Gold from defeating enemy units. May perform a one-time exotic goods trade near foreign lands to earn [ICON_GOLD] Gold and XP. Only Castile may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_TREASURE_SHIP_STRATEGY">
+			<Text>The Treasure Galleon is a Castilian unique unit, replacing the Frigate. Stronger, slower and more expensive than the Frigate, the Treasure Galleon earns [ICON_GOLD] Gold whenever it defeats an enemy unit. The Treasure Galleon may perform a one-time exotic goods trade near a non-hostile Civilization or City-State's borders to earn [ICON_GOLD] Gold and experience. The further the Treasure Galleon is from your [ICON_CAPITAL] Capital when it performs the trade, the greater the bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_TREASURE_SHIP_TEXT">
+			<Text>The Spanish treasure fleet, was a convoy system adopted by the Spanish Empire from 1566 to 1790, linking Spain with its territories in America across the Atlantic. The convoys were general purpose cargo fleets used for transporting a wide variety of items, including agricultural goods, lumber, various metal resources, luxuries, silver, gold, gems, pearls, spices, sugar, tobacco, silk, and other exotic goods from the Spanish Empire to the Spanish mainland. Passengers and goods such as textiles, books and tools were transported in the opposite direction. The West Indies treasure fleet was the first permanent transatlantic trade route in history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_TREASURE_SHIP">
+			<Text>Treasure Fleet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_TREASURE_SHIP_HELP">
+			<Text>This unit earns [ICON_GOLD] Gold whenever it defeats an enemy unit.</Text>
+		</Row>
+		<!--CONQUISTADOR-->
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_CONQUISTADOR">
+			<Text>Powerful Medieval Era mounted unit that starts with additional Sight and is not penalized when attacking cities. Receives a defense bonus while embarked and may found a city on a foreign continent. Only Castile may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_CONQUISTADOR_STRATEGY">
+			<Text>The Conquistador is a Castilian unique unit, replacing the Knight. More expensive than the Knight, the Conquistador starts with additional Sight and is not penalized when attacking cities. Additionally, the Conquistador receives a +100% Defense Bonus while embarked and may found a city on a foreign continent.</Text>
+		</Row>
+		<!--Unique Names-->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_1">
+			<Text>Hernan Cortes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_2">
+			<Text>Francisco Pizzaro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_3">
+			<Text>Francisco Coronado</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_4">
+			<Text>Hernando de Soto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_5">
+			<Text>Pánfilo de Narváez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_6">
+			<Text>Francisco de Orellana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_7">
+			<Text>Lucas Vázquez de Ayllón</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_8">
+			<Text>Vasco Nuñez de Balboa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_9">
+			<Text>Álvar Nuñez Cabeza de Vaca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_10">
+			<Text>Luis de Moscoso Alvarado</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_11">
+			<Text>Juan Ponce de Leon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_12">
+			<Text>Juan Pardo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_13">
+			<Text>Juan de Oñate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_14">
+			<Text>Gonzalo Jiménez de Quesada</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_15">
+			<Text>Nuño de Guzmán</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_16">
+			<Text>Bernal Díaz del Castillo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_17">
+			<Text>Inés de Suárez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_18">
+			<Text>María de Estrada</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_19">
+			<Text>Pedro de Alvarado y Contreras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_20">
+			<Text>Alonso Fernández de Lugo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_21">
+			<Text>Miguel López de Legazpi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_22">
+			<Text>Bartolomeo Columbus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_23">
+			<Text>Pedro Gutiérrez de Valdivia </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_24">
+			<Text>Álvaro de Mendaña y Neira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_25">
+			<Text>Isabel Barreto</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

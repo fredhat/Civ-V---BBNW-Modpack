@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="71E0EEAD-23AE-9A09-7769-47D606B4075C " version="2">
+  <Properties>
+    <Name>F0S's The Motherland Calls</Name>
+    <Teaser>Adds The Motherland Calls as a Modern Era world wonder to the game.</Teaser>
+    <Description>This mod adds The Motherland Calls to the game as a World Wonder. Tweaks the base game Kremlin world wonder. Requires Gods & Kings.</Description>
+    <Authors>F0S</Authors>
+    <SpecialThanks>Pouakai, sukritact, Ambrox62, Moriboe</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+	<ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+	<File md5="EC8CF48F8A25677CE3ECAA33C86AC0F2" import="0">Art/ArtDefines.sql</File>
+    <File md5="F5B93D6121C34BB1C728071B45977CF9" import="1">Art/Icon Atlas/Motherland_icon128.dds</File>
+    <File md5="B2BB7DEB521A6035EB02435D190EA416" import="1">Art/Icon Atlas/Motherland_icon256.dds</File>
+    <File md5="AE60E84AFE1CE22779F8F08093FA91B2" import="1">Art/Icon Atlas/Motherland_icon45.dds</File>
+    <File md5="2EFA9C540A765B8031FE07EA06783112" import="1">Art/Icon Atlas/Motherland_icon64.dds</File>
+    <File md5="CAA46833599A8B14ECBADA10C07F5B31" import="1">Art/Icon Atlas/Motherland_icon80.dds</File>
+    <File md5="F7E7E172B570D0A74C320E715DFD40E1" import="1">Art/Images/motherland_splash.dds</File>
+	<File md5="425C60A460618E5EB8373FFCF2C0EDDF" import="0">Core/Buildings.sql</File>
+	<File md5="D5E9B6B49A6E88B1606C1ED25A177F6E" import="0">Core/Civilizations.sql</File>
+	<File md5="81CF760843EDA6723466E7659B9D7A27" import="0">Core/GameText.xml</File>
+	<File md5="2D03003CA06074A73372F2AE2B9F0934" import="0">Core/Promotions.sql</File>
+	<File md5="E2F4AE8F79D5DED583FBEAE41D6728DF" import="0">Lua/F0S_MotherlandFunctions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+	  <UpdateDatabase>Core/Promotions.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/F0S_MotherlandFunctions.lua">
+      <Name>Motherland Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

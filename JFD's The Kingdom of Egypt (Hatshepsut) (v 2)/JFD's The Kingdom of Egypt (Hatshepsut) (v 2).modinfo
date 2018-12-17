@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a74a7209-a2ef-4c42-901a-5f876456432c" version="2">
+  <Properties>
+    <Name>JFD's The Kingdom of Egypt (Hatshepsut)</Name>
+    <Teaser>Adds the Kingdom of Egypt civilization led by Hatshepsut to the game.</Teaser>
+    <Description>Adds the Kingdom of Egypt civilization to the game. Tweaks the base game Egyptian civilization.</Description>
+    <Authors>JFD, Sukritact, Janboruta, Regalman, Skaz881</Authors>
+    <SpecialThanks>Natan35, TRO, F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="EC5CF47ABBA40062189E96CB37F6A769" import="1">Art/Diplomacy/Sukritact_Hatshepsut_Diplo.dds</File>
+    <File md5="D3F6B9BED83BB491C526DD00FC6C3BEE" import="1">Art/Diplomacy/Sukritact_Hatshepsut_Diplo.xml</File>
+    <File md5="BB1D96A8B6B248750138A8593D79CD4F" import="1">Art/Graphics/Barge/MesopotamicEmbark.gr2</File>
+    <File md5="EC7EDC29C35CA668D8BDD7D28F2173FE" import="1">Art/Graphics/Barge/Mesopotamic_Embark.dds</File>
+    <File md5="9004D4697D22DC9E6413A5CFEA37AC46" import="1">Art/Graphics/Barge/Mesopotamic_Embark.fxsxml</File>
+    <File md5="0C759F1CED95795CCFBE40C6BD9A963C" import="1">Art/Graphics/Barge/no_gloss.dds</File>
+    <File md5="7476AB960E47B4C86129355C16C72E48" import="1">Art/Graphics/Barge/sv_MerchantBarge.dds</File>
+    <File md5="027141EA64C275424E3CF9CAA8BA6E40" import="1">Art/IconAtlas/JFD_EgyptHatshepsutAlphaAtlas_128.dds</File>
+    <File md5="EB8F18955146C4B4D352B5C6D34F8463" import="1">Art/IconAtlas/JFD_EgyptHatshepsutAlphaAtlas_16.dds</File>
+    <File md5="FACCD332B19D2E0023338429898D5C5F" import="1">Art/IconAtlas/JFD_EgyptHatshepsutAlphaAtlas_24.dds</File>
+    <File md5="A8D8DB12CE182CFD712A833EBE8154F1" import="1">Art/IconAtlas/JFD_EgyptHatshepsutAlphaAtlas_32.dds</File>
+    <File md5="B7A48FFDB3DD20D0EFE246AE19359EE5" import="1">Art/IconAtlas/JFD_EgyptHatshepsutAlphaAtlas_45.dds</File>
+    <File md5="AF0994C31CCE967CF2577F7EF506DE94" import="1">Art/IconAtlas/JFD_EgyptHatshepsutAlphaAtlas_48.dds</File>
+    <File md5="B95027AA68ADAB92FC28E098B9B91746" import="1">Art/IconAtlas/JFD_EgyptHatshepsutAlphaAtlas_64.dds</File>
+    <File md5="8F7111D6D554EA1C03BB3E0DC5C26B25" import="1">Art/IconAtlas/JFD_EgyptHatshepsutAlphaAtlas_80.dds</File>
+    <File md5="164E18A450D4B0B7A67E888CC5C81177" import="1">Art/IconAtlas/JFD_EgyptHatshepsutAtlas_128.dds</File>
+    <File md5="4275429DD4B827CAF84F02D40598F773" import="1">Art/IconAtlas/JFD_EgyptHatshepsutAtlas_256.dds</File>
+    <File md5="CA77E249D60AC713103FD0A78F186865" import="1">Art/IconAtlas/JFD_EgyptHatshepsutAtlas_32.dds</File>
+    <File md5="3463049E8CBB6D71DF77F711408BDFA6" import="1">Art/IconAtlas/JFD_EgyptHatshepsutAtlas_45.dds</File>
+    <File md5="00961182A0C905A01B64D82AB4146C3D" import="1">Art/IconAtlas/JFD_EgyptHatshepsutAtlas_64.dds</File>
+    <File md5="62F94499C1E8BEBBE6CF3372E8C1D3C6" import="1">Art/IconAtlas/JFD_EgyptHatshepsutAtlas_80.dds</File>
+    <File md5="444E5034E23CD9E33A7E8E7B300807A6" import="1">Art/IconAtlas/JFD_MerchantBargeUnitFlag_32.dds</File>
+    <File md5="33C670B634D4F103D0FC89781F0AD2E6" import="1">Art/Map/Sukritact_Hatshepsut_DOM.dds</File>
+    <File md5="2412B847391796F48F6DDFCC0F15F46B" import="1">Art/Map/DOM_Ramesess.dds</File>
+    <File md5="DBA4ECBED0031CE3FB05CD41E2F65CD7" import="1">Art/Map/MapEgypt512.dds</File>
+    <File md5="497893987E5C6460C6F36DAD2C2F5F3B" import="1">Art/Map/Regalman_MapEgyptHatshepsut512.dds</File>
+    <File md5="B3053F4A1F0DCD1D9B657E8016A3ECE5" import="1">Audio/Hatshepsut_Peace.mp3</File>
+    <File md5="0A8AA985B42D82B9F67E4059A207676E" import="1">Audio/Hatshepsut_War.mp3</File>
+    <File md5="A50EA02743612A95CDEF8ECD914D0F97" import="0">Core/EgyptHatshepsut_ArtDefines.sql</File>
+    <File md5="52FAEE0D75D504E4F7F71BBE16B80372" import="0">Core/EgyptHatshepsut_GameDefines.sql</File>
+    <File md5="DD43AFC7130182D36B585B4878831EBF" import="0">Core/EgyptHatshepsut_GameDefines_Diplomacy.sql</File>
+    <File md5="860330F9C0CE5EA57AC284BB28F4FB64" import="0">Core/EgyptHatshepsut_GameText.xml</File>
+    <File md5="AE7AF4E79E0A6CB98A759E5BF30FA8FE" import="0">Core/EgyptHatshepsut_GameText_Diplomacy.xml</File>
+    <File md5="A397ECD39FDDD4B77AED23CBA32FD971" import="0">Core/EgyptRamesses_GameDefines.sql</File>
+    <File md5="EE534FDDBC13FD5B728C93E6671EED8B" import="0">Core/EgyptRamesses_GameText.xml</File>
+    <File md5="1AD74A884C92BEE76ACF42CFE3825B4A" import="0">Lua/JFD_EgyptHatshepsut_Functions.lua</File>
+    <File md5="478906378803978496A4D79D6EBA633A" import="0">Lua/JFD_EgyptRamesses_Functions.lua</File>
+	<File md5="478906378803978496A4D79D6EBA633A" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/EgyptHatshepsut_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/EgyptHatshepsut_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/EgyptHatshepsut_GameDefines_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/EgyptHatshepsut_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/EgyptHatshepsut_GameText_Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>Core/EgyptRamesses_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/EgyptRamesses_GameText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_EgyptHatshepsut_Functions.lua">
+      <Name>JFD_EgyptHatshepsut_Function</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_EgyptRamesses_Functions.lua">
+      <Name>JFD_EgyptRamesses_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

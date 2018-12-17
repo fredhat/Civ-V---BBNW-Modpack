@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/28/2014 12:06:40 PM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_MESTIZAJE</Type>
+			<Description>TXT_KEY_TRAIT_MESTIZAJE</Description>
+			<ShortDescription>TXT_KEY_TRAIT_MESTIZAJE_SHORT</ShortDescription>
+			<FreeBuilding>BUILDING_PARAGUAY_DUMMY</FreeBuilding>
+		</Row>
+	</Traits>
+	<Policies>
+		<Row>
+			<Type>POLICY_MESTIZAJE</Type>
+			<Description>TXT_KEY_TRAIT_MESTIZAJE_SHORT</Description>
+			<LessHappyTourismModifier>25</LessHappyTourismModifier>
+		</Row>
+	</Policies>
+</GameData>

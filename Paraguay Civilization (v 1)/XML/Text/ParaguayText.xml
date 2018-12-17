@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/28/2014 8:28:10 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Civilization Stuff-->
+		<Row Tag="TXT_KEY_PARAGUAY_SHORT_DESC">
+			<Text>Paraguay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PARAGUAY_DESC">
+			<Text>Paraguayan Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PARAGUAY_ADJECTIVE">
+			<Text>Paraguayan</Text>
+		</Row>
+		<!-- Trait-->
+		<Row Tag="TXT_KEY_TRAIT_MESTIZAJE_SHORT">
+			<Text>Mestizaje</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_MESTIZAJE">
+			<Text>Each Great Work provides +1 [ICON_PRODUCTION] Production. +25% [ICON_TOURISM] Tourism output to civilizations with less [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PARAGUAY_DUMMY">
+			<Text>Paraguay UA Dummy</Text>
+		</Row>
+		<!-- Civilization Pedia-->
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_DOM_TEXT">
+			<Text>
+				Dr. José Gaspar Rodriguez de Francia, counsel and founder of the great Paraguayan nation, truly did you lead your people with a strength never seen before or after.
+
+				[NEWLINE][NEWLINE]From a life presumably dedicated to the plantations, you turned your fortunes around and became a professor of philosophy. Once Paraguay became independent, you were soon able to rise to the post of the nation's leader. Your contribution to the newly-founded nation was far from negligible, as you strengthened the economy, the military, and liberalised the country. Although your reputation outside and inside the country was far from good, Paraguay needed your contribution to keep it going - and so it did, up until your death, and will always be remembered by Paraguayans as a harsh reformer, a great leader and perhaps most importantly - the founding father of the nation. You brought it out of difficult times, and before long, you were capable of running the country with no dependencies on anyone else, creating a strong, isolated nation, while keeping up with the latest advancements and such, making Paraguay a massively strong nation.
+
+				[NEWLINE][NEWLINE]Counsel Rodriguez de Francia, you created a nation that had all the possible benefits you could bestow upon the people based on your ideals. Can you leave nemeses to the state in ruins, and restore Paraguay's cultural identity? Can you build a civilization that will stand the test of time?
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_TITLE">
+			<Text>Paraguay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_HEADING_2">
+			<Text>Climate and Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_HEADING_3">
+			<Text>Search for Riches</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_HEADING_4">
+			<Text>The Colonial Area</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_HEADING_5">
+			<Text>Arrival of the Jesuits</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_HEADING_6">
+			<Text>Independence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_HEADING_7">
+			<Text>Dictatorship and War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_HEADING_8">
+			<Text>The Chaco War and Further Dictatorship</Text>
+		</Row>
+		<Row tag="TXT_KEY_CIV5_PARAGUAY_HEADING_9">
+			<Text>Modern Paraguay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_STATBOX">
+			<Text>[NEWLINE]        Leader: Dr. Gaspar de Francia[NEWLINE]        Unique Unit: Aca Caraya[NEWLINE]        Unique Building: Misiones[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_TEXT_1">
+			<Text>Occasionally referred to as the "Heart of America", the nation of Paraguay straddles several rivers and jungles in its central position in South America. Paraguay was initially colonised by Spain, as with most other South American countries, but unlike most others, it has become a full combination of Native culture and Spanish culture, rendering it a multi-ethnic state. Jesuits were particularly active in the area during the colonial period, mostly to convert the tribes to Christianity. Paraguay gained independence from Spain in the early 19th century, but leadership disputes soon started. Dr. Francia, a contestant for leader, soon became dictator for life, and reformed the country. Over the next century, Paraguay fell to several dictatorships and was engaged in several wars, two of the most costly being the War of the Triple Alliance and the Chaco War. In 1989, a coup ousted the Paraguayan dictator, Alfredo Stroessner, and democracy was more formally restored in 1993.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_TEXT_2">
+			<Text>Paraguay has a very lush landscape. In the east, there is a large amount of rainforest and jungle, with the Paraguay River running through this region as well. To the north-west of the country, there is a small mountain plateau in the Chaco region, which is otherwise a desert landscape. Most of the Chaco is uninhabited; only 5% of the population live in the area, even though it makes up around half of the country. In the Chaco, there is a small amount of agricultural work, but Paraguay's main use for the region is the natural resources that are there. Most of the south of Paraguay is based on a mountain plateau as well.The lowest altitude in the country is 55 meters, and the highest is around 700 meters, making it a fairly mountainous country. The lowlands, in the deep south, are mostly under 300m, and are mostly river lands and jungle territory. To sum it up, Paraguay is relatively flat, but still quite high-p in terms of altitude.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_TEXT_3">
+			<Text>When Spain was colonising South America, they took a while to explore the region that is today Paraguay. For years, they had attempted to get there, but with little success. In 1516, an expedition that aimed to travel down the River Solis ended with the death of the leader. One of the survivors of this, Alexio Garcia, decided to head off to do the expedition himself, intrigued by reports of riches in the area. With knowledge of the Guarani tribe, natives to Paraguay, he set off to the west, and after marching down the Río Paraná, he arrived at the site that would become Asunción thirteen years later. Garcia managed to create a small army out of the Guarani, and set off westward towards the Chaco region. He attempted to attack the Incan empire from there, as he was near their territorial boundaries, but the group became dissatisfied and Garcia was soon killed by the natives. The initial search for riches had failed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_TEXT_4">
+			<Text>Paraguay's colonial period began soon after the death of Garcia. Its system was unique in colonial Latin America; the people there could elect their own governor, as opposed to the colonial power choosing it for them. Domingo Martínez de Irala was elected as the first governor of the Río de la Plata area, where Paraguay was mostly based at the time. Under his rule, he constructed new towns and expanded the infrastructure of the region, making the new-found colony stronger and better than it was before. Irala was in many ways one of the better colonial governors, as he mostly respected the native tribes (especially the Guarani, who were friendly towards the colonials), explored the country, gave land to the common people, and was able to create good relations with most others around the state. However, towards the end of his rule, he made enemies of the native tribes, but is still remembered as a great leader of the nation, as he made it as prosperous as many other New World colonies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_TEXT_5">
+			<Text>During the Reformation, the Jesuits had been founded to keep the Catholic Church strong, One of their first calls was in Paraguay, where they were sent to convert the native tribes to Christianity. The Jesuits were given a large amount of power in the region, and were able to reorganise communities, and generally do anything that would let them create a fully Christian state. They sponsored musical feats, and all profit from these events would go to the manual workers of Paraguay, making them better off than they would be without. The Jesuits practically owned the colony, and could do pretty much whatever they wanted. They received a large amount of support outside the country due to their humane approach to Christianity, but also gained a lot of enemies due to their success in the conversion process. The Paraguayan settlers were upset with their large amount of authority and influence over the area, and revolted against them to lessen their power. The revolt didn't succeed, but it caused the Spanish to reconsider their stance on Jesuits, and in 1767, they ordered a pull-out of all Jesuits, who were gone within a few decades, vanished without a trace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_TEXT_6">
+			<Text>Compared to other South American nations, Paraguay's road to independence was quite smooth. For a start, Spain had largely neglected Paraguay, and by 1720, Peru held more authority over it than Spain itself. Furthermore, it was not directly connected to any major coastal colonial centres, making it harder to govern. Even the governors of the region, loyal to Spain, had no troops at their command. With the rise of Napoleon's French Republic in Europe, Spain fell to the hands of the republicans, making Paraguay effectively ungovernable from Europe. The Spanish monarchy now had no authority over the colonies, and soon enough, Buenos Aries in Argentina revolted against Spanish rule, giving an urge to have an uprising in Paraguay. The monarchists were soon defeated, and before long, the entire region became independant from Spain, on the 15 of May 1811. Fulgenico Yegros was named the First Counsel of Paraguay, and was asked to share the first year of the independence with Dr. José Gaspar Rodriguez de Francia. Yegros complied, and served alternate four-month terms with Francia. After his last term, Francia became sole ruler. In 1820, Yegros started a revolt to attempt to oust the increasingly dictatorial Francia, but the revolt failed, and Yegros was executed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_TEXT_7">
+			<Text>Paraguay's dictatorship began with Francia's authoritarian state. Although he based it on the French democracy, it was still described as being a "police state", but the Paraguayan citizens had a high standard of living compared to other South American countries. However, other dictators were not quite so good. Following Francia's death in 1840, several military officers and Francia's family assumed control. Paraguay opened upmtrade links to other countries during this period, and the prosperity continued until 1864, when the Paraguayan War began. The war was fought between Paraguay and their enemies, Brazil, Argentina and Uruguay, and lead to the highest casualty rate in a war in human history. Around 60% of Paraguay's population was killed during the fighting, mostly due to famine and disease. The result of the was was that a lot of Paraguayan documents were transferred to Brazil, and they lost a lot of land, which overall rendered Paraguay a largely crippled state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_TEXT_8">
+			<Text>Between 1904 and 1954, Paraguay had a total of 31 presidents, the majority of which were forced out of office by the military. Due to the vast amount of territorial losses in the War of the Triple Alliance, Paraguay decided to focus on regaining territories around the Chaco from Bolivia. The two nations were the only landlocked ones in South America, and the reasons for the war were partially due to that. Although the Chaco was mostly desert, it was vital for both as it gave access to rivers, which went to the Atlantic, opening up more trade routes. A major reason for Paraguay's interest in the territory was because it had a large amount of oil and gas supplies that could be utilised to help the nation recover further from past wars. This is widely seen as Paraguay's entry point to conflict with Bolivia. The war lasted just shy of three years, and the majority of the Chaco region was given to Paraguay. On average, the casualty rate was 3 Bolivian and 2 Paraguayan soldiers per yard of the Chaco. Dictatorship of Pargauay continued under Alfredo Stroessner, and continued until 1989, when Stroessner was overthrown in a coup, and was forced to retreat to Brazil, where he died. After this, Paraguay finally got the democracy it had been so long owed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_TEXT_9">
+			<Text>Paraguay today is one of the smaller and poorer countries in South America. It does not have a coastline, making it harder to trade. It is mostly covered by arid, desert regions and jungle, making natural resources harder to come across. However, Paraguay is really only just beginning its new regime. It is now a fully democratic state, with an elected president, and has few revolts or human rights outcries. It would be unfair to say that Paraguay is one of the worse off countries in South America, as it has a vastly different culture from most other states, as the Guarani natives are fully implemented into Paraguay's population, the result of many schemes to get ethnic Spaniards and Guaranis to marry. Overall, Paraguay still has a lot of problems facing it, such as discrimination, rape and drug trafficking. On the other hand, it is a representative democracy, with Freedom of Speech legally guaranteed, and altogether a slowly but vastly improving state. Should Paraguay continue with its current progress, it should soon become a larger exporter of oil and gas, and in 2010 became the third fastest-growing economy in the world, behind Qatar and Singapore, far higher than the global average. There may be many problems facing Paraguay, but it is a multicultural nation that shares just one culture, which can only be described as Paraguayan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_FACTOID_TEXT">
+			<Text>Despite not having a coastline, Paraguay has had a large naval tradition. Paraguay's interior has a lot of rivers, so boats can be an effective form of transport around it, and should it get into a war with a neighbour near the coast, it can quickly utilise this force.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_01">
+			<Text>Asunción</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_02">
+			<Text>San Lorenzo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_03">
+			<Text>Ciudad del Este</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_04">
+			<Text>Luque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_05">
+			<Text>Fernando de la Mora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_06">
+			<Text>Lambaré</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_07">
+			<Text>Pedro Juan Caballero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_08">
+			<Text>Capiatá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_09">
+			<Text>Ñemby</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_10">
+			<Text>Caaguazú</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_11">
+			<Text>Encaración</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_12">
+			<Text>Coronel Oviedo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_13">
+			<Text>Salto del Guiará</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_14">
+			<Text>Villa Elisa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_15">
+			<Text>Ituaguá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_16">
+			<Text>Limpio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_17">
+			<Text>Mariano Roque Alonso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_18">
+			<Text>Itá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_19">
+			<Text>Hernandarias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_20">
+			<Text>Concepción</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_21">
+			<Text>Curuguaty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_22">
+			<Text>Villa Hayes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_23">
+			<Text>Presidente Franco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_24">
+			<Text>Areguá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_25">
+			<Text>Horqueta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_26">
+			<Text>Villaria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_27">
+			<Text>San Estanislao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_28">
+			<Text>San Ignacio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_29">
+			<Text>Caacupé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_30">
+			<Text>Minga Guazú</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_31">
+			<Text>San Antonio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_32">
+			<Text>Villeta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_33">
+			<Text>Ypané</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_34">
+			<Text>Juan Augusto Saldivar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_35">
+			<Text>Caraguatay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_36">
+			<Text>Yparacaí</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARAGUAY_37">
+			<Text>Pilar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PARAGUAY_0">
+			<Text>Francisco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PARAGUAY_1">
+			<Text>Gonzalo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PARAGUAY_2">
+			<Text>Hernando</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PARAGUAY_3">
+			<Text>Juan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PARAGUAY_4">
+			<Text>Hombrellama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PARAGUAY_5">
+			<Text>El X</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PARAGUAY_6">
+			<Text>Manuel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PARAGUAY_7">
+			<Text>Jose</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PARAGUAY_8">
+			<Text>Pedro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PARAGUAY_9">
+			<Text>Juana</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!-- Leader -->
+		<Row Tag="TXT_KEY_LEADER_GASPAR">
+			<Text>Gaspar Rodriguez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_LIVED">
+			<Text>1766 - 1840 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_NAME">
+			<Text>Dr. Gaspar de Francia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_SUBTITLE">
+			<Text>Leader of Paraguay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_TITLES_1">
+			<Text>Counsel of Paraguay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_TITLES_2">
+			<Text>Karaí Guazú</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_HEADING_2">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_HEADING_3">
+			<Text>Uprising and Police State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_HEADING_4">
+			<Text>New Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_HEADING_5">
+			<Text>Dictatorship of Paraguay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_HEADING_6">
+			<Text>Judgement of History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_TEXT_1">
+			<Text>Dr. Gaspar de Francia was a Paraguayan dictator who rose to power during the independence period. Born on a tobacco plantation, he was never expected to gain any political position. However, his unrelenting interest in politics lead to him gaining several political positions, and after the calls for Paraguayan independence, he managed to become the nation's first leader and held onto his post for the rest of his life. He was inspired by the French Revolution, and was appalled by the class system going on in Paraguay. Francia aimed to change this, and did so very well, as the economy more than doubled during his time in office, and the nation managed to survive with almost no outside dependencies, making Paraguay one of the strongest nations in South America. There were very few people in the nation who were particularly upset with his reign, as most other leaders were completely ineffective. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_TEXT_2">
+			<Text>In 1766, José Gaspar Rodriguez de Francia was born in Yaguarón, in the Spanish colony of Paraguay. From an early age, he was interested in politics, even though his father was a plantation worker. Francia, however, managed to get into the University of San Francisco, in Asunción. He stayed there for four years in an attempt to get him into Catholic Priesthood, although he never got into it. Instead, he moved on to the University of Córdoba, where he trained to be a lawyer and learnt Guarani, Latin, French, and English. Francia went on to become a layer, and always tried to defend the oppressed in any situation. In 1798, Francia tried to become a politician for his area, but was rejected due to his background. Francia instead decided to assure himself of his own political position.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_TEXT_3">
+			<Text>In 1811, Paraguay declared independence from Spain. Fulgencio Yegros was declared First Counsel of the nation, and Francia, highly-ranking in the political structure, was declared joint interim counsel of Paraguay. Due to Francia's unrelenting ideas for reform, he stayed on as leader at the end of 1811, while Yegros decided to leave the post. During this time, Paraguay had peace and prosperity, as Francia aimed to stick to the ideals of the French Revolution. However, Yegros was unhappy with Francia's almost unlimited power. In 1820, he gathered a lot of other politicians, as well as a small military force, and decided to over throw Francia. However, Francia crushed the revolt, and most of the two-hundred or so main leaders of the revolution were executed, including Yegros. Francia was truly a power not to be reasoned with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_TEXT_4">
+			<Text>As mentioned before, Francia aimed to stick to the ideals of the French Revolution. Francia was all for creating some form of union between South American states, and attempted to do so, but with little success. In order to keep other countries at bay, Francia managed to successfully convince other nations that his military was around two or three times the size it actually was. Doing so dissuaded other nations from attacking Paraguay. Francia also introduced a navy, although to patrol the rivers of Paraguay. Francia also welcomed asylum seekers to the nation, and as such, it was not completely isolated. Francia also improved education during his time in office, and also managed to make the land more efficient for agriculture. He nationalised a lot of the land, while improving a lot of land rights for the people of the nation. Francia also nationalised the church, in a move more to decrease the church's power more than anything else.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_TEXT_5">
+			<Text>Francia's dictatorship of Paraguay was an altogether successful one. Even though he was very obviously an authoritarian, people's rights improved massively since the Spanish government. Even towards the end of his life, he continued to keep up the revolutionary ideals, but made sure he couldn't be over thrown by any means. He locked all doors in his palace himself, and made sure that nothing he was given to intake could possibly kill him. He also kept a pistol under his pillow, and that said, he had very few possessions otherwise. He was entitled to take a large annual salary, but he refused it, and had it put into the treasury instead. On the 20 of September 1840, Francia died, after refusing all medical aid on the grounds that he wasn't going to live much longer with medicine anyway. Francia was given a full state funeral, and most of Paraguay's population were genially saddened by his passing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_TEXT_6">
+			<Text>Francia's reputation overseas has not been kind. Many in Europe at the time wanted to see him overthrowen, or even executed. However, public opinion in Paraguay was very positive towards him, and even today, he is known as the "Father of the Nation", even above Yegros, Paraguay's first leader. He may have been a dictator; however, the state he was given was probably stronger than Spain could have ever hoped to have created. Due to their neglect of the area, Paraguay lacked a lot of basic devices that a lot of other colonies had. However, Francia transformed the nation's fortunes, and created the work for a strong nation, which was mostly ruined by his successors. To Paraguayans, however, he was a great leader of the nation, who transformed it from a small colony in South America to one of the best-off nations in the world. Sadly, his successes did not long outlive him, but are still remembered today.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_FACTOID_HEADING">
+			<Text>Gaspar de Francia Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GASPARDEFRANCIA_FACTOID_TEXT">
+			<Text>Gaspar de Francia's general political position was a lot more liberal than most other leader's ones at the time. He had a very liberal view on sex, and imposed a tax on marriage to show this. To get married, Francia had to authorise the wedding. Unsurprisingly, few people got married. When Francia caught his daughter out prostituting, he declared prostitution an honourable profession.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GASPAR_FIRSTGREETING_1">
+			<Text>What do you want? I'm busy for now.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GASPAR_FIRSTGREETING_2">
+			<Text>What is it that you come here for? Are you open to the words of progress? Call me Dr. Gaspar de Francia, should we meet again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GASPAR_FIRSTGREETING_3">
+			<Text>Welcome to the Republic of Paraguay, and be sure to assist us in our quest for consistent freedom among the people... or better yet, just leave.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GASPAR_DEFEATED_1">
+			<Text>As Paraguay burns, there is only one man that I can blame. And that, my friend, is YOU!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GASPAR_DEFEATED_2">
+			<Text>My only mistake in life was not being able to stop you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GASPAR_RESPONSE_REQUEST_1">
+			<Text>Not that I need your help, but...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GASPAR_LUXURY_TRADE_1">
+			<Text>I will make you an offer you can't refuse.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GASPAR_OPEN_BORDERS_EXCHANGE_1">
+			<Text>I don't trust you... But my land needs this... Accept.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GASPAR_EXPANSION_SERIOUS_WARNING_1">
+			<Text>I see you like taking lands you don't really own... Stop...</Text>
+		</Row>
+		<!-- Aca Caraya -->
+		<Row Tag="TXT_KEY_UNIT_PARAGUAY_ACA_CARAYA">
+			<Text>Aca Caraya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_ACA_CARAYA_HELP">
+			<Text>Fast Industrial Era mounted unit that specializes in fighting in Jungle. Ignores terrain costs and may make one additional attack per turn in friendly territory. Only Paraguay may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_ACA_CARAYA_TEXT">
+			<Text>The Aca Caraya, (or "Monkey Head" for their particular helmets), were a cavalry group active during the Chaco War. They were named after the Caraya, an indigenous animal of Paraguay. They served at the Battle of Ybybobó, where they encountered the Bolivian Troops. The Aca Caraya adopted a new strategy to out-master the Bolivians tactically, by penetrating the Bolivian lines without making any direct attack until they got to the enemy. At 4 AM on the 28th of December 1934, the Paraguayan cavalry attacked. When they got close to the Bolivians, the command was left in disarray, with most communications between them and the troops being cut off. Before long, the Aca Caraya rounded up the Bolivian troops and managed to force the army into surrender, marking a turning point in the war for Paraguay. This was one of the most humiliating defeats for Bolivia, and although they tried to cover it up, it was soon found out, and Paraguayan victory in the war was declared soon after.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_ACA_CARAYA_STRATEGY">
+			<Text>The Aca Caraya is the Paraguayan unique unit, replacing the Cavalry. Faster than the Cavalry, the Aca Caraya receives a +33% Combat Bonus in Jungle tiles. While in friendly terriotry, the Aca Caraya ignores terrain costs and may make one additional attack per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARAYA">
+			<Text>Batle of Ybybobó</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARAYA_OUT_HELP">
+			<Text>Ignores terrain costs in rough terrain and may make one additional attack per turn in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARAYA_HELP">
+			<Text>Ignores terrain costs in rough terrain and may make one additional attack per turn.</Text>
+		</Row>
+		<!-- Misiones -->
+		<Row Tag="TXT_KEY_BUILDING_MISIONES">
+			<Text>Misiones</Text>
+			<Gender>neuter:no_article</Gender>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MISIONES_HELP">
+			<Text>Each worked Jungle tile provides +1 [ICON_CULTURE] Culture. Contains a slot for a Great Work of Music which, when filled, provides +2 [ICON_PEACE] Faith. Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]City must have a Shrine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_MISIONES_TEXT">
+			<Text>Misiones were Jesuit centres for the conversion of native tribes to Christianity. Although there were a few in other South American states, they were mostly utilised in Paraguay during the 16th - 18th centuries. They served as centres of teaching in Paraguayan society, mostly to convert the native Guarani people. The areas that they were were mostly set up in, around Argentina, Brazil and Paraguay, were practically owned by the Jesuits, along with the whole of Paraguay for some time. However, the Jesuit centres became unpopular, and most of them today are nothing more than a pile of ruins. However, the name lives on in certain Argentinan and Paraguayan provinces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PARAGUAY_MISIONES_STRATEGY">
+			<Text>The Misiones is the Paraguayan unique building, replacing the Temple. The Misiones increases the [ICON_CULTURE] Culture and [ICON_PEACE] Faith output of this city. The Misiones contains a slot for a Great Work of Music that provides additional [ICON_PEACE] Faith when filled. The Misiones has no maintenance cost. Can only be built if this city contains a Shrine.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

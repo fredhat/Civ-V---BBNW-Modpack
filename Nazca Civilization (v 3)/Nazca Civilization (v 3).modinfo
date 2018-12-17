@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="40b2f19b-236b-4699-88dd-72025ea1080d" version="3">
+  <Properties>
+    <Name>Nazca Civilization</Name>
+    <Teaser>Adds the Nazca civilization led by Cahuachi to the game.</Teaser>
+    <Description>Adds the Nazca civilization to the game. Requires Brave New World.</Description>
+    <Authors>Pouakai, Sukritact, Leugi, Janborua, Chrissifniotis</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="8009159C2F6132E5090BBEFBCA49214C" import="1">Art/Atlas/NazcaAlpha_128.dds</File>
+    <File md5="DE9AF8809B0EA702BDF4AE3648DE1537" import="1">Art/Atlas/NazcaAlpha_16.dds</File>
+    <File md5="0954CB2D130A936AB43A270B4474B933" import="1">Art/Atlas/NazcaAlpha_24.dds</File>
+    <File md5="88147F9A677BE7AFB9633A73E5852422" import="1">Art/Atlas/NazcaAlpha_32.dds</File>
+	<File md5="7AC8591ECBD4D25410D5043E64E9461C" import="1">Art/Atlas/NazcaAlpha_45.dds</File>
+    <File md5="A6DC8229D5E8E74FDA930E73A2C39138" import="1">Art/Atlas/NazcaAlpha_48.dds</File>
+    <File md5="460CD684DDFA58A4E0D62D05DE970D95" import="1">Art/Atlas/NazcaAlpha_64.dds</File>
+	<File md5="CD0AE2CA9EF5D3C481F257C0BCCEA0A3" import="1">Art/Atlas/NazcaAlpha_80.dds</File>
+    <File md5="ABA09F9471F9AA294EEAE9AD5CC8DCA6" import="1">Art/Atlas/Nazca_128.dds</File>
+    <File md5="5D21095735E73471B23025B29BFF2E35" import="1">Art/Atlas/Nazca_24.dds</File>
+    <File md5="D657A634854683D9C53BE9356A39C0BF" import="1">Art/Atlas/Nazca_256.dds</File>
+    <File md5="1FDBEB91F414DF60A8BB08B641B5E0E9" import="1">Art/Atlas/Nazca_32.dds</File>
+    <File md5="55DF981B787E64943228E0D10B24D5CA" import="1">Art/Atlas/Nazca_45.dds</File>
+    <File md5="5C8675B37F4205EA9B91E3D7D26912F2" import="1">Art/Atlas/Nazca_48.dds</File>
+    <File md5="38CC4AB0F765D0D99E4C7A0501A9F448" import="1">Art/Atlas/Nazca_64.dds</File>
+    <File md5="4BFB12079448D44697C197F26FEC1403" import="1">Art/Atlas/Nazca_80.dds</File>
+    <File md5="941326BD4B05A7CEBC1A0B27719BC686" import="1">Art/Scenes/Nazca_Diplo.dds</File>
+    <File md5="FE60DED0D37C033CD8B437B19D73B088" import="1">Art/Scenes/Nazca_Leaderhead.xml</File>
+    <File md5="4919532A3111FEF08333FAB305196EFF" import="1">Art/Scenes/Nazca_DOM.dds</File>
+    <File md5="233D0C564FF043593E6D432E82618598" import="1">Art/Scenes/Nazca_map.dds</File>
+    <File md5="ABEFAE9E0D703185BCD3197C49C8022F" import="1">Art/UI/nazca01.dds</File>
+    <File md5="4B0D223627F45FCE06F4C29FAB060579" import="1">Art/UI/nazca01.fxsxml</File>
+    <File md5="C06D09E7F1934B4334BDFAD38ED24128" import="1">Art/UI/nazca01.gr2</File>
+    <File md5="853A56F487A8201EE1C4A6273127FA54" import="1">Art/UI/nazca01_sref.dds</File>
+    <File md5="2F75A6A6C9F1244F4154E332DD555D71" import="1">Art/UI/nazca02.dds</File>
+    <File md5="BF112EA04DDB8CDE4B46C45D9BD8062E" import="1">Art/UI/nazca02.fxsxml</File>
+    <File md5="1C5B24201910E3021F0B4F17E11C81F2" import="1">Art/UI/nazca02.gr2</File>
+    <File md5="CAEC637AA9037E039C10AB4C9A58E9B9" import="1">Art/UI/nazca02_sref.dds</File>
+    <File md5="716FCAB523F3F52D0C6C8B6F294B8DE6" import="1">Art/UI/nazca03.dds</File>
+    <File md5="64FC427BE30584E382C579488E3D777E" import="1">Art/UI/nazca03.fxsxml</File>
+    <File md5="C732463FBFCF09F511473CC814DC91B5" import="1">Art/UI/nazca03.gr2</File>
+    <File md5="161B25E08C85C2F02C9E4371E1F4EE54" import="1">Art/UI/nazca03_sref.dds</File>
+    <File md5="D39B4FA08871558B2AE6FD6EABDC1323" import="1">Art/UI/nazca_hb.dds</File>
+    <File md5="15E53649392875F69E186023D5EDB30C" import="1">Art/UI/nazca_hb.fxsxml</File>
+    <File md5="E4122E29BB8F8A340392268E6EF6D213" import="1">Art/UI/nazca_hb.gr2</File>
+    <File md5="17CA22490FBBBEE4CF51288835D34266" import="1">Art/UI/nazca_pl.dds</File>
+    <File md5="EDF71912F1A77D310546273B0B439160" import="1">Art/UI/nazca_pl.fxsxml</File>
+    <File md5="12B891EF2A0CE5FA26D7DEFD44FD6D3C" import="1">Art/UI/nazca_pl.gr2</File>
+    <File md5="8FB6AF2B70ECE36F901DF58C26482AB6" import="1">Art/UI/sv_geoglyphs.dds</File>
+    <File md5="115915FDCC8E283FFB21A909A20A63C3" import="0">Lua/NazcaUA.lua</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+    <File md5="9FF6D75BAD593EAE727F94DA93402580" import="1">Sounds/NazcaDoM.mp3</File>
+    <File md5="B326B9359F8A08A16D51253A99BADEE7" import="1">Sounds/CahuachiPeace.mp3</File>
+    <File md5="C0CEC59A6FA990D927BA3B4D7AF3EC2B" import="1">Sounds/CahuachiWar.mp3</File>
+    <File md5="458669AD24CB4BD3DD55E88C33F46AA7" import="0">SQL/ArtDefineNazca.sql</File>
+    <File md5="5B17014162651BFE087B5C0440DA0E16" import="0">XML/Buildings/Nazca_Buildings.xml</File>
+    <File md5="736355B88EDD5C696A8FC9B56FA9D658" import="0">XML/Civilizations/Nazca_Civilizations.xml</File>
+    <File md5="BC9D3E0DC67CC6F7A76CB41469A18F9F" import="0">XML/Civilizations/Nazca_Strategic.xml</File>
+    <File md5="B0C84F033139D0FAB22D29E1FF4C7008" import="0">XML/GameInfo/Nazca_IconTextureAtlases.xml</File>
+    <File md5="0CE8F46992D46B5E364DE5CF3D3D26ED" import="0">XML/GameInfo/Nazca_Sounds.xml</File>
+    <File md5="B6057103E6D48D69B0FF23A1323A42DE" import="0">XML/GameInfo/Nazca_Policies.xml</File>
+    <File md5="90C7C686E5877CCE6A03561B6EE5A81A" import="0">XML/GameInfo/Nazca_Traits.xml</File>
+    <File md5="457E5EA61C3BC165389EB8E106E90323" import="0">XML/Leaders/Nazca_Leader.xml</File>
+    <File md5="F278C4089BD2C840F6A34903063B996A" import="0">XML/Terrain/Nazca_Improvements.xml</File>
+    <File md5="5C8DC5BAF40E90CBBD1702789E5C58CF" import="0">XML/Text/Nazca_Text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/ArtDefineNazca.sql</UpdateDatabase>
+	  <UpdateDatabase>XML/Buildings/Nazca_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Nazca_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Nazca_Strategic.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Nazca_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Nazca_Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Nazca_Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Nazca_Traits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Nazca_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Nazca_Improvements.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Nazca_Text.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/NazcaUA.lua">
+      <Name>NazcaUA</Name>
+      <Description>
+	  </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

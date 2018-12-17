@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0f1520d1-7a69-4fd4-b0a4-a2424d08c407" version="12">
+  <Properties>
+    <Name>Units - Steampunk Airships</Name>
+    <Teaser>Adds Airship units from the Gods & Kings Steampunk Scenario to the game.</Teaser>
+    <Description>Adds Airship and Sky Fortress units to the game. Tweaks the base game Helicopter unit. Requires Brave New World.</Description>
+    <Authors>William Howard</Authors>
+    <SpecialThanks>Firaxis Steampunk Scenario, F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="1" maxversion="999" title="DLL - Various Mod Components" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="0D31963B4EF7FDFFAD0AD448B0933E0B" import="0">Core/ArtDefines.sql</File>
+	<File md5="BD8A4603A362FC6178B35268451C1472" import="0">Core/Civilizations.sql</File>
+	<File md5="2CEF2066D6B8A3F55ADC3076C5742E64" import="0">Core/DLL.sql</File>
+    <File md5="C5829931CAD55169C7B9028A00DBE3AE" import="0">Core/GameText.xml</File>
+	<File md5="E484CD750F13A9EDDAB61DAB0306198C" import="0">Core/Promotions.sql</File>
+	<File md5="1D744EFE049CC1568C21B77ECCBDF88A" import="0">Core/PostDefines.xml</File>
+	<File md5="BE91DFC4C3AF6AC74A28E775555288F5" import="0">Core/Units.sql</File>
+	<File md5="E5FD8D87D63E646BE1D1E13B059CE462" import="0">Lua/Steampunk Airships Functions.lua</File>
+	<File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+    <File md5="560AAB1335047C469127C8D74C7E1EE1" import="1">UI/InGame/WorldView/EnemyUnitPanel.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/ArtDefines.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/DLL.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Promotions.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/PostDefines.xml</UpdateDatabase>
+	  <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Steampunk Airships Functions.lua">
+      <Name>Steampunk Airships Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

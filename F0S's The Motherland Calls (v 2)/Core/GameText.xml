@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						The Motherland Calls
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_BUILDING_F0S_MOTHERLAND">
+			<Text>The Motherland Calls</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_F0S_MOTHERLAND_HELP">
+			<Text>Provides a free Social Policy. Receive a free copy of each military land unit you build in this city.[NEWLINE][NEWLINE]Requires Order.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_F0S_KREMLIN_HELP">
+			<Text>Provides a free [ICON_SPY] Spy. Each worked Tundra tile provides +1 [ICON_PRODUCTION] Production. Each worked Forest tile provides +1 [ICON_CULTURE] Culture. Provides +6 [ICON_GOLD] Gold after discovering Biology.[NEWLINE][NEWLINE]City must be built on or next to Tundra.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_F0S_MOTHERLAND_QUOTE">
+			<Text>
+				[NEWLINE]"Everyone imposes his own system as far as his army can reach"[NEWLINE] - Joseph Stalin[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_F0S_MOTHERLAND_PEDIA">
+			<Text>The Motherland Calls is an enormous statue located near the city of Volograd, in Russia. It was constructed in 1967 to commemorate the fallen Soviet soldiers that took part in the Battle of Stalingrad during World War 2. At the time of construction, it was declared the tallest statue in the world, measuring 85 metres from the tip of its sword to the top of the plinth. Due to its distinctive posture, The Motherland Calls is highly complex from an engineering point of view, with its 33 metre long sword rising well above the main body. A combination of pressed concrete and wire ropes were used to achieve its shape.[NEWLINE][NEWLINE]Two hundred steps, symbolizing the 200 days of the Battle of Stalingrad, lead from the bottom of the hill to the monument.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_MOTHERLAND_CALLS">
+			<Text>The Motherland Calls</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_MOTHERLAND_CALLS_HELP">
+			<Text>This unit was accompanied by an additional copy of itself.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

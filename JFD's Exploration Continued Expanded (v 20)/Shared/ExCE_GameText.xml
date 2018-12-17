@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/29/2014 8:09:53 PM -->
+<GameData>
+	<Language_en_US>
+		<!--UNIT COMBATS-->
+		<Replace Tag="TXT_KEY_UNITCOMBAT_CIVILIAN">
+			<Text>Civilian Units</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNITCOMBAT_GREAT_PEOPLE">
+			<Text>Great Person Units</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNITCOMBAT_RELIGIOUS">
+			<Text>Religious Units</Text>
+		</Replace>
+	</Language_en_US>
+</GameData>

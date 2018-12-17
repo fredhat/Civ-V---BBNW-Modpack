@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 22-Sep-14 00:35:20 -->
+<GameData>
+	<!-- Improvements -->
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_TRADING_POST_X</Type>
+			<Description>TXT_KEY_IMPROVEMENT_TRADING_POST_X</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_TRADING_POST_X_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_TRADING_POST_X</ArtDefineTag>
+			<ImprovementUpgrade>IMPROVEMENT_TRADING_POST</ImprovementUpgrade>
+			<UpgradeTime>15</UpgradeTime>
+			<PillageGold>10</PillageGold>
+			<PortraitIndex>32</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Update>
+			<Where Type="IMPROVEMENT_TRADING_POST"/>
+			<Set ImprovementUpgrade="IMPROVEMENT_VILLAGE" UpgradeTime = "15"/>
+		</Update>
+		<Row>
+			<Type>IMPROVEMENT_VILLAGE</Type>
+			<Description>TXT_KEY_IMPROVEMENT_VILLAGE</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_VILLAGE_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_VILLAGE</ArtDefineTag>
+			<PillageGold>30</PillageGold>
+			<PortraitIndex>32</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Improvements> 
+	<!-- Valid Terrains -->
+	<Improvement_ValidTerrains>
+		<Delete ImprovementType="IMPROVEMENT_TRADING_POST"/>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST_X</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST_X</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST_X</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST_X</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+	<!-- Yields -->
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST_X</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_TRADING_POST"/>
+			<Set Yield="2"/>
+		</Update>
+		<Row>
+			<ImprovementType>IMPROVEMENT_VILLAGE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Improvement_Yields>
+	<Improvement_Flavors>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST_X</ImprovementType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST_X</ImprovementType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+	</Improvement_Flavors>
+	<!-- Builds -->
+	<Builds>
+		<Row>
+			<Type>BUILD_TRADING_POST_X</Type>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_TRADING_POST_X</ImprovementType>
+			<Description>TXT_KEY_BUILD_TRADING_POST</Description>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_T</HotKey>
+			<OrderPriority>95</OrderPriority>
+			<IconIndex>41</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Delete Type="BUILD_TRADING_POST"/>
+	</Builds>
+	<BuildFeatures>
+		<Row>
+			<BuildType>BUILD_TRADING_POST_X</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_TRADING_POST_X</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_TRADING_POST_X</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+		</Row>
+		<Delete BuildType="BUILD_TRADING_POST"/>
+	</BuildFeatures>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_TRADING_POST_X</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_F0S_IROQUOIS_WORKER</UnitType>
+			<BuildType>BUILD_TRADING_POST_X</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JFD_BELGIAN_WORKER</UnitType>
+			<BuildType>BUILD_TRADING_POST_X</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JFD_LENIN_WORKER</UnitType>
+			<BuildType>BUILD_TRADING_POST_X</BuildType>
+		</Row>
+		<Delete BuildType="BUILD_TRADING_POST"/>
+	</Unit_Builds>
+	<!-- Tech & Policy Yield Changes -->
+	<Improvement_TechYieldChanges>
+		<Delete ImprovementType="IMPROVEMENT_TRADING_POST"/>
+	</Improvement_TechYieldChanges>
+	<Policy_ImprovementYieldChanges>
+		<Delete ImprovementType="IMPROVEMENT_CUSTOMS_HOUSE"/>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST_X</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_VILLAGE</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COMMERCE_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST_X</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Update>
+			<Where PolicyType="POLICY_COMMERCE_FINISHER" ImprovementType="IMPROVEMENT_TRADING_POST"/>
+			<Set Yield="2"/>
+		</Update>
+		<Row>
+			<PolicyType>POLICY_COMMERCE_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_VILLAGE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+</GameData>

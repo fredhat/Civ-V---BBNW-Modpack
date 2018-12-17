@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="70823211-d0db-4f85-bee5-8de667a4567f" version="7">
+  <Properties>
+    <Name>Trading Posts Upgrade</Name>
+    <Teaser>Allows Trading Post improvements to upgrade into Hamlet and Village improvements after being worked by a city for a certain amount of turns.</Teaser>
+    <Description>Makes it so that after being worked by a city for 15 turns, Trading Posts upgrade into Hamlets and then into Villages, providing additional yields at each stage. Tweaks base game Trading Posts.</Description>
+    <Authors>Tofusojo</Authors>
+    <SpecialThanks>fuch1141 and PawelS, F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="CC5413A1D78B0170FC86CA0345E1520A" import="0">Art/ArtDefines.xml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/fx_triggers_pl_med_town.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/fx_triggers_pl_mod_town.ftsxml</File>
+    <File md5="8DEC9B2BDE545AF45AD31FC3CF5C3BC2" import="1">Art/hb_med_town1.fxsxml</File>
+    <File md5="B45DE9D3763C0F9F68582D88913B247F" import="1">Art/hb_med_town1.gr2</File>
+    <File md5="BFEC0C37A325803CFA7B0499F78C7057" import="1">Art/hb_med_town2.fxsxml</File>
+    <File md5="63E36B168FD4B22980D0829E4BB385C5" import="1">Art/hb_med_town2.gr2</File>
+    <File md5="7997A871CFB156FC9A08AD1ABBEA1200" import="1">Art/hb_med_town3.fxsxml</File>
+    <File md5="66997A1BD58282F4067E590C152BEC20" import="1">Art/hb_med_town3.gr2</File>
+    <File md5="3954D8985C018A3026137E4B9EA43E46" import="1">Art/hb_med_town4.fxsxml</File>
+    <File md5="ED5F71FECB627CB01845C6B3E1B0EEA8" import="1">Art/hb_med_town4.gr2</File>
+    <File md5="5214D033101EC4A72DA956659062D7D5" import="1">Art/hb_med_town_decal_d.dds</File>
+    <File md5="23859743BCF27B88E5FA82B45AA14BE4" import="1">Art/hb_med_town_decal_h.dds</File>
+    <File md5="902768BBCE5BF41B250F4CD7CEAA1631" import="1">Art/hb_mod_town1.fxsxml</File>
+    <File md5="5DB26391A57EA4969465B92D5309522D" import="1">Art/hb_mod_town1.gr2</File>
+    <File md5="7F60EA7B66C0835196D1ECB399B0E9AF" import="1">Art/hb_mod_town2.fxsxml</File>
+    <File md5="0BD89B3E86B1AED32C7DB3B72BD8376C" import="1">Art/hb_mod_town2.gr2</File>
+    <File md5="F2BFA7EAFC8D8BECDC97B3AF1087A011" import="1">Art/hb_mod_town3.fxsxml</File>
+    <File md5="F330376090D7B6F2917465429E62E18D" import="1">Art/hb_mod_town3.gr2</File>
+    <File md5="5CA30E03FE9FD73DFD38AB80F0735DC6" import="1">Art/hb_mod_town4.fxsxml</File>
+    <File md5="1ADDE54461302CD822251228F53B2445" import="1">Art/hb_mod_town4.gr2</File>
+    <File md5="9B1D9706CF5551105CD831255E92D548" import="1">Art/hb_mod_town_decal_d.dds</File>
+    <File md5="4CA134970FB9E12BF19F3B4498030B86" import="1">Art/hb_mod_town_decal_h.dds</File>
+    <File md5="EE3AED4B4A633878F898E82A5C678318" import="1">Art/med_town1.fxsxml</File>
+    <File md5="D270BB4B45D7422C823502CCF44EE81E" import="1">Art/med_town1.gr2</File>
+    <File md5="17D46685D5EAD5A34A30157D0DD348C9" import="1">Art/med_town2.fxsxml</File>
+    <File md5="B57594FC125E876601DF80E2A09AF477" import="1">Art/med_town2.gr2</File>
+    <File md5="A2C5C8CE05FCCB042AB0899D7C749750" import="1">Art/med_town3.fxsxml</File>
+    <File md5="5DAE4625CF27EECC2A7222CD181EF5C3" import="1">Art/med_town3.gr2</File>
+    <File md5="91883751B2604B12D997A3D1CE062213" import="1">Art/med_town4.fxsxml</File>
+    <File md5="7793E70757886C3024C25746DB6541BB" import="1">Art/med_town4.gr2</File>
+    <File md5="D718424195EDECBE1815C385150177BD" import="1">Art/med_town_decal_diff.dds</File>
+    <File md5="77BA3A06997A8B9E2F01B35E8BC91F36" import="1">Art/med_town_decal_h.dds</File>
+    <File md5="2C560780EC81A0194877863B133CECD2" import="1">Art/med_town_decal_s.dds</File>
+    <File md5="628DF29F9AE898BE18434C7187E2A050" import="1">Art/med_town_diff.dds</File>
+    <File md5="4E52B986919158B8EF6D355981B50A71" import="1">Art/med_town_sref.dds</File>
+    <File md5="AA6525167F2880B1B25A8DEE2CC76165" import="1">Art/mod_town1.fxsxml</File>
+    <File md5="E751979E7E52A604EA7784725196EDB7" import="1">Art/mod_town1.gr2</File>
+    <File md5="66918BD09A54E09647BD28387E08CC4A" import="1">Art/mod_town2.fxsxml</File>
+    <File md5="9038FF77933CDB7E274AA04240763EFB" import="1">Art/mod_town2.gr2</File>
+    <File md5="364339278C24B7D1D93AC3ED2197D652" import="1">Art/mod_town3.fxsxml</File>
+    <File md5="95C1FBA2ACC167F5699EFE30D16C9C5F" import="1">Art/mod_town3.gr2</File>
+    <File md5="3D1964968D4A3793DEB34A7774525D8C" import="1">Art/mod_town4.fxsxml</File>
+    <File md5="AF76552A0420C1C202CDC8A02D8215C8" import="1">Art/mod_town4.gr2</File>
+    <File md5="FDFDAF6A6CAC6FCA379EFA622EA2ACA2" import="1">Art/mod_town_decal_d.dds</File>
+    <File md5="943E528D220345A83CDE2AEB61A1D09E" import="1">Art/mod_town_decal_h.dds</File>
+    <File md5="3EC8353FC0570955963C14559403B83E" import="1">Art/mod_town_decal_s.dds</File>
+    <File md5="FFF1D0E923484CEED49C21B73D920F39" import="1">Art/mod_town_diff.dds</File>
+    <File md5="D1C172034F46DD95DB3E93BDD19C59FD" import="1">Art/mod_town_sref.dds</File>
+    <File md5="4DEADE23E6540FFB9D785623BB55CE46" import="1">Art/pl_med_town.dds</File>
+    <File md5="DA4FCEE11A154916BD26B4DEA1F10E28" import="1">Art/pl_med_town.gr2</File>
+    <File md5="44F380D0C92EB397B1DFD2088F596949" import="1">Art/pl_med_town1.fxsxml</File>
+    <File md5="5DD00C460AB457DE285E91EE4D1C4043" import="1">Art/pl_med_town1.gr2</File>
+    <File md5="5200F1C0D78FA49121B1CE5B1DFD47FB" import="1">Art/pl_med_town2.fxsxml</File>
+    <File md5="3C97A56AA934C57EC1AEFCBC3B63B53F" import="1">Art/pl_med_town2.gr2</File>
+    <File md5="DFD027A7E194D245BCC1722622C091EB" import="1">Art/pl_med_town3.fxsxml</File>
+    <File md5="6E06B0BFE2858A6C33BE9EA68B2CF17E" import="1">Art/pl_med_town3.gr2</File>
+    <File md5="EB85E5B11D7AC654C3CBC478B574CC6F" import="1">Art/pl_med_town4.fxsxml</File>
+    <File md5="FBD5A96E80B6DD0FD560A7EE845390EB" import="1">Art/pl_med_town4.gr2</File>
+    <File md5="302742E8A78FFCE9FA923CB9FE5AD979" import="1">Art/pl_med_town_decal_d.dds</File>
+    <File md5="B14DC354555E3761372D76F6A258F385" import="1">Art/pl_med_town_sref.dds</File>
+    <File md5="E99A43DEA212BBA8A7795F9402AF9ECA" import="1">Art/pl_mod_town1.fxsxml</File>
+    <File md5="971A32D6BDD3B83BEA82833D65748088" import="1">Art/pl_mod_town1.gr2</File>
+    <File md5="4AA966217E6746BE7F0EE13806126190" import="1">Art/pl_mod_town2.fxsxml</File>
+    <File md5="2731ADBB7A38E1AF0199F6F6BDC10A95" import="1">Art/pl_mod_town2.gr2</File>
+    <File md5="C5B8DD828EFEB74D228CD4A52E9747A6" import="1">Art/pl_mod_town3.fxsxml</File>
+    <File md5="A2572D79A94DA1D20418EBF734214D72" import="1">Art/pl_mod_town3.gr2</File>
+    <File md5="7C79A18D3DFC83E0BED7A6925C39889F" import="1">Art/pl_mod_town4.fxsxml</File>
+    <File md5="AB08DEBA037BB68E95BBA16F6FE04516" import="1">Art/pl_mod_town4.gr2</File>
+    <File md5="2E827FB56A989FECDE663D943662D89D" import="1">Art/pl_mod_town_decal_d.dds</File>
+    <File md5="30ADEC29EB03EB28568ABCD4EB004E4A" import="1">Art/pl_mod_town_diff.dds</File>
+	<File md5="84F62F10B1D01FACD29B2C07FD36A339" import="0">XML/GameText.xml</File>
+    <File md5="475B1505952986809CF80B5B22F62A63" import="0">XML/Trading Posts Upgrade.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/ArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameText.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Trading Posts Upgrade.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

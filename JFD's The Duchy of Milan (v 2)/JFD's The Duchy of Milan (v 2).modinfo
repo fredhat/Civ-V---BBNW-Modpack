@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c56c00de-d0fd-42c8-8858-b3094443184a" version="2">
+  <Properties>
+    <Name>JFD's The Duchy of Milan</Name>
+    <Teaser>Adds the Duchy of Milan civilization led by Gian Visconti to the game.</Teaser>
+    <Description>Adds the Duchy of Milan civilization to the game. Requires Brave New World.</Description>
+    <Authors>JFD, Janboruta, Sukritact</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="1496351EAA75B3B352FDDB451742BB33" import="1">Art/Diplomacy/Visconti_diplo.dds</File>
+    <File md5="1600428285F7D277750F14C111AF48E9" import="1">Art/Diplomacy/Visconti_Scene.xml</File>
+    <File md5="A846972D99C5138F5E73E802C9C852A6" import="1">Art/Graphics/sv_Ribault.dds</File>
+    <File md5="C2E53256C878707E9968E594C4344473" import="1">Art/Graphics/VolleyGun.fxsxml</File>
+    <File md5="12952FECA4223FC5AC901BF063480C61" import="1">Art/Graphics/VolleyGun.gr2</File>
+    <File md5="682937E06CDE80B8270521F61AE1296C" import="1">Art/Graphics/VolleyGun_diff.dds</File>
+    <File md5="1CA6FF6C51F0E018C570B857208859A6" import="1">Art/Graphics/VolleyGun_sref.dds</File>
+    <File md5="3136417C976C617D737937D66B3CBB73" import="1">Art/IconAtlas/JFD_MilanAlphaAtlas_128.dds</File>
+    <File md5="94AAF620F39872C6464C440364323DB1" import="1">Art/IconAtlas/JFD_MilanAlphaAtlas_16.dds</File>
+    <File md5="E27F460D2585069F6EEA25ADCA25DF83" import="1">Art/IconAtlas/JFD_MilanAlphaAtlas_22.dds</File>
+    <File md5="F209596601EC894DF674AFE20D7B46C0" import="1">Art/IconAtlas/JFD_MilanAlphaAtlas_24.dds</File>
+    <File md5="7C6FEA8F4F5B4FF3F4BA3A73BCB311D5" import="1">Art/IconAtlas/JFD_MilanAlphaAtlas_32.dds</File>
+    <File md5="A3F69DC837201EBA39B958F13D5524A4" import="1">Art/IconAtlas/JFD_MilanAlphaAtlas_45.dds</File>
+    <File md5="6543B42C8F646B655570C0E159C460A5" import="1">Art/IconAtlas/JFD_MilanAlphaAtlas_48.dds</File>
+    <File md5="EB4603F0A234A4A1D27BB61D0EF3E7E6" import="1">Art/IconAtlas/JFD_MilanAlphaAtlas_64.dds</File>
+    <File md5="1D411638E25CA7151B8EB01BA0A792F4" import="1">Art/IconAtlas/JFD_MilanAlphaAtlas_80.dds</File>
+    <File md5="FA45C2EA6B64DCF70AAF0762C8AEBD25" import="1">Art/IconAtlas/JFD_MilanAtlas_128.dds</File>
+    <File md5="A149440CD15CC3F446525C725B2A213B" import="1">Art/IconAtlas/JFD_MilanAtlas_256.dds</File>
+    <File md5="9D45850C1BCAA7F0D76BECF5BD91DED9" import="1">Art/IconAtlas/JFD_MilanAtlas_32.dds</File>
+    <File md5="2A443AEB69E30B4F5AC4D325DF9F4661" import="1">Art/IconAtlas/JFD_MilanAtlas_45.dds</File>
+    <File md5="F98F78E926F159681468062B0055C2E9" import="1">Art/IconAtlas/JFD_MilanAtlas_64.dds</File>
+    <File md5="A6ED35584A04F447911C26C3EAFDBEA4" import="1">Art/IconAtlas/JFD_MilanAtlas_80.dds</File>
+    <File md5="3C7EB8A70F1A9BB29964D6316D580CAF" import="1">Art/IconAtlas/JFD_RibaultUnitFlag_32.dds</File>
+    <File md5="3B59022AF9A00869868831647808B1B9" import="1">Art/Map/DOM_Visconti.dds</File>
+    <File md5="138656B4C2D9259607F4F443BCE30E4E" import="1">Art/Map/MapMilan512.dds</File>
+    <File md5="32151F36884E642A64BE224C1C5AB5BB" import="1">Audio/Visconti_Peace.mp3</File>
+    <File md5="ED849406544F8C817B1C215B9A278AF1" import="1">Audio/Visconti_War.mp3</File>
+    <File md5="27C0A174C161E16EB80668C6A6F97882" import="0">Core/JFD_Milan_ArtDefines.sql</File>
+    <File md5="029F0C9F81AB4485FFAF73CF712A3068" import="0">Core/JFD_Milan_GameDefines.sql</File>
+    <File md5="BC54DE5B773B8285153281C40C485E3B" import="0">Core/JFD_Milan_GameDefines_Diplomacy.sql</File>
+    <File md5="3AAD0E7909B4FEE3BC34461756E59592" import="0">Core/JFD_Milan_GameText.xml</File>
+    <File md5="CF99B03F3ECEE9F109E03C544769D74B" import="0">Core/JFD_Milan_GameText_Diplomacy.xml</File>
+    <File md5="E7E60C0295AA82D9DF8705EC5FB00181" import="0">Lua/JFD_Milan_Functions.lua</File>
+    <File md5="E7E60C0295AA82D9DF8705EC5FB00181" import="1">Lua/Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/JFD_Milan_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/JFD_Milan_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/JFD_Milan_GameDefines_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/JFD_Milan_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/JFD_Milan_GameText_Diplomacy.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Milan_Functions.lua">
+      <Name>JFD_MilanFunctions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

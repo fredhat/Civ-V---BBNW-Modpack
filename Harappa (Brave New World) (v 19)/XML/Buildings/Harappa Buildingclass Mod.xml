@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_HARAPPA_DUMMY_TRADE</Type>
+			<DefaultBuilding>BUILDING_HARAPPA_DUMMY_TRADE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HARAPPA_DUMMY_TRADE_DESC</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HARAPPA_DUMMY_HAPPY</Type>
+			<DefaultBuilding>BUILDING_HARAPPA_DUMMY_HAPPY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HARAPPA_DUMMY_TRADE_DESC</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HARAPPA_DUMMY_TRAIT</Type>
+			<DefaultBuilding>BUILDING_HARAPPA_DUMMY_TRAIT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HARAPPA_DUMMY_TRADE_DESC</Description>
+		</Row>
+	</BuildingClasses>
+</GameData>

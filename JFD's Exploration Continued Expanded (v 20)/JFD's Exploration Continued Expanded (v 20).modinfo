@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" version="20">
+  <Properties>
+    <Name>JFD's Exploration Continued Expanded</Name>
+    <Teaser>Adds various [COLOR_POSITIVE_TEXT]Exploration[ENDCOLOR] themed changes and effects to the game.</Teaser>
+    <Description>Overhauls the base game Exploration tree and adds the Smithsonian world wonder to the game. This is a heavily trimmed version of JFD's Exploration Continued Expanded due to the multiplayer instabilities tribes cause.</Description>
+    <Authors>JFD, Sukritact, Janboruta</Authors>
+    <SpecialThanks>Reedtilit, Regalman, Gazebo, Viregel, F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+   <Dependencies>
+	<Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="44" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="47BE0E872E5CB8287A4257B67187BF94" import="1">Components/Exploration/Art/FontIcons/Cedar_FontIcon.dds</File>
+    <File md5="EAD18BA22F86888D19C2506BF33521C1" import="1">Components/Exploration/Art/FontIcons/Feathers_FontIcon.dds</File>
+    <File md5="6B3559469E13447EC4379B1F6F00B667" import="1">Components/Exploration/Art/FontIcons/Ginger_FontIcon.dds</File>
+    <File md5="423A344C12A9479FF2C09B595F25B1E9" import="1">Components/Exploration/Art/FontIcons/JFD_CedarFontIcon_22.ggxml</File>
+    <File md5="7A28291E94CB09C8A2E99F410F2003AE" import="1">Components/Exploration/Art/FontIcons/JFD_FeathersFontIcon_22.ggxml</File>
+    <File md5="3B3DDDCCCF6C1EA5D29320162371CECF" import="1">Components/Exploration/Art/FontIcons/JFD_GingerFontIcon_22.ggxml</File>
+    <File md5="5F3EED8F1621947B4517D421598E33F3" import="1">Components/Exploration/Art/FontIcons/JFD_LotusFontIcon_22.ggxml</File>
+    <File md5="CCEA1DDF94E591DCE875228F6383F903" import="1">Components/Exploration/Art/FontIcons/JFD_ManuscriptsFontIcon_22.ggxml</File>
+    <File md5="094D75B92180855E6AD50193ED2C11CE" import="1">Components/Exploration/Art/FontIcons/JFD_OakFontIcon_22.ggxml</File>
+    <File md5="A75112C4A8C3825B78AEC902F23CC378" import="1">Components/Exploration/Art/FontIcons/JFD_ObsidianFontIcon_22.ggxml</File>
+    <File md5="1B2AC91DFE2A2FD8968225C62E08B100" import="1">Components/Exploration/Art/FontIcons/JFD_OpiumFontIcon_22.ggxml</File>
+    <File md5="3FE8425FAA4E64B182904922705C58DA" import="1">Components/Exploration/Art/FontIcons/JFD_RubberFontIcon_22.ggxml</File>
+    <File md5="C0C90BD95E64AF5CD18628F5CAE24C98" import="1">Components/Exploration/Art/FontIcons/JFD_SaffronFontIcon_22.ggxml</File>
+    <File md5="A72504DE3249710F045EAF34B0FE171F" import="1">Components/Exploration/Art/FontIcons/JFD_SulfurFontIcon_22.ggxml</File>
+    <File md5="DDC1473F497C12A0ACAED0CD56D1CF9C" import="1">Components/Exploration/Art/FontIcons/JFD_VanillaFontIcon_22.ggxml</File>
+    <File md5="09DB1FE07560FBA2343B1FB3691E12D5" import="1">Components/Exploration/Art/FontIcons/Lotus_FontIcon.dds</File>
+    <File md5="0FB66D1FD539F72F6AE03A3126879580" import="1">Components/Exploration/Art/FontIcons/Manuscripts_FontIcon.dds</File>
+    <File md5="EC9E04C3CC2CD4F9EE736F5BF8CC28D3" import="1">Components/Exploration/Art/FontIcons/Oak_FontIcon.dds</File>
+    <File md5="83D6E7E3F8CCE385B8922DA8BB8AF362" import="1">Components/Exploration/Art/FontIcons/Obsidian_FontIcon.dds</File>
+    <File md5="81D1BFCF21F4C4C43B5B4041BD74F296" import="1">Components/Exploration/Art/FontIcons/Opium_FontIcon.dds</File>
+    <File md5="54DD35439ABE0AD747F3171F3E324D11" import="1">Components/Exploration/Art/FontIcons/Rubber_FontIcon.dds</File>
+    <File md5="E2C64B9A498DBF474524C300750E3354" import="1">Components/Exploration/Art/FontIcons/Saffron_FontIcon.dds</File>
+    <File md5="178BD01199A6AF77CF72ADAC8BFE4723" import="1">Components/Exploration/Art/FontIcons/Sulphur_FontIcon.dds</File>
+    <File md5="F1C63559428985A650AAE2F0A3BEB686" import="1">Components/Exploration/Art/FontIcons/Vanilla_FontIcon.dds</File>
+    <File md5="480B2BC2DF69254A5F26102F62B460DD" import="1">Components/Exploration/Art/Graphics/Explorer/conquistador_musketman.dds</File>
+    <File md5="163CDF867415B69FD0EAB1A1216A7171" import="1">Components/Exploration/Art/Graphics/Explorer/conquistador_musketman_2.dds</File>
+    <File md5="279FC1F7C6615687E0368FF0A59A37CF" import="1">Components/Exploration/Art/Graphics/Explorer/conquistador_musketman_3.dds</File>
+    <File md5="75303B1580E2345C41C513245A61AA9B" import="1">Components/Exploration/Art/Graphics/Explorer/conquistador_musketman_gloss.dds</File>
+    <File md5="615B602250AD9F31C83E54401FAB425E" import="1">Components/Exploration/Art/Graphics/Explorer/conquistador_musket_1.fxsxml</File>
+    <File md5="8607CAE5DE8BC741AE849DB5F1E4C9BE" import="1">Components/Exploration/Art/Graphics/Explorer/conquistador_musket_1.gr2</File>
+    <File md5="DE3E68D7ECC88C45BA3DDE93769B13BE" import="1">Components/Exploration/Art/Graphics/Explorer/conquistador_musket_2.fxsxml</File>
+    <File md5="A9F73A8EB3E133ECC88E2E98D54E53FA" import="1">Components/Exploration/Art/Graphics/Explorer/conquistador_musket_2.gr2</File>
+    <File md5="2291E5B3992C4DD72FFD9AA5137040CC" import="1">Components/Exploration/Art/Graphics/Explorer/conquistador_musket_3.fxsxml</File>
+    <File md5="8B2BB0700175C72889F6322CF65221F5" import="1">Components/Exploration/Art/Graphics/Explorer/conquistador_musket_3.gr2</File>
+    <File md5="86601C5390F5E00A678F427508E43364" import="1">Components/Exploration/Art/Graphics/Explorer/conquistador_musket_4.fxsxml</File>
+    <File md5="7AA7FA7158633FCB58A19B1E13B90C1D" import="1">Components/Exploration/Art/Graphics/Explorer/conquistador_musket_4.gr2</File>
+    <File md5="BFA24C2399EE99BA10D3E6270ED1C50A" import="1">Components/Exploration/Art/Graphics/Explorer/sv_GreatRecon.dds</File>
+	<File md5="722724ED2400B91179D5CED0192C1DFB" import="1">Components/Exploration/Art/Graphics/Explorer/sv_Adventurer.dds</File>
+    <File md5="4E619175C0B48768A94533CAC7D6396B" import="1">Components/Exploration/Art/Graphics/Explorer/vet_conquistador_musketman.dds</File>
+    <File md5="03F466FBFA068FD4D33950CF16CF0C46" import="1">Components/Exploration/Art/Graphics/Explorer/vet_conquistador_musketman_gloss.dds</File>
+    <File md5="186A13CB538E58A1FCC43CEDB2452AF4" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/pinetrees.fxsxml</File>
+    <File md5="F39E5F6A01CCE8971590BAA97C3AE84B" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/pinetrees.gr2</File>
+    <File md5="2AD56813BBDCAA3670E957705F3A9ABA" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/pine_trees_diff.dds</File>
+    <File md5="72BBDB1CE9F400C1B3478D093BB2A63D" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/pine_trees_pil_diff.dds</File>
+    <File md5="9D560DBBDFC52541BE9E738461AB1B38" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/pine_trees_sref.dds</File>
+    <File md5="4D54EEBDAADA24BED4EFF476517F7684" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/plantation_ind_pinetrees.fxsxml</File>
+    <File md5="523918875D6AFAEA5C728DB3B32BF7D8" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/plantation_ind_pinetrees.gr2</File>
+    <File md5="E0D4B0D9525123FC963D375D46FCA4AE" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/plantation_ind_pinetrees_hb.fxsxml</File>
+    <File md5="7FAEED93F7EE91BD93412166C7881221" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/plantation_ind_pinetrees_hb.gr2</File>
+    <File md5="7E3AD83DA7ED7ECD391625F9F35AE746" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/plantation_ind_pinetrees_pil.fxsxml</File>
+    <File md5="88137ACE51E2C1CAEAD85FE1255BB206" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/plantation_ind_pinetrees_pil.gr2</File>
+    <File md5="9C8F25CC42C932E8243E33DB5B5D9B85" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/plantation_mid_pinetrees.fxsxml</File>
+    <File md5="EE7A3920C486B4194E0F4E0EB6E20847" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/plantation_mid_pinetrees.gr2</File>
+    <File md5="721EC362AB7C7873E53E0FF30AD81758" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/plantation_mid_pinetrees_hb.fxsxml</File>
+    <File md5="20037EDC081FA69012B5317353CCF851" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/plantation_mid_pinetrees_hb.gr2</File>
+    <File md5="C94DAC3D8DD0996B7FCC249FAAD12515" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/plantation_mid_pinetrees_pil.fxsxml</File>
+    <File md5="BE87CA420BCE4FDE465640C884F52E3B" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/plantation_mid_pinetrees_pil.gr2</File>
+    <File md5="691B268FB43AAF5680983810A464171B" import="1">Components/Exploration/Art/Graphics/Resources/Cedar/sv_Cedar.dds</File>
+    <File md5="37A700288166808D4A4AE0FDFD0B79A9" import="1">Components/Exploration/Art/Graphics/Resources/Feathers/feathers.fxsxml</File>
+    <File md5="093E72452142412CBD52AA7C81BDB8FA" import="1">Components/Exploration/Art/Graphics/Resources/Feathers/feathers.gr2</File>
+    <File md5="0DEA1A12E0D05FA59C74EDA579E2058A" import="1">Components/Exploration/Art/Graphics/Resources/Feathers/Seagul01_diff.dds</File>
+    <File md5="571C9CE03723BF8D41FFF40DB91E315B" import="1">Components/Exploration/Art/Graphics/Resources/Feathers/sv_Feathers.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/fx_triggers_pl_plantation_ind_ginger.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/fx_triggers_pl_plantation_mid_ginger.ftsxml</File>
+    <File md5="B6D41CD0CBE5A6D3098BE8704FEA1749" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/ginger_diff.dds</File>
+    <File md5="B27A2B6D05261F9AC58DCB266F5EBBFF" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/ginger_sref.dds</File>
+    <File md5="B8129183862638EEE85BA9C88796A0CA" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/hb_plantation_ind_ginger.fxsxml</File>
+    <File md5="B903F56399B7E988A2738B6D1537464F" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/hb_plantation_ind_ginger.gr2</File>
+    <File md5="C0E22BD14AD02C335E30334BB2C47E88" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/hb_plantation_mid_ginger.fxsxml</File>
+    <File md5="BAAB2D0C145017F06FFC6ED83F016BBF" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/hb_plantation_mid_ginger.gr2</File>
+    <File md5="5BDD5D4ED323F19D6337183DC1A1B5A9" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/plantation_ind_ginger.fxsxml</File>
+    <File md5="C382CF5F7AD6C098371CF4F0ECC9ECD5" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/plantation_ind_ginger.gr2</File>
+    <File md5="C7FD54D9983F6949FF8B590478C45C8A" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/plantation_mid_ginger.fxsxml</File>
+    <File md5="F616EBBC2BCEBFA5C6354B6015F7B670" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/plantation_mid_ginger.gr2</File>
+    <File md5="96D2464E1B6FE8636F2E498C8175F897" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/pl_ginger_diff.dds</File>
+    <File md5="F224B3E8930B604DF3C0873A9723584B" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/pl_plantation_ind_ginger.fxsxml</File>
+    <File md5="14FF34902C1D672BB426EC23414B5786" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/pl_plantation_ind_ginger.gr2</File>
+    <File md5="882E63E67E44E34C8A8D7BDF83AFBBBD" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/pl_plantation_mid_ginger.fxsxml</File>
+    <File md5="74493792D15C506E33A0A05318A09B31" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/pl_plantation_mid_ginger.gr2</File>
+    <File md5="6C906C33EFA1BE1CB2F76AF608FB85C8" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/resource_ginger.fxsxml</File>
+    <File md5="FD2A4C2D10C553A5EB888B411B1E9BFA" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/resource_ginger.gr2</File>
+    <File md5="1344B7BE3C74A7B17AC55EC8EF9F8249" import="1">Components/Exploration/Art/Graphics/Resources/Ginger/sv_Ginger.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/fx_triggers_pl_plantation_ind_lotus.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/fx_triggers_pl_plantation_mid_lotus.ftsxml</File>
+    <File md5="8A09525F8BF6E0116B22EE933333D337" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/hb_plantation_ind_lotus.fxsxml</File>
+    <File md5="7061A48775686DAD3192410C15DE4800" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/hb_plantation_ind_lotus.gr2</File>
+    <File md5="2EB8B56BEFD7155A5A3EC9C133D1401B" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/hb_plantation_mid_lotus.fxsxml</File>
+    <File md5="3959204B9F7F39F396671DF547348A97" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/hb_plantation_mid_lotus.gr2</File>
+    <File md5="D99A56CCB65640450FC0FE44DD6D12AD" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/lotus_diff.dds</File>
+    <File md5="7A65FF423A9C86AA891C723B6014402D" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/lotus_sref.dds</File>
+    <File md5="750B89F02935E7E780DE0CAA725B1B48" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/plantation_ind_lotus.fxsxml</File>
+    <File md5="AA1373878B717A0313346ABAB704AF61" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/plantation_ind_lotus.gr2</File>
+    <File md5="9295037847954855DDFEA0EE01EFE25C" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/plantation_mid_lotus.fxsxml</File>
+    <File md5="64BDCAB0325D4E3132FFA683ECFB0728" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/plantation_mid_lotus.gr2</File>
+    <File md5="A32DD58A66ABE235225DF8A43F53445F" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/pl_lotus_diff.dds</File>
+    <File md5="7137C9900312760E77C1DB9432B5F590" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/pl_plantation_ind_lotus.fxsxml</File>
+    <File md5="6ED6060D2234265CE612574CB6EF495D" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/pl_plantation_ind_lotus.gr2</File>
+    <File md5="619DC4D5F01A1CBD36D55BBE256FB47A" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/pl_plantation_mid_lotus.fxsxml</File>
+    <File md5="7E33B3A351ED932B38CBC4B643B52D27" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/pl_plantation_mid_lotus.gr2</File>
+    <File md5="9CF2E0B6CAC96D61B067672A4D00184F" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/resource_lotus.fxsxml</File>
+    <File md5="347A5666D5FAE940B7CB7E5E6B6A8D05" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/resource_lotus.gr2</File>
+    <File md5="E2FDA7E31CC6669869DBC912EB51E9A9" import="1">Components/Exploration/Art/Graphics/Resources/Lotus/sv_Lotus.dds</File>
+    <File md5="842911CF123F89E2E6A50624DA631647" import="1">Components/Exploration/Art/Graphics/Resources/Oak/lumbertrees.fxsxml</File>
+    <File md5="34697933881E50A127DFAC2075887EA2" import="1">Components/Exploration/Art/Graphics/Resources/Oak/lumbertrees.gr2</File>
+    <File md5="043C2F8D03684607C5ED0A3DB83F559F" import="1">Components/Exploration/Art/Graphics/Resources/Oak/lumber_trees_diff.dds</File>
+    <File md5="EDD72511A7232E7156576EDC6F4CCD38" import="1">Components/Exploration/Art/Graphics/Resources/Oak/lumber_trees_pil_diff.dds</File>
+    <File md5="FEAC8E23696F56A7D384BD25358B9A73" import="1">Components/Exploration/Art/Graphics/Resources/Oak/lumber_trees_sref.dds</File>
+    <File md5="D63D4243E6CCCF9E4537FCC8328D38CB" import="1">Components/Exploration/Art/Graphics/Resources/Oak/plantation_ind_lumbertrees.fxsxml</File>
+    <File md5="9F98FB00E3780B5EA7A52F4EAED2BC7D" import="1">Components/Exploration/Art/Graphics/Resources/Oak/plantation_ind_lumbertrees.gr2</File>
+    <File md5="CB9D48440327358F9F36781588082B50" import="1">Components/Exploration/Art/Graphics/Resources/Oak/plantation_ind_lumbertrees_hb.fxsxml</File>
+    <File md5="E05C7D50223E36CF8F87D4254B8AB41D" import="1">Components/Exploration/Art/Graphics/Resources/Oak/plantation_ind_lumbertrees_hb.gr2</File>
+    <File md5="968E5A7FB649078434E72EE527F49404" import="1">Components/Exploration/Art/Graphics/Resources/Oak/plantation_ind_lumbertrees_pil.fxsxml</File>
+    <File md5="5DB3DF084B4AA92DCF5128ACDD6B7ABF" import="1">Components/Exploration/Art/Graphics/Resources/Oak/plantation_ind_lumbertrees_pil.gr2</File>
+    <File md5="C8AA04605C0CF51BC5ACF077B9BC49B6" import="1">Components/Exploration/Art/Graphics/Resources/Oak/plantation_mid_lumbertrees.fxsxml</File>
+    <File md5="5D97BD205909B16548C6C4F267AD236E" import="1">Components/Exploration/Art/Graphics/Resources/Oak/plantation_mid_lumbertrees.gr2</File>
+    <File md5="5840EAD90FFD112052F30B61F70DF68A" import="1">Components/Exploration/Art/Graphics/Resources/Oak/plantation_mid_lumbertrees_hb.fxsxml</File>
+    <File md5="AD4FD423C84A24A90EEC98367D772960" import="1">Components/Exploration/Art/Graphics/Resources/Oak/plantation_mid_lumbertrees_hb.gr2</File>
+    <File md5="26E5F31EB45FA36B3351C3C8FC92682B" import="1">Components/Exploration/Art/Graphics/Resources/Oak/plantation_mid_lumbertrees_pil.fxsxml</File>
+    <File md5="3BB25E073FD110B439235389E2A6662D" import="1">Components/Exploration/Art/Graphics/Resources/Oak/plantation_mid_lumbertrees_pil.gr2</File>
+    <File md5="B40B0F870FAB43D8AB1617D02CE5FBFD" import="1">Components/Exploration/Art/Graphics/Resources/Oak/sv_Oak.dds</File>
+    <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/fx_triggers_pl_ind_mine_obsidian.ftsxml</File>
+    <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/fx_triggers_pl_med_mine_obsidian.ftsxml</File>
+    <File md5="08D2A2F990B83B1B96DCD5D35E70774E" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/hb_ind_obsidian_mine.fxsxml</File>
+    <File md5="E8E45021EDD2670E80FDCCB8B0E200A8" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/hb_ind_obsidian_mine.gr2</File>
+    <File md5="7608FD65E22FE833F24071F81945027B" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/hb_med_obsidian_mine.fxsxml</File>
+    <File md5="9F548190561246712E37D2D432B1BDB1" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/hb_med_obsidian_mine.gr2</File>
+    <File md5="E232D444982045497BCB4F6AE6DF6409" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/ind_mine_obsidian.fxsxml</File>
+    <File md5="DFD4EE12D5394ECD674AC3D6683F63F7" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/ind_mine_obsidian.gr2</File>
+    <File md5="975DF4D9AB1B757E6E9349C7EC4F5063" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/med_mine_obsidian.fxsxml</File>
+    <File md5="0D8651510E5745EE8FAB480EBAC26758" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/med_mine_obsidian.gr2</File>
+    <File md5="778EDFA03598877A0C21319137616B68" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/med_obsidian_mine.fxsxml</File>
+    <File md5="28E5299F581B709311E44D745F2959A9" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/med_obsidian_mine.gr2</File>
+    <File md5="A094B1AA2A9258DF039CFB2B4B0DBB38" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/mine_obsidian_decal_d.dds</File>
+    <File md5="70486A10096F9DE9FA2BE1F1AC5CD8F4" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/obsidian.fxsxml</File>
+    <File md5="2857C099E2F100EA5982FECEE0DF39B9" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/obsidian.gr2</File>
+    <File md5="A7E37A541787F3F6CD53A8D32E67F695" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/obsidian_decal_diff.dds</File>
+    <File md5="CAFA6E2B3C6E35B5D9E79DE917236BD1" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/obsidian_ore_diff.dds</File>
+    <File md5="779F11DEF78BA1903B838CA0870A0011" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/obsidian_ore_sref.dds</File>
+    <File md5="34ADE0678BF8DFD1C441CCF748CEA005" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/obsidian_rubble_diff.dds</File>
+    <File md5="9C16DA175E7AC47BED8F6C86F6E8F400" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/pl_ind_mine_obsidian.fxsxml</File>
+    <File md5="DC4B2D31921175854EBAA228CF6C41E1" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/pl_ind_mine_obsidian.gr2</File>
+    <File md5="1B145770AB59E6F6008F53F0874173D5" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/pl_med_mine_obsidian.fxsxml</File>
+    <File md5="8F5B2AD6970CE71D196E13D7AED2D2F7" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/pl_med_mine_obsidian.gr2</File>
+    <File md5="6CD9429BCE27E9F4A25FF77DD995966E" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/pl_mine_obsidian_decal_d.dds</File>
+    <File md5="DA8FC57FDF4AFE973B2156FF1CEDC3B6" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/pl_mine_sulfur_decal_d.dds</File>
+    <File md5="C05092026AB2C8F7952D68C0C34C2C1A" import="1">Components/Exploration/Art/Graphics/Resources/Obsidian/sv_Obsidian.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Components/Exploration/Art/Graphics/Resources/Opium/fx_triggers_pl_plantation_ind_poppy.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Components/Exploration/Art/Graphics/Resources/Opium/fx_triggers_pl_plantation_mid_poppy.ftsxml</File>
+    <File md5="E125C040BC1D10CCF4389D3B404C01FC" import="1">Components/Exploration/Art/Graphics/Resources/Opium/hb_plantation_ind_poppy.fxsxml</File>
+    <File md5="8A57C78A8777E68E463BF5C4E2EBCBE9" import="1">Components/Exploration/Art/Graphics/Resources/Opium/hb_plantation_ind_poppy.gr2</File>
+    <File md5="56C656D8DDFF71F10DC2B7AA66B3978D" import="1">Components/Exploration/Art/Graphics/Resources/Opium/hb_plantation_mid_poppy.fxsxml</File>
+    <File md5="69E75D4183979DCC027C0D2F894793C6" import="1">Components/Exploration/Art/Graphics/Resources/Opium/hb_plantation_mid_poppy.gr2</File>
+    <File md5="12DF3F50DB6A82E0C8371D28D7A46FEB" import="1">Components/Exploration/Art/Graphics/Resources/Opium/plantation_ind_poppy.fxsxml</File>
+    <File md5="E1E51889D8DC2F47891A6A799FCA5AF1" import="1">Components/Exploration/Art/Graphics/Resources/Opium/plantation_ind_poppy.gr2</File>
+    <File md5="B0D52FC7C699D0D8129E0A2DBFBBF50B" import="1">Components/Exploration/Art/Graphics/Resources/Opium/plantation_mid_poppy.fxsxml</File>
+    <File md5="D66D0EE4F910BF0D8294B532C44B5F5C" import="1">Components/Exploration/Art/Graphics/Resources/Opium/plantation_mid_poppy.gr2</File>
+    <File md5="A706342C69CDE1DD3E8008769EA01CF2" import="1">Components/Exploration/Art/Graphics/Resources/Opium/pl_plantation_ind_poppy.fxsxml</File>
+    <File md5="743894E6365BCC0774DD521DC79BFF4A" import="1">Components/Exploration/Art/Graphics/Resources/Opium/pl_plantation_ind_poppy.gr2</File>
+    <File md5="FA87B6CFC7B203230478AA5925CD8A2B" import="1">Components/Exploration/Art/Graphics/Resources/Opium/pl_plantation_mid_poppy.fxsxml</File>
+    <File md5="1740E350EFD70996BCC7363EF4996173" import="1">Components/Exploration/Art/Graphics/Resources/Opium/pl_plantation_mid_poppy.gr2</File>
+    <File md5="A5717AFA815BE0AF8C48D12B5ECD34DB" import="1">Components/Exploration/Art/Graphics/Resources/Opium/pl_poppy_diff.dds</File>
+    <File md5="2FCC9AC31987AB9A9A7FC87991D914AE" import="1">Components/Exploration/Art/Graphics/Resources/Opium/poppy_diff.dds</File>
+    <File md5="47859DD389079CE23A0F7841B12364B3" import="1">Components/Exploration/Art/Graphics/Resources/Opium/poppy_sref.dds</File>
+    <File md5="8533982C3A52734F4C3AE15568F0B734" import="1">Components/Exploration/Art/Graphics/Resources/Opium/resource_poppy.fxsxml</File>
+    <File md5="52AF96DC02FF88A69A813E02938FC4A5" import="1">Components/Exploration/Art/Graphics/Resources/Opium/resource_poppy.gr2</File>
+    <File md5="C7E896203A9A3AA8C6A7A73AF04CE094" import="1">Components/Exploration/Art/Graphics/Resources/Opium/sv_Opium.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/fx_triggers_pl_plantation_ind_rubber.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/fx_triggers_pl_plantation_mid_rubber.ftsxml</File>
+    <File md5="DD234FC4F118115E04D9DC342D825D54" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/hb_plantation_ind_rubber.fxsxml</File>
+    <File md5="EC3A779E5F28DAC7D3244889804072B3" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/hb_plantation_ind_rubber.gr2</File>
+    <File md5="035C3618C7D0ECC4DD0DE968897F7FD4" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/hb_plantation_mid_rubber.fxsxml</File>
+    <File md5="E84BD5F0E393BEC0E2FCC91F32A02E61" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/hb_plantation_mid_rubber.gr2</File>
+    <File md5="C225B491884EB2680166DD411624087F" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/plantation_ind_rubber.fxsxml</File>
+    <File md5="09B9CACBCA2FCB6598C62A0BBE5108CC" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/plantation_ind_rubber.gr2</File>
+    <File md5="10611FBBC7053BF2F8387EFB866ABE06" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/plantation_mid_rubber.fxsxml</File>
+    <File md5="50A5D70AC055F7598531B10CCBE9D91F" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/plantation_mid_rubber.gr2</File>
+    <File md5="F1C4CCC9F3CB8DDCDB68C42616885FC3" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/pl_plantation_ind_rubber.fxsxml</File>
+    <File md5="15CF3E261C6C5CCBEAC758456E62CB46" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/pl_plantation_ind_rubber.gr2</File>
+    <File md5="EAEEB2108C5F7469A7DAE3FE5534AB7D" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/pl_plantation_mid_rubber.fxsxml</File>
+    <File md5="2C2908A586ED384C971709C1C426CC4C" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/pl_plantation_mid_rubber.gr2</File>
+    <File md5="8513325D7A8FAFF6303997B0D75111AE" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/pl_resource_rubber_02_diff.dds</File>
+    <File md5="AEEC05D2ACB83A6D7151A95A346A594C" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/resource_rubber.fxsxml</File>
+    <File md5="7F07EBF8415BDA6C4BD3C9E1F6EDD0B5" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/resource_rubber.gr2</File>
+    <File md5="C619AA4A00B6F0C21E4C089EC244A83E" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/resource_rubber_02_diff.dds</File>
+    <File md5="FA6E1ECB427718A7546D9C6C5E427D7D" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/resource_rubber_02_sref.dds</File>
+    <File md5="43A6770C1906BBA309C7A9895391EC1B" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/rubber_ground_d.dds</File>
+    <File md5="FFB6AE60EA9F811D71563B52D4D84946" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/rubber_ground_h.dds</File>
+    <File md5="F5B8F08B0448181563BFFADAB9E26B25" import="1">Components/Exploration/Art/Graphics/Resources/Rubber/sv_Rubber.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/fx_triggers_pl_plantation_ind_saffron.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/fx_triggers_pl_plantation_mid_saffron.ftsxml</File>
+    <File md5="0DEF6FEEC6222302E4686F98DCD1A5E8" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/hb_plantation_ind_saffron.fxsxml</File>
+    <File md5="267483F61402CF08C608E31D1101756F" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/hb_plantation_ind_saffron.gr2</File>
+    <File md5="1488AD26D406BCE39D4E2301617DB501" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/hb_plantation_mid_saffron.fxsxml</File>
+    <File md5="CE2A513CDE5F04E35C08ED612B235CA8" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/hb_plantation_mid_saffron.gr2</File>
+    <File md5="F1C8C92224DA3734EEB81801B54456C2" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/plantation_ind_saffron.fxsxml</File>
+    <File md5="800DB7D38CDB97C8A26262C976A53B10" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/plantation_ind_saffron.gr2</File>
+    <File md5="21F4DAFF4C123B6E3D5467516BA15FB8" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/plantation_mid_saffron.fxsxml</File>
+    <File md5="4B66751786A26795CDE7656F53541850" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/plantation_mid_saffron.gr2</File>
+    <File md5="93E75842DC71818DCE1B91C770661333" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/pl_plantation_ind_saffron.fxsxml</File>
+    <File md5="04B84C626D1D8A9CFF866EB0EDB64E1E" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/pl_plantation_ind_saffron.gr2</File>
+    <File md5="083DCDD73AFF3F2F8763C24269C57506" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/pl_plantation_mid_saffron.fxsxml</File>
+    <File md5="CB6D77DB716F9919E5E49CDD66E7ADC1" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/pl_plantation_mid_saffron.gr2</File>
+    <File md5="15C911F69A7134B8325BEB0B227688DF" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/pl_saffron_diff.dds</File>
+    <File md5="43351D635AA4B4122B20CD80206C7B5F" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/resource_saffron.fxsxml</File>
+    <File md5="6EEF458B08212CA0441C5910C6FFDE0E" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/resource_saffron.gr2</File>
+    <File md5="EE3967E57EA67E8BFB911E0BC277C48B" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/saffron_diff.dds</File>
+    <File md5="D95134D01553532E139A5D72BA5261EA" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/saffron_sref.dds</File>
+    <File md5="3FE6F59D42DC12244C1586BD56EEBF01" import="1">Components/Exploration/Art/Graphics/Resources/Saffron/sv_Saffron.dds</File>
+    <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/fx_triggers_pl_ind_mine_sulfur.ftsxml</File>
+    <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/fx_triggers_pl_med_mine_sulfur.ftsxml</File>
+    <File md5="A2F55FD80DAC250E7660B2CC41BFFA64" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/GrandCanal_Splash.dds</File>
+    <File md5="F547C4A7EC808DB4E407F87321D20865" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/hb_ind_sulfur_mine.fxsxml</File>
+    <File md5="EE23474DC2904AB8C1A726DF03BCC1D8" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/hb_ind_sulfur_mine.gr2</File>
+    <File md5="1AE20049209CB85C758B92CFEF69ABB3" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/hb_med_sulfur_mine.fxsxml</File>
+    <File md5="76949FF459E8B06E908F809D28CB2720" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/hb_med_sulfur_mine.gr2</File>
+    <File md5="984735DBD32A482FF1E86C8FAD393A05" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/ind_mine_sulfur.fxsxml</File>
+    <File md5="42AA4061EF905EC255CF56ADF08E8D99" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/ind_mine_sulfur.gr2</File>
+    <File md5="0FE5E165D9CCCD87442BA8624099A4B3" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/med_mine_sulfur.fxsxml</File>
+    <File md5="585EED48E462A83270EB23F98AF9097B" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/med_mine_sulfur.gr2</File>
+    <File md5="9E40F4B8B1EF30B1CF72B42D6771F12E" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/med_sulfur_mine.fxsxml</File>
+    <File md5="B6586614157C715912F6BC468EF338AF" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/med_sulfur_mine.gr2</File>
+    <File md5="33292001872235B2EB0C6CC575855B1F" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/mine_sulfur_decal_d.dds</File>
+    <File md5="8CED45593F754F0202E48F909A75191E" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/pl_ind_mine_sulfur.fxsxml</File>
+    <File md5="ACAE8554B0141623AB38CA11D32DAB6D" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/pl_ind_mine_sulfur.gr2</File>
+    <File md5="F8E9A5C73AFA7F4E38E0A69E48390D72" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/pl_med_mine_sulfur.fxsxml</File>
+    <File md5="0DE9284CEE0F8EAA50B02E270407C291" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/pl_med_mine_sulfur.gr2</File>
+    <File md5="DA8FC57FDF4AFE973B2156FF1CEDC3B6" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/pl_mine_sulfur_decal_d.dds</File>
+    <File md5="97551FDA6C9583D0CD969460D3E6F8B0" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/sulfur.fxsxml</File>
+    <File md5="E2B807F101E70B9467FF55A3B1860AE1" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/sulfur.gr2</File>
+    <File md5="C70B957E752461B13A77FDF4E1CD89F9" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/sulfur_decal_diff.dds</File>
+    <File md5="A7C23080957C66F6CA3358723CC504AD" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/sulfur_ore_diff.dds</File>
+    <File md5="779F11DEF78BA1903B838CA0870A0011" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/sulfur_ore_sref.dds</File>
+    <File md5="38C60DDBA5A1E7702DA0B1B46CF9DC99" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/sulfur_rubble_diff.dds</File>
+    <File md5="8C599F807B97174D9869D64532D655E2" import="1">Components/Exploration/Art/Graphics/Resources/Sulfur/SV_Sulfur.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/fx_triggers_pl_plantation_ind_vanilla.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/fx_triggers_pl_plantation_mid_vanilla.ftsxml</File>
+    <File md5="D6E1F332FA10E53382D9021BA448ABAA" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/hb_plantation_ind_vanilla.fxsxml</File>
+    <File md5="28B80A41B7867CB1DCE296B9CBB391A5" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/hb_plantation_ind_vanilla.gr2</File>
+    <File md5="47F16FDE862E08062DFB9D5A0712CC87" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/hb_plantation_mid_vanilla.fxsxml</File>
+    <File md5="E566735858DDD13C327A99428A95F580" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/hb_plantation_mid_vanilla.gr2</File>
+    <File md5="4329E6B8F7092D20B437B6E91F1FA4EB" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/plantation_ind_vanilla.fxsxml</File>
+    <File md5="8DDDDD64A8BD47E7478D25DFB4DDEADC" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/plantation_ind_vanilla.gr2</File>
+    <File md5="AAC24E87F7A8CE3381E7A647A862DCF7" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/plantation_mid_vanilla.fxsxml</File>
+    <File md5="81A956C7399A706B492A0336B3080C0B" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/plantation_mid_vanilla.gr2</File>
+    <File md5="C40E9831B59B1FF31D059B3EDB49E788" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/pl_plantation_ind_vanilla.fxsxml</File>
+    <File md5="754FB357D5735F767981387EBED33295" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/pl_plantation_ind_vanilla.gr2</File>
+    <File md5="27556440329B5FF06FED38D507270DEE" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/pl_plantation_mid_vanilla.fxsxml</File>
+    <File md5="C1901AE24894FF68766B0518D07A186A" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/pl_plantation_mid_vanilla.gr2</File>
+    <File md5="ED7BD2CC0BF96BE0E91D1AD942BE513F" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/pl_vanilla_diff.dds</File>
+    <File md5="55710B3291E802A6F6B1133F9BC05D0A" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/resource_vanilla.fxsxml</File>
+    <File md5="CF72B17E8B52F9EE341FC22E96AE2239" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/resource_vanilla.gr2</File>
+    <File md5="2BE1662B4C83D572A1F842E862C13630" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/sv_Vanilla.dds</File>
+    <File md5="49A5943F4854540BE1D29D2B0C2705C8" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/vanilla_diff.dds</File>
+    <File md5="0925BF0FCC784E9006D37A17667C7463" import="1">Components/Exploration/Art/Graphics/Resources/Vanilla/vanilla_sref.dds</File>
+    <File md5="263B229D695F2912ECE5D66D4044120B" import="1">Components/Exploration/Art/IconAtlas/JFD_AdventurerUnitFlag_32.dds</File>
+    <File md5="8BE2DFD37200E136C63E8C3F1DF28474" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorerUnitFlag_32.dds</File>
+    <File md5="FDA2EBCF2AE36ECAC89C91B5C265DB85" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationResources_128.dds</File>
+    <File md5="83F159D95F74E6DEA26B41CFD02FACEA" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationResources_256.dds</File>
+    <File md5="D63DEBA692E5AE29130B54A22F098EE1" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationResources_45.dds</File>
+    <File md5="00B4D793E72BB8E4C5A12FC5D642A05F" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationResources_64.dds</File>
+    <File md5="69882C1588D9AD3B760BD7AAD2CC744E" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationResources_80.dds</File>
+    <File md5="32D52C9CE868E4C128373EA26B841BC2" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationUnits_128.dds</File>
+    <File md5="8A9C6EE639C8E26825FC513015B12AE2" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationUnits_256.dds</File>
+    <File md5="BA64B4C527F394D8385FCCB2DE71CADD" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationUnits_32.dds</File>
+    <File md5="4385C8B5362B497EB67F1F7BEAE5343A" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationUnits_45.dds</File>
+    <File md5="013CF397B201EB83220508889B89D5F6" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationUnits_64.dds</File>
+    <File md5="7EE4BE01DEBD3C7CDDCFA3988BB9FC26" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationUnits_80.dds</File>
+    <File md5="13092CD97C307F129E965FCACFCFC498" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationWonders_128.dds</File>
+    <File md5="B255A020CE60ABC1E35BDA2F9FF7D714" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationWonders_256.dds</File>
+    <File md5="191852DCE1D3B31D7CC2F6127035CA22" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationWonders_45.dds</File>
+    <File md5="6B3733F71D2F6052A0BA0FD7541776AD" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationWonders_64.dds</File>
+    <File md5="DC1313161CF7EEDFEB30158484478FBB" import="1">Components/Exploration/Art/IconAtlas/JFD_ExplorationWonders_80.dds</File>
+    <File md5="7882DB3F00C6C815B6243E8A5A1F4176" import="1">Components/Exploration/Art/Images/Wonders/Wonder_BelemTower.dds</File>
+    <File md5="6FE1156E6A62FC4E51CD5FFC971B7978" import="1">Components/Exploration/Audio/Wonder_BelemTower.mp3</File>
+    <File md5="30B28FCD573F26DC51DFBE554C2D25B1" import="0">Components/Exploration/Core/Exploration_ArtDefines.sql</File>
+    <File md5="C59C63A248D5A044442379678FF3E877" import="0">Components/Exploration/Core/Exploration_Buildings.sql</File>
+    <File md5="691D83D4CAA70540A43741701C195A96" import="0">Components/Exploration/Core/Exploration_GameText.xml</File>
+    <File md5="0EB2FAA1B7B5768B0B23D42AC8CEFCD6" import="0">Components/Exploration/Core/Exploration_Improvements.sql</File>
+    <File md5="0FD986EE07DBB81091899E7DB941FE49" import="0">Components/Exploration/Core/Exploration_Policies.sql</File>
+    <File md5="D63F8190FF947692B3C6E90B4025CF03" import="0">Components/Exploration/Core/Exploration_Promotions.sql</File>
+    <File md5="285CCD0427BEAF20EF1E78787005C15D" import="0">Components/Exploration/Core/Exploration_Resources.sql</File>
+    <File md5="2E21810C4A8C69BCFC5EB260709D4E1A" import="0">Components/Exploration/Core/Exploration_Units.sql</File>
+    <File md5="725859626DF5168A790D0033356CB735" import="0">Components/Exploration/Lua/JFD_ExCE_Exploration_Functions.lua</File>
+    <File md5="77CBEF3F8D44342FD7DA8F17E891C55A" import="1">Components/Tribes/Art/IconAtlas/JFD_TribesWonder_128.dds</File>
+    <File md5="486C1576CD03ADA0D24761B4C5CE51FF" import="1">Components/Tribes/Art/IconAtlas/JFD_TribesWonder_256.dds</File>
+    <File md5="23F041602F4436B0E3E90A50D16CF586" import="1">Components/Tribes/Art/IconAtlas/JFD_TribesWonder_45.dds</File>
+    <File md5="E522BB06B7196C09FEB40271DCB42F53" import="1">Components/Tribes/Art/IconAtlas/JFD_TribesWonder_64.dds</File>
+    <File md5="F7A58C870D5F87A984DEBD5929026416" import="1">Components/Tribes/Art/IconAtlas/JFD_TribesWonder_80.dds</File>
+    <File md5="F2C71619278BE0854D5C9AA0D4500F1F" import="1">Components/Tribes/Art/Images/Wonders/Wonder_Smithsonian.dds</File>
+    <File md5="3EE98FC89313AD32E3D92614F1D4FCEB" import="1">Components/Tribes/Audio/Wonder_Smithsonian.mp3</File>
+    <File md5="5DC1441B72D4D75995AFDCC7A64D44D6" import="0">Components/Tribes/Core/Tribes_ArtDefines.sql</File>
+    <File md5="475C54167D57852B6222C4770E54CDEE" import="0">Components/Tribes/Core/Tribes_Buildings.sql</File>
+    <File md5="DE6E7A493B9DC5279DAA4B1AF4873CAD" import="0">Components/Tribes/Core/Tribes_GameText.xml</File>
+    <File md5="C379A931ABCA8CABAFA25184B4C9DF07" import="0">Shared/ExCE_GameText.xml</File>
+    <File md5="70EA39DDADA19F3B12BF9708B8D65EA0" import="1">Shared/Lua/Utilities/JFD_ExCEUtilities.lua</File>
+    <File md5="00650B1FF67713C4C601031ECECBE0D9" import="1">Shared/Lua/Utilities/PlotIterators.lua</File>
+    <File md5="3906890A9811CA7619180F151D45D2F8" import="0">Shared/ExCE_Master.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Shared/ExCE_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Shared/ExCE_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Exploration/Core/Exploration_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Exploration/Core/Exploration_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Exploration/Core/Exploration_Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Exploration/Core/Exploration_Resources.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Exploration/Core/Exploration_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Exploration/Core/Exploration_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Exploration/Core/Exploration_Improvements.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Exploration/Core/Exploration_Policies.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Tribes/Core/Tribes_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Tribes/Core/Tribes_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Tribes/Core/Tribes_GameText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Components/Exploration/Lua/JFD_ExCE_Exploration_Functions.lua">
+      <Name>JFD_ExCE_Exploration_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

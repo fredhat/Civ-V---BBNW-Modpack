@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/29/2014 8:09:53 PM -->
+<GameData>
+	<Language_en_US>
+		<!--WONDERS-->
+		<!--Smithsonian Institute-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_SMITHSONIAN">
+			<Text>Smithsonian Institute</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_SMITHSONIAN_HELP">
+			<Text>Each Great Work housed in this city provides +2 [ICON_RESEARCH] Science. Doubles the [ICON_TOURISM] Tourism output from Great Works in this city.[NEWLINE][NEWLINE]Provides a free Museum in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_SMITHSONIAN_QUOTE">
+			<Text>[NEWLINE]"The best prophet of the future is the past."[NEWLINE] - Lord George Gordon Byron[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_SMITHSONIAN_PEDIA">
+			<Text>Established in 1846 "for the increase and diffusion of knowledge," the Smithsonian Institution is a group of museums and research centers administered by the United States government. Originally organized as the "United States National Museum," that name ceased to exist as an administrative entity in 1967 in favour of the current name, which refers to the British scientist James Smithson, the money of whom served as the basis for the establishment of the institution. Colloquially referred to as "the Nation's Attic" for its eclectic holdings of some 137 million items, the Institution's Washington, D.C. nucleus of nineteen museums, nine research centers, and a zoo - many of them historical or architectural landmarks of their own right - is the largest such complex in the world. Additional facilities are located across the United States and her former holdings, with such establishments being found in Arizona and New York City (among others in American territory) and as far afield as Panama. In addition to this, 168 other museums across the world are Smithsonian affiliates.</Text>
+		</Row>
+		<!--Theming Tags -->
+		<Row Tag="TXT_KEY_JFD_SMITHSONIAN_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Works Slots are all filled with Artifacts from different Civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_JFD_SMITHSONIAN">
+			<Text>The Nation's Attic</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

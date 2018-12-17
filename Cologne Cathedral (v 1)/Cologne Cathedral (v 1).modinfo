@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="efa2aa6c-48fd-4efd-baae-58253fa3e1d9" version="1">
+  <Properties>
+    <Name>Cologne Cathedral</Name>
+    <Teaser>Adds the Cologne Cathedral as an Industrial Era world wonder to the game.</Teaser>
+    <Description>Built atop a Roman temple, the Cologne Cathedral is an enormous Roman Catholic cathedral in Cologne, Germany, and the seat of Cologne's Archbishop.</Description>
+    <Authors>Pouakai, Janboruta</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="46B1FA427277B49E4F3755EE2CA252DD" import="1">Art/Cologne_128.dds</File>
+    <File md5="D60C853F7346D4671A8702DE00C3468C" import="1">Art/Cologne_256.dds</File>
+    <File md5="3789CF0E8121CF54810C1427FC3BC706" import="1">Art/Cologne_45.dds</File>
+    <File md5="77DAE0CD7323A13B82269A6933FE1DFF" import="1">Art/Cologne_64.dds</File>
+    <File md5="E2E31CB0AE595263F92C5DC59CA470C0" import="1">Art/Cologne_80.dds</File>
+    <File md5="7FBFE0EB317359C5DE7F62D0C2305939" import="1">Art/Cologne_splash.dds</File>
+    <File md5="E5257964FC415B445AD83DA02BB26F56" import="0">Lua/Cologne_WLTKD.lua</File>
+    <File md5="73B530621E560BE70BB686F86889B898" import="0">XML/Buildings/Cologne_BuildingClasses.xml</File>
+    <File md5="81DFF56905D238A928B8A55417BDC4D6" import="0">XML/Buildings/Cologne_Buildings.xml</File>
+    <File md5="5FA43972ACA971D32BD21530A162E37E" import="0">XML/Civilizations/Cologne_Civilizations.xml</File>
+    <File md5="8FA071C6677E761EBE648B28EFB126B0" import="0">XML/GameInfo/Cologne_IconTextureAtlases.xml</File>
+    <File md5="56D942E50D08EDA8F8650783D2458854" import="0">XML/Text/Cologne_text_EN_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Cologne_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Cologne_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Cologne_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Cologne_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Cologne_text_EN_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Cologne_WLTKD.lua">
+      <Name>Cologne We Love the King Day</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

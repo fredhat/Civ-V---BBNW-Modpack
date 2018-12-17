@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d88a1551-742e-4a97-a72e-ef804faca442" version="15">
+  <Properties>
+    <Name>The Sioux (Brave New World)</Name>
+    <Teaser>Adds the Sioux civilization led by Sitting Bull to the game.</Teaser>
+    <Description>Adds the Sioux civilization to the game. Requires Brave New World.</Description>
+    <Authors>Tomatekh</Authors>
+    <SpecialThanks>Janboruta, Leugi, Sukritact, JFD, LastSword, F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=472751</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="ED66330CBE42D072340432FD0C516C83" import="1">Art/Alpha/SiouxAlphaAtlas128.dds</File>
+    <File md5="AEE0E3A487C00F00E8B00939FBE84EC6" import="1">Art/Alpha/SiouxAlphaAtlas16.dds</File>
+    <File md5="B212A2DAB07E2E3679A9FCCD0A51ED4C" import="1">Art/Alpha/SiouxAlphaAtlas24.dds</File>
+    <File md5="30400BEDD5DB37026960ADCFCC9891F1" import="1">Art/Alpha/SiouxAlphaAtlas32.dds</File>
+    <File md5="AC3983D7F35B6AB49CCCE8CF52E1A443" import="1">Art/Alpha/SiouxAlphaAtlas48.dds</File>
+    <File md5="00AF8E07F596A1EE1DAD6B2FAE57F5B5" import="1">Art/Alpha/SiouxAlphaAtlas64.dds</File>
+    <File md5="B45052A13D7839F67F2C8018CC10C09C" import="1">Art/Atlas/SiouxModAtlas128.dds</File>
+    <File md5="89C5BE92556C21FDCB08696B8F86190A" import="1">Art/Atlas/SiouxModAtlas256.dds</File>
+    <File md5="154E9B6CAE725073E1499C76D81C290A" import="1">Art/Atlas/SiouxModAtlas32.dds</File>
+    <File md5="E286556501EDC6809DD5E9B7DF5BDB0C" import="1">Art/Atlas/SiouxModAtlas45.dds</File>
+    <File md5="F29128B02D06B18715EE32C8B1466F1F" import="1">Art/Atlas/SiouxModAtlas64.dds</File>
+    <File md5="4B90013E68425840AC8C9F313EE9C2D5" import="1">Art/Atlas/SiouxModAtlas80.dds</File>
+    <File md5="2E47B263DC89A59AACFE943F76B7E689" import="1">Art/Improvement/sv_tipi_mod.dds</File>
+    <File md5="C24CF1C97F91C02C583EF68090D92A42" import="1">Art/Improvement/TipiBuild45.dds</File>
+    <File md5="A6733C29A820EBE783824D693C6D80A0" import="1">Art/Improvement/TipiBuild64.dds</File>
+    <File md5="3966FD8C28AEE53B0468F52092E207A2" import="1">Art/Promotion/BisonPromotion256.dds</File>
+    <File md5="0BEDD695E4245DA452F247AD64A85CAD" import="1">Art/Promotion/BisonPromotion32.dds</File>
+    <File md5="165D41F54919CB0CED0780D5641762F5" import="1">Art/Promotion/BisonPromotion45.dds</File>
+    <File md5="E9728800E06AD14CD4715A37548C018E" import="1">Art/Promotion/BisonPromotion64.dds</File>
+    <File md5="67CFF532E74B77901080D3ABC800F28F" import="1">Art/Resources/Buffalo_FontIcon.dds</File>
+    <File md5="1054B2C139FEFDF50DF3A76F1955CE2F" import="1">Art/Resources/Buffalo_FontIcon.ggxml</File>
+    <File md5="A1C86EE427CABBD6C4B0494308D689BB" import="1">Art/Resources/sv_buffalo_mod.dds</File>
+	<File md5="1A9EA922CA85FC6514E9D2AD17DB1634" import="1">Art/Resources/BuffaloTrail_FontIcon.dds</File>
+    <File md5="7D71FDCA1BC0491F360314B7664A3870" import="1">Art/Resources/BuffaloTrail_FontIcon.ggxml</File>
+    <File md5="ADCB6C13B63532B91F7A1C953E6F2C3F" import="1">Art/Resources/sv_buffalo_trail.dds</File>
+	<File md5="ADCB6C13B63532B91F7A1C953E6F2C3F" import="1">Art/Resources Atlas/BuffaloTrailAtlas256.dds</File>
+	<File md5="2AF65F2553E4E70E27D7482B86225FB0" import="1">Art/Resources Atlas/BuffaloTrailAtlas45.dds</File>
+	<File md5="43A7CB3CDD2BDC0D3D0E7DF62209EDB7" import="1">Art/Resources Atlas/BuffaloTrailAtlas64.dds</File>
+	<File md5="8E1461BADAE86AD800C108D27DEE056E" import="1">Art/Resources Atlas/BuffaloTrailAtlas80.dds</File>
+    <File md5="ADB64BE063C4DB2995FF8109FF3019BB" import="1">Art/SiouxDiplo.dds</File>
+    <File md5="044EDDBFD9C5B1273DC84DDD776045CB" import="1">Art/SiouxDoMMod.dds</File>
+    <File md5="7CD711CB7BED22CA6086696C938334FE" import="1">Art/SiouxMapMod.dds</File>
+    <File md5="17FE9F1C9A4AFF2C233918CB06DFE03C" import="1">Art/Unit/Sioux_Horse_diff.dds</File>
+    <File md5="4EC10543D28DE1048527FAFDDC47DE13" import="1">Art/Unit/Sioux_Horse_sref.dds</File>
+    <File md5="0794A830C9556E3F5399F732FF58D0E8" import="1">Art/Unit/Sioux_Knight.fxsxml</File>
+    <File md5="04D93489CF9BAF17ED1F9D808884345A" import="1">Art/Unit/Sioux_Knight.gr2</File>
+    <File md5="1B7595DFD9CCD2A840A8350572BA5A02" import="1">Art/Unit/Sioux_Knight_diff.dds</File>
+    <File md5="E5E6AE27DD8042529CA684662060A413" import="1">Art/Unit/Sioux_Knight_sref.dds</File>
+	<File md5="6A49730161968C21AB40FACB11E14DA1" import="1">Art/Unit Atlas/SiouxUnitAlpha.dds</File>
+    <File md5="93E638CB52188498E21BD8C4FDA9E2B7" import="1">Art/Unit Atlas/sv_sioux_mod.dds</File>
+    <File md5="758C0512C3223BBD527C84B357D17A26" import="0">Lua/Sioux_Functions.lua</File>
+    <File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/Utilities/PlotIterators.lua</File>
+	<File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+    <File md5="8A5C3EAC4B67ECA30E989EBF426E47F2" import="1">Sounds/SittingBullAmbience.mp3</File>
+    <File md5="A35F17526CE45746CE58D4261BE1B8D2" import="1">Sounds/SittingBullDoM.mp3</File>
+    <File md5="FC3E89B0821CA5D3CA91F7CFE8A68F68" import="1">Sounds/SittingBullPeace.mp3</File>
+    <File md5="6F651F6165E6E841044CF7499086FAAF" import="1">Sounds/SittingBullWar.mp3</File>
+	<File md5="BBD552824321A3F47ED7C1167179DA85" import="0">SQL/Sioux Unit Mod.sql</File>
+    <File md5="BEB017077588221CC30C563A4D1F0AA9" import="1">XML/Art/Civ5ArtDefines_UnitMembers.xml</File>
+    <File md5="F41CE7C05A34176D5B129FA534CB7AF7" import="1">XML/Art/Civ5ArtDefines_Units.xml</File>
+    <File md5="EAAD51AA4698C90C95F636DB388D75D0" import="0">XML/Art/Sioux Atlas Mod.xml</File>
+    <File md5="4061E1BF1BD0C5BE0A6460596ABA9962" import="0">XML/Art/Sioux Strategic View Mod.xml</File>
+    <File md5="3EB9293C681A5A5B8CD2E9680E66372B" import="1">XML/Art/SiouxLeaderScene.xml</File>
+    <File md5="1568D700FFD06282F22EB812E6176F35" import="0">XML/Civilizations/Sioux Leader Mod.xml</File>
+    <File md5="F3CF0E7F99429427ACE268B2189B73CA" import="0">XML/Civilizations/Sioux Civilization Mod.xml</File>
+    <File md5="69558D9FF0B9A173F2ECD79EC48546A9" import="0">XML/Civilizations/Sioux Trait Mod.xml</File>
+    <File md5="FEA27792EBBB96EC279C8FFE51A48F16" import="0">XML/Diplomacy/Sioux Diplomacy Mod.xml</File>
+    <File md5="428C7B93AA684C9BCC5CA50F8583AA1D" import="0">XML/Sounds/Sioux Sound Mod.xml</File>
+    <File md5="CC8752034B6DEFEF38BFBD1B31017167" import="0">XML/Terrain/Sioux Improvements Mod.xml</File>
+    <File md5="FC52C9B0845DCE88869412EFE380258D" import="0">XML/Terrain/Sioux Resource Mod.xml</File>
+    <File md5="8EDFC3305C16B2D93E47F09D6A58FB5E" import="0">XML/Text/Sioux Mod Text.xml</File>
+    <File md5="F1EB6125E30CC8B5C38C394747965785" import="0">XML/Unit/Sioux Promotion Mod.xml</File>
+    <File md5="102D72CF1812B4AACEBECD5FE41D775C" import="0">XML/Unit/Sioux Unit Mod.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+	  <UpdateDatabase>SQL/Sioux Unit Mod.sql</UpdateDatabase>
+	  <UpdateDatabase>XML/Art/Sioux Strategic View Mod.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Art/Sioux Atlas Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Sioux Leader Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Sioux Civilization Mod.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Civilizations/Sioux Trait Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy/Sioux Diplomacy Mod.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Sounds/Sioux Sound Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Sioux Improvements Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Sioux Resource Mod.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Text/Sioux Mod Text.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Unit/Sioux Unit Mod.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Unit/Sioux Promotion Mod.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Sioux_Functions.lua">
+      <Name>Sioux Functions</Name>
+      <Description>
+	  </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

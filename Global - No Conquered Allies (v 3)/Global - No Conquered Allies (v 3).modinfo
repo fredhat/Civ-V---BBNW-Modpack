@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="dc4dfe6a-17bd-4b48-82ed-d72c1005083c" version="3">
+  <Properties>
+    <Name>Global - No Conquered Allies</Name>
+    <Teaser>Resets City-States relationships to 0 when their allied major civilization is defeated.</Teaser>
+    <Description>Resets each enemy civilizations influence with a City-State to 0 when that City-State's allied major civilization is totally defeated.</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.2kgames.com/showthread.php?119325-MOD-Global-No-Conquered-Allies</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+	<ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+    <PediaCategory>RULES</PediaCategory>
+    <PediaAtlas>POLICY_ATLAS</PediaAtlas>
+    <PediaIndex>47</PediaIndex>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="6DE13000AAFAFF5AAE7ED68EE9C7B2A3" import="0">LUA/GlobalNoConqueredAllies.lua</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/GlobalNoConqueredAllies.lua">
+      <Name>No Conquered Allies</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

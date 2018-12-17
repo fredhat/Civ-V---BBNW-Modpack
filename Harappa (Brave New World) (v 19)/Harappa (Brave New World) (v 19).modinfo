@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="222d2cdf-a40c-41f2-a220-904c5ce81343" version="19">
+  <Properties>
+    <Name>Harappa (Brave New World)</Name>
+    <Teaser>Adds the Harappa civilization led by Went-Antu to the game.</Teaser>
+    <Description>Adds the Harappa civilization to the game. Requires Brave New World and Gods & Kings.</Description>
+    <Authors>Tomatekh</Authors>
+    <SpecialThanks>Leugi, Janboruta, Wolfdog, Djarhun, JFD, F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>19</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="4FAFA6A39AE25DEDE69EB6E1ABC3D664" import="1">Art/Alpha/HarappaAlphaAtlas128.dds</File>
+    <File md5="7FED1813A54A8895AEDC5A4500A03B22" import="1">Art/Alpha/HarappaAlphaAtlas16.dds</File>
+    <File md5="A025DBE70F089B064FE8F7BB7AE4BDC5" import="1">Art/Alpha/HarappaAlphaAtlas24.dds</File>
+    <File md5="4CCF6F2F2869C17F44C9546A3ECB2ECC" import="1">Art/Alpha/HarappaAlphaAtlas32.dds</File>
+    <File md5="7BF73591030725D620F8D81305AD1B9A" import="1">Art/Alpha/HarappaAlphaAtlas48.dds</File>
+    <File md5="C2B47A1044059A6097460E0AD569B176" import="1">Art/Alpha/HarappaAlphaAtlas64.dds</File>
+    <File md5="7AE55D66385F16CD1E4202F78432F019" import="1">Art/Atlas/HarappaModAtlas128.dds</File>
+    <File md5="45AC72E4786BFD5543463687867D71B6" import="1">Art/Atlas/HarappaModAtlas214.dds</File>
+    <File md5="252418D145A381C2E81AAFE1ACFF2BA8" import="1">Art/Atlas/HarappaModAtlas256.dds</File>
+    <File md5="F03E260308C364684714EFA31DD6202C" import="1">Art/Atlas/HarappaModAtlas32.dds</File>
+    <File md5="EA9BC768AEAA598440746A2AF871ADDE" import="1">Art/Atlas/HarappaModAtlas45.dds</File>
+    <File md5="AA1993188318B4FC55A5537AFFF10A2E" import="1">Art/Atlas/HarappaModAtlas64.dds</File>
+    <File md5="D198E82743ED0C38105C8E501FEA20F8" import="1">Art/Atlas/HarappaModAtlas80.dds</File>
+    <File md5="356B4014184DE666BC6B180E756B4B1D" import="1">Art/HarappaDoMMod.dds</File>
+    <File md5="45B1A2AAFAE22AE511A488F49073C9AB" import="1">Art/HarappaMapMod.dds</File>
+    <File md5="90F6C1CB784BF81CD608720EE5D240FF" import="1">Art/HarrappanDiplo.dds</File>
+    <File md5="7279C29AC3A2E4803A5AEBE50DE18EAA" import="1">Art/Unit/Alpha/HarappaUnitAlphaAtlas.dds</File>
+    <File md5="03165028B49092257B035529CDEB3DC5" import="1">Art/Unit/Alpha/sv_harappa_mod.dds</File>
+    <File md5="74291EAAE325D92ECCC1077CAEE698C6" import="1">Art/Unit/Alt Unit Graphic/Cart_diff.dds</File>
+    <File md5="67ADF07E916FD76FE60CB5733F958601" import="1">Art/Unit/Alt Unit Graphic/Cart_sref.dds</File>
+    <File md5="33B670793E455A38389C5199B9B277C5" import="1">Art/Unit/Alt Unit Graphic/Oxen_00_sref.dds</File>
+    <File md5="154F4D0C8487298A3DB4D184465D352D" import="1">Art/Unit/Alt Unit Graphic/Oxen_01_diff.dds</File>
+    <File md5="ABBF4FE3E3C1B62B90E00D84F00C7956" import="1">Art/Unit/Alt Unit Graphic/Oxen_02_diff.dds</File>
+    <File md5="778F8657D711C38153E5980ADE39FE8F" import="1">Art/Unit/Alt Unit Graphic/SupplyDriver_diff.dds</File>
+    <File md5="D5964F323A7C30EFE328F4E515067A31" import="1">Art/Unit/Alt Unit Graphic/SupplyDriver_sref.dds</File>
+    <File md5="3DA0692C153394BB663E37221DCB95E2" import="1">Art/Unit/Alt Unit Graphic/SupplyTrainV2.fxsxml</File>
+    <File md5="DAD47E0402EBEFF16492CBF059E81D1B" import="1">Art/Unit/Alt Unit Graphic/SupplyTrainV2.gr2</File>
+    <File md5="20F0D549285F5924581C0D4E98B8C0BD" import="1">Art/Unit/SupplyTrain.fxsxml</File>
+    <File md5="9DFF7A25F30F397DFC89866F4C2BE692" import="1">Art/Unit/SupplyTrain.gr2</File>
+    <File md5="C0BC63BA86D055DB9FC9D8927E51E9AA" import="1">Art/Unit/SupplyTrain_diff.dds</File>
+    <File md5="22E8D902B51E2105EB22B2353B3B6EF1" import="1">Art/Unit/SupplyTrain_sref.dds</File>
+    <File md5="A5F401BE5E628AF9B1A38E9CC7B2A7C5" import="0">Lua/Harappa_Lua_Scripts.lua</File>
+    <File md5="A5F401BE5E628AF9B1A38E9CC7B2A7C5" import="1">Lua/Sukritact_SaveUtils.lua</File>
+    <File md5="F81A2A846527401AAA3A371F72CF2092" import="1">Sounds/WentAntuDoM.mp3</File>
+    <File md5="F1620CE9C07BFFEC74B010B5442E578C" import="1">Sounds/WentAntuPeace.mp3</File>
+    <File md5="883A3AE890A1DC7E23DFC0F098E1F131" import="1">Sounds/WentAntuWarAlt.mp3</File>
+    <File md5="80849560BE0C6D503FBA629CA3886C65" import="0">SQL/Harappa Unit Skin Mod.sql</File>
+    <File md5="8BF1A0A0DC1BE6E7CCDBAC1347624243" import="1">XML/Art/civ5artdefines_unitmembers.xml</File>
+    <File md5="BE7C175B1F3D2F71F6D6A52AF60DCE97" import="1">XML/Art/civ5artdefines_units.xml</File>
+    <File md5="57014813697E15D5A73A1E35BFD839E4" import="0">XML/Art/Harappa Atlas Mod.xml</File>
+    <File md5="BE13AE98E871B69C20A723D567D056F8" import="0">XML/Art/Harappa Strategic View Mod.xml</File>
+    <File md5="FD20B7865B6EE4D25B4CB7C699FA22BD" import="1">XML/Art/Harappa_Leader_Scene_Mod.xml</File>
+    <File md5="3C3C83409807B69EDD087118013D0DFC" import="0">XML/Buildings/Harappa Buildingclass Mod.xml</File>
+    <File md5="453E25EEFA1D768AC420118AF6C2C31A" import="0">XML/Buildings/Harappa Buildings Mod.xml</File>
+    <File md5="B0255CE740817C0763C21E07E0DF9BE5" import="0">XML/Civilizations/Harappa Civilization Mod.xml</File>
+    <File md5="84301B0310BF74DB7FB1FF4A04E79D4D" import="0">XML/Civilizations/Harappa Leader Mod.xml</File>
+    <File md5="C70FA5C1CA5F670D49C7E79E61C6B1F4" import="0">XML/Civilizations/Harappa Traits Mod.xml</File>
+    <File md5="DE6F373699E31FD74E36BAC49A1EC0DD" import="0">XML/Diplomacy/Harappa Dilpomacy Mod.xml</File>
+    <File md5="E021C23A97137EC5A8E0AF2EA444F3DF" import="0">XML/Game Info/Harappa Policy Mod.xml</File>
+    <File md5="38E03674630BD185030098FEEB9E6869" import="0">XML/Sounds/Harappa Sound Mod.xml</File>
+    <File md5="FA772FD06473DD03C16E74ECFFCABEDA" import="0">XML/Text/Harappa Text Mod.xml</File>
+    <File md5="0E4E52AC62138C7A6499196013B961CB" import="0">XML/Unit/Harappa Promotion Mod.xml</File>
+    <File md5="B2857FE957D38032F209326621A92971" import="0">XML/Unit/Harappa Unit Mod.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Civilizations/Harappa Civilization Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Harappa Text Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art/Harappa Atlas Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Harappa Traits Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Harappa Leader Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy/Harappa Dilpomacy Mod.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Harappa Unit Skin Mod.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/Harappa Promotion Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/Harappa Unit Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Harappa Buildingclass Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Sounds/Harappa Sound Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Harappa Buildings Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Game Info/Harappa Policy Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art/Harappa Strategic View Mod.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Harappa_Lua_Scripts.lua">
+      <Name>Harappa</Name>
+      <Description>Scripts</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

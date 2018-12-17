@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						From Wood to Brick
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_F0S_POLAND">
+			<Text>Receive a free Social Policy upon entering the Medieval Era and each subsequent new era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_F0S_POLAND_SHORT">
+			<Text>Solidarity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_POLISH_POLICY_SHORT">
+			<Text>Solidarity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_F0S_POLISH_POLICY_DESC">
+			<Text>The solidarity of your people has granted you a free Social Policy for entering a new era!</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Ducal Stables
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_BUILDING_F0S_DUCAL_STABLES_HELP">
+			<Text>+15% [ICON_PRODUCTION] Production when building mounted units. Mounted units built in this city start with an additional +15 XP. Each source of [ICON_RES_COW] Cattle, [ICON_RES_HORSE] Horses and [ICON_RES_SHEEP] Sheep worked by this city provides +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold. Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]City must have at least one of these improved resources nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_F0S_DUCAL_STABLES_STRATEGY">
+			<Text>The Ducal Stables are the unique building for Casimir's Poland, replacing the Stables. The Ducal Stables increase the [ICON_PRODUCTION] Production and [ICON_GOLD] Gold output of this city. The Ducal Stables further increase the [ICON_PRODUCTION] Production output of this city and provide additional experience when building mounted units. The Ducal Stables have no maintenance cost. Can only be built if this city has an improved source of [ICON_RES_COW] Cattle, [ICON_RES_HORSE] Horses or [ICON_RES_SHEEP] Sheep nearby.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Winged Hussar
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_F0S_WINGED_HUSSAR_HELP">
+			<Text>Powerful Renaissance Era mounted unit that specializes in defeating mounted units and fighting in open terrain. Forces defending units to retreat when it inflicts more damage than it receives. Only Casimir's Poland may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_F0S_WINGED_HUSSAR_STRATEGY">
+			<Text>The Winged Hussar is the unique unit for Casimir's Poland, replacing the Lancer. Faster than than the Lancer, the Winged Hussar receives a +33% Combat Bonus against mounted units and starts with the first Shock Promotion. The Winged Hussar forces defending units to retreat when it inflicts more damage than it receives. If a defending unit cannot retreat it takes additional damage.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

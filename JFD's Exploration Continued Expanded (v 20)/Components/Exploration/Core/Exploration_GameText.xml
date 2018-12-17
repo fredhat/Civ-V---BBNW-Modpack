@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--GENERAL-->
+		<Replace Tag="TXT_KEY_NOTIFICATION_FOUND_GOODY_HUT">
+			<Text>You have discovered Ancient Ruins! Sending a unit to the Ruins may uncover hidden treasures!</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_IMPROVEMENT_JFD_GOODY_SHIP">
+			<Text>Shipwreck</Text>
+		</Row>
+		<!--BUILDINGS-->
+		<!--Factory-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_FACTORY_HELP">
+			<Text>Each worked source of [ICON_RES_JFD_RUBBER] Rubber and [ICON_RES_JFD_SULFUR] Sulphur provides +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Workshop.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_COAL] Coal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_FACTORY_STRATEGY">
+			<Text>The Factory provides two Engineer specialists and increases the [ICON_PRODUCTION] Production output of this city. Can only be built if this city contains a Workshop. Requires 1 [ICON_RES_COAL] Coal to be built.</Text>
+		</Row>
+		<!--POLICIES-->
+		<!--Autocracy-->
+		<Row Tag="TXT_KEY_JFD_AUTOCRACY_TITLE">
+			<Text>Generalissimo {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<!--Exploration-->
+		<Row Tag="TXT_KEY_POLICY_JFD_EXPLORATION">
+			<Text>JFD's Exploration Continued Expanded</Text>
+		</Row>
+		<Update>
+			<Set Text="[COLOR_POSITIVE_TEXT]Exploration[ENDCOLOR] enhances naval empires.[NEWLINE][NEWLINE]Adopting Exploration provides naval and embarked units with +1 [ICON_MOVES] Movement and +1 Sight. Unlocks building the Belem Tower.[NEWLINE][NEWLINE]Adopting all policies in the Exploration tree allows each city to purchase and work an additional ring of tiles. Allows purchasing Great Admirals with [ICON_PEACE] Faith starting in the Industrial Era."/>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP" />
+		</Update>
+		<Row Tag="TXT_KEY_POLICY_JFD_EXPLORATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Exploration[ENDCOLOR] enhances naval empires.[NEWLINE][NEWLINE]Adopting Exploration provides naval and embarked units with +1 [ICON_MOVES] Movement and +1 Sight. Unlocks building the Belem Tower.[NEWLINE][NEWLINE]Adopting all policies in the Exploration tree allows each city to purchase and work an additional ring of tiles. Allows purchasing Great Admirals with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_EXPLORATION_TITLE">
+			<Text>{@1: gender feminine?Empress; other?Emperor;} {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EXPLORATION_EMBARK">
+			<Text>Exploration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EXPLORATION_EMBARK_HELP">
+			<Text>Receives +1 [ICON_MOVES] Movement and +1 Sight while embarked.</Text>
+		</Row>
+		<!--Maritime Infrastructure-->
+		<Row Tag="TXT_KEY_POLICY_JFD_MARITIME_INFRASTRUCTURE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Maritime Infrastructure[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production in each coastal city. +50% [ICON_PRODUCTION] Production when constructing naval buildings in each city.</Text>
+		</Row>
+		<!--Naval Tradition-->
+		<Row Tag="TXT_KEY_POLICY_JFD_NAVAL_TRADITION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Naval Tradition[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] Production when building military naval units in each city. Earn Great Admirals 50% faster. A free Great Admiral appears outside the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<!--Navigation Schools-->
+		<Row Tag="TXT_KEY_POLICY_JFD_NAVIGATION_SCHOOL">
+			<Text>Colonialism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NAVIGATION_SCHOOL_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Colonialism[ENDCOLOR][NEWLINE]Newly founded cities start with a free Worker, two additional [ICON_CITIZEN] Citizens and additional territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_POLICY_JFD_NAVIGATION_SCHOOL_TEXT">
+			<Text>Colonialism is the establishment, exploitation, maintenance, acquisition, and expansion of colony in one territory by a political power from another territory. It is a set of unequal relationships between the colonial power and the colony and often between the colonists and the indigenous population.[NEWLINE][NEWLINE]The European colonial period was the era from the 16th century to the mid-20th century when several European powers established colonies in Asia, Africa, and the Americas. At first the countries followed mercantilist policies designed to strengthen the home economy at the expense of rivals, so the colonies were usually allowed to trade only with the mother country. By the mid-19th century, however, the powerful British Empire gave up mercantilism and trade restrictions and introduced the principle of free trade, with few restrictions or tariffs.</Text>
+		</Row>
+		<!--Merchant Navy-->
+		<Row Tag="TXT_KEY_POLICY_JFD_MERCHANT_NAVY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Merchant Navy[ENDCOLOR][NEWLINE]Naval trade routes generate an additional 4 [ICON_GOLD] Gold per turn. Receive two additional trade routes.</Text>
+		</Row>
+		<!--Vicegerentry-->
+		<Row Tag="TXT_KEY_POLICY_JFD_VICEGERENTRY">
+			<Text>Vicegerentry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_VICEGERENTRY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Vicegerentry[ENDCOLOR][NEWLINE]Internal trade routes generate 50% more of their respective yields. Each Harbor provides +2 [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_POLICY_JFD_VICEGERENTRY_TEXT">
+			<Text>A vicegerent is one who acts on the behalf of a ruler or sovereign. Unlike the more typical term "viceroy," a vicegerent does not necessarily imply the representation of a monarch. In this case, a vicegerent is the agent of the state, acting on behalf of the ruler of the state, but not in the stead of the state's power.</Text>
+		</Row>
+		<!--PROMOTIONS-->
+		<!--Belem Tower-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BELEM">
+			<Text>Tower of Belem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BELEM_HELP">
+			<Text>Receives a +50% Defense Bonus, +1 [ICON_MOVES] Movement and +1 Sight while embarked.</Text>
+		</Row>
+		<!--Great Expeditioner-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GREAT_RECON_UNIT">
+			<Text>Great Expeditioner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GREAT_RECON_UNIT_HELP">
+			<Text>May found a city on a foreign continent.</Text>
+		</Row>
+		<!-- Great Reconnaissance-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GREAT_RECON">
+			<Text>Great Reconnaissance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GREAT_RECON_HELP">
+			<Text>May found a city on a foreign continent upon reaching level 5.</Text>
+		</Row>
+		<!--RESOURCES-->
+		<!--Cedar-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_CEDAR">
+			<Text>Cedar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_CEDAR_TEXT">
+			<Text>Cedar is the common name given to several similar but unrelated genera and species of evergreen trees found worldwide, each with a variety of uses which have made the trees highly prized and sought after. However, it historically has referred to just a single genus, Cedrus, native to the Mediterranean and western Himalayas. One species in particular, Cedrus libani (known commonly as the Lebanon Cedar) has been extensively used for a variety of practical and spiritual purposes since the time of the Babylonians, while their significance dates back to the earliest known civilization, having been designated as the dwelling of the gods in the Epic of Gilgamesh. The Phoenicians and Egyptians used the wood for shipbuilding, while the wood was burnt as part of Jewish celebrations of the New Year and the bark played a significant role in Hebrew cleansing ceremonies after a period of leprosy. The myriad uses of Cedar wood have not been without a toll on the population of the tree, and over the centuries the extensive use of it has resulted in the Cedar population of the Mediterranean has declined drastically. Conservation attempts have been made since the time of the Roman Emperor Hadrian, and continue to be made to this day.</Text>
+		</Row>
+		<!--Feathers-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_FEATHERS">
+			<Text>Feathers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_FEATHERS_TEXT">
+			<Text>Feathers are one of the epidermal growths that form the distinctive outer covering, or plumage, on birds and some non-avian theropod dinosaurs. They are considered the most complex integumentary structures found in vertebrates, and indeed a premier example of a complex evolutionary novelty. They are among the characteristics that distinguish the extant Aves from other living groups. Feathers have also been noticed in those Theropoda which have been termed feathered dinosaurs. Although feathers cover most parts of the body of birds, they arise only from certain well-defined tracts on the skin. They aid in flight, thermal insulation, waterproofing and coloration that helps in communication and protection.</Text>
+		</Row>
+		<!--Ginger-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_GINGER">
+			<Text>Ginger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_GINGER_TEXT">
+			<Text>Ginger is a type of root known for its distinctively hot and bitter taste, used in various traditional medicines (particularly those which claim to ease nausea) and as a spice. The plant is indigenous to China, and from there spread to the Spice Islands and other parts of Asia. As early as from the first century AD, Ginger was known to Europe as a product of the lucrative spice trade. Today, India is the largest producer of ginger.</Text>
+		</Row>
+		<!--Lotus-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_LOTUS">
+			<Text>Lotus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_LOTUS_TEXT">
+			<Text>The lotus is a type of plant native to Asia, and has a large amount of cultural significance there. For example, it is said to represent things such as sexual purity and detachment, according to Asian tradition; thus, it has a place in religion and general culture. Many Indian deities are portrayed with a lotus plant; for example, Lakshmi, Hindu goddess of love and wealth among other things, is often portrayed with a lotus to show her detachment, given the traditional representation. Lotus stamens can also be used to make green tea, which expands into Vietnamese culture as well. The fibers extracted from lotuses can also be used to make clothing, but this is only put into practice at one place: Inle Lake, in Burma, where the cloth produced is used to make special portraits of the Buddha, called "kya thingahn", or "lotus robes" in English. Overall, the lotus has great significance within both Asian culture and religion.</Text>
+		</Row>
+		<!--Manuscripts-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_MANUSCRIPTS">
+			<Text>Manuscripts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_JFD_MANUSCRIPTS_HELP">
+			<Text>Manuscripts are only available through a Mercantile City-State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_MANUSCRIPTS_TEXT">
+			<Text>A Manuscript or Handwrit is written information that has been manually created by one or more people, such as a hand-written letter, as opposed to being printed or reproduced some other way. The term may also be used for information that is hand-recorded in other ways than writing, for example inscriptions that are chiselled upon a hard material or scratched (the original meaning of graffiti) as with a knife point in plaster or with a stylus on a waxed tablet (the way Romans made notes), or are in cuneiform writing, impressed with a pointed stylus in a flat tablet of unbaked clay.</Text>
+		</Row>
+		<!--Oak-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_OAK">
+			<Text>Oak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_OAK_TEXT">
+			<Text>An oak is a tree or shrub in the genus Quercus, having approximately 600 extant species. The common name "Oak" may also appear in the names of species in related genera, notably Lithocarpus. The genus is native to the Northern Hemisphere, and includes deciduous and evergreen species extending from cool temperate to tropical latitudes in Asia and the Americas. North America contains the largest number of oak species, with approximately 90 occurring in the United States. Mexico has 160 species, of which 109 are endemic. The second greatest center of oak diversity is China, which contains approximately 100 species.</Text>
+		</Row>
+		<!--Obsidian-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_OBSIDIAN">
+			<Text>Obsidian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_OBSIDIAN_TEXT">
+			<Text>Obsidian is a volcanic mineral that forms when lava cools very rapidly, and with few crystals forming in the process. It is notable for being very tough, and having sharp edges on it. Obsidian has been used even before neolithic times for tools and the like; knives dating back to 700,000 BC have obsidian parts to them. By around 5000 BC, obsidian mining was present, and tools were being produced from them on a large scale. Obsidian's sharpness made it very useful as a tool, but also as a weapon, given its sharp edges would take little sharpening for a lot of damage dealt. The substance was also used in places such as Rapa Nui for the famous Moai statues, again showing its wide application of uses. Obsidian also had a lot of trade value due to it only being found around volcanic areas. The use of obsidian declined as more refined materials, such as iron and bronze, were used for the same purpose.</Text>
+		</Row>
+		<!--Opium-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_OPIUM">
+			<Text>Opium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_OPIUM_TEXT">
+			<Text>A drug used for many different purposes throughout the ages, Opium has been a very valuable trading resource, acting as everything from a recreational smoking habit to a medical utility. Widespread since the dawn of civilisation, opium was used by the ancient Egyptians, Romans, Greeks and Assyrians as a painkiller, the best available one at the time. In modern medicine, opium in the form of morphine is still used for the same purpose, albeit less frequently. By the 15th century, opium became a popular recreational drug in China, though at this state it was yet to get onto the mainstream market. However, as some officials were unhappy with the use of drugs, opium began to become outlawed in China, which had a knock-on effect to the rest of the world that continued the opium trade; China was one of the main suppliers. In 1799, opium was completely banned in China, and the ban remained enforced until 1860. During this time, the British Empire became more interested in establishing a monopoly on the opium trade, managing to hold one in India after establishing control over the main opium reserves in the region. The United States were also keen to get a share, leading to a lot of market competition. As China had outlawed opium, one of the main markets for the trade was gone, forcing Britain to enter the Opium Wars, in which the British Empire soundly defeated the Qing Dynasty, and they managed to lift the opium ban in China as well as gaining Hong Kong.</Text>
+		</Row>
+		<!--Rubber-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_RUBBER">
+			<Text>Rubber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_RUBBER_TEXT">
+			<Text>In its native Central America and South America, rubber has been collected for a long time. The Mesoamerican civilizations used rubber mostly from Castilla elastica. The Ancient Mesoamericans had a ball game using rubber balls, and a few Pre-Columbian rubber balls have been found (always in sites that were flooded under fresh water), the earliest dating to about 1600 BC. According to Bernal Díaz del Castillo, the Spanish Conquistadores were so astounded by the vigorous bouncing of the rubber balls of the Aztecs that they wondered if the balls were enchanted by evil spirits. The Maya also made a type of temporary rubber shoe by dipping their feet into a latex mixture. Rubber was used in various other contexts, such as strips to hold stone and metal tools to wooden handles, and padding for the tool handles. While the ancient Mesoamericans did not have vulcanization, they developed organic methods of processing the rubber with similar results, mixing the raw latex with various saps and juices of other vines, particularly Ipomoea alba, a species of Morning glory. In Brazil the natives understood the use of rubber to make water-resistant cloth. A story says that the first European to return to Portugal from Brazil with samples of such water-repellent rubberized cloth so shocked people that he was brought to court on the charge of witchcraft.[NEWLINE][NEWLINE]When samples of rubber first arrived in England, it was observed by Joseph Priestley, in 1770, that a piece of the material was extremely good for rubbing out pencil marks on paper.[NEWLINE][NEWLINE]The para rubber tree initially grew in South America, where it was the main source of what limited amount of latex rubber was consumed during much of the 19th century. About 100 years ago, the Congo Free State in Africa was a significant source of natural rubber latex, mostly gathered by forced labor. The Congo Free State was forged and ruled as a personal colony by the Belgian King Leopold II where millions of Africans died as a result of lust for rubber and rubber profits. After repeated efforts rubber was successfully cultivated in Southeast Asia, where it is now widely grown.</Text>
+		</Row>
+		<!--Saffron-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_SAFFRON">
+			<Text>Saffron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_SAFFRON_TEXT">
+			<Text>A type of spice that comes from its eponymous flower, the Saffron Crocus, Saffron is a resource that has been traded over thousands of years. It has major ties with the Middle East and surrounding areas, thought to have originated in Cyprus and later spread to other areas, such as Mesopotamia and later Iran, where 90% of the world's saffron comes from today. Saffron has close ties with China, and was said to have been imported for the first time there in 500 BC; however, there are conflicting viewpoints if it was brought there by the Mongol Empire, or traded to the Chinese by the Persians. Alexander the Great was said to have made use of the saffron he picked up during his Asian campaign; he copied the Persians with some of its uses, such as using it in baths to help with wounds, and putting some on his rice.</Text>
+		</Row>
+		<!--Sulphur-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_SULFUR">
+			<Text>Sulphur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_SULFUR_TEXT">
+			<Text>Being abundantly available in native form, sulfur (Latin sulphur) was known in ancient times and is referred to in the Torah (Genesis). English translations of the Bible commonly referred to burning sulfur as "brimstone", giving rise to the name of 'fire-and-brimstone' sermons, in which listeners are reminded of the fate of eternal damnation that await the unbelieving and unrepentant. It is from this part of the Bible that Hell is implied to "smell of sulfur" (likely due to its association with volcanic activity). By the 3rd century, the Chinese discovered that sulfur could be extracted from pyrite. Chinese Daoists were interested in sulfur's flammability and its reactivity with certain metals, yet its earliest practical uses were found in traditional Chinese medicine. A Song Dynasty military treatise of 1044 AD described different formulas for Chinese black powder, which is a mixture of potassium nitrate (KNO3), charcoal, and sulfur.[NEWLINE][NEWLINE]Early alchemists gave sulfur its own alchemical symbol which was a triangle at the top of a cross. In traditional medical skin treatment which predates modern era of scientific medicine, elemental sulfur has been used mainly as part of creams to alleviate various conditions such as scabies, ringworm, psoriasis, eczema and acne. The mechanism of action is not known, although elemental sulfur does oxidize slowly to sulfurous acid, which in turn (through the action of sulfite) acts as a mild reducing and antibacterial agent.[NEWLINE][NEWLINE]In 1777, Antoine Lavoisier helped convince the scientific community that sulfur was an element, not a compound. With the sulfur from Sicily being principally controlled by the French market, a debate ensued about the amount of sulfur France and Britain got. This led to a bloodless confrontation between the two sides in 1840. In 1867, sulfur was discovered in underground deposits in Louisiana and Texas. The highly successful Frasch process was developed to extract this resource. With the advent of the contact process, the majority of sulfur today is used to make sulfuric acid for a wide range of uses, particularly fertilizer.</Text>
+		</Row>
+		<!--Vanilla-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_VANILLA">
+			<Text>Vanilla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_VANILLA_TEXT">
+			<Text>Vanilla is a flavoring derived from orchids of the genus Vanilla, primarily from the Mexican species, flat-leaved vanilla. Pre-Columbian Mesoamerican peoples cultivated the vine of the vanilla orchid, called tlilxochitl by the Aztecs, and Spanish conquistador Hernan Cortez is credited with introducing both vanilla and chocolate to Europe in the 1520s.[NEWLINE][TAB]The Totonac people, who inhabit the Mazatlan Valley on the Gulf Coast of Mexico in the present-day state of Veracruz, were the first to cultivate vanilla. According to Totonac mythology, the tropical orchid was born when Princess Xanat, forbidden by her father from marrying a mortal, fled to the forest with her lover. The lovers were captured and beheaded. Where their blood touched the ground, the vine of the tropical orchid grew. In the 15th century, Aztecs invading from the central highlands of Mexico conquered the Totonacs, and soon developed a taste for the vanilla pods. They named the fruit tlilxochitl, or "black flower", after the matured fruit, which shrivels and turns black shortly after it is picked. Subjugated by the Aztecs, the Totonacs paid tribute by sending vanilla fruit to the Aztec capital, Tenochtitlan.</Text>
+		</Row>
+		<!--UNITS-->
+		<!--Great Admiral-->
+		<Row Tag="TXT_KEY_UNIT_JFD_GREAT_ADMIRAL_STRATEGY">
+			<Text>A Great Admiral provides friendly naval units within two tiles of it with a +15% Combat Bonus. A Great Admiral may be expended to instantly repair every friendly naval and embarked unit within one tile of it. Alternatively, a Great Admiral may be expended in friendly territory to provide two sources of a new Luxury Resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY">
+			<Text>Voyage of Discovery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY_HELP">
+			<Text>Expend this unit to receive two sources of a new Luxury Resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY_HELP_DISABLED">
+			<Text>[NEWLINE][COLOR_WARNING_TEXT]This unit must be in friendly territory to use this ability.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_FREE_RESOURCE">
+			<Text>Your {1_UnitType} journeyed to a far-off land and discovered [COLOR_POSITIVE_TEXT]{2_ResourceNames}[ENDCOLOR]! Two sources of this Luxury Resource were gifted to you in honor of your patronage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_FREE_RESOURCE_SUMMARY">
+			<Text>Voyage of Discovery Completed!</Text>
+		</Row>
+		<!--Adventurer-->
+		<Row Tag="TXT_KEY_JFD_ADVENTURER">
+			<Text>Adventurer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ADVENTURER_HELP">
+			<Text>Last Industrial Era recon unit that starts with additional Sight and specializes in fighting outside of friendly territory. Ignores terrain costs and earns XP from revealing tiles. May found a city on a foreign continent upon reaching level 5.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ADVENTURER_STRATEGY">
+			<Text>The Adventurer is the last available recon unit, replaing the Explorer. Stronger than the Explorer, the Adventurer starts with additional Sight and receives a +20% Combat Bonus outside of friendly territory. The Adventurer ignores terrain costs in rough terrain and earns XP from revealing tiles. Upon reaching level 5, the Adventurer may found a city on a foreign continent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ADVENTURER_PEDIA">
+			<Text>Although the coasts of Africa had been explored for three centuries, it was not until the early 19th Century AD that the European powers began a concerted effort to explore the hinterlands of the continent. Beginning from coastal trading posts, missions and colonial settlements, Western explorers pushed inland in small expeditions seeking legendary wonders, "lost" native civilizations, and scientific knowledge. Some, like David Livingston, were medical missionaries; some, like Pietro di Brazza, sought adventure; and others, such as MacGregor Laird, were merchants seeking new opportunities for profit. Whatever their motivations, the European explorers figure prominently in the history of Africa.</Text>
+		</Row>
+		<!--Explorer-->
+		<Row Tag="TXT_KEY_JFD_EXPLORER">
+			<Text>Explorer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_EXPLORER_HELP">
+			<Text>Renaissance Era recon unit that starts with additional Sight. Ignores terrain costs and earns XP from revealing tiles. May found a city on a foreign continent upon reaching level 5.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_EXPLORER_STRATEGY">
+			<Text>The Explorer is the second available recon unit, replaing the Scout. Faster and significantly stronger than the Scout, the Explorer starts with additional Sight. The Explorer ignores terrain costs in rough terrain and earns XP from revealing tiles. Upon reaching level 5, the Explorer may found a city on a foreign continent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_EXPLORER_PEDIA">
+			<Text>Exploration is the act of searching or traveling around a terrain (including space, see space exploration) for the purpose of discovery of resources or information. Exploration occurs in all non-sessile animal species, including humans. In human history, its peak is arguably seen during the Age of Discovery for Europe's contact with the rest of the world, and major explorations after the Age of Discovery for scientific exploration in the modern era.</Text>
+		</Row>
+		<!--Scout-->
+		<Row Tag="TXT_KEY_JFD_SCOUT_HELP">
+			<Text>First Ancient Era recon unit that ignores terrain costs and earns XP from revealing tiles. May found a city on a foreign continent upon reaching level 5.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SCOUT_STRATEGY">
+			<Text>The Scout is the first available recon unit. The Scout ignores terrain costs in rough terrain and earns XP from revealing tiles. Upon reaching level 5, the Scout may found a city on a foreign continent.</Text>
+		</Row>
+		<!--Unique Names-->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_1">
+			<Text>Jacques Cartier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_2">
+			<Text>Christopher Columbus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_3">
+			<Text>James Cook</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_4">
+			<Text>Leif Ericson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_5">
+			<Text>Erik the Red</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_6">
+			<Text>Vasco de Gama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_7">
+			<Text>Hanno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_8">
+			<Text>Henry the Navigator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_9">
+			<Text>Himilco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_10">
+			<Text>Ferdinand Magellan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_11">
+			<Text>Pytheas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_12">
+			<Text>Zhang He</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_13">
+			<Text>Piri Reis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_14">
+			<Text>Khashkhash ibn Said</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_15">
+			<Text>Zhang Qian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_16">
+			<Text>Rabban bar Sauma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_17">
+			<Text>Ibn Battuta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_18">
+			<Text>Wang Duyan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_19">
+			<Text>Vitus Bering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_20">
+			<Text>Monacht-apé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_21">
+			<Text>Tomocomo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_22">
+			<Text>Sacagawea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_23">
+			<Text>Meriwether Lewis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_24">
+			<Text>William Clark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_25">
+			<Text>Edmund Hilary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_26">
+			<Text>Tenzing Norgay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_27">
+			<Text>Jacques Piccard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_28">
+			<Text>Don Walsh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_29">
+			<Text>David Thompson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_30">
+			<Text>Robert la Salle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_31">
+			<Text>Diogo Cão</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_32">
+			<Text>Bartolomeu Dias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_33">
+			<Text>Abel Tasman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_34">
+			<Text>Abu Bakr II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_35">
+			<Text>Tupaq Inka Yupanki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_36">
+			<Text>John Cabot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_37">
+			<Text>Walter Raleigh </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_38">
+			<Text>Henry Hudson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_39">
+			<Text>Amerigo Vespucci</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_40">
+			<Text>Hawai'iloa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_41">
+			<Text>Kupe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_42">
+			<Text>Ui-te-Rangiora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_43">
+			<Text>Kalakaua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_44">
+			<Text>Tupaia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_45">
+			<Text>Mai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_46">
+			<Text>Xuanzang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_47">
+			<Text>Giovanni da Verrazzano</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_48">
+			<Text>Tanaka Shosuke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_49">
+			<Text>Tenjiku Tokubei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_50">
+			<Text>Mamiya Rinzo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_51">
+			<Text>Eizaburo Nomura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_52">
+			<Text>al-Mahri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_53">
+			<Text>Ahmad ibn Majid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_54">
+			<Text>Ibn Selim al-Aswani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_55">
+			<Text>Man Singh Rawat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_56">
+			<Text>Ali of Herat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_57">
+			<Text>Sataspes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_58">
+			<Text>Ernest Shackleton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_59">
+			<Text>Richard Byrd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_60">
+			<Text>Roald Amundsen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_61">
+			<Text>Zebulon Pike</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_62">
+			<Text>Nehsi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_63">
+			<Text>Francisco de Orellana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_64">
+			<Text>Cabeza de Vaca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_65">
+			<Text>Jorge Álvares</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_66">
+			<Text>Étienne Brûlé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_67">
+			<Text>Francisco Coronado</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_68">
+			<Text>Pedro Álvares Cabral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_69">
+			<Text>Vasco Nuñez de Balboa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_70">
+			<Text>Duarte Barbosa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_71">
+			<Text>Juan de Fuca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_72">
+			<Text>Hyecho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_73">
+			<Text>Alexander von Homboldt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_74">
+			<Text>James of Ireland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_75">
+			<Text>David Livingstone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_76">
+			<Text>Bungaree</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_77">
+			<Text>Scylax</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_78">
+			<Text>Juan de Fuca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_79">
+			<Text>Anthony van Diemen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_80">
+			<Text>Sir Alexander Mackenzie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_81">
+			<Text>Xu Fu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_82">
+			<Text>Kinthup</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_83">
+			<Text>Ahmad ibn Fadlan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_84">
+			<Text>Mohammed ibn Nasir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_85">
+			<Text>Maes Titianus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_86">
+			<Text>Eudoxus of Cyzicus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_87">
+			<Text>Earnest Shackleton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_88">
+			<Text>Lady Mary Wortley Montagu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_89">
+			<Text>Domingos Jorge Velho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_RECON_90">
+			<Text>Raposo Tavares</Text>
+		</Row>
+		<!--Unique Names: Great Admiral-->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_1">
+			<Text>Afonso de Albuquerque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_2">
+			<Text>Marcus Vipsanius Agrippa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_3">
+			<Text>Álvar de Bazán</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_4">
+			<Text>Calonymus of Alexandria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_5">
+			<Text>Andrew Cunningham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_6">
+			<Text>Michiel de Ruyter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_7">
+			<Text>George Dewey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_8">
+			<Text>Don John of Austria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_9">
+			<Text>Andrea Doria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_10">
+			<Text>John Doukas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_11">
+			<Text>Francis Drake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_12">
+			<Text>David Farragut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_13">
+			<Text>Comte de Grasse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_14">
+			<Text>Hayreddin Barbarossa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_15">
+			<Text>John Paul Jones</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_16">
+			<Text>Horatio Nelson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_17">
+			<Text>Chester Nimitz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_18">
+			<Text>Matthew Perry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_19">
+			<Text>Murat Reis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_20">
+			<Text>Phormio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_21">
+			<Text>Marcus Atilius Regulus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_22">
+			<Text>Roger of Lauria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_23">
+			<Text>Zinovy Rozhestvensky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_24">
+			<Text>Shi Lang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_25">
+			<Text>Alfred von Tirpitz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_26">
+			<Text>Togo Heihachiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_27">
+			<Text>Turgut Reis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_28">
+			<Text>Fyodor Ushakov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_29">
+			<Text>Fernando Villamil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_30">
+			<Text>Peter Wessel Tordenskjold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_31">
+			<Text>Isoroku Yamamoto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_32">
+			<Text>Yi Sun-sin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_33">
+			<Text>Ad Herbal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_34">
+			<Text>Keumalahayati</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_35">
+			<Text>Artemisia of Caria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_36">
+			<Text>Eurybiades</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_37">
+			<Text>Udjahorresnet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_38">
+			<Text>Maynak Bhandari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_39">
+			<Text>José Prudencio Padilla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_40">
+			<Text>Margaritus of Brindisi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_41">
+			<Text>George of Antioch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_42">
+			<Text>Abhakara Kiartivongse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_43">
+			<Text>Kanhoji Angre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_44">
+			<Text>Abdullah ibn Saad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_45">
+			<Text>Liu Buchan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_46">
+			<Text>Laskarina Bouboulina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_47">
+			<Text>Quigualtam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_48">
+			<Text>Hang Tuah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_ADMIRAL_49">
+			<Text>Joseph J. Clark</Text>
+		</Row>
+		<!--Unique Names: Great Generals-->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_1">
+			<Text>Ahuitzotl</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_2">
+			<Text>Belisarius</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_3">
+			<Text>Kaikhosro</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_4">
+			<Text>Chandragupta Maurya</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_5">
+			<Text>Duke of Caxias</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_6">
+			<Text>El Cid</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_7">
+			<Text>Epaminondas</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_8">
+			<Text>Eugene de Savoy</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_9">
+			<Text>Gaius Duilius</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_10">
+			<Text>Heinz Guderian</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_11">
+			<Text>Hamilcar Barca</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_12">
+			<Text>Jeanne d'Arc</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_13">
+			<Text>Khaled ibn al-Walid</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_14">
+			<Text>Robert E. Lee</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_15">
+			<Text>Lysander</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_16">
+			<Text>Charles Martel</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_17">
+			<Text>Maurice of Nassau</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_18">
+			<Text>Bernard Montgomery</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_19">
+			<Text>George Patton</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_20">
+			<Text>Pompey</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_21">
+			<Text>Pyrrhus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_22">
+			<Text>Erwin Rommel</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_23">
+			<Text>Scipio Africanus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_24">
+			<Text>Winfield Scott</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_25">
+			<Text>William Slim</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_26">
+			<Text>Spartacus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_27">
+			<Text>Subutai</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_28">
+			<Text>Sun Tzu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_29">
+			<Text>Johann Tserclaes</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_30">
+			<Text>Albrecht von Wallenstein</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_31">
+			<Text>Zhuge Liang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_32">
+			<Text>Georgy Zhukov</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_33">
+			<Text>Itzacoatl</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_34">
+			<Text>Quizquiz</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_35">
+			<Text>Red Cloud</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_36">
+			<Text>Xicotencatl II</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_37">
+			<Text>Man Singh I</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_38">
+			<Text>Enriquillo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_39">
+			<Text>Carl von Clausewitz</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_40">
+			<Text>Blue Jacket</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_41">
+			<Text>Tariq ibn Ziyad</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_42">
+			<Text>Mardonius</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_43">
+			<Text>Themistocles</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_44">
+			<Text>Surena</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_45">
+			<Text>Fu Hao</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_46">
+			<Text>Juana Azurduy Bermudez</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_47">
+			<Text>Rani Lakshmibai</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_48">
+			<Text>Yermak Timofeyevich</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_49">
+			<Text>Robert Guiscard</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_50">
+            <Text>Baron von Steuben</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_51">
+           <Text>Bashorun Gaha</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_52">
+           <Text>Naqoma</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_53">
+           <Text>Abu Bakr ibn Umar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_54">
+           <Text>Kaocen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_55">
+           <Text>Phra Chao Taksin</Text>
+        </Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_56">
+			<Text>Hone Heke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_GENERAL_57">
+			<Text>Petro Konashevych</Text>
+		</Row>
+		<!--Unique Names: Great Merchants-->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_1">
+			<Text>Aretas III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_2">
+			<Text>Andrew Carnegie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_3">
+			<Text>Coco Chanel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_4">
+			<Text>Marcus Licinius Crassus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_5">
+			<Text>Jakob Fugger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_6">
+			<Text>Harkuf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_7">
+			<Text>Edward Harriman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_8">
+			<Text>Milton S. Hershey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_9">
+			<Text>Steve Jobs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_10">
+			<Text>John Maynard Keynes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_11">
+			<Text>Sir James Lancaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_12">
+			<Text>Giovanni de Medici</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_13">
+			<Text>John Stuart Mill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_14">
+			<Text>Henri Nestlé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_15">
+			<Text>John D. Rockefeller</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_16">
+			<Text>Sir Thomas Roe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_17">
+			<Text>Shah Jahan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_18">
+			<Text>Adam Smith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_19">
+			<Text>Levi Strauss</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_20">
+			<Text>Raja Todar Mal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_21">
+			<Text>Thomas Twining</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_22">
+			<Text>Cornelius Vanderbilt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_23">
+			<Text>Richard Whittington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_24">
+			<Text>Wang Anshi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_25">
+			<Text>Pierre-Esprit Radisson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_26">
+			<Text>Chaya Shirojiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_27">
+			<Text>Imai Sokyu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_28">
+			<Text>Takadaya Kahei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_29">
+			<Text>Virji Vora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_30">
+			<Text>John Astor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_31">
+			<Text>Osman Ali Khan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_32">
+			<Text>Pasion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_33">
+			<Text>Ibn Khaldun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_34">
+			<Text>Karl Marx</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_35">
+			<Text>Itti-Marduk-balatu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_36">
+			<Text>Murashu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_37">
+			<Text>Mayer Amschel Rothschild</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_38">
+			<Text>Miguel Pochtecatlailotlac</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_39">
+			<Text>Magdelaine Laframboise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_40">
+			<Text>Henry Woodward</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_41">
+			<Text>Emotan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_42">
+			<Text>Apoxpalon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_43">
+			<Text>Alexander Tetelbaum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_44">
+			<Text>James Gamble</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_45">
+			<Text>William Procter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_46">
+			<Text>Arthur Guinness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_47">
+			<Text>Grainne Mhaol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_48">
+			<Text>Hippalus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MERCHANT_49">
+			<Text>Sostratos of Aegina</Text>
+		</Row>
+		<!--WONDERS-->
+		<!--Belem Tower-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_BELEM_TOWER">
+			<Text>Belem Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_BELEM_TOWER_HELP">
+			<Text>Recon units may found cities on foreign continents. Land units receive a +50% Defense Bonus, +1 [ICON_MOVES] Movement and +1 Sight while embarked. Two free Explorers appear outside this city.[NEWLINE][NEWLINE]Requires Exploration.[NEWLINE][NEWLINE]City must be next to a Coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_BELEM_TOWER_QUOTE">
+			<Text>
+				[NEWLINE]"And the sea will grant each man new hope . . . his sleep brings dreams of home"[NEWLINE] - Christopher Columbus[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_BELEM_TOWER_PEDIA">
+			<Text>The Belém Tower sits at the mouth of the Tagus River, just outside the city of Lisbon. The idea of the tower came from João II, though he died before planning or building could start. His successor, Manuel I, instead designed and built the tower. Unusually, it was built on a small island as a sort of sea fort, intended to be a defence mechanism for Lisbon's potentially vulnerable coast. However, there is a popular belief that the tower was initially built inland, but shifted out to sea by the Great Lisbon Earthquake. The building was completed in 1519, and over the coming years, it was improved and strengthened to be more effective against potential attacks. However, the Belém Tower is perhaps best known for its role in the Portuguese Renaissance - or, more specifically, an icon of the colonisation of the New World. As an island fortress, just outside the shipbuilding hub of Portugal, the Belém Tower would have been the last sight that ships going on their maiden voyage would have seen. In later years, the tower also took up the role of a customs house that ships were required to pay tax to, and the main navigation lookout of Lisbon. Over the years, it also served as a military garrison, given its capabilities as a coastal garrison. Today, the Belém Tower is a popular tourist destination, as not only does it have a long history, but architecture considered to be among the best examples of the Manueline style, a late gothic Portuguese building form. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

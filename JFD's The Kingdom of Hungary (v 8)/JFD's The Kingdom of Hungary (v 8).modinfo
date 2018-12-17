@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1fcd9459-75d6-4e44-83e5-c88e4b00b795" version="8">
+  <Properties>
+    <Name>JFD's The Kingdom of Hungary</Name>
+    <Teaser>Adds the Kingdom of Hungary civilization led by Stephen I to the game.</Teaser>
+    <Description>Adds the Kingdom of Hungary civilization to the game. Tweaks the base game Austrian civilization. Requires Brave New World and Gods & Kings.</Description>
+    <Authors>JFD, Janboruta</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=474393</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="00567FAC766D9245C260C268B1B06516" import="0">Art/ArtDefines.sql</File>
+    <File md5="27BD5D48AC89DBA35112229249C63079" import="1">Art/Graphics/hunhu1.dds</File>
+    <File md5="5EC11039BD3B1B24242ADEED9DA3F2FA" import="1">Art/Graphics/hunhu1.fxsxml</File>
+    <File md5="C9ED0521744BA62A8B5AA9542AE9A5EF" import="1">Art/Graphics/hunhu1.gr2</File>
+    <File md5="FAA706A0F1F82519018501CF62207425" import="1">Art/Graphics/hunhu1_sref.dds</File>
+    <File md5="9FF9596CAD368E4A0EC2697E8C2857F5" import="1">Art/Graphics/sv_Hungarian_Hussar.dds</File>
+    <File md5="4D5C6C8AD709B9104BD6A522709C18B0" import="1">Art/Icon Atlas/JFD_HungaryAlphaAtlas_128.dds</File>
+    <File md5="918544E015CAECD737D609337F7C1181" import="1">Art/Icon Atlas/JFD_HungaryAlphaAtlas_16.dds</File>
+    <File md5="5D82B6093610A63481EF8E67327A40D3" import="1">Art/Icon Atlas/JFD_HungaryAlphaAtlas_24.dds</File>
+    <File md5="1351D368B55E910B5CE24447EB4EDC2D" import="1">Art/Icon Atlas/JFD_HungaryAlphaAtlas_32.dds</File>
+    <File md5="2F53B809521737D23B3355EBD257369C" import="1">Art/Icon Atlas/JFD_HungaryAlphaAtlas_45.dds</File>
+    <File md5="CA094DC30AAC6807B9CC39118CBFC607" import="1">Art/Icon Atlas/JFD_HungaryAlphaAtlas_48.dds</File>
+    <File md5="0A32AE5E3D8C340650CA761C073F841B" import="1">Art/Icon Atlas/JFD_HungaryAlphaAtlas_64.dds</File>
+    <File md5="022924CC3C45EE1BF6BC29F438A650B8" import="1">Art/Icon Atlas/JFD_HungaryAlphaAtlas_80.dds</File>
+    <File md5="75FD1206939ACA49407454C4715EC7C7" import="1">Art/Icon Atlas/JFD_HungaryAtlas_128.dds</File>
+    <File md5="5A8BD6BA3DFC8E73642BEDC32B0264DF" import="1">Art/Icon Atlas/JFD_HungaryAtlas_256.dds</File>
+    <File md5="83F5AE5E83D092E06BDE2E873F5D230F" import="1">Art/Icon Atlas/JFD_HungaryAtlas_32.dds</File>
+    <File md5="10A876D2879500E7449AECB7DD844DB7" import="1">Art/Icon Atlas/JFD_HungaryAtlas_45.dds</File>
+    <File md5="B7DFF50FD9F0FDB9FDFE19AE9A624502" import="1">Art/Icon Atlas/JFD_HungaryAtlas_64.dds</File>
+    <File md5="28BEE0901F62DFCFF3EFA18322F2D921" import="1">Art/Icon Atlas/JFD_HungaryAtlas_80.dds</File>
+	<File md5="088FAC7F94763FC9A83A7AE1BE29D3B6" import="1">Art/Icon Atlas/JFD_HungaryReserveAtlas_64.dds</File>
+    <File md5="104FB1AB1183FF9C61000BBEF4C7C887" import="1">Art/Icon Atlas/Unit_Hungarian_Hussar_Flag_32.dds</File>
+    <File md5="8E099D1F9E26F8F54D47F7E34B816C9A" import="1">Art/Leaderscene/Stephen_Diplo.dds</File>
+    <File md5="99896304F5B521D9A8AD765338BA8A37" import="1">Art/Leaderscene/Stephen_Scene.xml</File>
+    <File md5="6BBD8DE6742AF539A34A4D45B3B75B05" import="1">Art/Map/HungaryMap512.dds</File>
+    <File md5="402C37BCBEE4E8534D826FD9A467B8B3" import="1">Art/Map/Stephen_DOM.dds</File>
+    <File md5="F308105FA4C0739EC9E6F46478B97A1D" import="0">Audio/Audio.sql</File>
+    <File md5="57110A7163947CBFD15F8104682DB291" import="1">Audio/Stephen_Peace.mp3</File>
+    <File md5="BF76C19FC48818829228FCB055698E58" import="1">Audio/Stephen_War.mp3</File>
+    <File md5="67A861E5EAC3CAD3FC5FF1AE43B070F8" import="0">Core/Buildings.sql</File>
+    <File md5="7BBC359406539D526D44D657A0FCDDF5" import="0">Core/DiplomacyText.xml</File>
+    <File md5="982A86EFAC0031B2629B3A8A4A0C134C" import="0">Core/MinorCivilizations.sql</File>
+    <File md5="618FE03F3153EE9853C0C8D68861CDB4" import="0">Core/Civilization.sql</File>
+    <File md5="C98826EFE84488B4AC0A7E5EB00D2025" import="0">Core/Diplomacy.sql</File>
+    <File md5="C28E225639FCE2BC689CF48EE26DCFE7" import="0">Core/GameText.xml</File>
+    <File md5="CEF88D927617F5B0529DDC273F209CE4" import="0">Core/Leaderhead.sql</File>
+    <File md5="0CE027514D0CA80F4EE73F329D123EA6" import="0">Core/PlayerColours.sql</File>
+    <File md5="53A480F952ABE90F952E3F51D23E800D" import="0">Core/Promotions.sql</File>
+    <File md5="F57FD925BF6805CE462974C26C3A973D" import="0">Core/Traits.sql</File>
+    <File md5="5C71F419339F7351D401D06EC11D442D" import="0">Core/Units.sql</File>
+    <File md5="37426B65AAD0524B5D8D1FE21991B130" import="0">Lua/JFD_HungaryFunctions.lua</File>
+    <File md5="37426B65AAD0524B5D8D1FE21991B130" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Audio/Audio.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MinorCivilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilization.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DiplomacyText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_HungaryFunctions.lua">
+      <Name>Hungary Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

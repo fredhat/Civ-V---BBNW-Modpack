@@ -1,0 +1,13 @@
+﻿<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CL_KAMPUNG">
+			<Text>Fishing Village</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CL_KAMPUNG_PEDIA">
+			<Text>Fishing Villages are coastal settlements that practice aquaculture to harvest the food-rich coastal waters. The Fishing Village can be constructed on a Coast tile adjacent to land to improve that hex's [ICON_FOOD] Food output.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CL_KAMPUNG">
+			<Text>Build a [LINK=IMPROVEMENT_CL_KAMPUNG]Fishing Village[\LINK]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

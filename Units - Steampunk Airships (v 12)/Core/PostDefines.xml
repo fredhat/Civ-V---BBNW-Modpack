@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<PostDefines>
+		<Row Name="PROMOTION_DEEPWATER_EMBARKATION">
+			<Key>PROMOTION_DEEPWATER_EMBARKATION</Key>
+			<Table>UnitPromotions</Table>
+		</Row>
+		<Row Name="PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION">
+			<Key>PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION</Key>
+			<Table>UnitPromotions</Table>
+		</Row>
+	</PostDefines>
+</GameData>

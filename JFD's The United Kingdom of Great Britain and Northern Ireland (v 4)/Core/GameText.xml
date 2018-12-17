@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/4/2014 8:45:16 AM -->
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						United Kingdom
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_CIV_JFD_UNITED_KINGDOM_ADJECTIVE">
+			<Text>British</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_UNITED_KINGDOM_DESC">
+			<Text>The United Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_UNITED_KINGDOM_SHORT_DESC">
+			<Text>The United Kingdom</Text>
+		</Row>
+		<!-- City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_BIRMINGHAM">
+			<Text>Birmingham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_LEEDS">
+			<Text>Leeds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_MANCHESTER">
+			<Text>Manchester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_EDINBURGH">
+			<Text>Edinburgh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_CARDIFF">
+			<Text>Cardiff</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_BELFAST">
+			<Text>Belfast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_GLASGOW">
+			<Text>Glasgow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_LIVERPOOL">
+			<Text>Liverpool</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_NEWCASTLE">
+			<Text>Newcastle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_OXFORD">
+			<Text>Oxford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_BRISTOL">
+			<Text>Bristol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_ABERDEEN">
+			<Text>Aberdeen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_SHEFFIELD">
+			<Text>Sheffield</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_SOUTHAMPTON">
+			<Text>Southampton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_PORTSMOUTH">
+			<Text>Portsmouth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_LEICESTER">
+			<Text>Leicester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_COVENTRY">
+			<Text>Coventry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_BRIGHTON">
+			<Text>Brighton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_SWANSEA">
+			<Text>Swansea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_DUNDEE">
+			<Text>Dundee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_CANTERBURG">
+			<Text>Canterburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_CAMBRIDGE">
+			<Text>Cambridge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_PLYMOUTH">
+			<Text>Plymouth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_YORK">
+			<Text>York</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_DERBY">
+			<Text>Derby</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_NORWICH">
+			<Text>Norwich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_EXETER">
+			<Text>Exeter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_BATH">
+			<Text>Bath</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_INVERNESS">
+			<Text>Inverness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_NEWPORT">
+			<Text>Newport</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CHURCHILL_LONDONDERRY">
+			<Text>Londonderry</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_UNITED_KINGDOM_9">
+			<Text>Count Manfred</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_UNITED_KINGDOM_8">
+			<Text>Tubbs</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_UNITED_KINGDOM_7">
+			<Text>Eddie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_UNITED_KINGDOM_6">
+			<Text>Edward</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_UNITED_KINGDOM_5">
+			<Text>Tate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_UNITED_KINGDOM_4">
+			<Text>Baron de Ropp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_UNITED_KINGDOM_3">
+			<Text>Mariette</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_UNITED_KINGDOM_2">
+			<Text>Artist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_UNITED_KINGDOM_1">
+			<Text>Arthur Owens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_UNITED_KINGDOM_0">
+			<Text>Gaby</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!----------------------------------------------------------------
+						Churchill
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL">
+			<Text>Churchill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_CHURCHILL_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_CHURCHILL_TEXT_1">
+			<Text>Winston Churchill, whose full name was, "Sir Winston Leonard Spencer-Churchill," was undoubtedly one of the most important people of the twentieth century. At various times a soldier, journalist, author, and politician, during his long life Churchill was known for both his intellectual brilliance and his outspoken support for what were often unpopular opinions. At various times he was either the most beloved or the most hated man in Britain. In the years since his death Churchill's reputation has grown to semi-legendary proportions.[NEWLINE][NEWLINE]A descendant of the famous English general the Duke of Marlborough, Churchill was born in 1874 at Blenheim Palace in Oxfordshire. After a mediocre performance at the public school Harrow, Churchill joined the army, where he freely used his family connections to get assigned to several colonial wars, narrowly escaping death on a number of occasions - and by all accounts having a ripping good time while doing so. During this period Churchill became a very popular wartime journalist, writing numerous columns and several best-selling books about his experiences. Churchill's maneuvering and flagrant self-promotion alienated his fellow officers and essentially ended any chance of high promotion in the Army; however he was able to parlay his popularity to gain a seat in Parliament.[NEWLINE][NEWLINE]In 1900 Churchill was elected to a Conservative seat in Parliament. However in 1904 his strong opposition to the Conservative policy of tariff protectionism led him to change parties and join the Liberals, who held power at the time. In the Liberal government Churchill held a number of different minor posts. In 1911 he was appointed First Lord of the Admiralty, overseeing the Royal Navy's ambitious modernization program.[NEWLINE][NEWLINE]During the First World War, Churchill approved the disastrous Gallipoli invasion of Turkey. Churchill was soundly criticized for the failure, and in 1916 he resigned the Admiralty and left the government, rejoined the army and went off to the Western Front to fight in the trenches.[NEWLINE][NEWLINE]Despite his many eccentricities and flaws, however, Churchill was widely recognized as one of the ablest men in Great Britain, and in 1917 he was back in government again, holding a number of important Cabinet posts. After the Liberal Government fell in 1923 Churchill swapped parties once again and joined the Conservatives, famously saying, "Anyone can rat [change parties], but it takes a certain ingenuity to re-rat." He was appointed Chancellor of the Exchequer in 1924 and presided over Britain's disastrous return to the Gold Standard, for which he was again soundly criticized. After the Conservative Government fell in the 1929 General Election, Churchill lost his government post and became estranged from the political power brokers in both parties.[NEWLINE][NEWLINE]The rise of Nazi Germany also led to a resurgence of Churchill's political career. Although he had earlier praised Fascist Italy as a bulwark against communism, in the late 1930s Churchill became one of the few voices speaking out against the growing power of Hitler. When the British government adopted the policy of appeasement, Churchill was almost alone in voicing opposition, a position which gained him a number of admirers, but which also earned him a lot of public and political criticism.[NEWLINE][NEWLINE]When the Second World War broke out, the public lost a great deal confidence in the government of Neville Chamberlain (who had spearheaded the policy of appeasing Hitler). To shore up support for his government Chamberlain asked Churchill to resume his post as First Lord of the Admiralty. Showing genuine greatness of character Churchill accepted the position, working tirelessly to improve the Royal Navy and absolutely refusing to criticize his Prime Minister during wartime. However by early 1941 it was clear that Chamberlain no longer enjoyed the confidence of the people or of Parliament, and Churchill was appointed Prime Minister of Great Britain.[NEWLINE][NEWLINE]In the west the war began catastrophically for the Allies. The Germans launched their attack against the British and French forces in 1940. Supported by air power and infantry, the German tanks had outflanked the Allied positions, forcing the French and British into precipitous retreat, advancing so rapidly that the defenders didn't have enough time to reform a new line. The Germans came within inches of destroying the British army, forcing it to abandon all of its equipment and stage a chaotic evacuation at Dunkirk, leaving thousands of British soldiers behind to be captured. France was forced to surrender, and German soldiers occupied Paris.[NEWLINE][NEWLINE]As past events had foreshadowed, Churchill was at his very best during adversity. Britain stood alone against Hitler. Her army was badly crippled; only the Royal Navy and Air Force stood between the British and the Germans. Churchill worked tirelessly to shore up Britain's defenses and to find allies against Hitler, and his brilliant rhetoric rallied the battered spirits of the British people and earned him the admiration of people across the world. Throughout the dark days of the Battle of Britain and the Blitz that followed, Churchill seemed to hold the empire together by sheer indomitable force of will.[NEWLINE][NEWLINE]Diplomatically, Churchill was an opportunist. Despite his hatred of Communism and his extreme personal dislike of Stalin (who had earlier allied with Germany to gobble up Poland), when the Germans attacked the Soviet Union Churchill sought an alliance with the USSR, famously saying, "If Hitler invaded hell I would make at least a favorable reference to the devil in the House of Commons." His most important diplomatic task, however, was to cultivate the good will - and eventually the military intervention - of the United States.[NEWLINE][NEWLINE]It can be argued that Churchill's friendship with American President Franklin Delano Roosevelt saved Great Britain from destruction. Facing strong internal opposition to becoming involved in the war, at first the President had to move slowly, maintaining at least a nominal appearance of neutrality while gradually shifting American public opinion from Isolation to Intervention. However when Japan attacked Pearl Harbor at the end of 1941, Germany declared war against the United States to fulfill it's military agreements with Japan, allowing Roosevelt to openly bring the growing might of the US military and industrial complex to Great Britain's (and the USSR's) aid.[NEWLINE][NEWLINE]Within a very short period the US Army Air Force was attacking German targets in Europe, and soon thereafter large numbers of American troops were staged in Great Britain, ending forever any chance of a successful German invasion. As the war progressed the growing English and American forces launched a major invasion of Europe while their air forces pounded German factories and cities around the clock, crippling the Nazis enough to allow the Soviet Union to annihilate the German army in the Eastern Front.[NEWLINE][NEWLINE]After the war ended in victory Churchill lost power almost immediately - perhaps because the people thought he was too old, or because they didn't believe he was the correct leader to rebuild the shattered empire. Though he remained in Parliament for a number of years (and briefly regained the post of Prime Minister during the Suez Crisis), by and large Churchill's direct participation in world events was at an end.[NEWLINE][NEWLINE]After being voted out of office Churchill wrote a history of the Second World War, for which he received the Nobel Prize in Literature in 1953. In 1965 Churchill suffered a stroke and passed away at the age of 90. Churchill's death was mourned across the globe, and his funeral was attended by an enormous number of foreign dignitaries. His reputation has only grown in the years since his death, and today Churchill is possibly the most popular and revered figure in all of English history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_CHURCHILL_LIVED">
+			<Text>1874 - 1965 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_CHURCHILL_NAME">
+			<Text>Churchill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_CHURCHILL_SUBTITLE">
+			<Text>Prime Minister of the United Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_CHURCHILL_TITLES_1">
+			<Text>Prime Minister of the United Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_CHURCHILL_DAWN">
+			<Text>Most heroic and brave, cautionary and noble, Sir Winston Churchill; Prime Minister of the United Kingdom, champion of the British Empire, and Defender of the Crown, we humbly welcome you. As Prime Minister of Great Britain during her darkest hours, you led the United Kingdom as it stood alone amidst the ravaging storm of the Nazi war machine, and you would triumph against Germany's bloody endeavour to hegemonise the European continent. A reputed artist, writer, historian, orator and statesman, you were a man beyond your time, and you fought tirelessly for the right of the British Empire to retain its dignity and nobility, refusing to stand by as its glorious legacy was sold into history at the hands of your successors. Although worn by age and war, as a devoted man of God and King and Country, you have stood the test of time as Britain's greatest politician.[NEWLINE][NEWLINE]Honoured Prime Minister, your empire has been scattered, and this union of realms has fallen into disarray. But Britannia's call still resounds in the distant, green hills, and her people need only a hero to echo it. Can you protect the heritage of your empire and restore the balance of power in this world? Can you re-ignite the fires which once spurred the lone, British Isles to bring enlightenment across this barbarous world? Can you build a civilisation that will stand the test of time?</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Diplomacy
+		------------------------------------------------------------------>
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_FIRSTGREETING_1">
+			<Text>Come on, come on. Introduce yourself. Don't just stand there with that hapless stare. Do you know who I am? I am His Majesty's confidant; Winston Churchill. Sir, Winston Churchill.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_FIRSTGREETING_2">
+			<Text>Yes, yes, come on. I don't have all day standing around waiting for you to introduce yourself. I'll go first then, shall I? Right. I am Winston Churchill, Prime Minister of His Majesty's Government of this United Kingdom of Great Britain and Northern Ireland.</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_DEFEATED_1">
+			<Text>Oh, so you believe this to be a victory? Well, I'll remind you what you have just done here today. You have destroyed the British Empire, and with it, ripped the carpet from the floorboards of this earth.</Text>
+		</Row>
+		<!-- Human repeats an action too much, gets the following responses -->
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_REPEAT_TOO_MUCH_1">
+			<Text>You chinwag too much.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_REPEAT_TRADE_TOO_MUCH_1">
+			<Text>Ridiculous. Absolutely preposterous!</Text>
+		</Row>
+		<!-- Greetings -->
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_GREETING_HOSTILE_HELLO_1">
+			<Text>Hurry it up. I don't want to waste anymore time than I have to with you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_GREETING_POLITE_HELLO_1">
+			<Text>Ah, good; you're here.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>I have no interest in what's going on with your war, so don't even bother bringing it up.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_GREETING_HUMAN_AT_WAR_1">
+			<Text>Why do you come to Britain at this hour of your greatest need? Hm?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_GREETING_FRIENDLY_STRONG_MILITARY_1">
+			<Text>Your military is quite impressive. Not as impressive as the might of the British Navy, mind.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_GREETING_FRIENDLY_STRONG_ECONOMY_1">
+			<Text>Your economic is quite impressive. Perhaps you could teach those bankers in London a thing or two.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_GREETING_HOSTILE_HUMAN_FEW_CITIES_1">
+			<Text>Ah, good you're here. I was hoping I could pledge to protect you, so that I can get my production bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_GREETING_HOSTILE_HUMAN_SMALL_ARMY_1">
+			<Text>Just between you and me, your military is kind of the laughing stock of the world. Don't let that get you down though, I'm sure someone will put you out of your misery soon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>I will consort with no warmongers unless they are willing to bend to the knee of the British Empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_TOO_SOON_FOR_DOF_1">
+			<Text>No. That would be unwise. You are not in the position to be asking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_DENOUNCE_1">
+			<Text>Your very existence upsets the stability of this world. The United Kingdom of Great Britain and her imperial possessions denounces you.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>You have made the most hapless, idiotic mistake of your political career. Britain and her allies will rally against you like a storm!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_HUMAN_DOFED_FRIEND_1">
+			<Text>Ahhh, I've noticed that you've become friends with {1_CivName}. Glad to hear of it. I'm already on good terms with them myself.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_HUMAN_DOFED_ENEMY_1">
+			<Text>I recommend that you not get too close with {1_CivName}. If so... we might have problems getting along.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>{1_CivName} is a friend to this revolution. If you are against them, then you are against all equal men.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>Glad to hear there are others in the world which share my disgust with {1_CivName}. They are clearly not to be trusted.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_HUMAN_DOF_SO_AI_DOF_1">
+			<Text>Being on such good terms, I couldn't help but notice that you'd become friends with {1_CivName}. I have done the same. Perhaps this makeshift alliance will lead to great things in the future?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_HUMAN_DOF_SO_AI_DENOUNCE_1">
+			<Text>Oh great, now the vermin are breeding. Now I have to deal with both you and {1_CivName}? I'll have to teach them a lesson.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_HUMAN_DENOUNCE_SO_AI_DENOUNCE_1">
+			<Text>I share your convictions that {1_CivName} only causes problems for the civilized empires of the world. Perhaps the combination of our denouncements will teach them a lesson.</Text>
+		</Row>
+		<!-- General Diplo Text -->
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_COOP_WAR_REQUEST_1">
+			<Text>{1_PlayerName:textkey} is an enemy to the security and peace of this god-given earth. You need to aide Britain in putting them back in their place.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_COOP_WAR_TIME_1">
+			<Text>It is the grim time for war with {1_PlayerName:textkey}. Will you honour your pledge to Britain?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_DEC_FRIENDSHIP_1">
+			<Text>Britain appreciates her allies and would like to let the world know that she counts you amongst them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_PLOT_BUYING_WARNING_1">
+			<Text>Your purchase of land in my vicinity has caused some alarm. I caution you so that this issue does not become more serious.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>The aggressive manner in which you buy up territory near us is an insult. I had hoped you would be a better neighbor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_EXPANSION_WARNING">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_RETURNED_CIVILIAN_1">
+			<Text>Hmph. Good.</Text>
+		</Row>
+		<!--Insults-->	
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_INSULT_JFD_CHURCHILL_1">
+			<Text>You are so positively abominable I had to make my way to you and tell you myself.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_INSULT_JFD_CHURCHILL_2">
+			<Text>My God, what unspeakable demon gave you the sovereign right to rule an empire? It must have been democracy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_INSULT_JFD_CHURCHILL_3">
+			<Text>Ah, excellent. It's you. I was hoping I could pledge to protect you, so that I could get my production bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_INSULT_JFD_CHURCHILL_4">
+			<Text>Ah, it's you. My apologies. Sometimes I get you mixed up with the barbarians I have to swat from time to time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_INSULT_MILITARY_1">
+			 <Text>It is a good thing you do not know the first thing about war; it will make it easier to keep you in line.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_INSULT_MILITARY_2">
+			<Text>With an army so weak it's a surprise your empire hasn't succumb to a barbarian invasion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_INSULT_BULLY_1">
+			<Text>Britain shall not stand for your bullying of the lesser powers that be! Do you understand me and are we perfectly clear?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_INSULT_UNHAPPINESS_1">
+			<Text>You must do something about your people's unhappiness. It sounds as if they were married to my wife!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_INSULT_CITIES_1">
+			<Text>Ah, excellent. It's you. I was hoping I could pledge to protect you, so that I could get my production bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_INSULT_POPULATION_1">
+			<Text>Travelers have told us that your empire's economy is in pretty sad shape. If you beg a little I might give you a hand. Okay, actually I won't.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_INSULT_CULTURE_1">
+			<Text>What a sad sight... your empire is so uncultured. What do your citizens do all day, beat rocks together?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_INSULT_CULTURE_2">
+			<Text>Rumor has it that your culture is so laughable that even the barbarians are shying away from your lands.</Text>
+		</Row>
+		<!--Public Declarations-->
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_DECLARATION_PROTECT_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} announces to the world that it is now protecting {1_MinorCivName:textkey}. Attacking the City-State will greatly damage relations and may lead to war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_DECLARATION_ABANDON_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} has taken back its guarantee of protecting {1_MinorCivName:textkey}.</Text>
+		</Row>
+		<!-- Human is asking the AI for something -->
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_DONT_SETTLE_NO_1">
+			<Text>I will not oblige you, my sir, for Britain's glory has need of more settlement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_DONT_SETTLE_YES_1">
+			<Text>Very well. I shall give you a running start, but before long Britain shall continue its expansion.</Text>
+		</Row>
+		<!--Deal Offers and related-->
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_LUXURY_TRADE_1">
+			<Text>I would imagine this is a good deal. It was cooked up in London by the liberal gits in opposition.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_OPEN_BORDERS_EXCHANGE_1">
+			<Text>On behalf of the United Kingdom, I would humbly ask that you open your borders to her.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_RESPONSE_REQUEST_1">
+			<Text>Britain needs your aide. You would not be as free as you are if we were to collapse into barbarity. It is in your best interests to assist her.</Text>
+		</Row>
+		<!--AI Attacked by Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_ATTACKED_HOSTILE_1">
+			<Text>You spell your own foolish disaster, you gormless hob-nob! Britain shall respond, and she shall do so with a great storm that shall rip your empire to pieces!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_ATTACKED_EXCITED_1">
+			<Text>We will fight you in the hills! We will fight you in streets! Britain will never surrender!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_ATTACKED_SAD_1">
+			<Text>I had thought you a fair soul, but I see now that you are nothing more than a ravenous viper! I would have you keep the company of my wife.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_ATTACKED_BETRAYED_1">
+			<Text>I had thought you a fair soul, but I see now that you are nothing more than a ravenous viper! I would have you keep the company of my wife.</Text>
+		</Row>
+		<!--AI Declaring War on Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_DOW_GENERIC_1">
+			<Text>You are a warmonger, and I am peacemonger. Today, our roles shall be reversed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_DOW_LAND_1">
+			<Text>I would have you know that you have sat your arse on land that belongs to Great Britain for far too long! It is time for reclamations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_DOW_WORLD_CONQUEST_1">
+			<Text>I will not rest until this good green earth is covered in the privileges of every British citizen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_DOW_OPPORTUNITY_1">
+			<Text>I will not rest until this good green earth is covered in the privileges of every British citizen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_DOW_DESPERATE_1">
+			<Text>I will not rest until this good green earth is covered in the privileges of every British citizen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_DOW_BETRAYAL_1">
+			<Text>You spell your own foolish disaster, you gormless hob-nob!</Text>
+		</Row>
+		<!--AI Responses to a human peace offer-->
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_TOO_SOON_NO_PEACE_1">
+			<Text>Have you lost your mind? Britain shall not surrender to you at this hour.</Text>
+		</Row>
+		<!--AI Responses to a discussion mode topics-->
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_BAD_1">
+			<Text>You senseless git.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_CHURCHILL_GOOD_1">
+			<Text>Yes, yes, very well done.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Pax Britannica
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_JFD_UNITED_KINGDOM">
+			<Text>+5% [ICON_PRODUCTION] Production when building naval and air units for each Pledge of Protection you have with a City-State. Outgoing naval trade routes provide +1 [ICON_PRODUCTION] Production for every era passed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_UNITED_KINGDOM_SHORT">
+			<Text>Pax Britannica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SEA_TRADE_PRODUCTION">
+			<Text>JFD: Sea Trade Production</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SEA_TRADE_PRODUCTION_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_NAVAL_AND_AIR_PRODUCTION">
+			<Text>JFD: Naval and Air Production</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_NAVAL_AND_AIR_PRODUCTION_HELP">
+			<Text>+5% [ICON_PRODUCTION] Production when building naval and air units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHURCHILL_TRACKER">
+			<Text>Pax Britannica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHURCHILL_TRACKER_HELP">
+			<Text>Each outgoing naval trade route provides +1 [ICON_PRODUCTION] Production for every era passed.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Dreadnought
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_JFD_DREADNOUGHT">
+			<Text>Dreadnought</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_DREADNOUGHT">
+			<Text>Powerful Modern Era naval ranged unit that ignores enemy zones of control. Costs 1 more [ICON_GOLD] Gold maintenance. Only the United Kingdom may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_DREADNOUGHT_STRATEGY">
+			<Text>The Dreadnought is a United Kingdom unique unit, replacing the Battleship. Stronger but slower than the Battleship, the Dreadnought is available earlier and ignores enemy zones of control, but costs 1 more [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_DREADNOUGHT_TEXT">
+			<Text>A dreadnought is a type of battleship built during the early 20th century. First engineered by the British Royal Navy in 1906, the dreadnought was such a revolutionary design in its power that it became a key symbol in the race for naval superiority. Because of this, however, the dreadnought was quickly outclassed by the "super-dreadnought" and only ever saw combat in one battle: the Battle of Jutland between Britain and Germany, which ended in a stalemate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DREADNOUGHT">
+			<Text>Ignores Zones of Control</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DREADNOUGHT_HELP">
+			<Text>Ignores enemy zones of control.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Spitfire
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_JFD_SPITFIRE">
+			<Text>Spitfire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_SPITFIRE_TEXT">
+			<Text>The spitfire is a fighter aircraft used by the British Royal Air Force during the second world war. During the Battle of Britain in 1940, the Spitfire was amongst the fighting resistance against the invasion of the German Luftwaffe, although despite popular misconception they were not the primary RAF fighter during this battle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_SPITFIRE_STRATEGY">
+			<Text>The Spitfire is a United Kingdom unique unit, replacing the Fighter. Stronger than the Fighter, the Spitfire heals 25 HP whenever it defeats an enemy unit and receives a +50% Combat Bonus in friendly territory as well as a +150% Combat Bonus against hover and bomber air units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_SPITFIRE">
+			<Text>Powerful Atomic Era fighter air unit that heals whenever it defeats an enemy unit and specializes in defeating hover and bomber air units and defending the homelands. Only the United Kingdom may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_RAF">
+			<Text>Royal Air Force</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_RAF_HELP">
+			<Text>+50% Combat Bonus in friendly territory.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

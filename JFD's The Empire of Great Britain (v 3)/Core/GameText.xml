@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/4/2014 8:45:16 AM -->
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						Great Britain
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_CIV_JFD_GREAT_BRITAIN_ADJECTIVE">
+			<Text>British</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_GREAT_BRITAIN_DESC">
+			<Text>British Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_GREAT_BRITAIN_SHORT_DESC">
+			<Text>Great Britain</Text>
+		</Row>
+		<!-- City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_BIRMINGHAM">
+			<Text>Birmingham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_LEEDS">
+			<Text>Leeds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_MANCHESTER">
+			<Text>Manchester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_EDINBURGH">
+			<Text>Edinburgh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_DUBLIN">
+			<Text>Dublin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_CARDIFF">
+			<Text>Cardiff</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_BELFAST">
+			<Text>Belfast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_GLASGOW">
+			<Text>Glasgow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_LIVERPOOL">
+			<Text>Liverpool</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_NEWCASTLE">
+			<Text>Newcastle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_OXFORD">
+			<Text>Oxford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_BRISTOL">
+			<Text>Bristol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_ABERDEEN">
+			<Text>Aberdeen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_SHEFFIELD">
+			<Text>Sheffield</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_SOUTHAMPTON">
+			<Text>Southampton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_PORTSMOUTH">
+			<Text>Portsmouth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_LEICESTER">
+			<Text>Leicester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_COVENTRY">
+			<Text>Coventry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_BRIGHTON">
+			<Text>Brighton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_SWANSEA">
+			<Text>Swansea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_DUNDEE">
+			<Text>Dundee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_CANTERBURG">
+			<Text>Canterburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_CAMBRIDGE">
+			<Text>Cambridge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_PLYMOUTH">
+			<Text>Plymouth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_YORK">
+			<Text>York</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_DERBY">
+			<Text>Derby</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_NORWICH">
+			<Text>Norwich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_EXETER">
+			<Text>Exeter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_BATH">
+			<Text>Bath</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_INVERNESS">
+			<Text>Inverness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_NEWPORT">
+			<Text>Newport</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VICTORIA_LONDONDERRY">
+			<Text>Londonderry</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_GREAT_BRITAIN_9">
+			<Text>Count Manfred</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_GREAT_BRITAIN_8">
+			<Text>Tubbs</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_GREAT_BRITAIN_7">
+			<Text>Eddie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_GREAT_BRITAIN_6">
+			<Text>Edward</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_GREAT_BRITAIN_5">
+			<Text>Tate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_GREAT_BRITAIN_4">
+			<Text>Baron de Ropp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_GREAT_BRITAIN_3">
+			<Text>Mariette</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_GREAT_BRITAIN_2">
+			<Text>Artist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_GREAT_BRITAIN_1">
+			<Text>Arthur Owens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_GREAT_BRITAIN_0">
+			<Text>Gaby</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!----------------------------------------------------------------
+						England
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_01">
+			<Text>London</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_02">
+			<Text>York</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_03">
+			<Text>Norwich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_04">
+			<Text>Lincoln</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_05">
+			<Text>Thetford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_06">
+			<Text>Oxford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_07">
+			<Text>Canterbury</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_08">
+			<Text>Newcastle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_09">
+			<Text>Coventry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_10">
+			<Text>Cambridge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_11">
+			<Text>Sailsbury</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_12">
+			<Text>King's Lynn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_13">
+			<Text>Reading</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_14">
+			<Text>Colchester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_15">
+			<Text>Bury St Edmunds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_16">
+			<Text>Lavenham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_17">
+			<Text>Portsmouth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_18">
+			<Text>Totnes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_19">
+			<Text>Great Yarmouth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_20">
+			<Text>Hull</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_21">
+			<Text>Dover</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_22">
+			<Text>Boston</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_23">
+			<Text>Hadleigh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_24">
+			<Text>Wisbech</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_25">
+			<Text>Leicaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_26">
+			<Text>Beverly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_27">
+			<Text>Debry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_28">
+			<Text>Scarborough</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_29">
+			<Text>Plymouth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ENGLAND_30">
+			<Text>Lewes</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Victoria
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA">
+			<Text>Victoria</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VICTORIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VICTORIA_TEXT_1">
+			<Text>Victoria served as English monarch for 64 years - the longest reign in English history. She took the throne at 18, after the death of her uncle, King William IV. At 20 she married Prince Albert, to whom she bore nine children. The couple was very much in love and co-ruled for twenty years. She and Albert were quite interested in science, and in 1851 they inspired the hugely successful Great Exhibition in the Crystal Palace, the proceeds going to establish a number of public museums, including the Albert and Victoria museum; which remains one of the world's finest museums even today.[NEWLINE][NEWLINE]During the early years of her reign Victoria was a quite active monarch, and she won the hearts of her people with her modesty and practicality. It was during this period that she performed her greatest service to the British people: she oversaw the transition of the British throne to a constitutional monarchy.[NEWLINE][NEWLINE]When Albert died in 1861, Victoria was devastated. She went into permanent mourning, retiring from the day-to-day rule of her country and secluding herself on the Isle of Wight, where she was increasingly involved in somewhat dubious spiritual exploration. Her self-pity was legendary - a remarkable change from her youthful modesty and enthusiasm.[NEWLINE][NEWLINE]Victoria's isolation and indifference to the management of her country left room for extremely talented prime ministers, such as Gladstone and Disraeli, to guide Great Britain into a golden age of prosperity and expansion. During this period the Empire came to dominate half of the world's area and population - including India and much of the Orient, as well as large chunks of Africa, Asia, North America and a goodly portion of the Pacific islands.[NEWLINE][NEWLINE]Victoria believed that Great Britain had a mandate from heaven to bring the ignorant peoples of the world beneath the protection of the British flag. She felt that she personally had a duty to these untutored people, to educate and clothe them, and most importantly, to bring them to the church.[NEWLINE][NEWLINE]During her reign, Great Britain grew from a moderate European power into the greatest empire the world has ever known, an Empire on which "the sun never set," far overshadowing Imperial Rome in size and might. The Diamond Jubilee, celebrating Victoria's 60th year as monarch, dwarfed in pomp and majesty anything that a puny Caesar could have ever mustered.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VICTORIA_LIVED">
+			<Text>1819 - 1901 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VICTORIA_NAME">
+			<Text>Victoria</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VICTORIA_SUBTITLE">
+			<Text>Leader of Great Britain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VICTORIA_TITLES_1">
+			<Text>Queen of Great Britain, Empress of India</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_VICTORIA_DAWN">
+			<Text>By the Grace of God, we bow in humble servitude to Her Majesty Queen Victoria, sovereign and protector of the glorious British Empire! Taking the throne at 18, you would serve Great Britain as her longest and most prestigious monarch, overseeing the spread of its imperial might across the globe, and its rapid transformation into an industrial giant. Under the mandate of God, the British Empire would come to dominate all corners of the earth, bringing great wealth and glory to her heart, and a plethora of new ideas to the traditional world. As her Queen, you would retain dignity and modesty and grave composure, and you would embolden the fondness of your subjects for their Monarchy, leaving behind you an age of resounding greatness that would serve to remind its descendants of the fiery will of the British Isles.[NEWLINE][NEWLINE]Most gracious Queen, long has Great Britain yearned for the power and wealth that it once knew. Can you bear your duty as sovereign of the empire where the sun is forever shining? Can you bring civilization to the barbarous peoples of the earth and with it glory and greatness for the hearts of your subjects? Can you build a civilization that stands the test of time?</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Diplomacy
+		------------------------------------------------------------------>
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_FIRSTGREETING_1">
+			<Text>We are Victoria, sovereign and protector of the British Empire. We would venture to welcome you to Our Court, in the hopes that Our interests can be best served.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_FIRSTGREETING_2">
+			<Text>Good day to you, We are Victoria, ruler of the British Empire. We would have you dine with Us this evening, so clean yourself up.</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DEFEATED_1">
+			<Text>We are most quiet and calm in the face of this disaster.</Text>
+		</Row>
+		<!-- Human repeats an action too much, gets the following responses -->
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_REPEAT_TOO_MUCH_1">
+			<Text>We are not amused by your constant badgering, and would ask that it cease at once.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_REPEAT_TRADE_TOO_MUCH_1">
+			<Text>We are not amused by your constant badgering, and would ask that it cease at once.</Text>
+		</Row>
+		<!-- Greetings -->
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_GREETING_HOSTILE_HELLO_1">
+			<Text>We do not enjoy your company.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_GREETING_POLITE_HELLO_1">
+			<Text>We are graced with your prescence once again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>We are not interested in your war, so We do not wish to hear such unbecoming beggaring.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_GREETING_HUMAN_AT_WAR_1">
+			<Text>We wish you the best in your current conflict.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>We wish that you would remove your military actions from against Britain's borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_VICTORIA_GREETING_HOSTILE_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>We wish that you would cease your endless purchase of land. We kindly condemn your dishonour in this regard.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_GREETING_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>We wish that you would cease your endless purchase of land. We kindly condemn your dishonour in this regard.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_GREETING_HOSTILE_AGGRESSIVE_EXPANSION_1">
+			<Text>We wish that you would cease your endless expansion. We kindly condemn your dishonour in this regard.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_GREETING_AGGRESSIVE_EXPANSION_1">
+			<Text>We wish that you would cease your endless expansion. We kindly condemn your dishonour in this regard.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_GREETING_FRIENDLY_STRONG_MILITARY_1">
+			<Text>We would like to formally congratulate you on the size of your arms. It has given the British Army much to aspire to.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_GREETING_FRIENDLY_STRONG_ECONOMY_1">
+			<Text>We would like to formally congraluate you on the wealth of your economy. It has given the British treasury much to aspire to.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_GREETING_HOSTILE_HUMAN_FEW_CITIES_1">
+			<Text>We would like to remind you that with an empire so small it would not surprise Us in the least if you disappeared from the earth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_GREETING_HOSTILE_HUMAN_SMALL_ARMY_1">
+			<Text>We would like to remind you that with an army so small it would not surprise Us in the least if you were wiped from the earth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>We would not enjoy your company here today.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_TOO_SOON_FOR_DOF_1">
+			<Text>We would decline this request, for We would remind you that We have barely had any relations to begin with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DENOUNCE_1">
+			<Text>We would formally declare that your empire is a wretched thing, and We would hope others to know of it.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DENOUNCE_2">
+			<Text>We would formally declare that your empire is not aligned with the interests of Great Britain.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>We would regret that this has come to pass, but would remind you that there shall be consequences to your actions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_HUMAN_DOFED_FRIEND_1">
+			<Text>We would like to congratulate you on your recent friendship with {1_CivName}. This bodes well for Our relationship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_HUMAN_DOFED_ENEMY_1">
+			<Text>We would like to warn you against any diplomacy with {1_CivName}. It would upset Us deeply if you would speak with them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>We would like to scold you for your recent denunciation of {1_CivName}. They have been nothing but kind to Us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>We would like to congratulate you on your recent denunciation of {1_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_HUMAN_DOF_SO_AI_DOF_1">
+			<Text>We would like to congratulate you on your recent friendship with {1_CivName} and have pledged to declare the same.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_HUMAN_DOF_SO_AI_DENOUNCE_1">
+			<Text>We are not amused by your recent friendship with {1_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_HUMAN_DENOUNCE_SO_AI_DENOUNCE_1">
+			<Text>We are pleased that you have denounced {1_CivName}.</Text>
+		</Row>
+		<!-- General Diplo Text -->
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_COOP_WAR_REQUEST_1">
+			<Text>We would ask that you aide the British Empire is seeking security and peace by waging war against {1_PlayerName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_COOP_WAR_TIME_1">
+			<Text>We would ask that you now join us in this time of war against {1_PlayerName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DEC_FRIENDSHIP_1">
+			<Text>We would like to formally extend Our hand unto you in friendship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>We would remind you that the British army is well equipped to deal with whatever military you place at Our borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_PLOT_BUYING_WARNING_1">
+			<Text>We would warn you against your aggressive purchasing of land.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>We would warn you against your aggressive purchasing of land, or conflict could airse between us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_EXPANSION_SERIOUS_WARNING_1">
+			<Text>We would warn you against your aggressive expansion, or conflict could airse between us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_EXPANSION_WARNING">
+			<Text>We would warn you against your aggressive expansion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_RETURNED_CIVILIAN_1">
+			<Text>We would thank thee for returning this civilian to Britain.</Text>
+		</Row>
+		<!--Public Declarations-->
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DECLARATION_PROTECT_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} announces to the world that it is now protecting {1_MinorCivName:textkey}. Attacking the City-State will greatly damage relations and may lead to war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DECLARATION_ABANDON_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} has taken back its guarantee of protecting {1_MinorCivName:textkey}.</Text>
+		</Row>
+		<!-- Human is asking the AI for something -->
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DONT_SETTLE_NO_1">
+			<Text>We would respectfully refuse and We would inform the honourable party that We shall continue to settle what lands We damn well please.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DONT_SETTLE_YES_1">
+			<Text>We would accept this warning.</Text>
+		</Row>
+		<!--Deal Offers and related-->
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_LUXURY_TRADE_1">
+			<Text>We would have need of this resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_OPEN_BORDERS_EXCHANGE_1">
+			<Text>We would have need of an open borders arrangement. Though Our armies do not need it, it would be wise to accept.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_RESPONSE_REQUEST_1">
+			<Text>We would have need of this.</Text>
+		</Row>
+		<!--AI Attacked by Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_ATTACKED_HOSTILE_1">
+			<Text>We are not amused by this hostility.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_ATTACKED_EXCITED_1">
+			<Text>We shall plants the seeds of wealth from the carcass of your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_ATTACKED_SAD_1">
+			<Text>We are displeased with this attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_ATTACKED_BETRAYED_1">
+			<Text>We are displeased with this attack.</Text>
+		</Row>
+		<!--AI Declaring War on Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DOW_GENERIC_1">
+			<Text>We would have you know that war is now upon you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DOW_GENERIC_2">
+			<Text>We would have you know that this is a formal declaration of war upon you by the British Empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DOW_LAND_1">
+			<Text>We would inform you that war is now upon you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DOW_WORLD_CONQUEST_1">
+			<Text>We would inform you that war is now upon you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DOW_OPPORTUNITY_1">
+			<Text>We would inform you that war is now upon you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DOW_DESPERATE_1">
+			<Text>We would inform you that war is now upon you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_DOW_BETRAYAL_1">
+			<Text>We would inform you that war is now upon you.</Text>
+		</Row>
+		<!--AI Responses to a human peace offer-->
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_TOO_SOON_NO_PEACE_1">
+			<Text>We shall do no such thing, you brute!</Text>
+		</Row>
+		<!--AI Responses to a discussion mode topics-->
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_BAD_1">
+			<Text>We are not amused.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VICTORIA_GOOD_1">
+			<Text>We are amused.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Sun Never Sets
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_JFD_GREAT_BRITAIN">
+			<Text>Earn [ICON_GOLD] Gold from founding cities based on their distance from the [ICON_CAPITAL] Capital. Receive 10% of the [ICON_GOLD] Gold and [ICON_RESEARCH] Science outputs of your cities on foreign continents in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_GREAT_BRITAIN_SHORT">
+			<Text>Sun Never Sets</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_VICTORIAN_SCIENCE">
+			<Text>JFD: Victorian Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_VICTORIAN_SCIENCE_HELP">
+			<Text>+1 [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_VICTORIAN_GOLD">
+			<Text>JFD: Victorian Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_VICTORIAN_GOLD_HELP">
+			<Text>+1 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COLONY_TRACKER">
+			<Text>Imperial Treasury</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COLONY_TRACKER_HELP">
+			<Text>Provides 10% of the [ICON_GOLD] Gold and [ICON_RESEARCH] Science outputs of your cities on foreign continents.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Elizabethan Age
+		------------------------------------------------------------------>
+		<Delete Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT_SHORT" />
+		<Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT_SHORT">
+			<Text>Elizabethan Age</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Grand Carrack
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_JFD_GRAND_CARRACK">
+			<Text>Grand Carrack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_GRAND_CARRACK_TEXT">
+			<Text>The rating system of the Royal Navy and its predecessors was used by the British Royal Navy between the beginning of the 17th century and the middle of the 19th century to categorise sailing warships, initially classing them according to their assigned complement of men, and later according to the number of their carriage-mounted guns. The first movement towards a rating system may be seen in the 15th century and the first half of the 16th century, when the largest carracks in the Navy (such as the Mary Rose, the Peter Pomegranate and the Henri Grâce à Dieu) were denoted "great ships". This was only on the basis of their roughly-estimated size and not on their weight, crew or number of guns. When these carracks were superseded by the new-style galleons later in the 16th century, the term "great ship" was used to formally delineate the Navy's largest ships from all the rest.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_GRAND_CARRACK_STRATEGY">
+			<Text>The Grand Carrack is the unique unit for Elizabethan England, replacing the Galleass. Stonger and faster than the Galleass, the Great Carrack can enter Ocean tiles and may heal outside of friendly territory when adjacent to a Great Admiral.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_GRAND_CARRACK">
+			<Text>Powerful Medieval Era naval ranged unit that can enter Ocean tiles and may heal outside of friendly territory when adjacent to a Great Admiral. Only Elizabethan England may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GRAND_CARRACK_HEAL">
+			<Text>Royal Navy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GRAND_CARRACK_HEAL_HELP">
+			<Text>May heal outside of friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GRAND_CARRACK_HEAL_INFO">
+			<Text>Royal Navy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GRAND_CARRACK_HEAL_INFO_HELP">
+			<Text>May heal outside of friendly territory when adjacent to a Great Admiral.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Redcoat
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_JFD_REDCOAT">
+			<Text>Redcoat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_REDCOAT">
+			<Text>Powerful Industrial Era gunpowder unit that ignores terrain costs and may enter enemy territory without Open Borders. Offsets the [ICON_PRODUCTION] Production penalty from [ICON_HAPPINESS_4] Unhappiness when garrisoned in a city. Only Great Britain may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_REDCOAT_STRATEGY">
+			<Text>The Redcoat is a unique unit for Great Britain, replacing the Rifleman. Cheaper than the Rifleman, the Redcoat ignores terrain costs in rough terrain and may enter enemy territory without Open Borders. When garrisoned in a city, the Redcoat offsets the [ICON_PRODUCTION] Production penalty from [ICON_HAPPINESS_4] Unhappiness in that city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_REDCOAT_TEXT">
+			<Text>A soldier of the British Army. The usual uniform of British soldiers during the 18th and 19th centuries (prior to the introduction of khaki) was a red (or scarlet) coat and white breeches. The epithet "Redcoats" was used throughout the world, but is particularly associated with the American colonists. The term is still used in Ireland to refer to the British Army, and sometimes to all British people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_REDCOAT_PRODUCTION">
+			<Text>Redcoat Garrison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_REDCOAT_PRODUCTION_HELP">
+			<Text>This unit is offseting the [ICON_PRODUCTION] Production penalty from [ICON_HAPPINESS_4] Unhappiness in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_REDCOAT_GARRISON">
+			<Text>British Garrison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_REDCOAT_GARRISON_HELP">
+			<Text>Offsets the [ICON_PRODUCTION] Production penalty from [ICON_HAPPINESS_4] Unhappiness when garrisoned in a city.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Ship of the Line
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_JFD_SHIPOFTHELINE_STRATEGY">
+			<Text>The Ship of the Line is a unique unit for Great Britain, replacing the Frigate. Stronger but slower than the Frigate, the Ship of the Line starts with additional Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_SHIPOFTHELINE_HELP">
+			<Text>Powerful Renaissance Era naval ranged unit that starts with additional Sight. Only Great Britain may build it.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

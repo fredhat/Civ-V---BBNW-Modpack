@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a201fdab-3566-4de1-b47f-5337d6cd39f1" version="6">
+  <Properties>
+    <Name>JFD's The Kingdom of Francia</Name>
+    <Teaser>Adds the Kingdom of Francia civilization led by Charlemagne to the game.</Teaser>
+    <Description>Adds the Kingdom of Francia civilization to the game. Requires Brave New World.</Description>
+    <Authors>JFD, Janboruta</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=474393</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="181216942C9BC555BD7EA9314D2B20D0" import="0">Art/ArtDefines.sql</File>
+    <File md5="B8048E68F4B16027C9A09EC425E6A602" import="1">Art/Atlas/JFD_FranksAlphaAtlas_128.dds</File>
+    <File md5="59A20930A5AC3AEE687AB2612C63ACE7" import="1">Art/Atlas/JFD_FranksAlphaAtlas_16.dds</File>
+    <File md5="A766B524B8958930AA41CDA37D38C5B2" import="1">Art/Atlas/JFD_FranksAlphaAtlas_24.dds</File>
+    <File md5="D70D45E01FEE688E7F3D82D6761C4E30" import="1">Art/Atlas/JFD_FranksAlphaAtlas_32.dds</File>
+    <File md5="08B7134E55272FA87F2677A9D49AD013" import="1">Art/Atlas/JFD_FranksAlphaAtlas_45.dds</File>
+    <File md5="3EEC1EBC64B22FF3B58B3B53D827CB35" import="1">Art/Atlas/JFD_FranksAlphaAtlas_48.dds</File>
+    <File md5="EAB7608E4A1EEAF3A25DA06C6079B4CE" import="1">Art/Atlas/JFD_FranksAlphaAtlas_64.dds</File>
+    <File md5="45A66FFA9E1F124A2824E296D5A8EB04" import="1">Art/Atlas/JFD_FranksAlphaAtlas_80.dds</File>
+    <File md5="CF797879CD639D2D49A0453429C38FF1" import="1">Art/Atlas/JFD_FranksAtlas_128.dds</File>
+    <File md5="FE627D36B3F0132F221E44CAF03EAE94" import="1">Art/Atlas/JFD_FranksAtlas_256.dds</File>
+    <File md5="7EAFCD997F1BDA548FC72C608AF8353D" import="1">Art/Atlas/JFD_FranksAtlas_32.dds</File>
+    <File md5="E5ECB9005496AD2A27B24C23D59E1F58" import="1">Art/Atlas/JFD_FranksAtlas_45.dds</File>
+    <File md5="5A3B3AFD12A4345D04ED5CFB426119CF" import="1">Art/Atlas/JFD_FranksAtlas_64.dds</File>
+    <File md5="FDB5419D931FFB1553DAFAA61CB3FDF0" import="1">Art/Atlas/JFD_FranksAtlas_80.dds</File>
+    <File md5="923E1E4EA16109EEFD5D65E6706552CF" import="1">Art/Atlas/JFD_SiegeUnit_256.dds</File>
+    <File md5="8FF57713C4924B4FF326EA73032AA4DD" import="1">Art/Atlas/Unit_Paladin_Flag_32.dds</File>
+    <File md5="DCB6BAE0F5650502291D37E913E8A723" import="1">Art/Diplomacy/Charlemagne_Scene.xml</File>
+    <File md5="83D7AF098EC915034CB0841E38B296B1" import="1">Art/Diplomacy/Charlemagne_Diplo.dds</File>
+    <File md5="BA546B5746DF033C866B348C83034EE1" import="1">Art/Graphics/Francisca/francisca.fxsxml</File>
+    <File md5="08A6326F226F67534FD469F4EF7D3D27" import="1">Art/Graphics/Francisca/francisca.gr2</File>
+    <File md5="07093926F31FB49815DCD77829EFB541" import="1">Art/Graphics/Francisca/francisca_diff.dds</File>
+    <File md5="12FE0C71222ED8B26962DAD8CB4D70F3" import="1">Art/Graphics/Francisca/francisca_sref.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Graphics/Paladin/no_gloss.dds</File>
+    <File md5="22EC57939CCD2633AADD32897EDD2494" import="1">Art/Graphics/Paladin/Paladin.dds</File>
+    <File md5="5632B3FB26B78A2D72626292DF804D4D" import="1">Art/Graphics/Paladin/Paladin.fxsxml</File>
+    <File md5="0A3F37B6E3E966CE0EE1F52D3C99A9AF" import="1">Art/Graphics/Paladin/Paladin.gr2</File>
+    <File md5="CDD1546D358C81A58853E81585B83A03" import="1">Art/Graphics/Paladin/Paladin_gloss.dds</File>
+    <File md5="185A2FFFFAC01FC9A2CD78A8B3256FCE" import="1">Art/Graphics/Paladin/Paladin_Horse.dds</File>
+    <File md5="41E5DF513B8D44B1E719AEF73A924C27" import="1">Art/Graphics/Paladin/sv_Paladin.dds</File>
+    <File md5="E44BA7EF7560527137BD526D0568E7AA" import="1">Art/Map/DOM_Charlemagne.dds</File>
+    <File md5="7B726E0DA62A94CFDE301CB8715A288E" import="1">Art/Map/TheFranksMap512.dds</File>
+    <File md5="D7CC09760CA4C54FC7954A9B7C622614" import="0">Audio/Audio.sql</File>
+    <File md5="B8FA1985F872BFF5609EC936C82E5929" import="1">Audio/Charlemagne_Peace.mp3</File>
+    <File md5="C98B3F0080FA5A8097E6A52B67B9574F" import="1">Audio/Charlemagne_War.mp3</File>
+    <File md5="FA5C0A54114906714A2AB514ABD3A50A" import="0">Core/Builds.sql</File>
+    <File md5="CBD3676DA05533B260C9C0C07D8E70F5" import="0">Core/Civilizations.sql</File>
+    <File md5="7CA512F9FD0BC1A3D95A004E6C33B990" import="0">Core/Diplomacy.sql</File>
+	<File md5="7CA512F9FD0BC1A3D95A004E6C33B990" import="0">Core/DiplomacyText.xml</File>
+    <File md5="8630D15204A1DAA3B76110E403CF9AF7" import="0">Core/GameText.xml</File>
+    <File md5="82410B3469A3960A532CAE85C27508C8" import="0">Core/Improvements.sql</File>
+    <File md5="79B280BF81708ADAF6C51A0C3D8553A6" import="0">Core/Leaderhead.sql</File>
+    <File md5="402B3C747ECB1AA3C6BC78FB074DA6E3" import="0">Core/PlayerColours.sql</File>
+    <File md5="62C8F93B68499B2F2DD57B8851FB7869" import="0">Core/Promotions.sql</File>
+    <File md5="A4AC5ACBF4EFA316CD34DAF34DEA18F6" import="0">Core/Traits.sql</File>
+    <File md5="6623D1C95EBEC12AF6C664F95A2DB134" import="0">Core/Units.sql</File>
+    <File md5="BACFD073F608F4EC1FD03CA8ACF19AFE" import="0">Lua/JFD_FranksFunctions.lua</File>
+    <File md5="BACFD073F608F4EC1FD03CA8ACF19AFE" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Audio/Audio.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Builds.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Diplomacy.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/DiplomacyText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Improvements.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_FranksFunctions.lua">
+      <Name>The Franks Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

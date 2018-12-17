@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a6e2d8b9-4675-4409-aa06-b9a9469d3cef" version="2">
+  <Properties>
+    <Name>Promotions - AntiAir Specialisations</Name>
+    <Teaser>Seperates the Anti-Aircraft Gun and Mobile SAM into their own anti-aircraft UnitCombatType with its own promotion tree.</Teaser>
+    <Description>Makes the Anti-Aircraft Gun and Mobile SAM into anti-aircraft units and creates a new promotion tree for anti-aircraft units. Introduces the Mounted Ranged UnitCombatType.</Description>
+    <Authors>William Howard</Authors>
+    <SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+	<File md5="72B95DD9D359BDD72112C5B435D628D7" import="0">Core/GameText.xml</File>
+	<File md5="FA6D4A0F977EEE2B3A075BE3C3E8FDFB" import="0">Core/Promotions.sql</File>
+    <File md5="E1BA79E540AA319C78B4463D2F8D513D" import="0">Core/Units.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+	  <UpdateDatabase>Core/Promotions.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

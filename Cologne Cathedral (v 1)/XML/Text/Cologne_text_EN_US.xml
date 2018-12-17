@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_COLOGNE">
+			<Text>Cologne Cathedral</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_COLOGNE_HELP">
+			<Text>Starts a "We Love the King Day" in each city.[NEWLINE][NEWLINE]Provides a free Cathedral in this city.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_COLOGNE_QUOTE">
+			<Text>[NEWLINE]"The Gothic cathedral is a blossoming in stone subdued by the insatiable demand of harmony in man."[NEWLINE] - Ralph Wardo Emerson[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_COLOGNE_PEDIA">
+			<Text>Cologne Cathedral is a Roman Catholic cathedral, renowned for it's stunning known for it's impressive Gothic architecture. The cathedral is a World Heritage Site, known to have been the centerpiece of German Catholicism. Today the cathedral is the seal of the Archbishop of Cologne, and has risen to become one of Germany's most visited landmarks. Construction commenced in 1248, on the site of previous buildings such as a possible Roman temple and a granary.  Construction on the structure ceased in 1473, and the cathedral remained unfinished for over four hundred years, not completed until the nineteenth century. Spurred on by romantic enthusiasm of the Middle Ages, and with the recovery of the original plans, the Prussian Court committed to completing the structure, despite being Protestant. In December of 1884, the Cologne Cathedral was finally completed.  During the two World Wars of the early twentieth century the Cathedral suffered many major damages, and repair worked to be carried out for decades to come.  Today, the Cologne Cathedral stands as a proud symbol of Germany's rich cultural past, and a spiritual beacon to many Christians in Germany and around the world.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

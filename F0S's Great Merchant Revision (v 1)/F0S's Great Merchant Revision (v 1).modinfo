@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="44D7ABAA-84AA-2F73-3439-61F956C3306E" version="1">
+  <Properties>
+    <Name>F0S's Great Merchant Revision</Name>
+    <Teaser>Revises the base game Great Merchant unit.</Teaser>
+    <Description>Allows the Great Merchant to be expended to construct a building that provides an additional trade route. Uses building art from JFD's Commonwealth of Poland-Lithuania: https://steamcommunity.com/sharedfiles/filedetails/?id=330325828</Description>
+    <Authors>F0S</Authors>
+	<SpecialThanks>Janboruta, JFD</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+	<Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="44" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="BB6445DB973F54BE9F9C82C631401CC0" import="0">Art/ArtDefines.sql</File>
+    <File md5="3262F75AACCDC3A9EE785046E75D77A2" import="1">Art/Icon Atlas/JFD_EstateAtlas_256.dds</File>
+    <File md5="F67961CEA0AA29DE43B8E15AD20FBD7D" import="1">Art/Icon Atlas/JFD_EstateAtlas_128.dds</File>
+    <File md5="701C6FDEE803B48804A3FC3A51FE57E0" import="1">Art/Icon Atlas/JFD_EstateAtlas_80.dds</File>
+    <File md5="7067FFC52BA23063312127F893EACD8E" import="1">Art/Icon Atlas/JFD_EstateAtlas_64.dds</File>
+    <File md5="293DA8D964875266A7C68E215B4265BB" import="1">Art/Icon Atlas/JFD_EstateAtlas_45.dds</File>
+    <File md5="63BD9767440452B21B24140901B5BE78" import="1">Art/Icon Atlas/JFD_EstateAtlas_32.dds</File>
+    <File md5="0AB1000B578BAA7DAC0A59B483B8BE44" import="0">Core/Buildings.sql</File>
+    <File md5="CFC46CF7FB0D1A08C9B46823227AD5C0" import="0">Core/GameText.xml</File>
+    <File md5="8D8AC3D6CDCD8E3680CE85DEF0AB9E26" import="0">Core/Units.sql</File>
+    <File md5="F69161BFEAB23646CFAD26162ED260DA" import="0">Lua/F0S_GreatMerchantFunctions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/F0S_GreatMerchantFunctions.lua">
+      <Name>F0S_GreatMerchantFunctions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

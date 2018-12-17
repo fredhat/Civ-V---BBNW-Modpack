@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_CHAMPA_GOLDEN_AGE_PLUS_DUMMY</Type>
+			<DefaultBuilding>BUILDING_CHAMPA_GOLDEN_AGE_PLUS_DUMMY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CHAMPA_DUMMY_DESC</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_CHAMPA_BLOCKADE_PLUS_DUMMY</Type>
+			<DefaultBuilding>BUILDING_CHAMPA_BLOCKADE_PLUS_DUMMY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CHAMPA_DUMMY_DESC</Description>
+		</Row>
+	</BuildingClasses>
+</GameData>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/4/2014 8:45:16 AM -->
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						America (Roosevelt)
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_CIV_JFD_AMERICA_ROOSEVELT_DESC">
+			<Text>The United States of America</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_AMERICA_ROOSEVELT_SHORT_DESC">
+			<Text>The United States of America</Text>
+		</Row>
+		<!-- City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_WASHINGTON">
+			<Text>Washington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_NEW_YORK">
+			<Text>New York</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_DETROIT">
+			<Text>Detroit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_PHILADELPHIA">
+			<Text>Philadelphia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_LOS_ANGELES">
+			<Text>Los Angeles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_CHICAGO">
+			<Text>Chicago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_BOSTON">
+			<Text>Boston</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_BUFFALO">
+			<Text>Buffalo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_SAN_FRANCISCO">
+			<Text>San Francisco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_ATLANTA">
+			<Text>Atlanta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_HOUSTON">
+			<Text>Houston</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_ST_LOUIS">
+			<Text>St. Louis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_SEATTLE">
+			<Text>Seattle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_PORTLAND">
+			<Text>Portland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ROOSEVELT_MIAMI">
+			<Text>Miami</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Roosevelt
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT">
+			<Text>Roosevelt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_ROOSEVELT_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_ROOSEVELT_TEXT_1">
+			<Text>Franklin Delano Roosevelt, the 32nd President of the United States, is best known for leading the US out of the Great Depression and to victory in WWII. Crippled by polio at 39, Roosevelt displayed indomitable courage and resolve to overcome his disability and achieve his goals.[NEWLINE][NEWLINE]Roosevelt was a man of contradictions. Though wealthy and powerful, Roosevelt was beloved by the poor and downtrodden and despised as a socialist by the wealthy and powerful. Roosevelt ran for office on a platform of isolationism, but he hated fascism and oppression, and unceasingly worked behind the scenes to aid the UK and get America into World War II.[NEWLINE][NEWLINE]When Roosevelt first became President in 1932, the United States was in a crippling depression. Banks had closed and businesses had failed. Millions were unemployed and falling into poverty. To counter this malaise, Roosevelt enacted a series of policies that he called the "New Deal:" a sweeping program to bring recovery to business and agriculture, relief to the unemployed and to those in danger of losing businesses, farms and homes.[NEWLINE][NEWLINE]Meanwhile, the Depression raged across the entire planet, and much of the rest of the world was degenerating into chaos. Japan was attacking China, while the two great dictators - Hitler and Stalin - were threatening to engulf Europe. The United States had largely withdrawn from world politics after World War I and the failure of the League of Nations, and few American politicians had the stomach to call for intervention. Roosevelt didn't, either, and in fact he ran for reelection on a platform of isolationism.[NEWLINE][NEWLINE]However, Roosevelt sincerely believed that the United States would have to become involved in the conflict one way or another - he abhorred fascism and totalitarianism - and he feared that, left unchecked, Germany, Russia and Japan would become powerful enough to overwhelm everything in their path - including, eventually, the US. Thus he did everything in his power to ready the US for the upcoming conflict by dramatically increasing the size of the US armed forces, pitifully weakened after the end of World War I. Further, he gave as much aid as was politically feasible to England, whom he rightly saw as the unprepared US's chief protection from the German war machine. Meanwhile, he did his best to turn public opinion around in favor of more direct action.[NEWLINE][NEWLINE]It is not clear that Roosevelt would have succeeded in that, if it weren't for Japan's attack against Pearl Harbor. Though casualties were extremely heavy, Pearl Harbor did "awake a sleeping giant," and at long last the citizens of the country realized their peril. And when Germany made the huge strategic blunder of declaring war on the United States shortly thereafter, Roosevelt was able to put all of the United States' massive industrial and military might into the conflict.[NEWLINE][NEWLINE]During the war, Roosevelt showed himself to be a masterful international politician; the UK-Soviet-American alliance was shaky at best, and his adroit handling of Stalin and Churchill did much to keep things running (relatively) smoothly. Meanwhile his "fireside chats" kept the country firmly behind him, and world opinion in the allies' favor. It has been said that Hitler hated Roosevelt even more than Stalin or Churchill - high praise indeed.[NEWLINE][NEWLINE]As a military leader Roosevelt was less sure-footed and the US made some early strategic blunders that could have been avoided. He learned quickly, however, and by the end of his life the US military machine was the most powerful that the world had ever seen.[NEWLINE][NEWLINE]Roosevelt died in 1945, shortly before the war ended. His legacies of social welfare and international cooperation would dominate United States policies for the next half a century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_ROOSEVELT_LIVED">
+			<Text>1882 - 1945 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_ROOSEVELT_NAME">
+			<Text>Roosevelt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_ROOSEVELT_SUBTITLE">
+			<Text>Leader of America</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_ROOSEVELT_TITLES_1">
+			<Text>President of the United States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_JFD_ROOSEVELT_TEXT">
+			<Text>Greetings, President Roosevelt, leader of the United States of America. With courage and determination, and in spite of great personal adversity, you would lead the United States through her darkest hours. Elected to the presidency in 1933, your aim would be the reinvigoration of a shattered economy, and against the pressures of your republican foes, you would champion extensive policies to alleviate the status of the poor and disadvantaged. In 1941, the United States would be suddenly and deliberately attacked by the Empire of Japan, prompting your government to rally to the cause of Western civilization as it became engulfed in the storm of the Second World War, and from this your nation would arise triumphant, and your presidency a legacy to behold.[NEWLINE][NEWLINE]Great President, the time has come for your leadership once more. Can you give voice to the downtrodden, and champion the spirit of the United States for all? Can you lead the American people to take greatness in the face of war? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Diplomacy
+		------------------------------------------------------------------>
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_FIRSTGREETING_1">
+			<Text>Welcome to the United States of America. I am her President, and I warmly greet you as a friend and potential ally in the stalwart defense of freedom and equality.</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_DEFEATED_1">
+			<Text>I ask you to judge me by the enemies I have made.</Text>
+		</Row>
+		<!-- Human repeats an action too much, gets the following responses -->
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_REPEAT_TOO_MUCH_1">
+			<Text>I am so tired of my contemporaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_REPEAT_TRADE_TOO_MUCH_1">
+			<Text>These deals lack any sense of co-operation. I decline your offer.</Text>
+		</Row>
+		<!-- Greetings -->
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_GREETING_HOSTILE_HELLO_1">
+			<Text>Are you laboring under the impression that I like your company? I can't even bear to look at you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_GREETING_POLITE_HELLO_1">
+			<Text>It is fun to be in the same decade as you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>A word of advice to you, my friend: When you reach the end of your rope, tie a knot in it and go hang yourself.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_GREETING_HUMAN_AT_WAR_1">
+			<Text>A word of advice to you, my friend: When you reach the end of your rope, tie a knot in it and hang on.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_GREETING_FRIENDLY_STRONG_MILITARY_1">
+			<Text>The power of your military is sure to give your enemies something to fear.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_GREETING_FRIENDLY_STRONG_ECONOMY_1">
+			<Text>It is an unfortunate human failing that a full pocketbook often groans more loudly than an empty stomach. You would do well to put that pocketbook to the good of your people</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_GREETING_HOSTILE_HUMAN_FEW_CITIES_1">
+			<Text>I do not have the time to speak with City-States, you know?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_GREETING_HOSTILE_HUMAN_SMALL_ARMY_1">
+			<Text>I would be remiss if I were not to insult the small stature of your military.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>There is no one more evil in this world than you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_TOO_SOON_FOR_DOF_1">
+			<Text>The United States will make no such declarations with the likes of you, at this hour.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_DENOUNCE_1">
+			<Text>You are a tyrant and a dictator, and an enemy to freedom and liberty, and you must be stopped.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>The United States will not stand for this injustice. You have sullied your reputation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_HUMAN_DOFED_FRIEND_1">
+			<Text>Ahhh, I've noticed that you've become friends with {1_CivName}. Glad to hear of it. I'm already on good terms with them myself.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_HUMAN_DOFED_ENEMY_1">
+			<Text>I recommend that you not get too close with {1_CivName}. If so... we might have problems getting along.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>{1_CivName} is a friend to this revolution. If you are against them, then you are against all equal men.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>Good to see others who feel the same way about {1_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_HUMAN_DOF_SO_AI_DOF_1">
+			<Text>Being on such good terms, I couldn't help but notice that you'd become friends with {1_CivName}. I have done the same. Perhaps this makeshift alliance will lead to great things in the future?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_HUMAN_DOF_SO_AI_DENOUNCE_1">
+			<Text>Oh great, now the vermin are breeding. Now I have to deal with both you and {1_CivName}? I'll have to teach them a lesson.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_HUMAN_DENOUNCE_SO_AI_DENOUNCE_1">
+			<Text>I share your convictions that {1_CivName} only causes problems for the civilized empires of the world. Perhaps the combination of our denouncements will teach them a lesson.</Text>
+		</Row>
+		<!-- General Diplo Text -->
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_COOP_WAR_REQUEST_1">
+			<Text>One thing is for sure. We must do something about {1_PlayerName:textkey} and we must do something now before it is too late.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_COOP_WAR_TIME_1">
+			<Text>It is time for that grim dance of war. Will you honour your alliance to the United States and, with us at your side, declare war upon {1_PlayerName:textkey}?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_DEC_FRIENDSHIP_1">
+			<Text>The United States government sees an ally in you and I see a friend. Will you share these sentiments with me?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>The great deal of men amassing at my borders know not the sleeping lion upon whose door they trespass.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_PLOT_BUYING_WARNING_1">
+			<Text>Your purchase of land in my vicinity has caused some alarm. I caution you so that this issue does not become more serious.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>You would adulterate the soil with the pursuit of your own greed? It is disgraceful, and must stop at once.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_EXPANSION_SERIOUS_WARNING_1">
+			<Text>As I have warned you, I shall reaffirmed: the United States does not take kindly to imperialism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_EXPANSION_WARNING">
+			<Text>I warn you that the United States does not take kindly to imperialism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_RETURNED_CIVILIAN_1">
+			<Text>You have the thanks of the United State government, and my personal gratitude.</Text>
+		</Row>
+		<!--Public Declarations-->
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_DECLARATION_PROTECT_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} announces to the world that it is now protecting {1_MinorCivName:textkey}. Attacking the City-State will greatly damage relations and may lead to war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_DECLARATION_ABANDON_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} has taken back its guarantee of protecting {1_MinorCivName:textkey}.</Text>
+		</Row>
+		<!-- Human is asking the AI for something -->
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_DONT_SETTLE_NO_1">
+			<Text>I will not oblige you, my sir, for Britain's glory has need of more settlement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_DONT_SETTLE_YES_1">
+			<Text>Very well. I shall give you a running start, but before long Britain shall continue its expansion.</Text>
+		</Row>
+		<!--Deal Offers and related-->
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_LUXURY_TRADE_1">
+			<Text>If you treat the United States right, we shall treat you right. Ninety percent of the time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_OPEN_BORDERS_EXCHANGE_1">
+			<Text>The United States would like to open her borders to you, if you would like to do the same.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_RESPONSE_REQUEST_1">
+			<Text>I know that the United States can count on her allies in her time of need.</Text>
+		</Row>
+		<!--AI Attacked by Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_ATTACKED_HOSTILE_1">
+			<Text>These United States shall rise against you, and you shall see that you have awoken a sleeping giant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_ATTACKED_HOSTILE_2">
+			<Text>There is nothing I love as a good fight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_ATTACKED_EXCITED_1">
+			<Text>You shall make a fine enemy. My colleagues shall judge me highly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_ATTACKED_SAD_1">
+			<Text>What an aching display of treachery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_ATTACKED_BETRAYED_1">
+			<Text>The only thing we have to fear is fear itself. These United States will stand against you in unison, and shall triumph in the name of liberty and honour.</Text>
+		</Row>
+		<!--AI Declaring War on Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_DOW_GENERIC_1">
+			<Text>When you see a rattlesnake poised to strike, you do not wait until he has struck to crush him.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_DOW_LAND_1">
+			<Text>Have you heard of Manifest Destiny? This is my destiny manifested.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_DOW_WORLD_CONQUEST_1">
+			<Text>Have you heard of Manifest Destiny? This is my destiny manifested.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_DOW_OPPORTUNITY_1">
+			<Text>Physical strength can never permanently withstand the impact of spiritual force. But we can certainly try.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_DOW_DESPERATE_1">
+			<Text>The strength and spirit of liberty and freedom shall ensure that the United States not perish from this earth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_DOW_BETRAYAL_1">
+			<Text>It is my duty to defend the interests of the United States against all odds, even those with whom I supposed to be friends.</Text>
+		</Row>
+		<!--AI Responses to a human peace offer-->
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_TOO_SOON_NO_PEACE_1">
+			<Text>You are sorely mistaken if you think I shall back down from this fight.</Text>
+		</Row>
+		<!--AI Responses to a discussion mode topics-->
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_BAD_1">
+			<Text>I expected no less from you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_ROOSEVELT_GOOD_1">
+			<Text>Good. I expected no less from you.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						The New Deal
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_JFD_AMERICA_ROOSEVELT">
+			<Text>Upon adopting a Social Policy or Ideological Tenet, alternate between receiving [ICON_GREAT_PEOPLE] Great Merchant points in the [ICON_CAPITAL] Capital and [ICON_GOLD] Gold in each city and    [ICON_GREAT_PEOPLE] Great Engineer points in the [ICON_CAPITAL] Capital and [ICON_PRODUCTION] Production in each city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_AMERICA_ROOSEVELT_SHORT">
+			<Text>The New Deal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ROOSEVELT_ENGINEER_MESSAGE">
+			<Text>Invigorate The Industries!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ROOSEVELT_ENGINEER_MESSAGE_HELP">
+			<Text>You have announced a new executive policy. This policy is accompanied by a relief package that aims to invigorate the industries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ROOSEVELT_MERCHANT_MESSAGE">
+			<Text>Invigorate The Economy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ROOSEVELT_MERCHANT_MESSAGE_HELP">
+			<Text>You have announced a new executive policy. This policy is accompanied by a relief package that aims to invigorate the economy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ROOSEVELT_PRODUCTION_DUMMY">
+			<Text>JFD: Roosevelt Production Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ROOSEVELT_PRODUCTION_DUMMY_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ROOSEVELT_ENGINEER_DUMMY">
+			<Text>JFD: Roosevelt Engineer Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ROOSEVELT_ENGINEER_DUMMY_HELP">
+			<Text>+1 [ICON_GREAT_PEOPLE] Great Engineer points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ROOSEVELT_GOLD_DUMMY">
+			<Text>JFD: Roosevelt Gold Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ROOSEVELT_GOLD_DUMMY_HELP">
+			<Text>+1 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ROOSEVELT_MERCHANT_DUMMY">
+			<Text>JFD: Roosevelt Merchant Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ROOSEVELT_MERCHANT_DUMMY_HELP">
+			<Text>+1 [ICON_GREAT_PEOPLE] Great Merchant points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ROOSEVELT_INDUSTRY_MONITOR">
+			<Text>Industry Relief Package</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ROOSEVELT_ECONOMY_MONITOR">
+			<Text>Economy Relief Package</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Assembly Plant
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ARMS_FACTORY">
+			<Text>Assembly Plant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ARMS_FACTORY_STRATEGY">
+			<Text>The Assembly Plant is the unique building for Roosevelt's United States of America, replacing the Factory. The Assembly Plant provides two Engineer specialists and increases the [ICON_PRODUCTION] Production output of this city. Additionally, the Assembly Plant further increases the [ICON_PRODUCTION] Production output of this city when building siege, armor and air units. Armor and siege units built in this city start with a promotion that provides a +50% Defense Bonus while embarked. Only one Assembly Plant is required to adopt an Ideology. Can only be built if this city contains a Workshop. Requires 1 [ICON_RES_COAL] Coal to be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ARMS_FACTORY_HELP">
+			<Text>+15% [ICON_PRODUCTION] Production when building siege, armor and air units. Each worked source of [ICON_RES_JFD_RUBBER] Rubber and [ICON_RES_JFD_SULFUR] Sulphur provides +1 [ICON_PRODUCTION] Production. Armor and siege units built in this city receive a +50% Defense Bonus while embarked. Only one Assembly Plant is required to adopt an Ideology.[NEWLINE][NEWLINE]City must have a Workshop.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_COAL] Coal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ARMS_FACTORY">
+			<Text>American-Made</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ARMS_FACTORY_HELP">
+			<Text>Receives a +50% Defense Bonus while embarked.</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_FACTORIES">
+			<Text>You have Factories in three or more cities or an Assembly Plant. The ideals of the Industrial Revolution now permeate your society. Your people clamor for you to adopt an Ideology for your civilization.</Text>
+		</Replace>
+		<!----------------------------------------------------------------
+						B17
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_JFD_B17_HELP">
+			<Text>Powerful Atomic Era bomber air unit that specializes in evading interception and attacking cities. Only Roosevelt's United States of America may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_B17_STRATEGY">
+			<Text>The B17 is the unique unit for Roosevelt's United States of America, replacing the Bomber. Stronger than the Bomber, the B17 starts with the first Seige promotion as well as the Evasion promotion, reducing the damage taken from interception by 50%.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Manifest Destiny
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_JFD_AMERICA_WASHINGTON">
+			<Text>Military land units receive +1 Sight. Civilian and recon units receive +1 [ICON_MOVES] Movement. Tiles cost 50% less [ICON_GOLD] Gold to purchase.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Ranch
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_BUILDING_JFD_RANCH">
+			<Text>Ranch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_RANCH_STRATEGY">
+			<Text>The Ranch is the American unique building, replacing the Stable. The Ranch is available at Trapping and increases the [ICON_PRODUCTION] Production output of this city. The Ranch claims and improves all workable sources of [ICON_RES_BISON] Bison, [ICON_RES_COW] Cattle, [ICON_RES_DEER] Deer, [ICON_RES_HORSE] Horses and [ICON_RES_SHEEP] Sheep when constructed. Although it does not require an improved source of [ICON_RES_COW] Cattle, [ICON_RES_HORSE] Horses or [ICON_RES_SHEEP] Sheep nearby to be built, the Ranch increases the [ICON_PRODUCTION] Production output of this city less when building mounted units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_RANCH_HELP">
+			<Text>+10% [ICON_PRODUCTION] Production when building mounted units. Each source of [ICON_RES_BISON] Bison, [ICON_RES_COW] Cattle, [ICON_RES_DEER] Deer, [ICON_RES_HORSE] Horses and [ICON_RES_SHEEP] Sheep worked by this city provides +1 [ICON_PRODUCTION] Production. Claims and improves all workable sources of [ICON_RES_BISON] Bison, [ICON_RES_COW] Cattle, [ICON_RES_DEER] Deer, [ICON_RES_HORSE] Horses and [ICON_RES_SHEEP] Sheep when constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_RANCH_TEXT">
+			<Text>A ranch is an area of landscape, including various structures, given primarily to the practice of ranching, the practice of raising grazing livestock such as cattle or sheep for meat or wool. The word most often applies to livestock-raising operations in Mexico, the western United States and Canada, though there are ranches in other areas. People who own or operate a ranch are called ranchers, or stockgrowers. Ranching is also a method used to raise less common livestock such as elk, American bison or even ostrich, emu, and alpacas.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Minuteman
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_JFD_MINUTEMAN_HELP">
+			<Text>Strong Renaissance Era gunpowder unit that earns points toward a [ICON_GOLDEN_AGE] Golden Age whenever it defeats an enemy unit and specializes in fighting in rough terrain. Only America may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_MINUTEMAN_STRATEGY">
+			<Text>The Minuteman is the American unique unit, replacing the Musketman. The Minuteman ignores terrain costs in rough terrain and starts with the first Drill promotion. Additionally, the Minuteman earns points toward a [ICON_GOLDEN_AGE] Golden Age whenever it defeats an enemy unit.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

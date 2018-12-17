@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+		<BuildingClasses>
+			<Row>
+				<Type>BUILDINGCLASS_ABUSIMBEL</Type>
+				<DefaultBuilding>BUILDING_ABUSIMBEL</DefaultBuilding>
+				<Description>TXT_KEY_BUILDING_ABUSIMBEL</Description>
+				<MaxGlobalInstances>1</MaxGlobalInstances>
+			</Row>
+			<Row>
+				<Type>BUILDINGCLASS_ABUSIMBEL_FAITH_DUMMY</Type>
+				<DefaultBuilding>BUILDING_ABUSIMBEL_FAITH_DUMMY</DefaultBuilding>
+			</Row>
+		</BuildingClasses>
+		<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_ABUSIMBEL</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_ABUSIMBEL</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+</GameData>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="44B2BAAA-24CD-9E56-8165-05F233F6702E" version="1">
+  <Properties>
+    <Name>F0S's Iroquois Revision</Name>
+    <Teaser>Revises the base game Iroquois civilization.</Teaser>
+    <Description>Tweaks the base game Iroquois civilization's ability, building, and unit. Allows the Iroquois to plant Forests upon discovering Fertilizer.</Description>
+    <Authors>F0S</Authors>
+	<SpecialThanks>FramedArchitecture</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+	<File md5="A787BCDE048D7B77B1AEDB673FB0DC2C" import="0">Art/ArtDefines.sql</File>
+    <File md5="25D0744DE8F298AAEDADE7DD87C9EBBB" import="1">Art/Icon Atlas/ForestAtlas256.dds</File>
+    <File md5="2590A909FE43EF3C4F3C4DF804B00B54" import="1">Art/Icon Atlas/ForestAtlas64.dds</File>
+    <File md5="0F1BADC81E1418ED51E2655779599CFC" import="1">Art/Icon Atlas/SV_PlantForest.dds</File>
+    <File md5="5B6A8892093A26C51F5B5057FD30BF80" import="1">Art/Icon Atlas/UnitAction45_Forest.dds</File>
+    <File md5="1E597FE272CE66122C35A1362B6F3662" import="1">Art/Icon Atlas/UnitAction64_Forest.dds</File>
+    <File md5="6F6AE89B1369C37F0D1798D019D573C5" import="0">Core/Buildings.sql</File>
+	<File md5="B5CE823F6B9DD9B35CBD7DC82426E9FD" import="0">Core/Builds.sql</File>
+	<File md5="839E515B1EF66E0CC9A12FE4BCE61FA1" import="0">Core/Civilizations.sql</File>
+	<File md5="F63BFC6AF45F2F50A0AF6DB6E7F4D8B5" import="0">Core/GameText.xml</File>
+	<File md5="646AC3B77AD931E20005F8CF0CFE0CF8" import="0">Core/Improvements.sql</File>
+	<File md5="86E5AF614D5ADB7729868EA70FA56760" import="0">Core/Promotions.sql</File>
+	<File md5="AE1146FC6264AD03C3506850EC2B59EF" import="0">Core/Traits.sql</File>
+	<File md5="6BD94B228BEC735A3F022F85FAD79889" import="0">Core/Units.sql</File>
+    <File md5="463CA1BE13E30FB95DDDAE24DC2853E4" import="0">Lua/F0S_IroquoisFunctions.lua</File>
+	<File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/ArtDefines.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Builds.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+	  <UpdateDatabase>Core/Improvements.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Promotions.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/F0S_IroquoisFunctions.lua">
+      <Name>Iroquois Functions</Name>
+      <Description>
+	  </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

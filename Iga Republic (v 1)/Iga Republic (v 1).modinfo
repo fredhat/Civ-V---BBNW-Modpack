@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b51bb3e0-31f7-4d70-9711-a7d1d6f9ff5d" version="1">
+  <Properties>
+    <Name>Iga Republic</Name>
+    <Teaser>Adds the Iga Republic civilization led by Momochi Tamba to the game.</Teaser>
+    <Description>Adds the Iga Republic civilization to the game.</Description>
+    <Authors>PorkBean, Homusubi</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+	<File md5="735A9A8F522463FC111E7DB8706D19BD" import="1">Art/Atlases/Iga_Atlas128.dds</File>
+    <File md5="12BC86B81C01DB58FA656DDACA7AC630" import="1">Art/Atlases/Iga_Atlas256.dds</File>
+    <File md5="EA0DC5CD773AE5D45DC9D6E6F8BB9C98" import="1">Art/Atlases/Iga_Atlas32.dds</File>
+    <File md5="4733A79B9C6F1EEDE5CA353AC8729F29" import="1">Art/Atlases/Iga_Atlas45.dds</File>
+    <File md5="AAE8A2644541B0F40DC3806E7D2B5B05" import="1">Art/Atlases/Iga_Atlas64.dds</File>
+    <File md5="75765AAFAE8FA983FE00B976F1358787" import="1">Art/Atlases/Iga_Atlas80.dds</File>
+	<File md5="B71F0417FB1DA05A701C5576E1682EEF" import="1">Art/Atlases/IgaAlpha128.dds</File>
+    <File md5="CF2105CE4AC9E04656EE98ECB9C9D606" import="1">Art/Atlases/IgaAlpha16.dds</File>
+    <File md5="3D90E0FBA1326A1730B9A3FA988B8D37" import="1">Art/Atlases/IgaAlpha24.dds</File>
+    <File md5="D05DBAB9BBA5C8739AD54AA830AC3D0C" import="1">Art/Atlases/IgaAlpha32.dds</File>
+    <File md5="BAA698081B101EAB11415B660296AD8C" import="1">Art/Atlases/IgaAlpha45.dds</File>
+    <File md5="F846D61726D8999056F8670F579B3036" import="1">Art/Atlases/IgaAlpha48.dds</File>
+    <File md5="A708D04E9C0A938FD324303D987D3D22" import="1">Art/Atlases/IgaAlpha64.dds</File>
+    <File md5="B29F427CCA329F13B97A51774A75D7DE" import="1">Art/Atlases/IgaAlpha80.dds</File>
+	<File md5="EE916CB72AFC429F6F7CD80A7AC8DCF5" import="1">Art/Models/Hidden Village/ae876108.dds</File>
+    <File md5="2FC11F9FC75B65BAE787FE2A4A33E6A4" import="1">Art/Models/Hidden Village/Asian_Village.gr2</File>
+	<File md5="DD7940FB1854A631D3655C5866514905" import="1">Art/Models/Hidden Village/Kakurezato_01.fxsxml</File>
+    <File md5="2B045FFC8672039C75FF746D71D095D3" import="1">Art/Models/Hidden Village/Kakurezato_Flag45.dds</File>
+    <File md5="4C13F3BABE0D6A68A96951F42423C8E5" import="1">Art/Models/Hidden Village/Kakurezato_Flag64.dds</File>
+    <File md5="DD7940FB1854A631D3655C5866514905" import="1">Art/Models/Hidden Village/Kakurezato_hb.fxsxml</File>
+    <File md5="5ECDE65759499852FFEE76699B384026" import="1">Art/Models/Hidden Village/Kakurezato_pl.fxsxml</File>
+	<File md5="E30FD4A7031E5729AE99A35EE0372789" import="1">Art/Models/Hidden Village/SV_Kakurezato.dds</File>
+	<File md5="B47CF9DE5C5AAD98358022BDDA43F001" import="1">Art/Models/Ninja/Flag_Ninja.dds</File>
+	<File md5="A7A2BB177FA7B99ED02870F33835EEC9" import="1">Art/Models/Ninja/SV_Ninja.dds</File>
+    <File md5="5D187207F66E99CFB67DAC511770F933" import="1">Art/Scenes/Iga_DOM.dds</File>
+    <File md5="C88FF16E637EAF54D4491CA440DF3B80" import="1">Art/Scenes/Iga_Map.dds</File>
+	<File md5="646902985A46FDDA9AA4EC885D0C8E46" import="1">Art/Scenes/Scene_Momochi.dds</File>
+    <File md5="A9727FD8C876D3181635F30664FF6E61" import="0">Art/Iga_Audio.sql</File>
+    <File md5="14833358BB127577B52D346D9CBD5EB7" import="0">Art/KakurezatoDefine.sql</File>
+	<File md5="EC30E1335739325789B07C391518DFD3" import="0">Lua/Iga_Functions.lua</File>
+	<File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+	<File md5="887B942AC24B19F4C5AD6F0B41CA0470" import="1">Sounds/MomochiPeace.mp3</File>
+    <File md5="932E9164AD2BEC98E4968FC4BF27774B" import="1">Sounds/MomochiWar.mp3</File>
+    <File md5="10906CCBCF564DD4B7A9222A250274F0" import="1">Sounds/Tok.mp3</File>
+    <File md5="1A21CF79258B2D7DF111C99B61C20F08" import="1">Sounds/Yooo.mp3</File>
+	<File md5="55D0A3026144EF9A0CD56A152EB9F0E0" import="0">XML/Art/ArtDefines_Units.xml</File>
+	<File md5="4E1841CB9F55F46DDE5913EA2AD7AE03" import="0">XML/Art/IconAtlases.xml</File>
+	<File md5="E8BB1E6CD8D937096106FA5B5A625F2F" import="0">XML/Art/Momochi_Music.xml</File>
+	<File md5="BD5478C0A8B08BE6B770FF83FA9CF846" import="1">XML/Art/Momochi_Scene.xml</File>
+	<File md5="4100FF651DCFCE7AA89F682DDA6D692C" import="0">XML/Buildings/Buildings.xml</File>
+	<File md5="671B4281D71704D2E3E9E8A181E5DF0A" import="0">XML/Civilization/Civilization.xml</File>
+	<File md5="7E60304B5CEF26A6C7069E83CA1772E8" import="0">XML/Leader/DiplomacyResponses.xml</File>
+	<File md5="65A87C5CF3E504F34785620233091038" import="0">XML/Leader/Leader.xml</File>
+	<File md5="CF5D72004853AAF871A0522FDBDE6492" import="0">XML/Leader/Trait.xml</File>
+	<File md5="FA4C47B6C725D74A73C8EDF393A1F709" import="0">XML/Terrain/Improvements.xml</File>
+	<File md5="6BF29160E651232BB5A27F40A7AA652C" import="0">XML/Text/GameText.xml</File>
+	<File md5="BE7ED2C4E3F1934B34528664437B6073" import="0">XML/Units/Promotions.xml</File>
+	<File md5="D98772EE0623D0AEA08A276A715388A7" import="0">XML/Units/Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Iga_Audio.sql</UpdateDatabase>
+	  <UpdateDatabase>Art/KakurezatoDefine.sql</UpdateDatabase>
+	  <UpdateDatabase>XML/Art/ArtDefines_Units.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Art/IconAtlases.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Art/Momochi_Music.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Buildings/Buildings.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Civilization/Civilization.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Leader/DiplomacyResponses.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Leader/Leader.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Leader/Trait.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Terrain/Improvements.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Text/GameText.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Units/Promotions.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Units/Units.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Iga_Functions.lua">
+      <Name>Iga Functions</Name>
+      <Description>
+	  </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

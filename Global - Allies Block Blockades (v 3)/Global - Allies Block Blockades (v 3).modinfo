@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3eeac338-5689-4fc3-b4b6-871a1db20c2a" version="3">
+  <Properties>
+    <Name>Global - Allies Block Blockades</Name>
+    <Teaser>Allows allied ships to reduce the range of enemy blockades.</Teaser>
+    <Description>Allows allied ships within two tiles of enemy ships to remove blockades. Additionaly, allows embarked land units to only blockade immediately adjacent tiles.</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="1" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="89495820BF78E7234D6E527A8722F690" import="0">XML/GlobalAlliesBlockBlockades.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GlobalAlliesBlockBlockades.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="aec9bbe2-629b-49f3-b5bc-5a8988bd5303" version="1">
+  <Properties>
+    <Name>Abu Simbel</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Adds Abu Simbel as an Ancient Era world wonder to the game.</Teaser>
+    <Description>This mod adds Abu Simbel to the game as a World Wonder. Requires Brave New World.</Description>
+    <Authors>Sukritact</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="66AD76D0536DDF42F57082F587F54021" import="1">Art/AbuSimbel_128.dds</File>
+    <File md5="E2E494F2DC78547104FF1794A5132B7C" import="1">Art/AbuSimbel_256.dds</File>
+    <File md5="DD83EFF61AED3389E940213587B00D3A" import="1">Art/AbuSimbel_45.dds</File>
+    <File md5="A93E78F8D8A8B821025D9E9968C48664" import="1">Art/AbuSimbel_64.dds</File>
+    <File md5="4258F13760F963F95C2F2E6E1ED5FA94" import="1">Art/AbuSimbel_80.dds</File>
+    <File md5="17EF82C59B0165C86695C7451D6A7FF8" import="1">Art/AbuSimbel_Splash.dds</File>
+    <File md5="8F2157EEDED93B85828D3DE0CE5E7372" import="0">Code/Lua/BuildingYieldFromGreatWorksInBuilding.lua</File>
+    <File md5="B9007A4FADF48A600A59749AF633E733" import="0">Code/Lua/Tables.sql</File>
+    <File md5="90E242D9CB05CD3D7F944F5800D13391" import="0">Code/Lua/BuildingYieldFromGreatWorksInCity.lua</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">Code/Lua/SaveUtils.lua</File>
+    <File md5="46D94683A97DF9202DED6C985C2C5CE2" import="0">Code/XML/Buildings/AbuSimbel_BuildingClasses.xml</File>
+    <File md5="036B5DB5E3ABF8B269A84DAEB47728AD" import="0">Code/XML/Buildings/AbuSimbel_Buildings.xml</File>
+    <File md5="7A9BD1A4907399D7305085CF7B0EB788" import="0">Code/XML/Civilizations/AbuSimbel_Civilizations.xml</File>
+    <File md5="B28F3A38D6EC3E70DC949C15C7930D44" import="0">Code/XML/GameInfo/AbuSimbel_IconTextureAtlases.xml</File>
+    <File md5="12BC9348F196E7AF0158BF45A75CCED9" import="0">Code/XML/Text/AbuSimbel_text_EN_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Code/Lua/Tables.sql</UpdateDatabase>
+      <UpdateDatabase>Code/XML/Buildings/AbuSimbel_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>Code/XML/Buildings/AbuSimbel_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Code/XML/Civilizations/AbuSimbel_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>Code/XML/GameInfo/AbuSimbel_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Code/XML/Text/AbuSimbel_text_EN_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Code/Lua/BuildingYieldFromGreatWorksInBuilding.lua">
+      <Name>BuildingYieldFromGreatWorksInBuilding</Name>
+      <Description>BuildingYieldFromGreatWorksInBuilding</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Code/Lua/BuildingYieldFromGreatWorksInCity.lua">
+      <Name>BuildingYieldFromGreatWorksInCity</Name>
+      <Description>BuildingYieldFromGreatWorksInCity</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

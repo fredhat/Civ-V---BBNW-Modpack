@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="50B8ABCA-29BC-9B95-9314-00A690A6054C" version="1">
+  <Properties>
+    <Name>F0S's Natural Wonder Tweaks</Name>
+    <Teaser>Implements some natural wonder balance tweaks.</Teaser>
+    <Description>Edits certain yields and characteristics of natural wonders.</Description>
+    <Authors>F0S</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+	<ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="5B6DEA33ED066394DD664D8178C1A2F1" import="0">Core/Features.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+		<UpdateDatabase>Core/Features.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

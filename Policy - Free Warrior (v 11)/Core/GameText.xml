@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_F0S_HONOR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Honor[ENDCOLOR] enhances military prowess.[NEWLINE][NEWLINE]Adopting Honor provides military units with a +33% Combat Bonus against Barbarian units and allows you to earn [ICON_CULTURE] Culture from defeating Barbarian units. A free military land unit appears outside the [ICON_CAPITAL] Capital. Unlocks building the Statue of Zeus.[NEWLINE][NEWLINE]Adopting all policies in the Honor tree causes units to cost 25% less [ICON_GOLD] Gold maintenance and allows you to earn [ICON_GOLD] Gold from defeating enemy units. Allows purchasing Great Generals with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Row>
+		<Update>
+			<Set Text="[COLOR_POSITIVE_TEXT]Honor[ENDCOLOR] enhances military prowess.[NEWLINE][NEWLINE]Adopting Honor provides military units with a +33% Combat Bonus against Barbarian units and allows you to earn [ICON_CULTURE] Culture from defeating Barbarian units. A free military land unit appears outside the [ICON_CAPITAL] Capital. Unlocks building the Statue of Zeus.[NEWLINE][NEWLINE]Adopting all policies in the Honor tree causes units to cost 25% less [ICON_GOLD] Gold maintenance and allows you to earn [ICON_GOLD] Gold from defeating enemy units. Allows purchasing Great Generals with [ICON_PEACE] Faith starting in the Industrial Era."/>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP" />
+		</Update>
+		<Row Tag="TXT_KEY_POLICY_F0S_WARRIOR_CODE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Warrior Code[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] Production when building military land units in each city. Earn Great Generals 50% faster. A free Great General appears outside the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_F0S_DISCIPLINE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Discipline[ENDCOLOR][NEWLINE]Non-ranged military land units receive a +25% Combat Bonus when adjacent to a friendly military unit. +50% [ICON_PRODUCTION] Production when constructing military buildings in each city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_F0S_MILITARY_CASTE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Military Caste[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness and +2 [ICON_CULTURE] Culture in each city with a garrison. Garrisoned units cost no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_F0S_MILITARY_TRADITION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Military Tradition[ENDCOLOR][NEWLINE]Military units earn 50% more experience from combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_F0S_PROFESSIONAL_ARMY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Professional Army[ENDCOLOR][NEWLINE]Military units cost 33% less [ICON_GOLD] Gold to upgrade. Earn 5 more [ICON_INFLUENCE] Influence from gifting military units to City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_F0S_DISCIPLINE_HELP">
+			<Text>+25% Combat Bonus when adjacent to a friendly military unit.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

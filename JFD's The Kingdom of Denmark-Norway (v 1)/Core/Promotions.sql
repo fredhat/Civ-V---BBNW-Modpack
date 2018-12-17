@@ -1,0 +1,12 @@
+--==========================================================================================================================
+-- UnitPromotions
+--==========================================================================================================================	
+INSERT OR REPLACE INTO UnitPromotions 
+			(Type, 										Description, 										Help, 													Sound, 				AttackMod, 	MovesChange,	OutsideFriendlyLandsModifier,	ExperiencePercent,	LostWithUpgrade,	CannotBeChosen, PortraitIndex, 	IconAtlas, 			PediaType, 			PediaEntry,											ShowInPedia)
+VALUES		('PROMOTION_JFD_SKI_INFANTRY_MOVES_INFO',	'TXT_KEY_PROMOTION_JFD_SKI_INFANTRY_MOVES_INFO',	'TXT_KEY_PROMOTION_JFD_SKI_INFANTRY_MOVES_INFO_HELP',	'AS2D_IF_LEVELUP', 	0,			0,				0,								0,					1,					1, 				59, 			'ABILITY_ATLAS', 	'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_JFD_SKI_INFANTRY_MOVES_INFO',	1),
+			('PROMOTION_JFD_SKI_INFANTRY_MOVES',		'TXT_KEY_PROMOTION_JFD_SKI_INFANTRY_MOVES',			'TXT_KEY_PROMOTION_JFD_SKI_INFANTRY_MOVES_HELP',		'AS2D_IF_LEVELUP', 	50,			2,				0,								0,					1,					1, 				59, 			'ABILITY_ATLAS', 	'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_JFD_SKI_INFANTRY_MOVES',			0),
+			('PROMOTION_JFD_LAND_UNIT_BONUS_LONGBOAT', 	'TXT_KEY_PROMOTION_JFD_LAND_UNIT_BONUS_LONGBOAT', 	'TXT_KEY_PROMOTION_JFD_LAND_UNIT_BONUS_LONGBOAT_HELP',	'AS2D_IF_LEVELUP', 	0, 			0, 				0,								0,					1,					1,				59,				'ABILITY_ATLAS', 	'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_JFD_LAND_UNIT_BONUS_LONGBOAT',	1),
+			('PROMOTION_JFD_LAND_UNIT_BONUS', 			'TXT_KEY_PROMOTION_JFD_LAND_UNIT_BONUS', 			'TXT_KEY_PROMOTION_JFD_LAND_UNIT_BONUS_HELP', 			'AS2D_IF_LEVELUP', 	0, 			0, 				20,								0,					0,					1,				59,				'ABILITY_ATLAS', 	'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_JFD_LAND_UNIT_BONUS',			0),
+			('PROMOTION_JFD_EXPERIENCE_BONUS', 			'TXT_KEY_PROMOTION_JFD_EXPERIENCE_BONUS', 			'TXT_KEY_PROMOTION_JFD_EXPERIENCE_BONUS_HELP', 			'AS2D_IF_LEVELUP', 	0, 			0, 				0,								50,					0,					1,				59,				'ABILITY_ATLAS', 	'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_JFD_EXPERIENCE_BONUS',			1);
+--==========================================================================================================================
+--==========================================================================================================================

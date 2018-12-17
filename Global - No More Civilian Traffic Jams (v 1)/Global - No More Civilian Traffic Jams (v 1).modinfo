@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="288691cc-ec7c-455a-aab5-46e2d91725e3" version="1">
+  <Properties>
+    <Name>Global - No More Civilian Traffic Jams</Name>
+    <Teaser>Enables Pazyryk's "No More Civilian Traffic Jams" mod.</Teaser>
+    <Description>This is a DLL - Various Mod Components implementation of the "No More Civilian Traffic Jams (NMCTJs) Mod" by Pazyryk. See http://forums.civfanatics.com/showthread.php?t=519754</Description>
+    <Authors>William Howard</Authors>
+    <SpecialThanks>Pazyryk</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+	<Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="44" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="CC834F30625B70B2867D360683F34723" import="0">XML/GlobalNoMoreCivilianTrafficJams.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GlobalNoMoreCivilianTrafficJams.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

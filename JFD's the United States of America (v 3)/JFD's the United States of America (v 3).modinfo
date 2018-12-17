@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5ec025ba-0f14-46f8-8f01-375dfaf7d027" version="3">
+  <Properties>
+    <Name>JFD's the United States of America</Name>
+    <Teaser>Adds the United States of America civilization led by Franklin D. Roosevelt to the game.</Teaser>
+    <Description>Adds the United States of America civilization to the game. Tweaks the base game American civilization. Requires Brave New World.</Description>
+    <Authors>JFD, Janboruta, Leugi</Authors>
+	<SpecialThanks>F0S</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="826DCD5DC94B23F6D4A2A156910B183F" import="0">Art/ArtDefines.sql</File>
+    <File md5="51F090B992D116DFE6B54881284B37CA" import="1">Art/Diplomacy/AmericaRooseveltMap512.dds</File>
+    <File md5="76E5AA8E3BA7D9FAA3CADFAE3CB3B948" import="1">Art/Diplomacy/DOM_Roosevelt.dds</File>
+    <File md5="C155B34E5888980A6B9BE3BE5A08DBD0" import="1">Art/Diplomacy/roosevelt_diplo.dds</File>
+    <File md5="C34A2103640DAB2339D7B3C378CBCEC7" import="1">Art/Diplomacy/Roosevelt_Scene.xml</File>
+    <File md5="687C44D8570D889355BC7D421CC414C9" import="1">Art/IconAtlas/JFD_AmericaRooseveltAlphaAtlas_128.dds</File>
+    <File md5="FD8928A46156BC9A937C40F9A5CBF4EE" import="1">Art/IconAtlas/JFD_AmericaRooseveltAlphaAtlas_16.dds</File>
+    <File md5="4CF69EF5673CDFBA089CA60D7A29E0E7" import="1">Art/IconAtlas/JFD_AmericaRooseveltAlphaAtlas_24.dds</File>
+    <File md5="080F8E2ED68A2F25A245125347FDDBF0" import="1">Art/IconAtlas/JFD_AmericaRooseveltAlphaAtlas_32.dds</File>
+    <File md5="FA49C3914AEF10A26C35E1FAC82A76D0" import="1">Art/IconAtlas/JFD_AmericaRooseveltAlphaAtlas_45.dds</File>
+    <File md5="528940E84F38AF9C5FA4A3D7539BA0DE" import="1">Art/IconAtlas/JFD_AmericaRooseveltAlphaAtlas_48.dds</File>
+    <File md5="A6538E8FC3A64EDF14423DDC4C9047BD" import="1">Art/IconAtlas/JFD_AmericaRooseveltAlphaAtlas_64.dds</File>
+    <File md5="4B7FE6D65A5CCD61B98FB6CE72B701D7" import="1">Art/IconAtlas/JFD_AmericaRooseveltAlphaAtlas_80.dds</File>
+    <File md5="6237390163C7738B5C2AADEBCA36EEC4" import="1">Art/IconAtlas/JFD_AmericaRooseveltAtlas_128.dds</File>
+    <File md5="15037170DCCB5062E469B7077DCDF50C" import="1">Art/IconAtlas/JFD_AmericaRooseveltAtlas_256.dds</File>
+    <File md5="4B05062C05B84081C58A02E66AD60775" import="1">Art/IconAtlas/JFD_AmericaRooseveltAtlas_32.dds</File>
+    <File md5="588A2910C97778586248FD810424BFA7" import="1">Art/IconAtlas/JFD_AmericaRooseveltAtlas_45.dds</File>
+    <File md5="A8F381316231F154F1ADF02FCD18E1F8" import="1">Art/IconAtlas/JFD_AmericaRooseveltAtlas_64.dds</File>
+    <File md5="B0682804C00AA82CF6DAB7EF9DFF31A7" import="1">Art/IconAtlas/JFD_AmericaRooseveltAtlas_80.dds</File>
+    <File md5="0BA67FA7FB35A31345D24FF0DC8DCF98" import="0">Art/Leaderscene/Roosevelt_Scene.xml</File>
+    <File md5="C155B34E5888980A6B9BE3BE5A08DBD0" import="0">Art/Leaderscene/Roosevelt_diplo.dds</File>
+    <File md5="76E5AA8E3BA7D9FAA3CADFAE3CB3B948" import="1">Art/Map/DOM_Roosevelt.dds</File>
+    <File md5="65B4FBCB7705489AC7A0C47B988C4FEE" import="0">Audio/Audio.sql</File>
+    <File md5="DA56AF66B12514BE2B9F7871A9BBE82A" import="1">Audio/Roosevelt_Peace.mp3</File>
+    <File md5="87CECBE9F07B33DCA8F126C9FF885385" import="1">Audio/Roosevelt_War.mp3</File>
+    <File md5="C6DD06AA1A45E8EAFE334428E3AE8DD6" import="0">Core/Buildings.sql</File>
+    <File md5="211DED6A4F8A4291A5234998DCD1A83D" import="0">Core/Civilizations.sql</File>
+    <File md5="92D71C29B67DEBEE452A76FAE9DE7D82" import="0">Core/Diplomacy.sql</File>
+    <File md5="FF89109494AB3FDC18262B5DFD52D001" import="0">Core/GameText.xml</File>
+    <File md5="B4A3F81AFCB0FEFF1F02795EF054E6DC" import="0">Core/Leaderhead.sql</File>
+    <File md5="1A4A179ADCF12F227CF44B600019FA1C" import="0">Core/PlayerColours.sql</File>
+    <File md5="F787DEB74F0F384CBB78DE2245B4BC79" import="0">Core/Promotions.sql</File>
+    <File md5="6A7B72755064A82F00A63C5B250C8B40" import="0">Core/Traits.sql</File>
+    <File md5="C5723AF1DA8F39D029DD3D841522D43D" import="0">Core/Units.sql</File>
+    <File md5="22E15E8F74D1B69F33EF77D648A286D0" import="0">Lua/JFD_AmericaRooseveltFunctions.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/Utilities/PlotIterators.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Audio/Audio.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_AmericaRooseveltFunctions.lua">
+      <Name>American Trait</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
