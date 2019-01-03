@@ -79,7 +79,7 @@ function JFD_NewDealCitiesPolicy(playerID, policyID)
 			save(player, "NewDealBuildings", 1)
 			newDealEconomy = false
 		else
-			local numNewDealBuildings = load(player, "NewDealBuildings")
+			local numNewDealBuildings = load(player, "NewDealBuildings") or 0
 			if newDealEconomy then
 				save(player, "NewDealEconomy", false)
 			else
@@ -126,7 +126,7 @@ function JFD_NewDealCitiesTurnDirty()
 end
 
 if JFD_IsCivilisationActive(civilisationRooseveltID) then
-	GameEvents.PlayerAdoptPolicy(JFD_NewDealCitiesPolicy)
+	GameEvents.PlayerAdoptPolicy.Add(JFD_NewDealCitiesPolicy)
 	GameEvents.PlayerDoTurn.Add(JFD_NewDealCitiesTurn)
 	Events.SerialEventCityInfoDirty.Add(JFD_NewDealCitiesTurnDirty)
 end

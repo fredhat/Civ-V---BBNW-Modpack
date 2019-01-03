@@ -301,13 +301,13 @@ function PlaceBuffalo(pPlayer, iX, iY, isFounding, nBuffalo)
 			if uBuffalo[iCity]:GetImprovementType() > -1 then
 				uBuffalo[iCity]:SetImprovementType(-1)
 			end
-			uBuffalo[iCity]:SetResourceType(iBuffalo)
+			uBuffalo[iCity]:SetResourceType(iBuffalo, 1)
 			return uBuffalo[iCity]
 		else
 			if tBuffalo[iCity]:GetImprovementType() > -1 then
 				tBuffalo[iCity]:SetImprovementType(-1)
 			end
-			tBuffalo[iCity]:SetResourceType(iBuffalo)
+			tBuffalo[iCity]:SetResourceType(iBuffalo, 1)
 			return tBuffalo[iCity]
 		end
 	end
@@ -467,7 +467,7 @@ function StrongHeartCheck(iPlayer)
 				if #tStrongHearts > 0 then
 					local pTargetUnit = tStrongHearts[GetRandom(1, #tStrongHearts)]
 					if pTargetUnit then
-						pTargetUnit:SetHasPromotion(iBandLeader, 1)
+						pTargetUnit:SetHasPromotion(iBandLeader, true)
 						pTargetUnit:SetName(tStrongHeartNames[GetRandom(1, #tStrongHeartNames)])
 					else
 						save(pPlayer, "pHasStrongHeart", nil)
@@ -488,7 +488,7 @@ function StrongHeartCreated(iPlayer, iUnit)
 		if load(pPlayer, "pHasStrongHeart") == nil then
 			local pUnit = pPlayer:GetUnitByID(iUnit)
 			if pUnit and pUnit:GetUnitType() == iStrongHeart then
-				pUnit:SetHasPromotion(iBandLeader, 1)
+				pUnit:SetHasPromotion(iBandLeader, true)
 				pUnit:SetName(tStrongHeartNames[GetRandom(1, #tStrongHeartNames)])
 				save(pPlayer, "pHasStrongHeart", true)
 			end

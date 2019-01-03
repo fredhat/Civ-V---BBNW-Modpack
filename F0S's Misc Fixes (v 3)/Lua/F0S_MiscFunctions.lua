@@ -410,7 +410,7 @@ local buildingClassArtemisID = GameInfoTypes["BUILDINGCLASS_TEMPLE_ARTEMIS"]
 local buildingArtemisFoodBonusID = GameInfoTypes["BUILDING_F0S_ARTEMIS_FOOD_BONUS"]
 
 function F0S_ArtemisFoodCheck(player)
-	local hasArtemis = player:GetBuildingClassCount(buildingClassArtemisID) or 0
+	local hasArtemis = player:GetBuildingClassCount(buildingClassArtemisID) > 0
 	if hasArtemis then
 		for city in player:Cities() do
 			if not city:IsHasBuilding(buildingArtemisFoodBonusID) then
@@ -451,7 +451,7 @@ function F0S_ArtemisFoodFounded(playerID, cityX, cityY)
 		if plot then
 			local city = plot:GetPlotCity()
 			if city then
-				local hasArtemis = player:GetBuildingClassCount(buildingClassArtemisID) or 0
+				local hasArtemis = player:GetBuildingClassCount(buildingClassArtemisID) > 0
 				if hasArtemis then
 					if not city:IsHasBuilding(buildingArtemisFoodBonusID) then
 						city:SetNumRealBuilding(buildingArtemisFoodBonusID, 1)

@@ -190,7 +190,7 @@
 			<Text>Receive a [ICON_PRODUCTION] Production bonus when constructing buildings in each city based on that city's [ICON_PRODUCTION] Production bonus when constructing Wonders.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JFD_EGYPT_DJOSER_PRODUCTION_MOD_DESC">
-			<Text>JFD: Egyptian Production</Text>
+			<Text>JFD: Egyptian Building Production</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JFD_EGYPT_DJOSER_PRODUCTION_MOD_HELP">
 			<Text>+1% [ICON_PRODUCTION] Production when constructing buildings.</Text>
@@ -203,10 +203,10 @@
 			<Text>The Vizier was the highest official in Ancient Egypt, chosen by the Pharaoh to serve him in running the country. In this way, a Vizier is somewhat analogous to an pre-modern Prime Minister. However, the Vizier's duties were often much more important. Tax collectors, scribes, and other civil servants all reported to the Vizier, and it was his duty to ensure the functioning of the civil administration. He also sat in the High Court, and supervised the security of the Pharaoh and the palace. Often, the Vizier was instrumental in the effective government of the Pharaoh.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JFD_VIZIER_HELP">
-			<Text>Unique Great Engineer for Djoser's Egypt that may be expended to discover a source of [ICON_RES_JFD_LIMESTONE] Limestone. Each city with an improved source of [ICON_RES_JFD_LIMESTONE] Limestone nearby receives +10% [ICON_PRODUCTION] Production when constructing Wonders.</Text>
+			<Text>Unique Great Engineer for Djoser's Egypt that may be expended to discover an improved source of [ICON_RES_JFD_LIMESTONE] Limestone. Each city with an improved source of [ICON_RES_JFD_LIMESTONE] Limestone nearby receives +10% [ICON_PRODUCTION] Production when constructing Wonders.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JFD_VIZIER_STRATEGY">
-			<Text>The Vizier is a unique unit for Djoser's Egypt, replacing the Great Engineer. The Vizier may be expended to discover a source of [ICON_RES_JFD_LIMESTONE] Limestone on a flatland tile. Each city with an improved source of [ICON_RES_JFD_LIMESTONE] Limestone nearby receives +10% [ICON_PRODUCTION] Production when constructing Wonders.</Text>
+			<Text>The Vizier is a unique unit for Djoser's Egypt, replacing the Great Engineer. The Vizier may be expended to discover an improved source of [ICON_RES_JFD_LIMESTONE] Limestone on a flatland tile. Each city with an improved source of [ICON_RES_JFD_LIMESTONE] Limestone nearby receives +10% [ICON_PRODUCTION] Production when constructing Wonders.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_JFD_VIZIER_LIMESTONE">
 			<Text>Quarry</Text>
@@ -215,7 +215,7 @@
 			<Text>Discover Limestone</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_JFD_VIZIER_LIMESTONE_HELP">
-			<Text>This unit will be expended to discover a source of [ICON_RES_JFD_LIMESTONE] Limestone.</Text>
+			<Text>This unit will be expended to discover an improved source of [ICON_RES_JFD_LIMESTONE] Limestone.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_JFD_LIMESTONE">
 			<Text>Limestone</Text>
@@ -224,10 +224,16 @@
 			<Text>Limestone is a type of sedimentary rock usually composed of the skeletal remains of marine life such as coral, forams, and molluscs. Historically, Limestone has often been used in the construction of buildings. Egypt's Great Pyramid, for instance, is layered with Limestone. It is also used today in toothpaste.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_RESOURCE_JFD_LIMESTONE_SHORT_DESC">
-			<Text>Limestone Discovered!</Text>
+			<Text>Limestone Improved!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_RESOURCE_JFD_LIMESTONE_DESC">
-			<Text>You have discovered a source of [ICON_RES_JFD_LIMESTONE] Limestone in one of your cities! When improved, that city will receive +10% [ICON_PRODUCTION] Production when constructing Wonders.</Text>
+			<Text>You have improved a source of [ICON_RES_JFD_LIMESTONE] Limestone in one of your cities! That city will receive +10% [ICON_PRODUCTION] Production when constructing Wonders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_EGYPT_DJOSER_LIMESTONE_BONUS_DESC">
+			<Text>JFD: Egyptian Wonder Production</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_EGYPT_DJOSER_LIMESTONE_BONUS_HELP">
+			<Text>+1% [ICON_PRODUCTION] Production when constructing wonders.</Text>
 		</Row>
 		<!--Unique Names-->
 		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_VIZIER_1">

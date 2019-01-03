@@ -6,7 +6,7 @@
 			<Text>Kishomon</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_KISHOMON">
-			<Text>Receive a free [ICON_SPY] Spy upon entering the Medieval Era. Your [ICON_SPY] Spies steal technologies 50% faster. Military land units are invisible until they attack in Forest and Jungle tiles.</Text>
+			<Text>Receive a free [ICON_SPY] Spy upon entering the Medieval Era. Your [ICON_SPY] Spies steal technologies 50% faster. Military land units are invisible in Forest and Jungle tiles until they attack.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CONCEALED">
 			<Text>Concealed</Text>
@@ -18,7 +18,7 @@
 			<Text>Intonjutsu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KISHOMON_HELP">
-			<Text>This unit is invisible until it attacks in Forest and Jungle tiles.</Text>
+			<Text>This unit is invisible in Forest and Jungle tiles until it attacks.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_IGA_SPY_DUMMY">
 			<Text>Iga Spy Dummy Building</Text>

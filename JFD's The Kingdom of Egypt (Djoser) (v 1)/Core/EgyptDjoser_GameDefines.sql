@@ -4,8 +4,8 @@
 -- Resources
 ------------------------------	
 INSERT INTO Resources 
-		(Type,						Description,						Civilopedia, 									ResourceClassType, 			AITradeModifier, 	ResourceUsage,	AIObjective,	WonderProductionMod,	ArtDefineTag,						IconString, 				PortraitIndex, 	IconAtlas)
-VALUES	('RESOURCE_JFD_LIMESTONE',	'TXT_KEY_RESOURCE_JFD_LIMESTONE',	'TXT_KEY_CIV5_RESOURCE_JFD_LIMESTONE_TEXT',		'RESOURCECLASS_BONUS',		0,					0, 				0, 				10,						'ART_DEF_RESOURCE_JFD_LIMESTONE',	'[ICON_RES_JFD_LIMESTONE]',	0, 				'JFD_EGYPT_DJOSER_RESOURCE_ATLAS');
+		(Type,						Description,						Civilopedia, 									ResourceClassType, 			AITradeModifier, 	ResourceUsage,	AIObjective,	ArtDefineTag,						IconString, 				PortraitIndex, 	IconAtlas)
+VALUES	('RESOURCE_JFD_LIMESTONE',	'TXT_KEY_RESOURCE_JFD_LIMESTONE',	'TXT_KEY_CIV5_RESOURCE_JFD_LIMESTONE_TEXT',		'RESOURCECLASS_BONUS',		0,					0, 				0, 				'ART_DEF_RESOURCE_JFD_LIMESTONE',	'[ICON_RES_JFD_LIMESTONE]',	0, 				'JFD_EGYPT_DJOSER_RESOURCE_ATLAS');
 --------------------------------------------------------------------------------------------------------------------------
 -- Resource_YieldChanges
 --------------------------------------------------------------------------------------------------------------------------
@@ -76,7 +76,8 @@ VALUES	('BUILD_JFD_VIZIER_LIMESTONE',	'FEATURE_JUNGLE',	'TECH_BRONZE_WORKING',	0
 ------------------------------	
 INSERT INTO BuildingClasses
 		(Type, 												DefaultBuilding, 							 Description)
-VALUES	('BUILDINGCLASS_JFD_EGYPT_DJOSER_PRODUCTION_MOD', 	'BUILDING_JFD_EGYPT_DJOSER_PRODUCTION_MOD',	 'TXT_KEY_BUILDING_JFD_EGYPT_DJOSER_PRODUCTION_MOD_DESC');
+VALUES	('BUILDINGCLASS_JFD_EGYPT_DJOSER_LIMESTONE_BONUS', 	'BUILDING_JFD_EGYPT_DJOSER_LIMESTONE_BONUS', 'TXT_KEY_BUILDING_JFD_EGYPT_DJOSER_LIMESTONE_BONUS_DESC'),
+		('BUILDINGCLASS_JFD_EGYPT_DJOSER_PRODUCTION_MOD', 	'BUILDING_JFD_EGYPT_DJOSER_PRODUCTION_MOD',	 'TXT_KEY_BUILDING_JFD_EGYPT_DJOSER_PRODUCTION_MOD_DESC');
 --==========================================================================================================================	
 -- BUILDINGS
 --==========================================================================================================================	
@@ -89,7 +90,8 @@ FROM Buildings WHERE Type = 'BUILDING_STONE_WORKS';
 
 INSERT INTO Buildings		
 		(Type, 											BuildingClass, 			  							Cost, 	FaithCost,	GreatWorkCount,	BuildingProductionModifier, WonderProductionModifier,	Description, 												Help,														NukeImmune,	NeverCapture)
-VALUES	('BUILDING_JFD_EGYPT_DJOSER_PRODUCTION_MOD', 	'BUILDINGCLASS_JFD_EGYPT_DJOSER_PRODUCTION_MOD', 	-1, 	-1,			-1,				1,							0,							'TXT_KEY_BUILDING_JFD_EGYPT_DJOSER_PRODUCTION_MOD_DESC', 	'TXT_KEY_BUILDING_JFD_EGYPT_DJOSER_PRODUCTION_MOD_HELP',	1,			1);
+VALUES	('BUILDING_JFD_EGYPT_DJOSER_LIMESTONE_BONUS',	'BUILDINGCLASS_JFD_EGYPT_DJOSER_LIMESTONE_BONUS',	-1, 	-1,			-1,				0,							10,							'TXT_KEY_BUILDING_JFD_EGYPT_DJOSER_LIMESTONE_BONUS_DESC', 	'TXT_KEY_BUILDING_JFD_EGYPT_DJOSER_LIMESTONE_BONUS_HELP',	1,			1),
+		('BUILDING_JFD_EGYPT_DJOSER_PRODUCTION_MOD', 	'BUILDINGCLASS_JFD_EGYPT_DJOSER_PRODUCTION_MOD', 	-1, 	-1,			-1,				1,							0,							'TXT_KEY_BUILDING_JFD_EGYPT_DJOSER_PRODUCTION_MOD_DESC', 	'TXT_KEY_BUILDING_JFD_EGYPT_DJOSER_PRODUCTION_MOD_HELP',	1,			1);
 ------------------------------
 -- Building_ResourceYieldChanges
 ------------------------------	

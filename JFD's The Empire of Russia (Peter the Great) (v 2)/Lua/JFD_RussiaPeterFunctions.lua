@@ -102,7 +102,7 @@ function F0S_ScientificDiffusion(teamID, techID, change)
 							break
 						end
 					end
-					if techMultiplier then
+					if techMultiplier > 0 then
 						local techCost = teamTechsPeter:GetResearchCost(techID)
 						local techReduction = math.min(techLeft, math.floor(.25 * techMultiplier * techCost))
 						teamTechsPeter:ChangeResearchProgress(techID, techReduction, playerPeterID)

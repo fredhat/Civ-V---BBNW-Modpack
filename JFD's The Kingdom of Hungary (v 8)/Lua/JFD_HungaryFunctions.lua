@@ -441,10 +441,10 @@ function JFD_DragoonTourism(playerID)
 		for city in player:Cities() do
 			local unit = city:GetGarrisonedUnit()
 			if unit and unit:IsHasPromotion(unitPromotionDragoonID) then
-				local tablePromotions = {0, 0, 0, 0, 0}
+				local tablePromotions = {false, false, false, false, false}
 				local unitLevel = unit:GetLevel()
 				if unitLevel > 0 then
-					tablePromotions[math.min(unitLevel, 5)] = 1
+					tablePromotions[math.min(unitLevel, 5)] = true
 				end
 				for buildingID, buildingIndex in pairs(tableTourismBuildings) do
 					city:SetNumRealBuilding(buildingID, tablePromotions[buildingIndex])
@@ -466,10 +466,10 @@ function JFD_DragoonTourismFounded(playerID, cityX, cityY)
 		if city then
 			local unit = city:GetGarrisonedUnit()
 			if unit and unit:IsHasPromotion(unitPromotionDragoonID) then
-				local tablePromotions = {0, 0, 0, 0, 0}
+				local tablePromotions = {false, false, false, false, false}
 				local unitLevel = unit:GetLevel()
 				if unitLevel > 0 then
-					tablePromotions[math.min(unitLevel, 5)] = 1
+					tablePromotions[math.min(unitLevel, 5)] = true
 				end
 				for buildingID, buildingIndex in pairs(tableTourismBuildings) do
 					city:SetNumRealBuilding(buildingID, tablePromotions[buildingIndex])

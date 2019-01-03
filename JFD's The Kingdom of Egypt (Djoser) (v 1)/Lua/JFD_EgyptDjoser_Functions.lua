@@ -35,8 +35,8 @@ local isEgyptDjoserCivActive = JFD_IsCivilisationActive(civilizationID)
 ----------------------------------------------------------------------------------------------------------------------------
 local buildingEgyptDjoserProductionBonusID = GameInfoTypes["BUILDING_JFD_EGYPT_DJOSER_PRODUCTION_MOD"]
 local eraMedievalID = GameInfoTypes["ERA_MEDIEVAL"]
-local buildingDummyMarbleWonderID = GameInfoTypes["BUILDING_GREAT_LIBRARY"]
-local buildingDummyLimestoneWonderID = GameInfoTypes["BUILDING_CHICHEN_ITZA"]
+local resourceMarbleID = GameInfoTypes["RESOURCE_MARBLE"]
+local buildingEgyptDjoserLimestoneBonusID = GameInfoTypes["BUILDING_JFD_EGYPT_DJOSER_LIMESTONE_BONUS"]
 
 -- JFD_EgyptDjoser_ProductionModifiers
 function JFD_EgyptDjoser_ProductionModifiers(playerID)
@@ -60,10 +60,9 @@ function JFD_EgyptDjoser_ProductionModifiers(playerID)
 		end
 		for city in player:Cities() do
 			local tempProductionModifier = productionModifier
-			if player:GetCurrentEra() < eraMedievalID then
-				tempProductionModifier = tempProductionModifier + city:GetLocalResourceWonderProductionMod(buildingDummyMarbleWonderID)
-			else
-				tempProductionModifier = tempProductionModifier + city:GetLocalResourceWonderProductionMod(buildingDummyLimestoneWonderID)
+			tempProductionModifier = tempProductionModifier + city:GetWonderProductionModifier()
+			if player:GetCurrentEra() < eraMedievalID and city:IsHasResourceLocal(resourceMarbleID) then
+				tempProductionModifier = tempProductionModifier + 15
 			end
 			city:SetNumRealBuilding(buildingEgyptDjoserProductionBonusID, math.floor(tempProductionModifier))
 		end
@@ -88,25 +87,69 @@ end
 ----------------------------------------------------------------------------------------------------------------------------
 local improvementQuarryID = GameInfoTypes["IMPROVEMENT_QUARRY"]
 local resourceLimestoneID = GameInfoTypes["RESOURCE_JFD_LIMESTONE"]
+local buildingEgyptDjoserLimestoneBonusID = GameInfoTypes["BUILDING_JFD_EGYPT_DJOSER_LIMESTONE_BONUS"]
 local unitVizierID = GameInfoTypes["UNIT_JFD_VIZIER"]
 local improvementLimestoneID = GameInfoTypes["IMPROVEMENT_JFD_VIZIER_LIMESTONE"]
 
--- JFD_EgyptDjoser_VizierBuilds
-function JFD_EgyptDjoser_VizierBuilds(playerID, plotX, plotY, improvementID)
+-- JFD_SetWonderProduction
+function JFD_SetWonderProduction(playerID)
 	local player = Players[playerID]
-	if player:IsEverAlive() then 
-		local plot = Map.GetPlot(plotX, plotY)
-		if plot and improvementID == improvementLimestoneID then
-			local plotX = plot:GetX()
-			local plotY = plot:GetY()
-			plot:SetImprovementType(-1)
-			plot:SetResourceType(resourceLimestoneID, 1)
-			plot:SetNumResource(1)
-			if player:IsHuman() and player:IsTurnActive() then
-				player:AddNotification(NotificationTypes["NOTIFICATION_DISCOVERED_BONUS_RESOURCE"], Locale.ConvertTextKey("TXT_KEY_NOTIFICATION_RESOURCE_JFD_LIMESTONE_DESC"), Locale.ConvertTextKey("TXT_KEY_NOTIFICATION_RESOURCE_JFD_LIMESTONE_SHORT_DESC"), plotX, plotY, resourceLimestoneID)
+	if player:IsAlive() then 
+		for city in player:Cities() do
+			local hasLimestone = false
+			local limestoneX = nil
+			local limestoneY = nil
+			for i = 0, city:GetNumCityPlots() - 1, 1 do
+				local cityPlot = city:GetCityIndexPlot(i)
+				if cityPlot then
+					local improvementID = cityPlot:GetImprovementType() 
+					local resourceID = cityPlot:GetResourceType()
+					if improvementID == improvementQuarryID and resourceID == resourceLimestoneID and not cityPlot:IsImprovementPillaged() then
+						hasLimestone = true
+						limestoneX = cityPlot:GetX()
+						limestoneY = cityPlot:GetY()
+						break
+					end
+				end
+			end
+			if hasLimestone then
+				if not city:IsHasBuilding(buildingEgyptDjoserLimestoneBonusID) then
+					city:SetNumRealBuilding(buildingEgyptDjoserLimestoneBonusID, 1)
+					if player:IsHuman() and player:IsTurnActive() then
+						player:AddNotification(NotificationTypes["NOTIFICATION_DISCOVERED_BONUS_RESOURCE"], Locale.ConvertTextKey("TXT_KEY_NOTIFICATION_RESOURCE_JFD_LIMESTONE_DESC"), Locale.ConvertTextKey("TXT_KEY_NOTIFICATION_RESOURCE_JFD_LIMESTONE_SHORT_DESC"), limestoneX, limestoneY, resourceLimestoneID)
+					end
+				end
+			else
+				if city:IsHasBuilding(buildingEgyptDjoserLimestoneBonusID) then
+					city:SetNumRealBuilding(buildingEgyptDjoserLimestoneBonusID, 0)
+				end
 			end
 		end
 	end
+end
+
+-- JFD_VizierBuilds
+function JFD_VizierBuilds(playerID, plotX, plotY, improvementID)
+	local player = Players[playerID]
+	if player:IsAlive() then 
+		local plot = Map.GetPlot(plotX, plotY)
+		if plot and improvementID == improvementLimestoneID then
+			plot:SetImprovementType(-1)
+			plot:SetResourceType(resourceLimestoneID, 1)
+			plot:SetNumResource(1)
+			plot:SetImprovementType(improvementQuarryID)
+			JFD_SetWonderProduction(playerID)
+		end
+	end
+end
+
+-- JFD_SetWonderProductionDirty
+function JFD_SetWonderProductionDirty()
+	local playerID = Game.GetActivePlayer()
+    local player = Players[playerID]
+	if player:IsTurnActive() then
+        JFD_SetWonderProduction(playerID)
+    end
 end
 
 -- JFD_VizierInitialTrigger
@@ -114,14 +157,16 @@ function JFD_VizierInitialTrigger(playerID, unitID)
 	local player = Players[playerID]
 	local unit = player:GetUnitByID(unitID)
 	if unit and unit:GetUnitType() == unitVizierID then
-		GameEvents.BuildFinished.Add(JFD_EgyptDjoser_VizierBuilds)
+		GameEvents.BuildFinished.Add(JFD_VizierBuilds)
+		Events.SerialEventGameDataDirty.Add(JFD_SetWonderProductionDirty)
 		Events.SerialEventUnitCreated.Remove(JFD_VizierInitialTrigger)
 		save("GAME", "JFD_VizierInitalised", true)
 	end
 end
 
 if load("GAME", "JFD_VizierInitalised") then
-	GameEvents.BuildFinished.Add(JFD_EgyptDjoser_VizierBuilds)
+	GameEvents.BuildFinished.Add(JFD_VizierBuilds)
+	Events.SerialEventGameDataDirty.Add(JFD_SetWonderProductionDirty)
 else
 	Events.SerialEventUnitCreated.Add(JFD_VizierInitialTrigger)
 end

@@ -70,8 +70,8 @@ function JFD_PrussianVeterans(playerID)
 			if unit and unit:GetCombatLimit() > 0 and unit:GetDomainType() == DomainTypes.DOMAIN_LAND then
 				local unitLevel = unit:GetLevel()
 				if unitLevel > 2 then
-					local tablePromotions = {0, 0, 0, 0, 0}
-					tablePromotions[math.min((unitLevel - 1), 5)] = 1
+					local tablePromotions = {false, false, false, false, false}
+					tablePromotions[math.min((unitLevel - 1), 5)] = true
 					for promotionID, promotionIndex in pairs(tableVeteranPromotions) do
 						unit:SetHasPromotion(promotionID, tablePromotions[promotionIndex])
 					end
@@ -88,8 +88,8 @@ function JFD_PrussianVeteransXY(playerID, unitID)
 		if unit and unit:GetCombatLimit() > 0 and unit:GetDomainType() == DomainTypes.DOMAIN_LAND then
 			local unitLevel = unit:GetLevel()
 			if unitLevel > 2 then
-				local tablePromotions = {0, 0, 0, 0, 0}
-				tablePromotions[math.min((unitLevel - 1), 5)] = 1
+				local tablePromotions = {false, false, false, false, false}
+				tablePromotions[math.min((unitLevel - 1), 5)] = true
 				for promotionID, promotionIndex in pairs(tableVeteranPromotions) do
 					unit:SetHasPromotion(promotionID, tablePromotions[promotionIndex])
 				end

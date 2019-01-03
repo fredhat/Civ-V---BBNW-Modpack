@@ -201,8 +201,8 @@ function NazcaUAPart2Founded(iPlayer, cityX, cityY)
 				end
 			end
             iNumFounded = iNumFounded + 1
-            save(pPlayer, "NumFounded", iNumFounded)
         end
+		save(pPlayer, "NumFounded", iNumFounded)
     end
 end
 

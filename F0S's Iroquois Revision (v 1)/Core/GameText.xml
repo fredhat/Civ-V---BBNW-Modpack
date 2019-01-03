@@ -11,10 +11,10 @@
 						Mohawk Warrior
 		------------------------------------------------------------------>
 		<Row Tag="TXT_KEY_UNIT_F0S_MOHAWK_WARRIOR_HELP">
-			<Text>Powerful Classical Era melee unit that is invisible until it attacks in Forest tiles and specializes in fighting in Forest. Moves at double the rate in Forest and Jungle tiles. Does not require a source of [ICON_RES_IRON] Iron to be built. Only the Iroquois may build it.</Text>
+			<Text>Powerful Classical Era melee unit that is invisible in Forest tiles until it attacks and specializes in fighting in Forest. Moves at double the rate in Forest and Jungle tiles. Does not require a source of [ICON_RES_IRON] Iron to be built. Only the Iroquois may build it.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_F0S_MOHAWK_WARRIOR_STRATEGY">
-			<Text>The Mohawk Warrior is the Iroquoian unique unit, replacing the Swordsman. The Mohawk Warrior receives a +33% Combat Bonus and is invisible until it attacks in Forest tiles. Additionally, the Mohawk Warrior starts with the Woodsman promotion, allowing it to move at double the rate in Forest and Jungle tiles. Unlike the Swordsman, the Mohawk Warrior does not require a source of [ICON_RES_IRON] Iron to be built.</Text>
+			<Text>The Mohawk Warrior is the Iroquoian unique unit, replacing the Swordsman. The Mohawk Warrior receives a +33% Combat Bonus and is invisible in Forest tiles until it attacks. Additionally, the Mohawk Warrior starts with the Woodsman promotion, allowing it to move at double the rate in Forest and Jungle tiles. Unlike the Swordsman, the Mohawk Warrior does not require a source of [ICON_RES_IRON] Iron to be built.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_F0S_MOHAWK">
 			<Text>Combat Bonus in Forest (33)</Text>
@@ -26,7 +26,7 @@
 			<Text>Forest Guerilla</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_F0S_FOREST_INVISIBLE_INFO_HELP">
-			<Text>This unit is invisible until it attacks in Forest tiles.</Text>
+			<Text>This unit is invisible in Forest tiles until it attacks.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_F0S_FOREST_INVISIBLE">
 			<Text>Forest Guerilla</Text>
