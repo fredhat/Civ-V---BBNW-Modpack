@@ -7,7 +7,6 @@
 -- JFD_IsCivilisationActive
 --------------------------------------------------------------
 include("FLuaVector.lua")
-include("PlotIterators.lua")
 
 local civilisationTojoID = GameInfoTypes["CIVILIZATION_JFD_JAPAN_TOJO"]
 local civilisationNobunagaID = GameInfoTypes["CIVILIZATION_JAPAN"]
@@ -53,79 +52,30 @@ function JFD_TojoNavalScienceFromKills(killerID, killedID, killedUnitType)
 		end
 	end
 end
---------------------------------------------------------------------------------------------------------------------------
---JFD_JapanTojoWaterTileNaturalAcquisition
-----------------------------------------------------------------------------------------------------------------------------
-function JFD_JapanTojoWaterTileNaturalAcquisition(playerID, cityID, plotX, plotY)
-	local player = Players[playerID]
-	if player:IsEverAlive() and player:GetCivilizationType() == civilisationTojoID then
-		local city = player:GetCityByID(cityID)
-		local plot = Map.GetPlot(plotX, plotY)
-		if plot:GetTerrainType() == terrainCoastID or plot:GetTerrainType() == terrainOceanID then
-			local scienceBoost = math.floor(player:GetScience() / 2)
-			local researchID = player:GetCurrentResearch()
-			if researchID > 0 then
-				local teamTechs = Teams[player:GetTeam()]:GetTeamTechs()
-				teamTechs:ChangeResearchProgress(researchID, scienceBoost, playerID)
-				if player:IsHuman() and player:IsTurnActive() then
-					local hex = ToHexFromGrid(Vector2(plotX, plotY))
-					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[COLOR_RESEARCH_RATE]+{1_Num}[ENDCOLOR][ICON_RESEARCH]", scienceBoost), 1)
-					Events.GameplayFX(hex.x, hex.y, -1)
-				end
-			else
-				techBuffer = techBuffer + scienceBoost
-			end
-		end
-	end
-end
---------------------------------------------------------------------------------------------------------------------------
---JFD_JapanTojoWaterTileCityFoundation
-----------------------------------------------------------------------------------------------------------------------------
-function JFD_JapanTojoWaterTileCityFoundation(playerID, cityID, plotX, plotY)
-	local player = Players[playerID]
-	if player:IsEverAlive() and player:GetCivilizationType() == civilisationTojoID then
-		local cityPlot = Map.GetPlot(plotX, plotY)
-		local researchID = player:GetCurrentResearch()
-		for loopPlot in PlotAreaSpiralIterator(cityPlot, 2, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-			if loopPlot:GetOwner() == playerID and (loopPlot:GetTerrainType() == terrainCoastID or loopPlot:GetTerrainType() == terrainOceanID) then
-				local scienceBoost = math.floor(player:GetScience() / 2)
-				if researchID > 0 then
-					local teamTechs = Teams[player:GetTeam()]:GetTeamTechs()
-					teamTechs:ChangeResearchProgress(researchID, scienceBoost, playerID)
-					if player:IsHuman() and player:IsTurnActive() then
-						local hex = ToHexFromGrid(Vector2(loopPlot:GetX(), loopPlot:GetY()))
-						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[COLOR_RESEARCH_RATE]+{1_Num}[ENDCOLOR][ICON_RESEARCH]", scienceBoost), 1)
-						Events.GameplayFX(hex.x, hex.y, -1)
+-------------------------------------------------------------------------------------------------------------------------
+--JFD_TojoWaterTileScience
+-------------------------------------------------------------------------------------------------------------------------
+function JFD_TojoWaterTileScience(hexX, hexY)
+	local plot = Map.GetPlot(ToGridFromHex(hexX, hexY))
+	if plot then
+		local playerID = plot:GetOwner()
+		if playerID > -1 then
+			local player = Players[playerID]
+			if player:IsEverAlive() and player:GetCivilizationType() == civilisationTojoID then
+				if plot:GetTerrainType() == terrainCoastID or plot:GetTerrainType() == terrainOceanID then
+					local scienceBoost = math.floor(player:GetScience() / 2)
+					local researchID = player:GetCurrentResearch()
+					if researchID > 0 then
+						local teamTechs = Teams[player:GetTeam()]:GetTeamTechs()
+						teamTechs:ChangeResearchProgress(researchID, scienceBoost, playerID)
+						if player:IsHuman() and player:IsTurnActive() then
+							local hex = ToHexFromGrid(Vector2(plot:GetX(), plot:GetY()))
+							Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[COLOR_RESEARCH_RATE]+{1_Num}[ENDCOLOR][ICON_RESEARCH]", scienceBoost), 1)
+							Events.GameplayFX(hex.x, hex.y, -1)
+						end
+					else
+						techBuffer = techBuffer + scienceBoost
 					end
-				else
-					techBuffer = techBuffer + scienceBoost
-				end
-			end
-		end
-	end
-end
---------------------------------------------------------------------------------------------------------------------------
---JFD_JapanTojoWaterTileCityCaptured
-----------------------------------------------------------------------------------------------------------------------------
-function JFD_JapanTojoWaterTileCityCaptured(oldPlayerID, isCapital, plotX, plotY, newPlayerID)
-	local player = Players[newPlayerID]
-	if player:IsEverAlive() and player:GetCivilizationType() == civilisationTojoID then
-		local cityPlot = Map.GetPlot(plotX, plotY)
-		local city = cityPlot:GetPlotCity()
-		local researchID = player:GetCurrentResearch()
-		for loopPlot in PlotAreaSpiralIterator(cityPlot, 3, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-			if loopPlot:GetOwner() == newPlayerID and (loopPlot:GetTerrainType() == terrainCoastID or loopPlot:GetTerrainType() == terrainOceanID) then
-				local scienceBoost = math.floor(player:GetScience() / 2)
-				if researchID > 0 then
-					local teamTechs = Teams[player:GetTeam()]:GetTeamTechs()
-					teamTechs:ChangeResearchProgress(researchID, scienceBoost, newPlayerID)
-					if player:IsHuman() and player:IsTurnActive() then
-						local hex = ToHexFromGrid(Vector2(loopPlot:GetX(), loopPlot:GetY()))
-						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[COLOR_RESEARCH_RATE]+{1_Num}[ENDCOLOR][ICON_RESEARCH]", scienceBoost), 1)
-						Events.GameplayFX(hex.x, hex.y, -1)
-					end
-				else
-					techBuffer = techBuffer + scienceBoost
 				end
 			end
 		end
@@ -175,12 +125,12 @@ function JFD_TojoNavalPuppets(playerID)
 				end
 			end
 			if inCity then
-				if not city:IsHasBuilding(tojoPuppetBuildingID) then
-					city:SetNumRealBuilding(tojoPuppetBuildingID, 1)
+				if not city:IsHasBuilding(buildingTojoPuppetID) then
+					city:SetNumRealBuilding(buildingTojoPuppetID, 1)
 				end
 			else
-				if city:IsHasBuilding(tojoPuppetBuildingID) then
-					city:SetNumRealBuilding(tojoPuppetBuildingID, 0)
+				if city:IsHasBuilding(buildingTojoPuppetID) then
+					city:SetNumRealBuilding(buildingTojoPuppetID, 0)
 				end
 			end
 		end
@@ -195,9 +145,7 @@ end
 
 if JFD_IsCivilisationActive(civilisationTojoID) then
 	GameEvents.UnitKilledInCombat.Add(JFD_TojoNavalScienceFromKills)
-	GameEvents.CityBoughtPlot.Add(JFD_JapanTojoWaterTileNaturalAcquisition)
-	GameEvents.PlayerCityFounded.Add(JFD_JapanTojoWaterTileCityFoundation)
-	GameEvents.CityCaptureComplete.Add(JFD_JapanTojoWaterTileCityCaptured)
+	Events.SerialEventHexCultureChanged.Add(JFD_TojoWaterTileScience)
 	GameEvents.PlayerDoTurn.Add(JFD_TojoBufferScienceTurn)
 	GameEvents.PlayerDoTurn.Add(JFD_TojoNavalPuppets)
 	GameEvents.UnitSetXY.Add(JFD_TojoNavalPuppets)

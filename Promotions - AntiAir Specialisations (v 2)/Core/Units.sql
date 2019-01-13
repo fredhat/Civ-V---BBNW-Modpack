@@ -22,7 +22,7 @@ WHERE Type = 'UNIT_MOBILE_SAM';
 
 UPDATE Units
 SET CombatClass = 'UNITCOMBAT_MOUNTED_RANGED', Help = 'TXT_KEY_UNIT_F0S_CHARIOT_ARCHER_HELP', Strategy = 'TXT_KEY_UNIT_F0S_CHARIOT_ARCHER_STRATEGY'
-WHERE Type = 'UNITCOMBAT_MOUNTED_RANGED';
+WHERE Type = 'UNIT_CHARIOT_ARCHER';
 --------------------------------------------------------------------------------------------------------------------------
 -- Unit_FreePromotions
 --------------------------------------------------------------------------------------------------------------------------

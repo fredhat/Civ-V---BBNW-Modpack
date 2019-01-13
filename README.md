@@ -11,7 +11,7 @@ Clone this repository to your Civ V MODS directory in /My Documents/My Games/Sid
 This modpack relies on a heavily modified build of EUI to avoid graphical irregularities. You can acquire it at the following link:
 
 ```
-https://www.dropbox.com/s/nidmm560kal9oem/BBNW_EUI.zip?dl=0
+https://www.dropbox.com/s/wyax72dc8fzpfmh/BBNW_EUI.zip?dl=0
 ```
 
 ### Setting Up EUI & Loading the Modpack
@@ -99,7 +99,7 @@ Press 'NEXT' and wait for the modpack to load.
 You can find the most recent build at the following link:
 
 ```
-https://www.dropbox.com/s/1i2wkjzm008q3p2/Civ%20V%20BBNW%20Setup.zip?dl=0
+https://www.dropbox.com/s/2kagwrn1jc6ti7r/Civ%20V%20BBNW%20Setup.zip?dl=0
 ```
 
 Make sure to follow the Readmes carefully if you want the most stable multiplayer experience.

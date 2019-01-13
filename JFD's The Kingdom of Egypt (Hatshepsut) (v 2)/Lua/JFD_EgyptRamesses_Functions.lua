@@ -30,7 +30,7 @@ end
 -- WORKS OF OZYMANDIUS
 ----------------------------------------------------------------------------------------------------------------------------
 local buildingRamessesID = GameInfoTypes["BUILDING_JFD_EGYPT_RAMESSES"]
-local iModifier = ((GameInfo.GameSpeeds[Game.GetGameSpeedType()].GoldPercent)/200)
+local iModifier = ((GameInfo.GameSpeeds[Game.GetGameSpeedType()].GoldPercent)/300)
 
 function JFD_WorksOfOzymandias(playerID)
 	local player = Players[playerID]
@@ -51,7 +51,8 @@ function JFD_WorksOfOzymandias_CityCaptureComplete(oldOwnerID, capital, plotX, p
 			city:SetNumRealBuilding(buildingRamessesID, 1)
 		end
 		local cityOriginalOwnerID = city:GetOriginalOwner()
-		if cityOriginalOwnerID ~= newOwnerID then
+		local previousOwner = Players[oldOwnerID]
+		if cityOriginalOwnerID ~= newOwnerID and not previousOwner:IsMinorCiv() then
 			if load(Map.GetPlot(plotX, plotY),"WorksOfOzymandias") == nil then
 				for playerCity in player:Cities() do
 					local rewardProduction = math.floor(300 * iModifier) + (math.floor(30 * iModifier) * playerCity:GetPopulation())

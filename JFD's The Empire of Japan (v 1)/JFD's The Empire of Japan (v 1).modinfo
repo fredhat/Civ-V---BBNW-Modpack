@@ -190,7 +190,6 @@
     <File md5="F7F1D3D1CFB4DE98448136BA2548CAB5" import="0">Core/Traits.sql</File>
     <File md5="8F09E6F34BF7AF78CFF35F5463682A92" import="0">Core/Units.sql</File>
     <File md5="BB411C692EA851F04F481D5F6C984B9B" import="0">Lua/JFD_JapanTojoFunctions.lua</File>
-	<File md5="BB411C692EA851F04F481D5F6C983B9B" import="1">Lua/PlotIterators.lua</File>
   </Files>
   <Actions>
     <OnModActivated>

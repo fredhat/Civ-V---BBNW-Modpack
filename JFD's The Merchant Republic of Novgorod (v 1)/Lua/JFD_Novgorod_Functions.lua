@@ -46,6 +46,24 @@ function JFD_IsCivilisationActive(civilisationID)
 	end
 	return false
 end
+-------------------------------------------------------------------------------------------------------------------------
+-- DecompilePlotID
+-------------------------------------------------------------------------------------------------------------------------
+function DecompilePlotID(key)
+    breakID = string.find(key, "Y")
+    plotX = tonumber(string.sub(key, 1, breakID - 1))
+    plotY = tonumber(string.sub(key, breakID + 1))
+    plot = Map.GetPlot(plotX, plotY)
+    return plot
+end
+-------------------------------------------------------------------------------------------------------------------------
+-- CompilePlotID
+-------------------------------------------------------------------------------------------------------------------------
+function CompilePlotID(plot)
+    plotX = plot:GetX()
+    plotY = plot:GetY()
+    return(plotX .. "Y" .. plotY)
+end
 --=======================================================================================================================
 -- CORE FUNCTIONS	
 --=======================================================================================================================
@@ -115,8 +133,11 @@ function JFD_NovgorodTradeCalcs(playerID)
 		local tableNovgorodProduction = {}
 		for city in player:Cities() do
 			if city then
-				tableNovgorodDefense[city:GetID()] = 0
-				tableNovgorodProduction[city:GetID()] = 0
+				local cityPlot = city:Plot()
+				if cityPlot then
+					tableNovgorodDefense[CompilePlotID(cityPlot)] = 0
+					tableNovgorodProduction[CompilePlotID(cityPlot)] = 0
+				end
 			end
 		end
 		for otherPlayerID = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
@@ -130,47 +151,60 @@ function JFD_NovgorodTradeCalcs(playerID)
 						for i, v in ipairs(otherTradeRoutes) do
 							if v.FromCity:GetID() == otherCity:GetID() and v.ToCity:GetOwner() == playerID then
 								numTradeRoutesDefense = numTradeRoutesDefense + 1
-								local index = v.ToCity:GetID()
-								local novgorodDefense = tableNovgorodDefense[index]
-								if novgorodDefense ~= nil then tableNovgorodDefense[index] = novgorodDefense + 1 end
-								if v.ToCity:IsHasBuilding(buildingPogostID) then
-									numTradeRoutesProduction = numTradeRoutesProduction + 1
-									local novgorodProduction = tableNovgorodProduction[index]
-									if novgorodProduction ~= nil then tableNovgorodProduction[index] = novgorodProduction + 1 end
+								local cityPlot = v.ToCity:Plot()
+								if cityPlot then
+									local index = CompilePlotID(cityPlot)
+									local novgorodDefense = tableNovgorodDefense[index]
+									if novgorodDefense ~= nil then tableNovgorodDefense[index] = novgorodDefense + 1 end
+									if v.ToCity:IsHasBuilding(buildingPogostID) then
+										numTradeRoutesProduction = numTradeRoutesProduction + 1
+										local novgorodProduction = tableNovgorodProduction[index]
+										if novgorodProduction ~= nil then tableNovgorodProduction[index] = novgorodProduction + 1 end
+									end
 								end
 							end
 							if (numTradeRoutesDefense + numTradeRoutesProduction) > 0 then
-								otherCity:SetNumRealBuilding(buildingNovgorodTrackerID, 1)
+								if not otherCity:IsHasBuilding(buildingNovgorodTrackerID) then
+									otherCity:SetNumRealBuilding(buildingNovgorodTrackerID, 1)
+								end
 							else
-								otherCity:SetNumRealBuilding(buildingNovgorodTrackerID, 0)
+								if otherCity:IsHasBuilding(buildingNovgorodTrackerID) then
+									otherCity:SetNumRealBuilding(buildingNovgorodTrackerID, 0)
+								end
 							end
-							otherCity:SetNumRealBuilding(buildingNovgorodDefenseID, math.min(numTradeRoutesDefense, 5))
-							otherCity:SetNumRealBuilding(buildingPogostConnectionID, numTradeRoutesProduction)
+							if otherCity:GetNumBuilding(buildingNovgorodDefenseID) ~= math.min(numTradeRoutesDefense, 5) then
+								otherCity:SetNumRealBuilding(buildingNovgorodDefenseID, math.min(numTradeRoutesDefense, 5))
+							end
+							if otherCity:GetNumBuilding(buildingPogostConnectionID) ~= numTradeRoutesProduction then
+								otherCity:SetNumRealBuilding(buildingPogostConnectionID, numTradeRoutesProduction)
+							end
 						end
 					end
 				end
 			end
 		end
-		for cityID, novgorodDefense in pairs(tableNovgorodDefense) do
-			local city = player:GetCityByID(cityID)
+		for city in player:Cities() do
 			if city then
-				if novgorodDefense > 0 then
-					city:SetNumRealBuilding(buildingNovgorodTrackerID, 1)
-				else
-					city:SetNumRealBuilding(buildingNovgorodTrackerID, 0)
+				local cityPlot = city:Plot()
+				if cityPlot then
+					local numTradeRoutesDefense = tableNovgorodDefense[CompilePlotID(cityPlot)]
+					local numTradeRoutesProduction = tableNovgorodProduction[CompilePlotID(cityPlot)]
+					if (numTradeRoutesDefense + numTradeRoutesProduction) > 0 then
+						if not city:IsHasBuilding(buildingNovgorodTrackerID) then
+							city:SetNumRealBuilding(buildingNovgorodTrackerID, 1)
+						end
+					else
+						if city:IsHasBuilding(buildingNovgorodTrackerID) then
+							city:SetNumRealBuilding(buildingNovgorodTrackerID, 0)
+						end
+					end
+					if city:GetNumBuilding(buildingNovgorodDefenseID) ~= math.min(numTradeRoutesDefense, 5) then
+						city:SetNumRealBuilding(buildingNovgorodDefenseID, math.min(numTradeRoutesDefense, 5))
+					end
+					if city:GetNumBuilding(buildingPogostConnectionID) ~= numTradeRoutesProduction then
+						city:SetNumRealBuilding(buildingPogostConnectionID, numTradeRoutesProduction)
+					end
 				end
-				city:SetNumRealBuilding(buildingNovgorodDefenseID, math.min(novgorodDefense, 5))
-			end
-		end
-		for cityID, novgorodProduction in pairs(tableNovgorodProduction) do
-			local city = player:GetCityByID(cityID)
-			if city then
-				if novgorodProduction > 0 then
-					city:SetNumRealBuilding(buildingNovgorodTrackerID, 1)
-				else
-					city:SetNumRealBuilding(buildingNovgorodTrackerID, 0)
-				end
-				city:SetNumRealBuilding(buildingPogostConnectionID, novgorodProduction)
 			end
 		end
 	end
@@ -190,7 +224,7 @@ if isNovgorodCivActive then
 	GameEvents.CityCaptureComplete.Add(JFD_NovgorodExtraTRsConquest)
 	GameEvents.CanDeclareWar.Add(JFD_PeaceOfNovgorod)
 	GameEvents.PlayerDoTurn.Add(JFD_NovgorodTradeCalcs)
-	Events.SerialEventGameDataDirty.Add(JFD_NovgorodTradeCalcsDirty)
+	Events.SerialEventCityInfoDirty.Add(JFD_NovgorodTradeCalcsDirty)
 end
 ----------------------------------------------------------------------------------------------------------------------------
 -- JFD_BoyarNobility

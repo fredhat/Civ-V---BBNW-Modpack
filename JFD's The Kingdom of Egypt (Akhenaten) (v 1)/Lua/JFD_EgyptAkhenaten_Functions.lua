@@ -84,7 +84,7 @@ function JFD_EgyptAkhenaten_OnGreatProphetCreated(playerID, unitID)
 		local currentNumAtenVersesAvailable = JFD_GetNumVersesAvailable()
 		if currentNumAtenVersesAvailable < 4 then
 			local unit = player:GetUnitByID(unitID)
-			if unit:GetUnitType() == unitGreatProphetID and not unit:IsHasPromotion(promotionGreatProphetID) then
+			if unit and unit:GetUnitType() == unitGreatProphetID and not unit:IsHasPromotion(promotionGreatProphetID) then
 				unit:SetHasPromotion(promotionGreatProphetID, true)
 				JFD_ChangeNumVersesAvailable(playerID)
 			end

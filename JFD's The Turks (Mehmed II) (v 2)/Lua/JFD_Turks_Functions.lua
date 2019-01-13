@@ -61,15 +61,17 @@ function JFD_Turks_GPOnConquest(oldOwnerID, capital, plotX, plotY, newOwnerID)
 			local city = plot:GetPlotCity()
 			if city then
 				local cityOriginalOwnerID = city:GetOriginalOwner()
-				if cityOriginalOwnerID ~= newOwnerID then
+				local previousOwner = Players[oldOwnerID]
+				if cityOriginalOwnerID ~= newOwnerID and not previousOwner:IsMinorCiv() then
 					if load(plot, "TributeInBlood") == nil then
 						local tableGreatPeople = {}
-						for unit in GameInfo.Units{Special = "SPECIALUNIT_PEOPLE"} do
-							table.insert(tableGreatPeople, unit.ID)
+						for row in GameInfo.Units("Special = \'" .. GameInfo.SpecialUnits.SPECIALUNIT_PEOPLE.Type .. "\'") do
+							table.insert(tableGreatPeople, row.ID)
 						end
 						if #tableGreatPeople > 0 then
-							local randomGreatPersonID = GetRandom(1, #tableGreatPeople)
-							local newUnit = player:InitUnit(randomGreatPersonID, plotX, plotY):JumpToNearestValidPlot()
+							local randomGreatPersonID = tableGreatPeople[GetRandom(1, #tableGreatPeople)]
+							local newUnit = player:InitUnit(randomGreatPersonID, plotX, plotY)
+							newUnit:JumpToNearestValidPlot()
 							if player:IsHuman() and player:IsTurnActive() then
 								local description = Locale.ConvertTextKey('TXT_KEY_JFD_RANDOM_GP')
 								local descriptionShort = Locale.ConvertTextKey("TXT_KEY_JFD_RANDOM_GP_SHORT")

@@ -2178,7 +2178,7 @@ VALUES
 ),
 (
 	'TXT_KEY_TRAIT_SLAYER_OF_TIAMAT',
-	'Upon conquering an enemy city for the first time, receive a free Technology already discovered by its owner. Receive a free Great Writer upon discovering Writing.'
+	'Upon conquering a major civilization''s city for the first time, receive a free Technology already discovered by its owner. Receive a free Great Writer upon discovering Writing.'
 );
 
 INSERT OR REPLACE INTO Language_en_US (Tag, Text)

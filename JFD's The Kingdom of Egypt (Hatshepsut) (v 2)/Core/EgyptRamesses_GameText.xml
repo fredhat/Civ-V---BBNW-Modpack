@@ -96,7 +96,7 @@
 			<Text>Works of Ozymandius</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_JFD_EGYPT_RAMESSES">
-			<Text>Upon conquering an enemy city for the first time, hurry [ICON_PRODUCTION] Production in each of your cities. +33% [ICON_PRODUCTION] Production when building ranged and siege units.</Text>
+			<Text>Upon conquering a major civilization's city for the first time, hurry [ICON_PRODUCTION] Production in each of your cities. +33% [ICON_PRODUCTION] Production when building ranged and siege units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JFD_EGYPT_RAMESSES_DESC">
 			<Text>JFD: Ramesses Construction</Text>

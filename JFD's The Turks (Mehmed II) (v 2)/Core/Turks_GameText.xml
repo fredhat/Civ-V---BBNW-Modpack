@@ -59,7 +59,7 @@
 			<Text>Tribute In Blood</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_JFD_TURKS">
-			<Text>Receive a free random Great Person upon conquering an enemy city for the first time. Military land units provide +2 [ICON_HAPPINESS_1] Happiness when garrisoned.</Text>
+			<Text>Receive a free random Great Person upon conquering a major civilization's city for the first time. Military land units provide +2 [ICON_HAPPINESS_1] Happiness when garrisoned.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_RANDOM_GP_SHORT">
 			<Text>Tribute In Blood!</Text>

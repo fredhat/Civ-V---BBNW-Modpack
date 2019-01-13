@@ -30,8 +30,8 @@ VALUES	('BUILDING_JFD_NILOMETER',	'FEATURE_FLOOD_PLAINS',	'YIELD_GOLD',	1);
 ------------------------------	
 INSERT INTO Building_YieldChanges 	
 		(BuildingType, 				YieldType,			Yield)
-VALUES	('BUILDING_JFD_NILOMETER',	'YIELD_FOOD',		2),
-		('BUILDING_JFD_NILOMETER',	'YIELD_PRODUCTION',	2);
+VALUES	('BUILDING_JFD_NILOMETER',	'YIELD_FOOD',		3),
+		('BUILDING_JFD_NILOMETER',	'YIELD_PRODUCTION',	1);
 ------------------------------	
 -- Building_Flavors
 ------------------------------		

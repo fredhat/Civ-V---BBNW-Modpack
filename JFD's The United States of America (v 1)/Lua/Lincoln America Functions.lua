@@ -124,25 +124,25 @@ function JFD_LincolnCapitalism(playerID)
 			local teamTechs = team:GetTeamTechs()
 			if team:GetAtWarCount(true) == 0 then
 				if teamTechs:HasTech(GameInfoTypes[JFD_GetPrereqTech(buildingCaravansary.ID)]) and not city:IsHasBuilding(buildingCaravansary.ID) then 
-					JFD_AddLincolnBuilding(player, city, buildingCaravansary.ID, "a Caravansary", currentProductionYield)
+					JFD_AddLincolnBuilding(player, city, buildingCaravansary, "a Caravansary", currentProductionYield)
 				elseif teamTechs:HasTech(GameInfoTypes[JFD_GetPrereqTech(buildingMarket.ID)]) and not city:IsHasBuilding(buildingMarket.ID) then 
-					JFD_AddLincolnBuilding(player, city, buildingMarket.ID, "a Market", currentProductionYield)
+					JFD_AddLincolnBuilding(player, city, buildingMarket, "a Market", currentProductionYield)
 				elseif teamTechs:HasTech(GameInfoTypes[JFD_GetPrereqTech(buildingBank.ID)]) and not city:IsHasBuilding(buildingBank.ID) and city:IsHasBuilding(buildingMarket.ID) then 
-					JFD_AddLincolnBuilding(player, city, buildingBank.ID, "a Bank", currentProductionYield)
+					JFD_AddLincolnBuilding(player, city, buildingBank, "a Bank", currentProductionYield)
 				elseif teamTechs:HasTech(GameInfoTypes[JFD_GetPrereqTech(buildingStockExchange.ID)]) and not city:IsHasBuilding(buildingStockExchange.ID) and city:IsHasBuilding(buildingBank.ID) then 
-					JFD_AddLincolnBuilding(player, city, buildingStockExchange.ID, "a Stock Exchange", currentProductionYield)
+					JFD_AddLincolnBuilding(player, city, buildingStockExchange, "a Stock Exchange", currentProductionYield)
 				elseif teamTechs:HasTech(GameInfoTypes[JFD_GetPrereqTech(buildingMint.ID)]) and not city:IsHasBuilding(buildingMint.ID) and (JFD_GetResourceInBorders(city, resourceGoldID) or JFD_GetResourceInBorders(city, resourceSilverID) or JFD_GetResourceInBorders(city, resourceCopperID)) then 
-					JFD_AddLincolnBuilding(player, city, buildingMint.ID, "a Mint", currentProductionYield)
+					JFD_AddLincolnBuilding(player, city, buildingMint, "a Mint", currentProductionYield)
 				end
 			else
 				if teamTechs:HasTech(GameInfoTypes[JFD_GetPrereqTech(buildingWalls.ID)]) and not city:IsHasBuilding(buildingWalls.ID) then 
-					JFD_AddLincolnBuilding(player, city, buildingWalls.ID, "Walls", currentProductionYield)
+					JFD_AddLincolnBuilding(player, city, buildingWalls, "Walls", currentProductionYield)
 				elseif teamTechs:HasTech(GameInfoTypes[JFD_GetPrereqTech(buildingCastle.ID)]) and not city:IsHasBuilding(buildingCastle.ID) and city:IsHasBuilding(buildingWalls.ID) then 
-					JFD_AddLincolnBuilding(player, city, buildingCastle.ID, "a Castle", currentProductionYield)
+					JFD_AddLincolnBuilding(player, city, buildingCastle, "a Castle", currentProductionYield)
 				elseif teamTechs:HasTech(GameInfoTypes[JFD_GetPrereqTech(buildingArsenal.ID)]) and not city:IsHasBuilding(buildingArsenal.ID) and city:IsHasBuilding(buildingCastle.ID) then 
-					JFD_AddLincolnBuilding(player, city, buildingArsenal.ID, "a Arsenal", currentProductionYield)
+					JFD_AddLincolnBuilding(player, city, buildingArsenal, "a Arsenal", currentProductionYield)
 				elseif teamTechs:HasTech(GameInfoTypes[JFD_GetPrereqTech(buildingMilitaryBase.ID)]) and not city:IsHasBuilding(buildingMilitaryBase.ID) and city:IsHasBuilding(buildingArsenal.ID) then 
-					JFD_AddLincolnBuilding(player, city, buildingMilitaryBase.ID, "a Military Base", currentProductionYield)
+					JFD_AddLincolnBuilding(player, city, buildingMilitaryBase, "a Military Base", currentProductionYield)
 				end
 			end
 		end
