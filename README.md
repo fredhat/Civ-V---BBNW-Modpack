@@ -99,7 +99,7 @@ Press 'NEXT' and wait for the modpack to load.
 You can find the most recent build at the following link:
 
 ```
-https://www.dropbox.com/s/2kagwrn1jc6ti7r/Civ%20V%20BBNW%20Setup.zip?dl=0
+https://www.dropbox.com/s/jlf46ytp41g2wvo/Civ%20V%20BBNW%20Setup.zip?dl=0
 ```
 
 Make sure to follow the Readmes carefully if you want the most stable multiplayer experience.
